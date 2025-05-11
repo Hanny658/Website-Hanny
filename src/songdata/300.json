@@ -1,0 +1,169 @@
+{
+  "title": "Goodness of God",
+  "number": "300",
+  "lyrics": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "lines": [
+        { "chords": "G    Gsus4 G    Gsus4", "lyrics": "" }
+      ]
+    },
+    {
+      "id": "verse1",
+      "label": "Verse 1",
+      "lines": [
+        { "chords": "             G", "lyrics": "I love you, Lord" },
+        { "chords": "           C          G", "lyrics": "For your mercy never fails me" },
+        { "chords": "D/F#   Em              C              D", "lyrics": "All my days, I’ve been held in your hands" },
+        { "chords": "                        Em      C", "lyrics": "From the moment that I wake up" },
+        { "chords": "            G    D/F#  Em", "lyrics": "Until I lay my head" },
+        { "chords": "        C            D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "C                             G", "lyrics": "All my life you have been faithful" },
+        { "chords": "C                            G      D", "lyrics": "All my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "         C           D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    },
+    {
+      "id": "verse2",
+      "label": "Verse 2",
+      "lines": [
+        { "chords": "             G", "lyrics": "I love your voice" },
+        { "chords": "          C                  G", "lyrics": "You have led me through the fire" },
+        { "chords": "    D/F#    Em            C             D", "lyrics": "In darkest night you are close like no other" },
+        { "chords": "                    Em      C", "lyrics": "I’ve known you as a father" },
+        { "chords": "                  G   D/F#  Em", "lyrics": "I’ve known you as a friend" },
+        { "chords": "         C            D          G", "lyrics": "I have lived in the goodness of God" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "C                             G", "lyrics": "All my life you have been faithful" },
+        { "chords": "C                            G      D", "lyrics": "All my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "         C           D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    },
+    {
+      "id": "bridge1",
+      "label": "Bridge",
+      "lines": [
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "        G/B                     C", "lyrics": "With my life laid down, I’m surrendered now" },
+        { "chords": "   D              Em", "lyrics": "I give you everything" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" }
+      ]
+    },
+    {
+      "id": "bridge2",
+      "label": "Bridge",
+      "lines": [
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "        G/B                     C", "lyrics": "With my life laid down, I’m surrendered now" },
+        { "chords": "   D              Em", "lyrics": "I give you everything" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "         D             G", "lyrics": "It keeps running after me" }
+      ]
+    },
+    {
+      "id": "chorus3",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "C                             G", "lyrics": "All my life you have been faithful" },
+        { "chords": "C                            G      D", "lyrics": "All my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "         C           D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    },
+    {
+      "id": "instrumental",
+      "label": "Instrumental",
+      "lines": [
+        { "chords": "G/B  C  D  G", "lyrics": "" },
+        { "chords": "G/B  C  D  G", "lyrics": "" },
+        { "chords": "G/B  C  D  G", "lyrics": "" },
+        { "chords": "G/B  C  D  G", "lyrics": "" }
+      ]
+    },
+    {
+      "id": "bridge3",
+      "label": "Bridge",
+      "lines": [
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "        G/B                     C", "lyrics": "With my life laid down, I’m surrendered now" },
+        { "chords": "   D              Em", "lyrics": "I give you everything" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" }
+      ]
+    },
+    {
+      "id": "bridge4",
+      "label": "Bridge",
+      "lines": [
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" },
+        { "chords": "        G/B                     C", "lyrics": "With my life laid down, I’m surrendered now" },
+        { "chords": "   D              Em", "lyrics": "I give you everything" },
+        { "chords": "G/B                  C", "lyrics": "Your goodness is running after," },
+        { "chords": "      D            G", "lyrics": "It’s running after me" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "C                             G", "lyrics": "All my life you have been faithful" },
+        { "chords": "C                            G      D", "lyrics": "All my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "         C           D          Em", "lyrics": "I will sing of the goodness of God" },
+        { "chords": "         C           D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "C                             G", "lyrics": "All my life you have been faithful" },
+        { "chords": "C                            G      D", "lyrics": "All my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "         C           D          G", "lyrics": "I will sing of the goodness of God" }
+      ]
+    }
+  ],
+  "song": [
+    "intro",
+    "verse1",
+    "chorus",
+    "verse2",
+    "chorus",
+    "bridge1",
+    "bridge2",
+    "chorus",
+    "instrumental",
+    "bridge3",
+    "bridge4",
+    "chorus",
+    "chorus"
+  ]
+}
