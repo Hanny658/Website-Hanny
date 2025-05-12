@@ -39,7 +39,8 @@ export default function SongLyrics({ song }: Props) {
   const [tracking, setTracking] = useState(false)
   const [activeLine, setActiveLine] = useState<string | null>(null)
 
-  const recognitionRef = useRef<SpeechRecognition | null>(null)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const recognitionRef = useRef<any | null>(null)
 
   // Flatten all lyrics for fuzzy search (excluding chords)
   const flatLyrics: { id: string; text: string }[] = []
