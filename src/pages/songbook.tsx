@@ -73,7 +73,7 @@ const SongbookPage = () => {
                     <div
                       className="border-b bg-black/80 text-white text-xl border-gray-500 py-2 px-4 hover:bg-black/70 flex justify-center items-center"
                     >
-                      <span className="font-medium">{song.number}. {song.title}</span>
+                      <span className="font-medium">{song.number}.  {song.title}</span>
                     </div>
                   </Link>
                 ))}

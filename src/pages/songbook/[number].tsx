@@ -32,36 +32,52 @@ export default function SongLyrics({ song }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
-        <h1 className="text-xl font-semibold">My Favorite Songs - {song.title}</h1>
-        <Link href="/songbook">
-          <i className="bi bi-house-door-fill text-3xl text-white hover:text-amber-100 cursor-pointer" />
-        </Link>
-      </header>
-      <div className="p-4 space-y-6">
-      <h2 className="text-4xl font-bold mb-4">{song.title}</h2>
-      {song.song.map((sectionId, index) => {
-        const section = sectionMap[sectionId]
-        if (!section) return null
-        return (
-          <div key={index} className="flex space-x-4 border-l-4 border-blue-400 pl-4">
-            <div className="w-24 font-semibold text-xl text-blue-700">{section.label}</div>
-            <div className="flex-grow space-y-1">
-              {section.lines.map((line, idx) => (
-                <div key={idx}>
-                  <p className="text-xl text-blue-500 whitespace-pre">{line.chords}</p>
-                  <p className="text-xl text-black">{line.lyrics}</p>
-                </div>
-              ))}
-            </div>
+  {/* Top Bar */}
+  <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
+    <h1 className="text-xl font-semibold">My Favorite Songs - {song.title}</h1>
+    <Link href="/songbook">
+      <i className="bi bi-house-door-fill text-3xl text-white hover:text-amber-100 cursor-pointer" />
+    </Link>
+  </header>
+
+  {/* Song Content */}
+  <div className="p-4 space-y-8">
+    <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">{song.title}</h2>
+
+    {song.song.map((sectionId, index) => {
+      const section = sectionMap[sectionId]
+      if (!section) return null
+
+      return (
+        <div
+          key={index}
+          className="flex flex-col md:flex-row md:space-x-8 border-l-4 border-blue-400 pl-4 md:pl-6"
+        >
+          {/* Label */}
+          <div className="w-full md:w-48 font-semibold text-lg md:text-xl text-blue-700 mb-2 md:mb-0">
+            {section.label}
           </div>
-        )
-      })}
-      </div>
-      <footer className="w-full text-center text-sm text-gray-600 py-4 border-t">
-        Website by Hanny <i className="bi bi-c-circle"></i> 2025
-      </footer>
-    </div>
+
+          {/* Lines */}
+          <div className="flex-grow space-y-2">
+            {section.lines.map((line, idx) => (
+              <div key={idx}>
+                <p className="text-sm md:text-lg text-blue-500 whitespace-pre">{line.chords}</p>
+                <p className="text-base md:text-xl text-black">{line.lyrics}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    })}
+  </div>
+
+  {/* Footer */}
+  <footer className="w-full text-center text-sm text-gray-600 py-4 border-t">
+    Website by Hanny <i className="bi bi-c-circle"></i> 2025
+  </footer>
+</div>
+
   )
 }
 
