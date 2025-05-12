@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,8 +15,6 @@ export default function Home() {
           className="object-contain w-full h-auto"
         />
       </div>
-
-      <Link href='/songbook'> <p className='text-xl font-bold text-emerald-600'>Songbook Here</p> </Link>
 
       {/* Main Title */}
       <main className="row-start-2 z-10 text-center">
