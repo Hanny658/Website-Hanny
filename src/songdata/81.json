@@ -43,5 +43,6 @@
       ]
     }
   ],
-  "song": ["refrain", "verse1", "verse2", "verse3", "refrain"]
+  "song": ["refrain", "verse1", "verse2", "verse3", "refrain"],
+  "link": "http://youtube.com/watch?v=GYMLMj-SibU"
 }

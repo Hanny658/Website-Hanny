@@ -57,5 +57,6 @@
       ]
     }
   ],
-  "song": ["verse1", "chorus", "verse2", "ending"]
+  "song": ["verse1", "chorus", "verse2", "ending"],
+  "link": "https://www.youtube.com/watch?v=3uWayGg7TaA"
 }
