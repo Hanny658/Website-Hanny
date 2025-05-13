@@ -8,6 +8,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import Fuse from 'fuse.js'
 import "../../app/globals.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
+import Head from 'next/head'
 
 interface SongLine {
   chords: string
@@ -115,6 +116,12 @@ export default function SongLyrics({ song }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
+      
+      <Head>
+        <title>Songbook - {song.title}</title>
+        <meta name="description" content="This contains the lyrics and videos for the song" />
+      </Head>
+
       {/* Top Bar */}
       <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
         <h1 className="text-xl font-semibold">My Favorite Songs</h1>

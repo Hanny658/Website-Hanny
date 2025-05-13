@@ -4,16 +4,12 @@ import React, { useEffect, useState } from 'react'
 import "../app/globals.css"
 import Link from 'next/link'
 import "bootstrap-icons/font/bootstrap-icons.css"
+import Head from 'next/head'
 
 interface SongMeta {
   title: string
   link?: string
   number: number
-}
-
-export const metadata = {
-  title: 'Songbook - My Favs',
-  description: 'This contains the lyrics and videos for songs loved by Hanny',
 }
 
 const SongbookPage = () => {
@@ -56,6 +52,11 @@ const SongbookPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
+      <Head>
+        <title>Songbook - My Favs</title>
+        <meta name="description" content="This contains the lyrics and videos for songs loved by Hanny" />
+      </Head>
+
       {/* Top Bar */}
       <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
         <h1 className="text-xl font-semibold">My Favorite Songs</h1>
