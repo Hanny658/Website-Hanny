@@ -1,0 +1,58 @@
+{
+  "title": "Shine Jesus Shine",
+  "number": "152",
+  "lyrics": [
+    {
+      "id": "verse1",
+      "label": "Verse 1",
+      "lines": [
+        { "chords": "A             D                  A         E", "lyrics": "Lord the light of Your love is shining" },
+        { "chords": "A        D                  A              E", "lyrics": "In the midst of the darkness, shining" },
+        { "chords": "D       E               C#m            F#m", "lyrics": "Jesus light of the world shine upon us" },
+        { "chords": " D       E                 C#m", "lyrics": "Set us free by the truth" },
+        { "chords": "               F#m", "lyrics": "You now bring us" },
+        { "chords": " D            E      G     Esus4 E", "lyrics": "Shine on me, shine on me" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "  A        E A    D", "lyrics": "Shine, Jesus shine" },
+        { "chords": "             Bm                  Esus4    E", "lyrics": "Fill this land with the Father's glory" },
+        { "chords": "  A       E  A  D", "lyrics": "Blaze, Spirit blaze" },
+        { "chords": "           Bm    Bm/A G E", "lyrics": "Set our hearts on fire" },
+        { "chords": "  A      E  A  D", "lyrics": "Flow, river flow" },
+        { "chords": "                    Bm         Esus4      E", "lyrics": "Flood the nations with grace and mercy" },
+        { "chords": "  A       E     A      D", "lyrics": "Send forth Your Word" },
+        { "chords": "                Bm E7           A", "lyrics": "Lord and let there be light" }
+      ]
+    },
+    {
+      "id": "verse2",
+      "label": "Verse 2",
+      "lines": [
+        { "chords": "A             D                  A         E", "lyrics": "Lord I come to Your awesome presence" },
+        { "chords": "A        D                  A              E", "lyrics": "From the shadows into Your radiance" },
+        { "chords": "D       E               C#m            F#m", "lyrics": "By the blood I may enter Your" },
+        { "chords": " D       E                 C#m", "lyrics": "brightness; search me" },
+        { "chords": "               F#m", "lyrics": "Try me, consume all my darkness" },
+        { "chords": " D            E      G     Esus4 E", "lyrics": "Shine on me, shine on me" }
+      ]
+    },
+    {
+      "id": "verse3",
+      "label": "Verse 3",
+      "lines": [
+        { "chords": "A             D                  A         E", "lyrics": "As we gaze on Your Kingly brightness" },
+        { "chords": "A        D                  A              E", "lyrics": "So our faces display Your likeness" },
+        { "chords": "D       E               C#m            F#m", "lyrics": "Ever changing from glory to glory" },
+        { "chords": " D       E                 C#m", "lyrics": "Mirrored here may our lives" },
+        { "chords": "               F#m", "lyrics": "Tell Your story," },
+        { "chords": " D            E      G     Esuss4 E", "lyrics": "Shine on me, shine on me" }
+      ]
+    }
+  ],
+  "song": ["verse1", "chorus", "verse2", "chorus", "verse3", "chorus"],
+  "link": "https://www.youtube.com/watch?v=E_i-GxtbD54"
+}
