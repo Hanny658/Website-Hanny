@@ -11,6 +11,11 @@ interface SongMeta {
   number: number
 }
 
+export const metadata = {
+  title: 'Songbook - My Favs',
+  description: 'This contains the lyrics and videos for songs loved by Hanny',
+}
+
 const SongbookPage = () => {
   const [songs, setSongs] = useState<SongMeta[]>([])
   const [filteredSongs, setFilteredSongs] = useState<SongMeta[]>([])

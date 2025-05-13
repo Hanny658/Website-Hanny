@@ -32,6 +32,12 @@ interface Props {
   song: SongData
 }
 
+export const metadata = {
+  title: 'Songbook',
+  description: 'This contains the lyrics and videos for songs loved by Hanny',
+}
+
+
 export default function SongLyrics({ song }: Props) {
   const sectionMap = Object.fromEntries(song.lyrics.map(sec => [sec.id, sec]))
   const videoId = song.link?.split('v=')[1]?.split('&')[0] || song.link?.split('youtu.be/')[1] || ''
