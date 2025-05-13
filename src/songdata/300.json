@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "chorus1",
+      "id": "chorus",
       "label": "Chorus",
       "lines": [
         { "chords": "          C                             G", "lyrics": "(Cuz) All my life you have been faithful" },
@@ -32,15 +32,27 @@
       ]
     },
     {
-      "id": "chorus2",
+      "id": "chorus1",
       "label": "Chorus",
       "lines": [
         { "chords": "          C                             G", "lyrics": "(And) All my life you have been faithful" },
         { "chords": " C                            G      D", "lyrics": "And all my life you have been so, so good" },
         { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
-        { "chords": "           C           D          G", "lyrics": "(Oh) I'm gonna sing of the goodness of God" }
+        { "chords": "           C           D          G", "lyrics": "(Oh) I will sing of the goodness of God (Yeah!)" }
       ]
-    },    {
+    },
+    {
+      "id": "chorus2",
+      "label": "Chorus (soften)",
+      "lines": [
+        { "chords": "          C                             G", "lyrics": "(And) All my life you have been faithful" },
+        { "chords": " C                            G      D", "lyrics": "And all my life you have been so, so good" },
+        { "chords": "C                               G D/F# Em", "lyrics": "With every breath that I am able" },
+        { "chords": "           C           D          G", "lyrics": "(Oh) I'm gonna sing of the goodness of God" },
+        { "chords": "", "lyrics": "          (I'm gonna sing, I'm gonna sing!)" }
+      ]
+    }, 
+    {
       "id": "ending",
       "label": "Chorus (rising tone)",
       "lines": [
@@ -133,7 +145,7 @@
   "song": [
     "intro",
     "verse1",
-    "chorus1",
+    "chorus",
     "verse2",
     "chorus1",
     "bridge1",

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hanny",
-  description: "Using Next.ts for the first time",
+  description: "Hanny's personal website using next.ts",
 };
 
 export default function RootLayout({
