@@ -1,0 +1,30 @@
+{
+  "title": "Making Melodies In My Heart",
+  "number": "304",
+  "lyrics": [
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "G                      C", "lyrics": "Making melodies in my heart" },
+        { "chords": "G                      D", "lyrics": "Making melodies in my heart" },
+        { "chords": "G                      C", "lyrics": "Making melodies in my heart" },
+        { "chords": "         D        G", "lyrics": "For the Lord our God" }
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Actions",
+      "lines": [
+        { "chords": "G", "lyrics": "Thumbs up!" },
+        { "chords": "G", "lyrics": "Elbows up!" },
+        { "chords": "G", "lyrics": "Knees bent!" },
+        { "chords": "G", "lyrics": "Feet apart!" },
+        { "chords": "G", "lyrics": "Turn around!" },
+        { "chords": "G", "lyrics": "Tongue out!" }
+      ]
+    }
+  ],
+  "song": ["chorus", "actions"],
+  "link": "https://www.youtube.com/watch?v=Ha4LWC2y2Z4"
+}

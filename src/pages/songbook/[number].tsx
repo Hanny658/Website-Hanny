@@ -111,16 +111,16 @@ export default function SongLyrics({ song }: Props) {
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
       {/* Top Bar */}
       <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
-        <h1 className="text-xl font-semibold">My Favorite Songs - {song.title}</h1>
+        <h1 className="text-xl font-semibold">My Favorite Songs</h1>
         <div className="flex items-center space-x-4">
           <button
             onClick={toggleTracking}
             className={`text-sm px-3 py-1 rounded-md border ${tracking
                 ? 'bg-orange-500 text-white border-orange-600'
-                : 'bg-white text-black border-gray-300'
+                : 'bg-gray-100 text-black border-gray-300'
               }`}
           >
-            [Beta] Lyrics Tracing
+            [Beta] Lyric-Trace
           </button>
           <Link href="/songbook">
             <i className="bi bi-house-door-fill text-3xl text-white hover:text-amber-100 cursor-pointer" />

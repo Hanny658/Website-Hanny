@@ -1,0 +1,56 @@
+{
+  "title": "Because He Lives",
+  "number": "21",
+  "lyrics": [
+    {
+      "id": "verse1",
+      "label": "Verse 1",
+      "lines": [
+        { "chords": "              G", "lyrics": "God sent His Son," },
+        { "chords": "               G7         C", "lyrics": "They called Him Jesus" },
+        { "chords": "                    G                     Am", "lyrics": "He came to love, heal & forgive" },
+        { "chords": "          D7        G       G7      C", "lyrics": "He lived and died to buy my pardon" },
+        { "chords": "           G                                D7", "lyrics": "An empty grave is there to prove" },
+        { "chords": "                    G", "lyrics": "My Saviour lives!" }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "lines": [
+        { "chords": "                       G  G7", "lyrics": "Because He lives" },
+        { "chords": "                  C", "lyrics": "I can face tomorrow" },
+        { "chords": "                      G   Em            Am D", "lyrics": "Because He lives all fear is gone" },
+        { "chords": "   D7          G  G7                       C", "lyrics": "Because I know He holds the future" },
+        { "chords": "                  G", "lyrics": "And life is worth the living" },
+        { "chords": "D7                        G", "lyrics": "Just because He lives" }
+      ]
+    },
+    {
+      "id": "verse2",
+      "label": "Verse 2",
+      "lines": [
+        { "chords": "              G", "lyrics": "How sweet to hold" },
+        { "chords": "               G7         C", "lyrics": "a newborn baby" },
+        { "chords": "                    G                     Am", "lyrics": "And feel the pride and joy he brings" },
+        { "chords": "          D7        G       G7      C", "lyrics": "But greater still the calm assurance" },
+        { "chords": "           G                                D7", "lyrics": "This child can face uncertain days" },
+        { "chords": "                    G", "lyrics": "Because He lives" }
+      ]
+    },
+    {
+      "id": "verse3",
+      "label": "Verse 3",
+      "lines": [
+        { "chords": "              G", "lyrics": "And then one day," },
+        { "chords": "               G7         C", "lyrics": "I'll cross the river" },
+        { "chords": "                    G                     Am", "lyrics": "I'll fight life's final war with pain" },
+        { "chords": "          D7        G       G7      C", "lyrics": "And then as death gives way to victory" },
+        { "chords": "           G                                D7", "lyrics": "I'll see the lights of glory" },
+        { "chords": "                    G", "lyrics": "And I'll know He reigns" }
+      ]
+    }
+  ],
+  "song": ["verse1", "chorus", "verse2", "chorus", "verse3", "chorus"],
+  "link": "https://www.youtube.com/watch?v=bVTmh9DcOPc"
+}

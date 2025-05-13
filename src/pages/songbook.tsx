@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css"
 
 interface SongMeta {
   title: string
+  link?: string
   number: number
 }
 
@@ -70,10 +71,19 @@ const SongbookPage = () => {
               <>
                 {filteredSongs.map((song) => (
                   <Link key={song.number} href={`/songbook/${song.number}`}>
-                    <div
-                      className="border-b bg-black/80 text-white text-xl border-gray-500 py-2 px-4 hover:bg-black/70 flex justify-center items-center"
-                    >
-                      <span className="font-medium">{song.number}.  {song.title}</span>
+                    <div className="relative">
+                      <div
+                        className="border-b bg-black/80 text-white text-xl border-gray-500 py-2 px-4 hover:bg-black/70 flex justify-center items-center"
+                      >
+                        <span className="font-medium">
+                          {song.number}. {song.title}
+                        </span>
+
+                        {/* YouTube Icon if link exists */}
+                        {song.link?.trim() && (
+                          <i className="bi bi-youtube text-red-200/50 text-2xl absolute right-4 top-1/2 transform -translate-y-1/2" />
+                        )}
+                      </div>
                     </div>
                   </Link>
                 ))}

@@ -9,7 +9,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const songList = files.map((file) => {
     const content = fs.readFileSync(path.join(dirPath, file), 'utf-8')
     const data = JSON.parse(content)
-    return { number: data.number, title: data.title }
+    return { number: data.number, title: data.title, link: data.link }
   })
 
   res.status(200).json(songList)
