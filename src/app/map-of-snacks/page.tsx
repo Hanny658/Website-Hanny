@@ -14,7 +14,7 @@ const SnackMapPage = () => {
         <i className="bi bi-tools text-6xl text-yellow-500 animate-bounce" />
 
         <h1 className="text-5xl font-extrabold text-gray-800">
-          Page Under Construction
+          Snack Map is Under Construction
         </h1>
 
         <p className="text-xl text-gray-600 max-w-md mx-auto">

@@ -15,11 +15,11 @@ export default function Home() {
 
   // Paras for the bitrain
   const [columns] = useState(
-    Array.from({ length: 16 }, () => ({
+    Array.from({ length: 10 }, () => ({
       left: `${Math.random() * 100}vw`,
       duration: 5 + Math.random() * 5,
       delay: Math.random() * 10,
-      fontSize: 12 + Math.random() * 16,   // between 12px and 28px
+      fontSize: 12 + Math.random() * 16,    // between 12px and 28px
       blur: Math.random() * 2               // between 0px and 2px blur
     }))
   )
@@ -71,7 +71,7 @@ export default function Home() {
                  relative leading-tight">
           G&apos;day Mate!
         </h1>
-        <br /><br /><br />
+        <br />
 
         {/* Centered self-introduction */}
         <p className="mt-6 max-w-xl mx-auto text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-100 drop-shadow-md text-justify">
