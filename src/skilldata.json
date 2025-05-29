@@ -1,0 +1,110 @@
+{
+  "skills": [
+    {
+      "category": "Frontend",
+      "icon": "frontend.svg",
+      "items": [
+        {
+          "title": "React.js",
+          "level": "proficient",
+          "description": "Learned from 3rd Year of uni, and been used heavily during my working as a full-stack software engineer."
+        },
+        {
+          "title": "Next.js",
+          "level": "intermediate",
+          "description": "Learned for a few months and this website is built with it."
+        }
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "backend.svg",
+      "items": [
+        {
+          "title": "Server administration",
+          "level": "intermediate",
+          "description": "Learned while using it, deployed and hosted bunch of services on a Linux-based cloud server."
+        },
+        {
+          "title": "Express Server",
+          "level": "proficient",
+          "description": "Learned based on existing knowledge of JS, and been used heavily during my working as a full-stack software engineer."
+        },
+        {
+          "title": "Nginx",
+          "level": "proficient",
+          "description": "Hosted various types of services with it and configured reverse proxies, deployed with SSL certificates."
+        }
+      ]
+    },
+    {
+      "category": "DevOps & CI/CD",
+      "icon": "sync.svg",
+      "items": [
+        {
+          "title": "Git",
+          "level": "expert",
+          "description": "Version control for all of my projects with either GitHub or GitLab..."
+        },
+        {
+          "title": "Hosting services",
+          "level": "proficient",
+          "description": "With a cloud server, I deployed many services including database, API services, websites..."
+        }
+      ]
+    },
+    {
+      "category": "AI & Data Science",
+      "icon": "ai.svg",
+      "items": [
+        {
+          "title": "AI Tools",
+          "level": "proficient",
+          "description": "Effectively using LLMs like ChatGPT..."
+        },
+        {
+          "title": "Prompting",
+          "level": "intermediate",
+          "description": "Familiar with prompting patterns..."
+        }
+      ]
+    },
+    {
+      "category": "Software Skills",
+      "icon": "software.svg",
+      "items": [
+        {
+          "title": "JavaScript & TypeScript",
+          "level": "proficient",
+          "description": "Used heavily during my working as a full-stack software engineer."
+        },
+        {
+          "title": "Python",
+          "level": "proficient",
+          "description": "Great for a quick script to boost repetitive works..."
+        }
+      ]
+    },
+    {
+      "category": "Other Skills",
+      "icon": "skills.svg",
+      "items": [
+        {
+          "title": "Adobe Photoshop",
+          "level": "proficient",
+          "description": "Processing images, design and making prints..."
+        },
+        {
+          "title": "Adobe Premier Pro",
+          "level": "beginner",
+          "description": "Able to quickly edit clips, fit-in voice-overs/BGM/subtitles..."
+        },
+        {
+          "title": "Adobe Illustrator",
+          "level": "beginner",
+          "description": "Able to quickly edit some .ai pics / posters on need..."
+        }
+      ]
+    }
+  ]
+}
