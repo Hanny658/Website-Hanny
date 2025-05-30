@@ -1,35 +1,37 @@
-import Link from 'next/link'
-import 'bootstrap-icons/font/bootstrap-icons.css'
+"use client";
 
-export const metadata = {
-  title: 'Snack Map – Under Construction',
-  description: 'This page is being built. Check back soon!',
-}
+import { useEffect, useRef } from "react";
+import mapboxgl from "mapbox-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
 
-const SnackMapPage = () => {
+// Make sure to set your Mapbox token in .env.local as NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN!;
+
+export default function SnackMapPage() {
+  const mapContainer = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!mapContainer.current) return;
+
+    const map = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: "mapbox://styles/mapbox/streets-v11",
+      center: [144.9675495, -37.8122359], // [lng, lat]
+      zoom: 15,
+    });
+
+    // add a single pin/marker
+    new mapboxgl.Marker()
+      .setLngLat([144.9675495, -37.8122359])
+      .addTo(map);
+
+    return () => map.remove();
+  }, []);
+
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-50 px-4">
-      <div className="text-center space-y-6">
-
-        <i className="bi bi-tools text-6xl text-yellow-500 animate-bounce" />
-
-        <h1 className="text-5xl font-extrabold text-gray-800">
-          Snack Map is Under Construction
-        </h1>
-
-        <p className="text-xl text-gray-600 max-w-md mx-auto">
-          Hanny is working hard to bring you something amazing. Come back soon!
-        </p>
-
-        <Link href="/">
-          <div className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition">
-            <i className="bi bi-house-door-fill mr-2" aria-hidden="true" />
-            Back to Home
-          </div>
-        </Link>
-      </div>
-    </main>
-  )
+    <div
+      ref={mapContainer}
+      className="w-screen h-screen"
+    />
+  );
 }
-
-export default SnackMapPage

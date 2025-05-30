@@ -13,6 +13,21 @@
           "title": "Next.js",
           "level": "intermediate",
           "description": "Learned for a few months and this website is built with it."
+        },
+        {
+          "title": "Bootstrap",
+          "level": "proficient",
+          "description": "Favorite styling framework with its pre-defined objects."
+        },
+        {
+          "title": "Tailwind CSS",
+          "level": "proficient",
+          "description": "Newly learned, got hands on quick with its basic classes and animations. THis site is using this Style framework, too."
+        },
+        {
+          "title": "Sass CSS",
+          "level": "intermediate",
+          "description": "Using with bootstrap to identify a unified website theme."
         }
       ]
     },
@@ -31,6 +46,21 @@
           "description": "Learned based on existing knowledge of JS, and been used heavily during my working as a full-stack software engineer."
         },
         {
+          "title": "REST API",
+          "level": "proficient",
+          "description": "Started and kept learning from 3rd yr of uni, and been used heavily during my working as a full-stack software engineer."
+        },
+        {
+          "title": "Database",
+          "level": "intermediate",
+          "description": "Great at schema and relation designing, familiar with both SQL and non-SQL databases."
+        },
+        {
+          "title": "Python FastAPI/Flask",
+          "level": "proficient",
+          "description": "Normally used with AI-related programs."
+        },
+        {
           "title": "Nginx",
           "level": "proficient",
           "description": "Hosted various types of services with it and configured reverse proxies, deployed with SSL certificates."
@@ -44,12 +74,27 @@
         {
           "title": "Git",
           "level": "expert",
-          "description": "Version control for all of my projects with either GitHub or GitLab..."
+          "description": "Version control for all of my projects with either GitHub or GitLab. Detailed commit messages with meaningful instructions of new features."
         },
         {
           "title": "Hosting services",
           "level": "proficient",
           "description": "With a cloud server, I deployed many services including database, API services, websites..."
+        },
+        {
+          "title": "Shell / Terminal Commands",
+          "level": "proficient",
+          "description": "Very familiar with frequently used commands in windows shell / linux commands."
+        },
+        {
+          "title": "Docker",
+          "level": "beginner",
+          "description": "Learned and loved its terminology, but notadvised to do it with my work. I'll need more experience for it."
+        },
+        {
+          "title": "Testing & Deebugging",
+          "level": "proficient",
+          "description": "Familiar with software testing terms, scopes and processes. (Just like finding bugs everytime when I'm playing games)"
         }
       ]
     },
@@ -60,12 +105,32 @@
         {
           "title": "AI Tools",
           "level": "proficient",
-          "description": "Effectively using LLMs like ChatGPT..."
+          "description": "Effectively using LLMs like ChatGPT, to boost my work/study speed."
         },
         {
           "title": "Prompting",
           "level": "intermediate",
-          "description": "Familiar with prompting patterns..."
+          "description": "Familiar with prompting patterns."
+        },
+        {
+          "title": "Python",
+          "level": "proficient",
+          "description": "Familiar with ML / AI libraries, applying models."
+        },
+        {
+          "title": "Data Processing",
+          "level": "intermediate",
+          "description": "Familiar with Data cleaning, clustering, storing, and other processing skills aligned with any business goal."
+        },
+        {
+          "title": "Data Visualisation",
+          "level": "intermediate",
+          "description": "Visualising and present data with python/matlab/minitab/etc."
+        },
+        {
+          "title": "Retrieval-Augmented Generation",
+          "level": "proficient",
+          "description": "Familiar with its terminologies, did a project that empowers a chatbot with RAG and a management frontend."
         }
       ]
     },
@@ -76,12 +141,52 @@
         {
           "title": "JavaScript & TypeScript",
           "level": "proficient",
-          "description": "Used heavily during my working as a full-stack software engineer."
+          "description": "Syntax, used heavily during my working as a full-stack software engineer."
         },
         {
           "title": "Python",
           "level": "proficient",
-          "description": "Great for a quick script to boost repetitive works..."
+          "description": "Syntax, great for a quick script to boost repetitive works."
+        },
+        {
+          "title": "Java",
+          "level": "intermediate",
+          "description": "Syntax, mindset of OOP, use of Spingboot.. Did small projects with Java."
+        },
+        {
+          "title": "C",
+          "level": "intermediate",
+          "description": "Familiar with data structures, basic algorithms, anof course, syntax."
+        },
+        {
+          "title": "Rust",
+          "level": "beginner",
+          "description": "Start learning recently. I love the way it's fast while memory-safe."
+        },
+        {
+          "title": "Haskell / Prolog",
+          "level": "beginner",
+          "description": "Theoretical knowledge, learned at 2nd year of uni."
+        },
+        {
+          "title": "Design Patterns",
+          "level": "intermediate",
+          "description": "Familiar with basic design patterns, able to quickly understand new patterns if needed.."
+        },
+        {
+          "title": "Coding Standards",
+          "level": "proficient",
+          "description": "Every code written come with nessesary comments, every my project finish with great documentation."
+        },
+        {
+          "title": "Agile Terminologies",
+          "level": "proficient",
+          "description": "Familiar with AGILE, used to manage my team as a scrum master in uni project."
+        },
+        {
+          "title": "Coding IDEs",
+          "level": "proficient",
+          "description": "Familiar IDEs from JetBrains or Microsoft."
         }
       ]
     },
@@ -92,17 +197,37 @@
         {
           "title": "Adobe Photoshop",
           "level": "proficient",
-          "description": "Processing images, design and making prints..."
+          "description": "Processing images, design and making prints. With VI will be better."
         },
         {
           "title": "Adobe Premier Pro",
           "level": "beginner",
-          "description": "Able to quickly edit clips, fit-in voice-overs/BGM/subtitles..."
+          "description": "Able to quickly edit clips, fit-in voice-overs/BGM/subtitles."
+        },
+        {
+          "title": "Adobe Illustrator",
+          "level": "beginner",
+          "description": "Able to quickly edit some .ai pics / posters on need."
+        },
+        {
+          "title": "Adobe Audition",
+          "level": "beginner",
+          "description": "Able to quickly edit audios."
         },
         {
           "title": "Adobe Illustrator",
           "level": "beginner",
           "description": "Able to quickly edit some .ai pics / posters on need..."
+        },
+        {
+          "title": "Team Work",
+          "level": "expert",
+          "description": "Willing to communicate and work closely with people from different areas to cooperate with a big project."
+        },
+        {
+          "title": "Workflow Management Tools",
+          "level": "proficient",
+          "description": "Familiar with various tools like Trello, Jira, Github Project, etc."
         }
       ]
     }

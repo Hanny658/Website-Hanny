@@ -135,9 +135,10 @@ export default function MySkillsPage() {
                 <div
                   key={idx}
                   onClick={() => setSelectedSkill(item)}
-                  className="bg-gray-100 rounded-xl p-4 cursor-pointer shadow hover:shadow-md relative"
+                  className="bg-sky-100 hover:bg-sky-200 rounded-xl p-4 cursor-pointer shadow hover:shadow-md relative"
                 >
                   <h3 className="text-center font-medium text-lg mb-2">{item.title}</h3>
+                  <br></br>
                   <div className={`absolute bottom-2 right-2 text-sm px-2 py-1 rounded ${levelColors[item.level.toLowerCase()] || 'bg-gray-200 text-gray-800'} bg-opacity-70`}>
                     {item.level}
                   </div>
