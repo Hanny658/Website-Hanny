@@ -35,7 +35,16 @@ const BitRainColumn: FC<BitRainColumnProps> = ({ left, duration, delay, fontSize
 
   return (
     <div
-      className="bit-column absolute bottom-0 flex flex-col text-green-400 font-code leading-tight"
+      className="
+        bit-column
+        absolute
+        bottom-0                /* anchor bottom edge to container’s bottom */
+        flex
+        flex-col
+        text-green-400
+        font-code
+        leading-tight
+      "
       style={{
         left,
         animation: `moveUp ${duration}s linear infinite`,

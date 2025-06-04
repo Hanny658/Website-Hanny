@@ -15,7 +15,7 @@ export default function Home() {
 
   // Paras for the bitrain
   const [columns] = useState(
-    Array.from({ length: 10 }, () => ({
+    Array.from({ length: 20 }, () => ({
       left: `${Math.random() * 100}vw`,
       duration: 5 + Math.random() * 5,
       delay: Math.random() * 10,
