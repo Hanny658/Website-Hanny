@@ -10,12 +10,12 @@ export default function Home() {
 
    const handleClick = () => {
     if (isBouncing) return
-    setIsBouncing(true)
+    setIsBouncing(true);
   }
 
   // Paras for the bitrain
   const [columns] = useState(
-    Array.from({ length: 20 }, () => ({
+    Array.from({ length: 16 }, () => ({
       left: `${Math.random() * 100}vw`,
       duration: 5 + Math.random() * 5,
       delay: Math.random() * 10,
@@ -24,10 +24,9 @@ export default function Home() {
     }))
   )
 
-
   // Reset bounce after animation completes
   const handleAnimationEnd = useCallback(() => {
-    setIsBouncing(false)
+    setIsBouncing(false);
   }, [])
 
   return (
