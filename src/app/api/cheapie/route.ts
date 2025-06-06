@@ -41,14 +41,12 @@ export async function POST(request: NextRequest) {
       !store ||
       typeof store !== 'string' ||
       typeof quantity !== 'number' ||
-      typeof price !== 'number' ||
-      !exp ||
-      typeof exp !== 'string'
+      typeof price !== 'number'
     ) {
       return NextResponse.json(
         {
           error:
-            'Please provide name(string)、store(string)、quantity(number)、price(number)、exp(ISO string), image(optional thou)',
+            'Please provide name(string)、store(string)、quantity(number)、price(number)、exp(optional ISO string), image(optional thou)',
         },
         { status: 400 }
       );
@@ -71,7 +69,7 @@ export async function POST(request: NextRequest) {
         store,
         quantity,
         price,
-        exp: new Date(exp),
+        ...((exp && exp !== '') ? { exp } : {}),
         ...(image ? { image } : {}),
       },
     });

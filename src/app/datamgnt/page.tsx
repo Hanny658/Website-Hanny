@@ -43,9 +43,12 @@ export default function CMSPage() {
 
   // handle creation with POST /api/{model}
   const handleCreate = async () => {
-    // check if all nessasary fields are filled, for wite-able fields only image（isFile）can be set empty
+    // check if all nessasary fields are filled, for non-optional fields only image（isFile）can be set empty
     const missing = CMSConfig[selectedModel].some(
-      (f) => !f.isReadOnly && (formData[f.name] === '' || formData[f.name] == null)
+      f =>
+        !f.isReadOnly &&
+        !f.isOptional &&
+        (formData[f.name] === '' || formData[f.name] == null)
     )
     if (missing) {
       alert('Please fill up all nessesary fields.')

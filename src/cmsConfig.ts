@@ -11,6 +11,8 @@ export type FieldDef = {
     isFile?: boolean
     /** Does not render to update or add new */
     isReadOnly?: boolean
+    /** mark a field that is optional, which will make it not checked when submit new ones */
+    isOptional?: boolean 
 }
 
 /**
@@ -30,12 +32,13 @@ export const CMSConfig: Record<string, FieldDef[]> = {
         { name: 'store', type: 'string', label: 'Store Identifier' },
         { name: 'quantity', type: 'int', label: 'Quantity' },
         { name: 'price', type: 'float', label: 'Price' },
-        { name: 'exp', type: 'datetime', label: 'Expiration Date' },
+        { name: 'exp', type: 'datetime', label: 'Expiration Date', isOptional: true },
         {
             name: 'image',
             type: 'image-url',
             label: 'Image',
             isFile: true, // in forms: <input type="file" />
+            isOptional: true
         },
     ],
 }

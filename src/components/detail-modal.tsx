@@ -82,7 +82,11 @@ export default function DetailModal({
     const handleUpdate = async () => {
         // check nessesary fiels (escape img-url)
         const missing = fields.some(
-            (f) => f.type !== 'image-url' && (formData[f.name] === '' || formData[f.name] == null)
+        f =>
+            !f.isReadOnly &&
+            !f.isOptional &&
+            f.type !== 'image-url' &&
+            (formData[f.name] === '' || formData[f.name] == null)
         )
         if (missing) {
             alert('请填写所有必填字段')

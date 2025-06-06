@@ -30,7 +30,7 @@ model Cheapie {
   store    String
   quantity Int
   price    Float
-  exp      DateTime
+  exp      DateTime?
   image    String?
 
   place    Place    @relation(fields: [store], references: [identifier])

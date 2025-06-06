@@ -62,8 +62,7 @@ export async function PUT(
       (name !== undefined && typeof name !== 'string') ||
       (store !== undefined && typeof store !== 'string') ||
       (quantity !== undefined && typeof quantity !== 'number') ||
-      (price !== undefined && typeof price !== 'number') ||
-      (exp !== undefined && typeof exp !== 'string')
+      (price !== undefined && typeof price !== 'number')
     ) {
       return NextResponse.json(
         {
@@ -93,7 +92,7 @@ export async function PUT(
         ...(store !== undefined ? { store } : {}),
         ...(quantity !== undefined ? { quantity } : {}),
         ...(price !== undefined ? { price } : {}),
-        ...(exp !== undefined ? { exp: new Date(exp) } : {}),
+        ...((exp !== undefined && exp !== '') ? { exp: new Date(exp) } : {}),
         ...(image !== undefined ? { image } : {}),
       },
     })
