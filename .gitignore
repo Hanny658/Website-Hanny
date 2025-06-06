@@ -43,5 +43,6 @@ next-env.d.ts
 
 # Database
 /upload
+/public/uploads
 
 /src/generated/prisma

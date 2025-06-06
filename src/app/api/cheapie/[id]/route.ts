@@ -56,7 +56,7 @@ export async function PUT(
 
   try {
     const body = await request.json()
-    const { name, store, quantity, price, exp } = body
+    const { name, store, quantity, price, exp, image } = body
 
     if (
       (name !== undefined && typeof name !== 'string') ||
@@ -94,6 +94,7 @@ export async function PUT(
         ...(quantity !== undefined ? { quantity } : {}),
         ...(price !== undefined ? { price } : {}),
         ...(exp !== undefined ? { exp: new Date(exp) } : {}),
+        ...(image !== undefined ? { image } : {}),
       },
     })
 

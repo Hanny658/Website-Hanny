@@ -12,6 +12,7 @@
   "dependencies": {
     "@prisma/client": "^6.9.0",
     "bootstrap-icons": "^1.13.1",
+    "busboy": "^1.6.0",
     "fuse.js": "^7.1.0",
     "mapbox-gl": "^3.12.0",
     "next": "15.2.4",
@@ -19,11 +20,13 @@
     "prisma": "^6.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "sharp": "^0.34.2",
     "website-hanny": "file:"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.1.6",
+    "@types/busboy": "^1.5.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

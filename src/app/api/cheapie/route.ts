@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, store, quantity, price, exp } = body;
+    const { name, store, quantity, price, exp, image } = body;
 
     if (
       !name ||
@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           error:
-            'Please provide name(string)、store(string)、quantity(number)、price(number)、exp(ISO string)',
+            'Please provide name(string)、store(string)、quantity(number)、price(number)、exp(ISO string), image(optional thou)',
         },
         { status: 400 }
       );
@@ -72,6 +72,7 @@ export async function POST(request: NextRequest) {
         quantity,
         price,
         exp: new Date(exp),
+        ...(image ? { image } : {}),
       },
     });
 
