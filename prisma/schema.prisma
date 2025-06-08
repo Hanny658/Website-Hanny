@@ -4,6 +4,13 @@
 // Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
+enum Stock {
+  plenty
+  mid
+  low
+  gone
+}
+
 generator client {
   provider = "prisma-client-js"
   output   = "../src/generated/prisma"
@@ -32,6 +39,8 @@ model Cheapie {
   price    Float
   exp      DateTime?
   image    String?
+  stock      Stock     @default(low)
+  createdAt  DateTime  @default(now())
 
   place    Place    @relation(fields: [store], references: [identifier])
 }

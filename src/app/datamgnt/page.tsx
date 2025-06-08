@@ -157,8 +157,35 @@ export default function CMSPage() {
             }}
           >
             {CMSConfig[selectedModel].map((field) => {
-              if (field.isReadOnly) return null
+              if (field.isReadOnly) { 
+                // For read-onlys, display nothing
+                return null
+              }
+              if (field.type === 'enum' && field.enumOptions) {
+                // For Enums display input as selections instead of text area
+                return (
+                  <div key={field.name} className="mb-4">
+                    <label className="block mb-1 font-medium">
+                      {field.label ?? field.name} ({field.type})
+                    </label>
+                    <select
+                      className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
+                      value={formData[field.name] ?? field.enumOptions[0]}
+                      onChange={(e) =>
+                        handleInputChange(field.name, e.target.value)
+                      }
+                    >
+                      {field.enumOptions.map((opt) => (
+                        <option key={opt} value={opt}>
+                          {opt}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                )
+              }
               if (field.type === 'image-url' && field.isFile) {
+                // If input should be a file, trigger the file uploader
                 return (
                   <div key={field.name} className="mb-4">
                     <label className="block mb-1 font-medium">
@@ -192,7 +219,7 @@ export default function CMSPage() {
                   </div>
                 )
               }
-
+              // For normal fields, just make it a text input (Or with datetime selection)
               return (
                 <div key={field.name} className="mb-4">
                   <label className="block mb-1 font-medium">

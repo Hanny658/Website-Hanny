@@ -6,13 +6,15 @@ export type FieldDef = {
     /** The label for form display */
     label?: string
     /** Type of each field */
-    type: 'string' | 'int' | 'float' | 'datetime' | 'image-url'
+    type: 'string' | 'int' | 'float' | 'datetime' | 'image-url' | 'enum'
     /** Whether trigger file-uploader */
     isFile?: boolean
     /** Does not render to update or add new */
     isReadOnly?: boolean
     /** mark a field that is optional, which will make it not checked when submit new ones */
     isOptional?: boolean 
+    /** mark a field to be enum, which make the input as selection */
+    enumOptions?: string[]
 }
 
 /**
@@ -39,6 +41,18 @@ export const CMSConfig: Record<string, FieldDef[]> = {
             label: 'Image',
             isFile: true, // in forms: <input type="file" />
             isOptional: true
+        },
+        {
+            name: 'stock',
+            type: 'enum',
+            label: 'Stock Level',
+            enumOptions: ['plenty', 'mid', 'low', 'gone'],
+        },
+        {
+            name: 'createdAt',
+            type: 'datetime',
+            label: 'Created At',
+            isReadOnly: true,
         },
     ],
 }
