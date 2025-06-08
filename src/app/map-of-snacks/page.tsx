@@ -4,6 +4,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import SearchBar from 'src/components/SearchBar'
+import PlaceDetailPanel from 'src/components/PlaceDetailPanel'
+import AddCheapieModal from 'src/components/AddCheapieModal'
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || ''
 
@@ -17,6 +20,7 @@ interface Place {
 export default function MapOfSnacksPage() {
   const [places, setPlaces] = useState<Place[]>([])
   const [selectedPlaceId, setSelectedPlaceId] = useState<string | null>(null)
+  const [isAddOpen, setIsAddOpen] = useState(false)
 
   // Fetch all places on mount
   useEffect(() => {
@@ -34,95 +38,40 @@ export default function MapOfSnacksPage() {
 
   return (
     <div className="w-full h-screen relative">
-      <SearchBar onSelectPlace={(id) => setSelectedPlaceId(id)} places={places} />
+      {/* SearchBar positioned top-right */}
+      <SearchBar onSelectPlace={(id) => setSelectedPlaceId(id)} />
       <MapContainer
         places={places}
         selectedPlaceId={selectedPlaceId}
         onSelectPlace={(id) => setSelectedPlaceId(id)}
       />
-      {/* PlaceDetailPanel and AddCheapieModal to be added later */}
-    </div>
-  )
-}
-
-/**
- * SearchBar component: floating input for searching places or snacks.
- * Currently placeholder only; full dropdown logic to be added later.
- */
-function SearchBar({
-  onSelectPlace,
-  places,
-}: {
-  onSelectPlace: (id: string) => void
-  places: Place[]
-}) {
-  // `isOpen` controls whether the dropdown is shown
-  const [isOpen, setIsOpen] = useState(false)
-  const [query, setQuery] = useState('')
-  const dropdownRef = useRef<HTMLDivElement>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node) &&
-        inputRef.current &&
-        !inputRef.current.contains(event.target as Node)
-      ) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
-
-  // Simple filtered suggestions: match places by name (case-insensitive)
-  const filtered = Array.isArray(places)
-    ? places
-        .filter((p) => p.name.toLowerCase().includes(query.toLowerCase()))
-        .slice(0, 32) // limited to 32 for performance
-    : []
-
-  return (
-    <div className="absolute top-4 right-4 w-1/4 z-20 sm:w-3/4">
-      <input
-        ref={inputRef}
-        type="text"
-        placeholder="Search place or snacks..."
-        className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-300"
-        value={query}
-        onFocus={() => setIsOpen(true)}
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      {isOpen && (
-        <div
-          ref={dropdownRef}
-          className="mt-1 max-h-64 overflow-auto bg-white bg-opacity-90 backdrop-blur-md rounded-lg shadow-lg"
-        >
-          {filtered.length === 0 ? (
-            <div className="p-4 text-gray-500">No results</div>
-          ) : (
-            filtered.map((p) => (
-              <div
-                key={p.identifier}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-                onClick={() => {
-                  onSelectPlace(p.identifier)
-                  setIsOpen(false)
-                  setQuery('')
-                }}
-              >
-                {p.name}
-              </div>
-            ))
-          )}
-        </div>
+      {/* 2. Conditionally render the detail panel */}
+      {selectedPlaceId && (
+        <PlaceDetailPanel
+          placeName={places.find((p) => p.identifier === selectedPlaceId)?.name ?? ''}
+          placeId={selectedPlaceId}
+          onClose={() => setSelectedPlaceId(null)}
+          onAdd={() => setIsAddOpen(true)}
+        />
       )}
+      {isAddOpen && selectedPlaceId && (
+      <AddCheapieModal
+        placeId={selectedPlaceId}
+        onClose={() => setIsAddOpen(false)}
+        onCreated={() => {
+          setIsAddOpen(false)
+          // force re-fetch in PlaceDetailPanel by toggling selection
+          const pid = selectedPlaceId
+          setSelectedPlaceId(null)
+          setTimeout(() => setSelectedPlaceId(pid), 10)
+        }}
+      />
+    )}
+      {/* More going here */}
     </div>
   )
 }
+
 
 /**
  * MapContainer component: renders Mapbox GL map with clustering markers.
