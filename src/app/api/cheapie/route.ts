@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, store, quantity, price, exp, image } = body;
+    const { name, store, quantity, price, exp, image, stock } = body;
 
     if (
       !name ||
@@ -50,6 +50,16 @@ export async function POST(request: NextRequest) {
         },
         { status: 400 }
       );
+    }
+
+    if ( (quantity <= 0) || (price < 0) ) {
+      return NextResponse.json(
+        {
+          error:
+            'Please make sure quantity and price are larger (for price equal) than 0',
+        },
+        { status: 400 }
+      )
     }
 
     // Check Place
@@ -69,7 +79,8 @@ export async function POST(request: NextRequest) {
         store,
         quantity,
         price,
-        ...((exp && exp !== '') ? { exp } : {}),
+        stock,
+        ...((exp && exp !== '') ? { exp: new Date(exp) } : {}),
         ...(image ? { image } : {}),
       },
     });

@@ -56,7 +56,7 @@ export async function PUT(
 
   try {
     const body = await request.json()
-    const { name, store, quantity, price, exp, image } = body
+    const { name, store, quantity, price, exp, image, stock } = body
 
     if (
       (name !== undefined && typeof name !== 'string') ||
@@ -67,7 +67,17 @@ export async function PUT(
       return NextResponse.json(
         {
           error:
-            'Please makesure name、store are string, quantity、price are numbers, exp is ISO string',
+            'Please make sure name、store are string, quantity、price are numbers, exp is ISO string',
+        },
+        { status: 400 }
+      )
+    }
+
+    if ( (quantity <= 0) || (price < 0) ) {
+      return NextResponse.json(
+        {
+          error:
+            'Please make sure quantity and price are larger (for price equal) than 0',
         },
         { status: 400 }
       )
@@ -92,6 +102,7 @@ export async function PUT(
         ...(store !== undefined ? { store } : {}),
         ...(quantity !== undefined ? { quantity } : {}),
         ...(price !== undefined ? { price } : {}),
+        ...(stock !== undefined ? { stock } : {}),
         ...((exp !== undefined && exp !== '') ? { exp: new Date(exp) } : {}),
         ...(image !== undefined ? { image } : {}),
       },
