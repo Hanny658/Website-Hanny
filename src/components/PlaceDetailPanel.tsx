@@ -1,8 +1,8 @@
 // components/PlaceDetailPanel.tsx
 'use client'
 
-import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
+import MarkGoneButton from './MarkGoneButton'
 
 interface Cheapie {
     id: number
@@ -122,9 +122,8 @@ export default function PlaceDetailPanel({
                 {cheapies.map((c) => (
                     <div key={c.id} className="flex flex-col bg-blue-50 rounded-lg p-2">
                         <div className="flex">
-                            <Image
-                                width={120}
-                                height={120}
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
                                 src={c.image || '/snack_placeholder.jpg'}
                                 alt={c.name}
                                 className="w-16 h-16 object-cover rounded mr-4"
@@ -139,6 +138,16 @@ export default function PlaceDetailPanel({
                                 </div>
                             </div>
                         </div>
+                        <MarkGoneButton
+                            cheapieId={c.id}
+                            currentStock={c.stock}
+                            onMarkedGone={() => {
+                                // simply re-fetch the list for this place
+                                fetch(`/api/cheapie?store=${placeId}`)
+                                .then((r) => r.json())
+                                .then(setCheapies)
+                            }}
+                        />
                         {/* New row: time ago + stock badge */}
                         <div className="mt-2 flex justify-between items-center">
                             <span className="text-gray-500 text-xs">

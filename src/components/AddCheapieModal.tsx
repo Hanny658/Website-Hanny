@@ -95,7 +95,7 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-40">
             {/* className="bg-white w-1/3 p-6 rounded-lg shadow-lg max-h-[80vh] overflow-auto" */}
             <div className="
-            w-full max-h-[60vh] p-4 bg-white rounded-t-lg overflow-auto
+            w-full max-h-[60vh] p-4 mx-2 bg-white text-black rounded-lg overflow-auto
             sm:rounded-lg sm:w-1/3 sm:max-h-[80vh]
             transition-transform duration-300
             ">
@@ -143,7 +143,7 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
                     </div>
                     <div>
                         <label className="block mb-1 font-medium">Image</label>
-                        <div className="flex items-center space-x-2">
+                        <div className="flex items-center space-x-2 bg-amber-100">
                         <input
                             type="file"
                             accept="image/*"
@@ -154,7 +154,7 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
                             }}
                         />
                         <i
-                            className="bi bi-camera-fill text-2xl cursor-pointer text-gray-700"
+                            className="bi bi-camera-fill text-3xl mx-4 cursor-pointer text-gray-700"
                             onClick={() => setCameraOpen(true)}
                         ></i>
                         </div>
