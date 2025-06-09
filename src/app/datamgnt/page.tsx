@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react'
 import DetailModal from 'src/components/detail-modal'
 import { CMSConfig } from 'src/cmsConfig'
 import LoginGate from 'src/components/LoginGate'
+import AdminActions from 'src/components/AdminActions'
 
 type ModelName = keyof typeof CMSConfig
 type Entry = Record<string, any>
@@ -282,6 +283,8 @@ export default function CMSPage() {
             </form>
           </div>
         </div>
+
+        <AdminActions />
 
         {/* Detail Modal */}
         {selectedEntry && (
