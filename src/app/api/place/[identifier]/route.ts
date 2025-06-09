@@ -1,9 +1,9 @@
 // app/api/place/[identifier]/route.ts
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { identifier: string } }
 ) {
   const { identifier } = params
@@ -31,7 +31,7 @@ export async function GET(
 }
 
 export async function PUT(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { identifier: string } }
 ) {
   const { identifier } = params
@@ -74,7 +74,7 @@ export async function PUT(
 }
 
 export async function DELETE(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { identifier: string } }
 ) {
   const { identifier } = params

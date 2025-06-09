@@ -1,12 +1,12 @@
 // app/api/cheapie/[id]/route.ts
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { id: string } }
 ) {
-  const { id } = params
+  const id  = params.id
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(
@@ -38,10 +38,10 @@ export async function GET(
 }
 
 export async function PUT(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { id: string } }
 ) {
-  const { id } = params
+  const id = params.id
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(
@@ -115,10 +115,10 @@ export async function PUT(
 }
 
 export async function DELETE(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { id: string } }
 ) {
-  const { id } = params
+  const id = params.id
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(
