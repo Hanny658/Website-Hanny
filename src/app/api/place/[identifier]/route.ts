@@ -1,12 +1,12 @@
 // app/api/place/[identifier]/route.ts
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(
-  request: Request,
-  { params }: { params: { identifier: string } }
+  request: NextRequest,
+  { params }: {params: Promise<{ identifier: string }>}
 ) {
-  const { identifier } = params
+  const { identifier } = await params
 
   try {
     const place = await prisma.place.findUnique({
@@ -31,10 +31,10 @@ export async function GET(
 }
 
 export async function PUT(
-  request: Request,
-  { params }: { params: { identifier: string } }
+  request: NextRequest,
+  { params }: {params: Promise<{ identifier: string }>}
 ) {
-  const { identifier } = params
+  const { identifier } = await params
 
   try {
     const body = await request.json()
@@ -74,10 +74,10 @@ export async function PUT(
 }
 
 export async function DELETE(
-  request: Request,
-  { params }: { params: { identifier: string } }
+  request: NextRequest,
+  { params }: {params: Promise<{ identifier: string }>}
 ) {
-  const { identifier } = params
+  const { identifier } = await params
 
   try {
     // First delete all cheapie in the Place
