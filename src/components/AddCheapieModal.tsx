@@ -2,6 +2,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import PhotoCapture from './PhotoCapture'
 
 interface AddCheapieModalProps {
     placeId: string
@@ -39,6 +40,7 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
     const [imageUrl, setImageUrl] = useState('')
     const [stock, setStock] = useState<Stock>('low')
     const [loading, setLoading] = useState(false)
+    const [isCameraOpen, setCameraOpen] = useState(false)
 
     // upload image to /api/upload and capture URL
     const handleImageChange = async (file: File) => {
@@ -91,7 +93,12 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
 
     return (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-40">
-            <div className="bg-white w-1/3 p-6 rounded-lg shadow-lg max-h-[80vh] overflow-auto">
+            {/* className="bg-white w-1/3 p-6 rounded-lg shadow-lg max-h-[80vh] overflow-auto" */}
+            <div className="
+            w-full max-h-[60vh] p-4 bg-white rounded-t-lg overflow-auto
+            sm:rounded-lg sm:w-1/3 sm:max-h-[80vh]
+            transition-transform duration-300
+            ">
                 <h3 className="text-xl font-semibold mb-4">Add New Snack</h3>
                 <div className="space-y-4">
                     <div>
@@ -136,15 +143,39 @@ export default function AddCheapieModal({ placeId, onClose, onCreated }: AddChea
                     </div>
                     <div>
                         <label className="block mb-1 font-medium">Image</label>
+                        <div className="flex items-center space-x-2">
                         <input
                             type="file"
                             accept="image/*"
-                            className='bg-orange-200'
+                            className="flex-1"
                             onChange={(e) => {
-                                const file = e.target.files?.[0]
-                                if (file) handleImageChange(file)
+                            const file = e.target.files?.[0]
+                            if (file) handleImageChange(file)
                             }}
                         />
+                        <i
+                            className="bi bi-camera-fill text-2xl cursor-pointer text-gray-700"
+                            onClick={() => setCameraOpen(true)}
+                        ></i>
+                        </div>
+                        {imageUrl && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                            src={imageUrl}
+                            alt="preview"
+                            className="mt-2 w-24 h-24 object-cover rounded"
+                        />
+                        )}
+                        {isCameraOpen && (
+                        <PhotoCapture
+                            size={300}
+                            onCancel={() => setCameraOpen(false)}
+                            onCapture={(file) => {
+                            setCameraOpen(false)
+                            handleImageChange(file)
+                            }}
+                        />
+                        )}
                     </div>
                     <div>
                         <label className="block mb-1 font-medium">Stock Level</label>

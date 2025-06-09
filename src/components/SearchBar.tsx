@@ -86,7 +86,16 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
   )
 
   return (
-    <div className="absolute top-20 right-4 w-1/4 z-20">
+    // className="absolute top-20 right-4 w-1/4 z-20"
+    <div className={`
+      fixed
+      left-1/2 transform -translate-x-1/2
+      bottom-12
+      w-11/12
+      z-20
+      sm:absolute sm:top-20 sm:right-4 sm:left-auto sm:translate-x-0 sm:transform-none sm:bottom-auto sm:w-1/4
+      transition-all duration-300
+    `}>
       {/* Search input */}
       <input
         ref={inputRef}
@@ -102,7 +111,12 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
       {isOpen && (
         <div
           ref={dropdownRef}
-          className="mt-1 max-h-64 overflow-auto bg-white/50 backdrop-blur-md rounded-lg shadow-lg"
+          // className="mt-1 max-h-64 overflow-auto bg-white/50 backdrop-blur-md rounded-lg shadow-lg"
+          className="
+          absolute bottom-full left-0 w-full mb-1
+          sm:static sm:mt-1 sm:mb-0
+          max-h-64 overflow-auto bg-white/45 backdrop-blur-md rounded-lg shadow-lg
+        "
         >
           {filtered.length === 0 ? (
             <div className="p-4 text-gray-500">No results</div>

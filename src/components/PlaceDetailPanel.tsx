@@ -93,22 +93,34 @@ export default function PlaceDetailPanel({
     }, [placeId])
 
     return (
-        <div className="fixed top-32 right-4 w-1/4 max-h-[70vh] bg-white rounded-lg shadow-lg overflow-hidden flex flex-col z-30">
+        // className="fixed top-32 right-4 w-1/4 max-h-[70vh] bg-white rounded-lg shadow-lg overflow-hidden flex flex-col z-30"
+        <div  className="
+        fixed z-30
+        inset-x-0 bottom-0  
+        w-full max-h-[60vh] overflow-y-auto
+        bg-white rounded-t-lg shadow-xl
+
+        transform translate-y-0
+        transition-transform duration-300 ease-out
+
+        sm:inset-auto sm:top-32 sm:right-4 sm:bottom-auto
+        sm:translate-x-0 sm:w-1/4 sm:max-h-[60vh] sm:rounded-lg
+        ">
             {/* Header with title and close button */}
-            <div className="flex justify-between items-center px-4 py-2 border-b">
+            <div className="sticky top-0 bg-white z-10 flex justify-between items-center px-4 py-2 border-b">
                 <h2 className="text-xl font-semibold">{placeName}</h2>
                 <button
                     onClick={onClose}
                     className="text-gray-500 hover:text-gray-700"
                 >
-                    ×
+                    <i className="bi bi-x-lg"></i>
                 </button>
             </div>
 
             {/* Cheapie list */}
-            <div className="flex-1 overflow-auto px-4 py-2 space-y-4">
+            <div className="flex-1 overflow-auto px-3 py-2 space-y-3">
                 {cheapies.map((c) => (
-                    <div key={c.id} className="flex flex-col bg-gray-50 rounded-lg p-3">
+                    <div key={c.id} className="flex flex-col bg-blue-50 rounded-lg p-2">
                         <div className="flex">
                             <Image
                                 width={120}
@@ -149,13 +161,14 @@ export default function PlaceDetailPanel({
             </div>
 
             {/* Add button */}
-            <div className="px-1 py-1 border-t">
+            <div className="px-1 py-2 md:py-1 border-t">
                 <button
                     onClick={onAdd}
-                    className="w-full bg-orange-500 text-white py-1 rounded-lg hover:bg-orange-600 transition"
+                    className="w-full bg-orange-500 text-white py-2 md:py-1 rounded-lg hover:bg-orange-600 transition"
                 >
                     Add +
                 </button>
+                <br className='md:hidden' />
             </div>
         </div>
     )
