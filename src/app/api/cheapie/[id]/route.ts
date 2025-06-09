@@ -2,15 +2,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
-interface Context {
-  params: { id: string }
-}
-
 export async function GET(
   request: NextRequest,
-  context: Context
+  { params }: { params: { id: string } }
 ) {
-  const { id } = await context.params
+  const { id } = params
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(
@@ -43,9 +39,9 @@ export async function GET(
 
 export async function PUT(
   request: NextRequest,
-  context: Context
+  { params }: { params: { id: string } }
 ) {
-  const { id } = await context.params
+  const { id } = params
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(
@@ -120,9 +116,9 @@ export async function PUT(
 
 export async function DELETE(
   request: NextRequest,
-  context: Context
+  { params }: { params: { id: string } }
 ) {
-  const { id } = await context.params
+  const { id } = params
   const cheapieId = parseInt(id, 10)
   if (isNaN(cheapieId)) {
     return NextResponse.json(

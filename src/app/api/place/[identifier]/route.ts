@@ -2,15 +2,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
-interface Context {
-  params: { identifier: string }
-}
-
 export async function GET(
   request: NextRequest,
-  context: Context
+  { params }: { params: { identifier: string } }
 ) {
-  const { identifier } = await context.params
+  const { identifier } = params
 
   try {
     const place = await prisma.place.findUnique({
@@ -36,9 +32,9 @@ export async function GET(
 
 export async function PUT(
   request: NextRequest,
-  context: Context
+  { params }: { params: { identifier: string } }
 ) {
-  const { identifier } = await context.params
+  const { identifier } = params
 
   try {
     const body = await request.json()
@@ -79,9 +75,9 @@ export async function PUT(
 
 export async function DELETE(
   request: NextRequest,
-  context: Context
+  { params }: { params: { identifier: string } }
 ) {
-  const { identifier } = await context.params
+  const { identifier } = params
 
   try {
     // First delete all cheapie in the Place

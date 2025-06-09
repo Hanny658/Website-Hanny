@@ -284,6 +284,7 @@ export default function CMSPage() {
           </div>
         </div>
 
+        <br />
         <AdminActions />
 
         {/* Detail Modal */}
