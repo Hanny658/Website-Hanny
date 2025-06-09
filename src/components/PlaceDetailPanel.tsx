@@ -108,7 +108,7 @@ export default function PlaceDetailPanel({
         ">
             {/* Header with title and close button */}
             <div className="sticky top-0 bg-white z-10 flex justify-between items-center px-4 py-2 border-b">
-                <h2 className="text-xl font-semibold">{placeName}</h2>
+                <h2 className="text-xl text-black font-semibold">{placeName}</h2>
                 <button
                     onClick={onClose}
                     className="text-gray-500 hover:text-gray-700"
@@ -130,7 +130,7 @@ export default function PlaceDetailPanel({
                                 className="w-16 h-16 object-cover rounded mr-4"
                             />
                             <div className="flex-1">
-                                <div className="text-lg font-medium">{c.name}</div>
+                                <div className="text-lg text-blue-900 font-medium">{c.name}</div>
                                 <div className="text-gray-600">
                                     {c.quantity!==1 && `${c.quantity} for`} ${c.price.toFixed(2)}
                                 </div>

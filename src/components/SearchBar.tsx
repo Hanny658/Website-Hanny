@@ -101,7 +101,9 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
         ref={inputRef}
         type="text"
         placeholder="Search place or snacks..."
-        className="w-full px-4 py-2 rounded-lg border bg-amber-50/85 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="w-full px-4 py-2 rounded-lg border 
+        placeholder-gray-500 text-gray-900 bg-white/50 backdrop-blur-md backdrop-brightness-150 border-gray-300 
+        focus:outline-none focus:ring-2 focus:ring-blue-300"
         value={query}
         onFocus={() => setIsOpen(true)}
         onChange={(e) => setQuery(e.target.value)}
@@ -115,7 +117,7 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
           className="
           absolute bottom-full left-0 w-full mb-1
           sm:static sm:mt-1 sm:mb-0
-          max-h-64 overflow-auto bg-white/45 backdrop-blur-md rounded-lg shadow-lg
+          max-h-64 overflow-auto bg-white/50 backdrop-blur-md backdrop-brightness-150 rounded-lg shadow-lg
         "
         >
           {filtered.length === 0 ? (
@@ -126,7 +128,7 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
                 return (
                   <div
                     key={`place-${item.identifier}`}
-                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-gray-900"
                     onClick={() => {
                       onSelectPlace(item.identifier)
                       setIsOpen(false)
@@ -140,7 +142,7 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
                 return (
                   <div
                     key={`cheapie-${item.id}`}
-                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex flex-col"
+                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex flex-col text-gray-900"
                     onClick={() => {
                       onSelectPlace(item.store)
                       setIsOpen(false)
