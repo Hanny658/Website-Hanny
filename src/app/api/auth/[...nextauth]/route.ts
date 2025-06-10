@@ -6,7 +6,9 @@ import { compare, hash } from "bcryptjs";
 
 export const authOptions: AuthOptions = {
     session: {
-        strategy: "jwt",        // 使用 JWT 而非数据库 session
+        strategy: "jwt",
+        maxAge: 60 * 60 * 24 * 14,      // fortnight expiry
+        updateAge: 60 * 60 * 24,        // daily refresh
     },
     secret: process.env.NEXTAUTH_SECRET,
     providers: [
@@ -16,39 +18,35 @@ export const authOptions: AuthOptions = {
                 mode: { label: "Mode", type: "text" },       // "login" or "register"
                 email: { label: "Email", type: "email" },
                 password: { label: "Password", type: "password" },
-                username: { label: "Username", type: "text" },// 仅注册时使用
+                username: { label: "Username", type: "text" },// register only
             },
             async authorize(credentials) {
                 if (!credentials) return null;
                 const { mode, email, password, username } = credentials;
 
-                // —— 注册流程 ——
+                // Register
                 if (mode === "register") {
-                    // 检查邮箱是否已被注册
                     const existing = await prisma.user.findUnique({ where: { email } });
                     if (existing) {
-                        throw new Error("Email 已被使用");
+                        throw new Error("Email is already in use. Try login.");
                     }
-                    // 密码哈希
                     const hashed = await hash(password, 12);
-                    // 创建用户
+                    // create with PRISMA
                     const user = await prisma.user.create({
                         data: { email, password: hashed, name: username },
                     });
                     return { id: user.id, email: user.email, name: user.name };
                 }
 
-                // —— 登录流程 ——
+                // Login
                 if (mode === "login") {
-                    // 查找用户
                     const user = await prisma.user.findUnique({ where: { email } });
                     if (!user) {
-                        throw new Error("用户不存在");
+                        throw new Error("Hey! You are not registed yet!");
                     }
-                    // 验证密码
                     const isValid = await compare(password, user.password);
                     if (!isValid) {
-                        throw new Error("密码错误");
+                        throw new Error("Come'on! You can remember your password!");
                     }
                     return { id: user.id, email: user.email, name: user.name };
                 }
@@ -58,14 +56,14 @@ export const authOptions: AuthOptions = {
         }),
     ],
     callbacks: {
-        // 签发 JWT 时，将 user.id 注入 token
+        // Inject user id into jwt
         async jwt({ token, user }) {
             if (user) {
                 token.id = user.id;
             }
             return token;
         },
-        // 将 token 中的 id 注入 session
+        // then into session
         async session({ session, token }) {
             if (token) {
                 session.user = {
@@ -77,7 +75,7 @@ export const authOptions: AuthOptions = {
         },
     },
     pages: {
-        // 可以自定义路由，如： signIn: "/auth/custom-signin"
+        // future custom route goes here, e.g. signIn: "/auth/custom-signin"
     },
 };
 
