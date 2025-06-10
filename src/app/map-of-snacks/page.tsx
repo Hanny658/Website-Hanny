@@ -7,6 +7,7 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import SearchBar from 'src/components/SearchBar'
 import PlaceDetailPanel from 'src/components/PlaceDetailPanel'
 import AddCheapieModal from 'src/components/AddCheapieModal'
+import RegLogModal from 'src/components/RegLog'
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || ''
 
@@ -38,6 +39,10 @@ export default function MapOfSnacksPage() {
 
   return (
     <div className="w-full h-screen relative">
+      {/*  Login Btn positioned top-left */}
+      <div className='fixed left-12 top-20 z-50'>
+        <RegLogModal />
+      </div>
       {/* SearchBar positioned top-right */}
       <SearchBar onSelectPlace={(id) => setSelectedPlaceId(id)} />
       <MapContainer
@@ -45,7 +50,7 @@ export default function MapOfSnacksPage() {
         selectedPlaceId={selectedPlaceId}
         onSelectPlace={(id) => setSelectedPlaceId(id)}
       />
-      {/* 2. Conditionally render the detail panel */}
+      {/*  Conditionally render the detail panel */}
       {selectedPlaceId && (
         <PlaceDetailPanel
           placeName={places.find((p) => p.identifier === selectedPlaceId)?.name ?? ''}

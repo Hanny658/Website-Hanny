@@ -17,11 +17,19 @@ export type FieldDef = {
     enumOptions?: string[]
 }
 
+
 /**
  * CMSConfig：Stres all models that supported by CMS,
  * Make sure the key shall be first line of each model
  */
 export const CMSConfig: Record<string, FieldDef[]> = {
+    User: [
+        { name: 'id', type: 'string', label: 'Id', isReadOnly: true },
+        { name: 'name', type: 'string', label: 'User Name' },
+        { name: 'email', type: 'string', label: 'Email' },
+        { name: 'password', type: 'string', label: 'Password' },
+        { name: 'createdAt', type: 'datetime', label: 'Created At', isReadOnly: true },
+    ],
     Place: [
         { name: 'identifier', type: 'string', label: 'Identifier' },
         { name: 'name', type: 'string', label: 'Name' },
@@ -29,7 +37,7 @@ export const CMSConfig: Record<string, FieldDef[]> = {
         { name: 'lat', type: 'float', label: 'Latitude' },
     ],
     Cheapie: [
-        { name: 'id', type: 'int', label: 'ID',  isReadOnly: true },
+        { name: 'id', type: 'int', label: 'ID', isReadOnly: true },
         { name: 'name', type: 'string', label: 'Name' },
         { name: 'store', type: 'string', label: 'Store Identifier' },
         { name: 'quantity', type: 'int', label: 'Quantity' },

@@ -23,6 +23,14 @@ datasource db {
 
 // ==== Following are the data types, note that each one should have a "name" field for displaying ====
 
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique            // make sure email can be used for login
+  name  String
+  password  String
+  createdAt DateTime @default(now())
+}
+
 model Place {
   identifier String   @id
   name       String

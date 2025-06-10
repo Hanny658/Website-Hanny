@@ -41,7 +41,7 @@ export default function DetailModal({
     const handleDelete = async () => {
         const pk = fields[0].name
         const idOrKey = entry[pk]
-        if (!confirm('确认要删除此条记录吗？')) return
+        if (!confirm('Are you sure to delete this entry?')) return
 
         const endpoint =
             typeof idOrKey === 'number'
