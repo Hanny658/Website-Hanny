@@ -71,11 +71,11 @@ export default function RegLogModal() {
 
             {/* Modal backdrop & container */}
             <div
-                className={`fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out ${isOpen && !session ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+                className={`fixed inset-0 bg-black/50 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out ${isOpen && !session ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                     }`}
             >
                 <div
-                    className={`bg-white w-full max-w-md p-6 rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"
+                    className={`bg-white text-black w-full max-w-md mx-2 p-6 rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out ${isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"
                         } relative`}
                 >
                     {/* Close Icon */}
@@ -129,22 +129,25 @@ export default function RegLogModal() {
 
                         <button
                             type="submit"
-                            className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
+                            className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition"
                         >
                             {mode === "login" ? "Login" : "Register"}
                         </button>
                     </form>
 
                     <p className="mt-4 text-center text-sm">
-                        {mode === "login"
-                            ? "Don't have an account?"
-                            : "Already have an account?"}{" "}
-                        <button
-                            onClick={() => setMode(mode === "login" ? "register" : "login")}
-                            className="text-blue-600 hover:underline"
-                        >
-                            {mode === "login" ? "Register" : "Login"}
-                        </button>
+                        <b className="text-gray-500">Register will be available after Close Beta</b>
+                        <div className="hidden">
+                            {mode === "login"
+                                ? "Don't have an account?"
+                                : "Already have an account?"}{" "}
+                            <button
+                                onClick={() => setMode(mode === "login" ? "register" : "login")}
+                                className="text-blue-600 hover:underline"
+                            >
+                                {mode === "login" ? "Register" : "Login"}
+                            </button>
+                        </div>
                     </p>
                 </div>
             </div>

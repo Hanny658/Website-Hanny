@@ -40,7 +40,7 @@ export default function MapOfSnacksPage() {
   return (
     <div className="w-full h-screen relative">
       {/*  Login Btn positioned top-left */}
-      <div className='fixed left-12 top-20 z-50'>
+      <div className='fixed left-4 md:left-12 top-20 z-50'>
         <RegLogModal />
       </div>
       {/* SearchBar positioned top-right */}
