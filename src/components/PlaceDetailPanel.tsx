@@ -3,6 +3,7 @@
 
 import React, { useEffect, useState } from 'react'
 import MarkGoneButton from './MarkGoneButton'
+import { useSession } from "next-auth/react";
 
 interface Cheapie {
     id: number
@@ -77,6 +78,7 @@ export default function PlaceDetailPanel({
     onAdd,
 }: PlaceDetailPanelProps) {
     const [cheapies, setCheapies] = useState<Cheapie[]>([])
+    const { data: session } = useSession();
 
     // fetch cheapies for this place
     useEffect(() => {
@@ -138,16 +140,18 @@ export default function PlaceDetailPanel({
                                 </div>
                             </div>
                         </div>
-                        <MarkGoneButton
-                            cheapieId={c.id}
-                            currentStock={c.stock}
-                            onMarkedGone={() => {
-                                // simply re-fetch the list for this place
-                                fetch(`/api/cheapie?store=${placeId}`)
-                                .then((r) => r.json())
-                                .then(setCheapies)
-                            }}
-                        />
+                        {session &&
+                            <MarkGoneButton
+                                cheapieId={c.id}
+                                currentStock={c.stock}
+                                onMarkedGone={() => {
+                                    // simply re-fetch the list for this place
+                                    fetch(`/api/cheapie?store=${placeId}`)
+                                    .then((r) => r.json())
+                                    .then(setCheapies)
+                                }}
+                            />
+                        }
                         {/* New row: time ago + stock badge */}
                         <div className="mt-2 flex justify-between items-center">
                             <span className="text-gray-500 text-xs">
@@ -171,12 +175,20 @@ export default function PlaceDetailPanel({
 
             {/* Add button */}
             <div className="px-1 py-2 md:py-1 border-t">
-                <button
-                    onClick={onAdd}
-                    className="w-full bg-orange-500 text-white py-2 md:py-1 rounded-lg hover:bg-orange-600 transition"
-                >
-                    Add +
-                </button>
+                {session ?
+                    <button
+                        onClick={onAdd}
+                        className="w-full bg-orange-500 text-white py-2 md:py-1 rounded-lg hover:bg-orange-600 transition"
+                    >
+                        Add +
+                    </button>
+                :
+                    <button
+                        className="w-full bg-orange-800 text-white py-2 md:py-1 rounded-lg hover:bg-orange-900 transition"
+                    >
+                        Please Log in to add~
+                    </button>
+                }
                 <br className='md:hidden' />
             </div>
         </div>
