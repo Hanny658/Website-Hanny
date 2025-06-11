@@ -1,22 +1,45 @@
 import { FC } from 'react'
 import Link from 'next/link'
+import MailtoLink from './mail-to-link'
+import AddContactButton from './add-contact'
 
 const Footer: FC = () => {
   return (
     <footer className="bg-orange-700 text-white">
       <div className="max-w-7xl mx-auto px-4 py-8 md:flex md:justify-between">
-        
+
         <div className="space-y-2">
           <div className="flex items-center">
             <i className="bi bi-telephone mr-2" aria-hidden="true" />
-            <span>+61 432269803</span>
+            <span>
+              +61 432269803
+              <AddContactButton
+                fullName="Hanny Zhang"
+                phone="+61432269803"
+                email="hannyanhai@gmail.com"
+                fileName="Hanny"
+                className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
+              >
+                <i className="bi bi-journal-plus"></i>
+              </AddContactButton>
+            </span>
           </div>
           <div className="flex items-center">
             <i className="bi bi-envelope mr-2" aria-hidden="true" />
-            <span>hannyanhai@gmail.com</span>
+            <span>
+              hannyanhai@gmail.com
+              <MailtoLink
+                email="hannyanhai@gmail.com"
+                subject="G'day, Hanny!"
+                body="I saw your personal website and have a interest to have a chat with you."
+                className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
+              >
+                <i className="bi bi-envelope-plus"></i>
+              </MailtoLink>
+            </span>
           </div>
         </div>
-        
+
         {/* Right side: social links */}
         <div className="flex items-center space-x-6 mt-4 md:mt-0">
           <Link href="https://github.com/Hanny658" target="_blank" passHref>
