@@ -101,8 +101,8 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
         ref={inputRef}
         type="text"
         placeholder="Search place or snacks..."
-        className="w-full px-4 py-2 rounded-lg border 
-        placeholder-gray-500 text-gray-900 bg-white/50 backdrop-blur-md backdrop-brightness-150 border-gray-300 
+        className="w-full px-4 py-2 rounded-lg border placeholder-gray-500 text-gray-900 
+        bg-white/50 hover:bg-white/90 active:bg-white/90 backdrop-blur-md backdrop-brightness-150 border-gray-300 
         focus:outline-none focus:ring-2 focus:ring-blue-300"
         value={query}
         onFocus={() => setIsOpen(true)}
@@ -117,7 +117,7 @@ export default function SearchBar({ onSelectPlace }: SearchBarProps) {
           className="
           absolute bottom-full left-0 w-full mb-1
           sm:static sm:mt-1 sm:mb-0
-          max-h-64 overflow-auto bg-white/50 backdrop-blur-md backdrop-brightness-150 rounded-lg shadow-lg
+          max-h-64 overflow-auto bg-white/80 backdrop-blur-md backdrop-brightness-150 rounded-lg shadow-lg
         "
         >
           {filtered.length === 0 ? (

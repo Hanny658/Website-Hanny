@@ -171,7 +171,7 @@ export default function CMSPage() {
           </div>
 
           {/* Add a new one - form */}
-          <div className="bg-white rounded-lg shadow p-4">
+          <div className="bg-white text-black rounded-lg shadow p-4">
             <h2 className="text-xl font-semibold mb-4">
               Add {selectedModel}
             </h2>

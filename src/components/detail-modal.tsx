@@ -123,7 +123,7 @@ export default function DetailModal({
 
     return (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-            <div className="bg-white w-11/12 max-w-3xl rounded-lg shadow-lg p-6 relative">
+            <div className="bg-white text-black w-11/12 max-w-3xl rounded-lg shadow-lg p-6 relative">
                 {/* Closing cross */}
                 <button
                     onClick={() => {
