@@ -2,20 +2,12 @@
 'use client'
 
 import React, { useEffect, useRef, useState } from 'react'
-import type { Metadata } from "next";
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import SearchBar from 'src/components/SearchBar'
 import PlaceDetailPanel from 'src/components/PlaceDetailPanel'
 import AddCheapieModal from 'src/components/AddCheapieModal'
 import RegLogModal from 'src/components/RegLog'
-
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || ''
-
-export const metadata: Metadata = {
-  title: "Map of Snacks",
-  description: "Hanny's map of snacks in dev",
-};
 
 interface Place {
   identifier: string
