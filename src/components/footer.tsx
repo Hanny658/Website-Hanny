@@ -60,6 +60,15 @@ const Footer: FC = () => {
               LinkedIn
             </div>
           </Link>
+          <Link href="https://docs.google.com/document/d/1y41EdnxRE4oZDEUNZ3Iazqbi3qGr1hoU/edit?usp=sharing&ouid=104618212436179341950&rtpof=true&sd=true" target="_blank" passHref>
+            <div
+              className="flex items-center hover:text-gray-200 transition"
+              rel="noopener noreferrer"
+            >
+              <i className="bi bi-file-text-fill mr-2 text-2xl text-gray-400" aria-hidden="true" />
+              Résumé
+            </div>
+          </Link>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ import BitRainColumn from 'src/components/bit-rain-col'
 export default function Home() {
   const [isBouncing, setIsBouncing] = useState(false)
 
-   const handleClick = () => {
+  const handleClick = () => {
     if (isBouncing) return
     setIsBouncing(true);
   }
@@ -67,7 +67,7 @@ export default function Home() {
         {/* Greeting at top-left of this centered block */}
         <h1 className="self-start text-6xl sm:text-6xl md:text-8xl lg:text-9xl
                 md:px-20 lg:px-32 font-bold text-white mix-blend-difference
-                 relative leading-tight">
+                relative leading-tight">
           G&apos;day Mate!
         </h1>
         <br />
