@@ -9,6 +9,8 @@ import PlaceDetailPanel from 'src/components/PlaceDetailPanel'
 import AddCheapieModal from 'src/components/AddCheapieModal'
 import RegLogModal from 'src/components/RegLog'
 
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || ''
+
 interface Place {
   identifier: string
   name: string
