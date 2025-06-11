@@ -1,0 +1,40 @@
+{
+    "highlights": [
+        {
+            "time": "2019-08-17",
+            "title": "The Journey Starts",
+            "description": "Come to Melbourne for high-level education in Trinity Collecge, as a turning point of my life, and the biggest decision I've ever made.",
+            "picture": "/highlights/start.jpg"
+        },
+        {
+            "time": "2021-02-15",
+            "title": "University of Melbourne",
+            "description": "Completed the course works at Trinity Collecge, and enough age, too. If I've been born few months earlier, probably I can get into Uni one sem earlier? But I do like the friends i met so nvmd hahaha.",
+            "picture": "/highlights/uni.jpg"
+        },
+        {
+            "time": "2023-12-11",
+            "title": "Graduation Ceremony",
+            "description": "Completed my study at the University of Melbourne, as a Student from Computing & Software Systems.",
+            "picture": "/highlights/grad.jpg"
+        },
+        {
+            "time": "2025-02-23",
+            "title": "Barista",
+            "description": "I love coffee, so I get my barista licence on that day. Now I'm a barista for myself XD.",
+            "picture": "/highlights/cafe.jpg"
+        },
+        {
+            "time": "2025-03-29",
+            "title": "Baptism",
+            "description": "Baptism in to Christ as a Seventh-Day Adventist at Gateway City Church. Praise the Lord for His help during my spiritual journey.",
+            "picture": "/highlights/baptism.jpg"
+        },
+        {
+            "time": "2025-06-11",
+            "title": "Completion of this Site",
+            "description": "Accomplishment of my personal website, including a snack map into a closed beta.",
+            "picture": "/highlights/site.jpg"
+        }
+    ]
+}

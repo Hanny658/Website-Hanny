@@ -1,35 +1,41 @@
-import Link from 'next/link'
-import 'bootstrap-icons/font/bootstrap-icons.css'
+// app/highlights/page.tsx
 
-export const metadata = {
-  title: 'Highlights – Under Construction',
-  description: 'This page is being built. Check back soon!',
-}
+import React from 'react'
+import Timeline, { Highlight } from 'src/components/timeline'
+import highlightsData from 'src/highlights.json'
 
-const HighlightsPage = () => {
+const HighlightPage: React.FC = () => {
+  const items: Highlight[] = highlightsData.highlights
+
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-50 px-4">
-      <div className="text-center space-y-6">
+    <main className="relative min-h-screen overflow-hidden">
+      <br /><br />
+      {/* Full-screen background image */}
+      <div
+        className="
+          absolute inset-0
+          bg-[url('/highlights/highlight_bg.jpg')]
+          bg-cover
+          bg-center
+          bg-no-repeat
+          bg-fixed
+          -z-10
+        "
+      />
 
-        <i className="bi bi-tools text-6xl text-yellow-500 animate-bounce" />
+      {/* Page content */}
+      <div className="relative z-10">
+        <header className="py-12 text-center text-white drop-shadow-lg">
+          <h1 className="text-4xl font-bold">My Highlighted Times</h1>
+          <p className="mt-2 text-lg">
+            A journey from 2019 through today.
+          </p>
+        </header>
 
-        <h1 className="text-5xl font-extrabold text-gray-800">
-          Highlights&apos; Page Under Construction
-        </h1>
-
-        <p className="text-xl text-gray-600 max-w-md mx-auto">
-          Hanny is working hard to bring you something amazing. Come back soon!
-        </p>
-
-        <Link href="/">
-          <div className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition">
-            <i className="bi bi-house-door-fill mr-2" aria-hidden="true" />
-            Back to Home
-          </div>
-        </Link>
+        <Timeline items={items} />
       </div>
     </main>
   )
 }
 
-export default HighlightsPage
+export default HighlightPage
