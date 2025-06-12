@@ -1,12 +1,20 @@
 'use client'
 
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import Image from 'next/image'
 import BitRainColumn from 'src/components/bit-rain-col'
-// import Link from 'next/link'
+
+interface ColumnStyle {
+  left: string
+  duration: number
+  delay: number
+  fontSize: number
+  blur: number
+}
 
 export default function Home() {
   const [isBouncing, setIsBouncing] = useState(false)
+  const [columns, setColumns] = useState<ColumnStyle[] | null>(null)
 
   const handleClick = () => {
     if (isBouncing) return
@@ -14,15 +22,16 @@ export default function Home() {
   }
 
   // Paras for the bitrain
-  const [columns] = useState(
-    Array.from({ length: 16 }, () => ({
+  useEffect(() => {
+    const generated = Array.from({ length: 16 }, () => ({
       left: `${Math.random() * 100}vw`,
       duration: 5 + Math.random() * 5,
       delay: Math.random() * 10,
-      fontSize: 12 + Math.random() * 16,    // between 12px and 28px
-      blur: Math.random() * 2               // between 0px and 2px blur
+      fontSize: 12 + Math.random() * 16,
+      blur: Math.random() * 2,
     }))
-  )
+    setColumns(generated)
+  }, [])
 
   // Reset bounce after animation completes
   const handleAnimationEnd = useCallback(() => {
@@ -32,7 +41,8 @@ export default function Home() {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-gray-800 to-black overflow-hidden">
       {/* Bit rain background */}
-      {columns.map((col, idx) => (
+      {columns && 
+      columns.map((col, idx) => (
         <BitRainColumn
           key={idx}
           left={col.left}

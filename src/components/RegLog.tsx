@@ -137,17 +137,15 @@ export default function RegLogModal() {
 
                     <p className="mt-4 text-center text-sm">
                         <b className="text-gray-500">Register will be available after Close Beta</b>
-                        <div className="hidden">
-                            {mode === "login"
-                                ? "Don't have an account?"
-                                : "Already have an account?"}{" "}
-                            <button
-                                onClick={() => setMode(mode === "login" ? "register" : "login")}
-                                className="text-blue-600 hover:underline"
-                            >
-                                {mode === "login" ? "Register" : "Login"}
-                            </button>
-                        </div>
+                        {/* {mode === "login"
+                            ? "Don't have an account?"
+                            : "Already have an account?"}{" "}
+                        <button
+                            onClick={() => setMode(mode === "login" ? "register" : "login")}
+                            className="text-blue-600 hover:underline"
+                        >
+                            {mode === "login" ? "Register" : "Login"}
+                        </button> */}
                     </p>
                 </div>
             </div>
