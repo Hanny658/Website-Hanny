@@ -11,18 +11,18 @@ const Footer: FC = () => {
         <div className="space-y-2">
           <div className="flex items-center">
             <i className="bi bi-telephone mr-2" aria-hidden="true" />
-            <span>
+            <a href="tel:+61 432269803">
               +61 432269803
-              <AddContactButton
-                fullName="Hanny Zhang"
-                phone="+61432269803"
-                email="hannyanhai@gmail.com"
-                fileName="Hanny"
-                className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
-              >
-                <i className="bi bi-journal-plus"></i>
-              </AddContactButton>
-            </span>
+            </a>
+            <AddContactButton
+              fullName="Hanny Zhang"
+              phone="+61432269803"
+              email="hannyanhai@gmail.com"
+              fileName="Hanny"
+              className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
+            >
+              <i className="bi bi-journal-plus"></i>
+            </AddContactButton>
           </div>
           <div className="flex items-center">
             <i className="bi bi-envelope mr-2" aria-hidden="true" />
