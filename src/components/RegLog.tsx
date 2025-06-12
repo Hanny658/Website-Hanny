@@ -7,7 +7,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 export default function RegLogModal() {
     const { data: session } = useSession();
     const [isOpen, setIsOpen] = useState(false);
-    const [mode, setMode] = useState<"login" | "register">("login");
+    const [mode, /*setMode*/] = useState<"login" | "register">("login");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [username, setUsername] = useState("");
