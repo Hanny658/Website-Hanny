@@ -5,6 +5,7 @@ import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Footer from "src/components/footer";
 import { Providers } from "./providers";
+import { ErrorBoundary } from "./error-bundary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,16 +28,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Providers>
-          <Navbar />
-          {children}
-          <Footer />
-        </Providers>
-      </body>
-    </html>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <ErrorBoundary>
+            <Providers>
+              <Navbar />
+              {children}
+              <Footer />
+            </Providers>
+          </ErrorBoundary>
+        </body>
+      </html>
   );
 }
