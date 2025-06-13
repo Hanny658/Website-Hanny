@@ -41,7 +41,7 @@ const Navbar: FC = () => {
                                 Highlights
                             </div>
                         </Link>
-                        <Link href="/map-of-snacks" passHref>
+                        <Link href="https://snackmap.org" target='_blank'>
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-map me-1" aria-hidden="true" />
                                 Snack Map

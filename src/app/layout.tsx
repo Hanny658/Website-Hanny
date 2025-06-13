@@ -4,7 +4,6 @@ import Navbar from '../components/navbar'
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Footer from "src/components/footer";
-import { Providers } from "./providers";
 import { ErrorBoundary } from "./error-bundary";
 
 const geistSans = Geist({
@@ -33,11 +32,9 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <ErrorBoundary>
-            <Providers>
               <Navbar />
               {children}
               <Footer />
-            </Providers>
           </ErrorBoundary>
         </body>
       </html>
