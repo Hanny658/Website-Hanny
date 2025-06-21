@@ -1,0 +1,131 @@
+{
+    "title": "My God Is Real",
+    "number": 15,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   G",
+                    "lyrics": "There are some things"
+                },
+                {
+                    "chords": "  G7         C",
+                    "lyrics": "I may not know"
+                },
+                {
+                    "chords": "                 G                   D       G",
+                    "lyrics": "There are some places I can't go"
+                },
+                {
+                    "chords": "               G7                       C",
+                    "lyrics": "But I am sure of this one thing"
+                },
+                {
+                    "chords": "                   G",
+                    "lyrics": "My God is real"
+                },
+                {
+                    "chords": "                D7                    G7",
+                    "lyrics": "For I can feel Him deep within"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                    C                     G",
+                    "lyrics": "My God is real, real in my soul"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My God is real for He has"
+                },
+                {
+                    "chords": " Em                                 D7",
+                    "lyrics": "Washed and made me whole"
+                },
+                {
+                    "chords": "                     G   G7              C",
+                    "lyrics": "His love for me is like pure gold"
+                },
+                {
+                    "chords": "                  G                    D",
+                    "lyrics": "My God is real for I can feel"
+                },
+                {
+                    "chords": "           G",
+                    "lyrics": "Him in my soul"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Some folks may doubt,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Some folks may scorn,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "All gone astray and leave me alone"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But as for me, I'll take God's part"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For God is real"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "and I can feel Him in my heart"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I cannot tell just how you felt"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When Jesus took your sins away"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But since that day, yes"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Since that hour, God has been real"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For I can feel His holy power"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

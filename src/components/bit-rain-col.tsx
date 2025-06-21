@@ -46,6 +46,7 @@ const BitRainColumn: FC<BitRainColumnProps> = ({ left, duration, delay, fontSize
         text-green-400
         font-code
         leading-tight
+        opacity-50
       "
       style={{
         left,

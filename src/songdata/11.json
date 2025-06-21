@@ -1,0 +1,71 @@
+{
+    "title": "I Just Keep Trusting My Lord",
+    "number": 11,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "           F             F6   F",
+                    "lyrics": "I just keep trusting my Lord"
+                },
+                {
+                    "chords": "            C7",
+                    "lyrics": "As I walk along"
+                },
+                {
+                    "chords": "                   Gm                     C",
+                    "lyrics": "I just keep trusting my Lord"
+                },
+                {
+                    "chords": "                           F",
+                    "lyrics": "And He gives a song"
+                },
+                {
+                    "chords": "                                         F7",
+                    "lyrics": "Tho the storm clouds darken the sky"
+                },
+                {
+                    "chords": "                              Bb   Gm7",
+                    "lyrics": "O'er the heavenly trail"
+                },
+                {
+                    "chords": "                     C               C7",
+                    "lyrics": "I just keep trusting my Lord"
+                },
+                {
+                    "chords": "               F    Bb   F",
+                    "lyrics": "He will never fail*"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "                        Gm",
+                    "lyrics": "He's a faithful Friend,"
+                },
+                {
+                    "chords": "C7                    F",
+                    "lyrics": "Such a faithful Friend"
+                },
+                {
+                    "chords": "                         Gm   C7",
+                    "lyrics": "I can count on Him"
+                },
+                {
+                    "chords": "                     F    C",
+                    "lyrics": "To the very end"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,55 @@
+{
+    "title": "Over the Sea",
+    "number": 4,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G                    C",
+                    "lyrics": "Over the sea, over the sea,"
+                },
+                {
+                    "chords": "D                     G",
+                    "lyrics": "Jesus Savior pilot me."
+                },
+                {
+                    "chords": "                         C",
+                    "lyrics": "Over the sea, over the sea,"
+                },
+                {
+                    "chords": "D                         G",
+                    "lyrics": "Over the Jasper Sea."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Over and over,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Like a mighty sea."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Comes the love of Jesus,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Rolling over me."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

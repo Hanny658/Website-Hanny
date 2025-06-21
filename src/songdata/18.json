@@ -1,0 +1,72 @@
+{
+    "title": "The Trees of the Field",
+    "number": 18,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "Em",
+                    "lyrics": "You shall go out with joy"
+                },
+                {
+                    "chords": "                                          D",
+                    "lyrics": "And be led forth with peace"
+                },
+                {
+                    "chords": "        G",
+                    "lyrics": "The mountains and the hills"
+                },
+                {
+                    "chords": "        D                       B7",
+                    "lyrics": "Will break forth before you"
+                },
+                {
+                    "chords": "                   Em",
+                    "lyrics": "There'll be shouts of joy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And all the trees of the field"
+                },
+                {
+                    "chords": "       B7  B7/F# B7 B7/F#  Em",
+                    "lyrics": "Will clap, will clap their hands"
+                },
+                {
+                    "chords": "D                 G",
+                    "lyrics": "And all the trees of the field"
+                },
+                {
+                    "chords": "       D",
+                    "lyrics": "Will clap their hands"
+                },
+                {
+                    "chords": "       D",
+                    "lyrics": "The trees of the field"
+                },
+                {
+                    "chords": "       G",
+                    "lyrics": "Will clap their hands"
+                },
+                {
+                    "chords": " The trees of the field",
+                    "lyrics": ""
+                },
+                {
+                    "chords": "         D",
+                    "lyrics": "Will clap their hands"
+                },
+                {
+                    "chords": "          B7                       Em",
+                    "lyrics": "While you go out with joy"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

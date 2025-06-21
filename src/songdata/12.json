@@ -1,0 +1,67 @@
+{
+    "title": "He's Got the Whole World",
+    "number": 12,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      C",
+                    "lyrics": "He's got the whole world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In His hands"
+                },
+                {
+                    "chords": "                     G7",
+                    "lyrics": "He's got the whole wide world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In His hands"
+                },
+                {
+                    "chords": "                       C",
+                    "lyrics": "He's got the whole world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In His hands"
+                },
+                {
+                    "chords": "                     G7",
+                    "lyrics": "He's got the whole world"
+                },
+                {
+                    "chords": "           C",
+                    "lyrics": "In His hands"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He's got everybody..."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He's the tiny baby..."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He's got you & me..."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

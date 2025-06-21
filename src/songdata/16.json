@@ -1,0 +1,48 @@
+{
+    "title": "Rejoice in the Lord",
+    "number": 16,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   C",
+                    "lyrics": "Rejoice in the Lord always"
+                },
+                {
+                    "chords": "          G                C",
+                    "lyrics": "and again I say rejoice"
+                },
+                {
+                    "chords": "     C",
+                    "lyrics": "Rejoice in the Lord always"
+                },
+                {
+                    "chords": "         G               C",
+                    "lyrics": "and again I say rejoice"
+                },
+                {
+                    "chords": "   C",
+                    "lyrics": "Rejoice, rejoice"
+                },
+                {
+                    "chords": "      Dm     G        C",
+                    "lyrics": "and again I say rejoice"
+                },
+                {
+                    "chords": "     C",
+                    "lyrics": "Rejoice, rejoice"
+                },
+                {
+                    "chords": "      Dm     G       C",
+                    "lyrics": "and again I say rejoice"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

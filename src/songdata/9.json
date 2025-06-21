@@ -1,0 +1,67 @@
+{
+    "title": "I Will Sing of the Mercies",
+    "number": 9,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "        D                 G",
+                    "lyrics": "I will sing of the mercies"
+                },
+                {
+                    "chords": "          D",
+                    "lyrics": "of the Lord forever"
+                },
+                {
+                    "chords": "        A7              D    A",
+                    "lyrics": "I will sing, I will sing"
+                },
+                {
+                    "chords": "         D                G",
+                    "lyrics": "I will sing of the mercies"
+                },
+                {
+                    "chords": "           F#m Bm",
+                    "lyrics": "of the Lord forever"
+                },
+                {
+                    "chords": "        Em              A7",
+                    "lyrics": "I will sing of the mercies"
+                },
+                {
+                    "chords": "           D   D7",
+                    "lyrics": "of the Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "               G                             D        Bm",
+                    "lyrics": "With my mouth, will I make known"
+                },
+                {
+                    "chords": "         A7                      D",
+                    "lyrics": "Thy faithfulness, Thy faithfulness"
+                },
+                {
+                    "chords": "               G                             D",
+                    "lyrics": "With my mouth, will I make known"
+                },
+                {
+                    "chords": "               E7                                 A",
+                    "lyrics": "Thy faithfulness thru' all generations"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus"
+    ],
+    "link": ""
+}

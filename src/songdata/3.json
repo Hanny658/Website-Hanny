@@ -1,0 +1,60 @@
+{
+    "title": "From the Rising of the Sun",
+    "number": 3,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                        D",
+                    "lyrics": "From the rising of the sun"
+                },
+                {
+                    "chords": "              D",
+                    "lyrics": "To the going down of the same"
+                },
+                {
+                    "chords": "                     A7                  D",
+                    "lyrics": "The Lord's name is to be praised"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "Praise ye the Lord"
+                },
+                {
+                    "chords": "D                                                      F#",
+                    "lyrics": "Praise Him all ye servants of the Lord"
+                },
+                {
+                    "chords": "G               A                   D  D7",
+                    "lyrics": "Praise the name of the Lord"
+                },
+                {
+                    "chords": "                           G",
+                    "lyrics": "Blessed be the name of the Lord"
+                },
+                {
+                    "chords": "D                       F#",
+                    "lyrics": "From this time forth"
+                },
+                {
+                    "chords": "G      A          D",
+                    "lyrics": "And forever more"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,87 @@
+{
+    "title": "Do Lord",
+    "number": 13,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      G",
+                    "lyrics": "I've got a home in glory land"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That outshines the sun"
+                },
+                {
+                    "chords": "      C",
+                    "lyrics": "I've got a home in glory land"
+                },
+                {
+                    "chords": "                   G",
+                    "lyrics": "That outshines the sun"
+                },
+                {
+                    "chords": "      G",
+                    "lyrics": "I've got a home in gloryland"
+                },
+                {
+                    "chords": "                               Em",
+                    "lyrics": "That outshines the sun"
+                },
+                {
+                    "chords": " Am           D         G",
+                    "lyrics": "Way beyond the blue"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "Do, Lord O do, Lord O do remember me"
+                },
+                {
+                    "chords": "C                     G",
+                    "lyrics": "Do, Lord O do, Lord O do remember me"
+                },
+                {
+                    "chords": " G                                Em",
+                    "lyrics": "Do, Lord O do, Lord O do remember me"
+                },
+                {
+                    "chords": " G           D            G",
+                    "lyrics": "Way beyond the blue"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I took Jesus as my Savior"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Why don't you take Him too x3"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "While He's calling you"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

@@ -1,0 +1,121 @@
+{
+    "title": "Four Song Medley",
+    "number": 17,
+    "lyrics": [
+        {
+            "id": "part1",
+            "label": "Medley Part 1",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "I'm gonna sing, sing, sing."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm gonna shout, shout, shout."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm gonna sing, I'm gonna shout,"
+                },
+                {
+                    "chords": "             A",
+                    "lyrics": "Praise the Lord."
+                },
+                {
+                    "chords": "                   D                    D7",
+                    "lyrics": "When the gates are open wide,"
+                },
+                {
+                    "chords": "          G",
+                    "lyrics": "I'm gonna sit at Jesus' side."
+                },
+                {
+                    "chords": "                 D               A                 D",
+                    "lyrics": "I'm gonna sing, I'm gonna shout, praise the Lord"
+                }
+            ]
+        },
+        {
+            "id": "part2",
+            "label": "Medley Part 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Oh when the saints go marching in."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Oh when the saints go marching in,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Oh Lord I want to be in that"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "number, When the saints go"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "marching in."
+                }
+            ]
+        },
+        {
+            "id": "part3",
+            "label": "Medley Part 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Swing low, sweet chariot,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Comin’ for to carry me home,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Swing low, sweet chariot, Comin’"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "for to carry me home."
+                }
+            ]
+        },
+        {
+            "id": "part4",
+            "label": "Medley Part 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "This train is bound for glory, this train"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This train is bound for glory, this train"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This train is bound for glory, get on"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "board I’ll tell you the story"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This train is bound for glory, this train"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "part1",
+        "part2",
+        "part3",
+        "part4"
+    ],
+    "link": ""
+}

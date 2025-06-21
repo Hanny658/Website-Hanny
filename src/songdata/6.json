@@ -1,0 +1,48 @@
+{
+    "title": "Come Bless the Lord",
+    "number": 6,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                      E",
+                    "lyrics": "Come bless the Lord"
+                },
+                {
+                    "chords": "                                F#m",
+                    "lyrics": "all ye servants of the Lord"
+                },
+                {
+                    "chords": "                        B7",
+                    "lyrics": "Who stand by night"
+                },
+                {
+                    "chords": "                                 E",
+                    "lyrics": "in the house of the Lord"
+                },
+                {
+                    "chords": "             E     E7",
+                    "lyrics": "Lift up your hands"
+                },
+                {
+                    "chords": "            A    F#m",
+                    "lyrics": "in the Holy Place"
+                },
+                {
+                    "chords": "               E   B7",
+                    "lyrics": "and bless the Lord"
+                },
+                {
+                    "chords": "                        E",
+                    "lyrics": "and bless the Lord"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

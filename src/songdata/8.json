@@ -1,0 +1,56 @@
+{
+    "title": "This Is the Day",
+    "number": 8,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "This is the day, (2x)"
+                },
+                {
+                    "chords": "           A7",
+                    "lyrics": "That the Lord has made (2x)"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We will rejoice (2x)"
+                },
+                {
+                    "chords": "        D",
+                    "lyrics": "And be glad in it (2x)"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "This is the day,"
+                },
+                {
+                    "chords": "             D",
+                    "lyrics": "That the Lord has made"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "We will rejoice"
+                },
+                {
+                    "chords": "         D",
+                    "lyrics": "And be glad in it"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This is the day, (2x)"
+                },
+                {
+                    "chords": "           Em   A    D",
+                    "lyrics": "That the Lord has made"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}
