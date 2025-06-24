@@ -1,0 +1,143 @@
+{
+    "title": "The Old Rugged Cross",
+    "number": 113,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "       G",
+                    "lyrics": "On a hill far away"
+                },
+                {
+                    "chords": " G7          C                  C#m7b5",
+                    "lyrics": "Stood an old rugged cross"
+                },
+                {
+                    "chords": "        D              D7                G        D",
+                    "lyrics": "The emblem of suffering and shame"
+                },
+                {
+                    "chords": "         G",
+                    "lyrics": "And I love that old cross"
+                },
+                {
+                    "chords": "G7               C                 C#m7b5",
+                    "lyrics": "Where the dearest and best"
+                },
+                {
+                    "chords": "          D                  D7               G",
+                    "lyrics": "For a world of lost sinners was slain"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "          Am7              D/F#       Em Bm/D",
+                    "lyrics": "So I'll cherish the old rugged cross"
+                },
+                {
+                    "chords": "             C              D/C         G       D",
+                    "lyrics": "Till my trophies at last I lay down"
+                },
+                {
+                    "chords": "          G                G7              C    Am7",
+                    "lyrics": "I will cling to the old rugged cross"
+                },
+                {
+                    "chords": "                D                               G",
+                    "lyrics": "And exchange it someday for a crown"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Oh that old rugged cross so despised by the world,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "has a wondrous attraction for me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "for the dear Lamb of God, left His glory above"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To bear it to dark Calvary"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "In the old rugged cross"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Stained with blood so divine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "A wondrous beauty I see;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "for 'twas on that old cross, Jesus suffered and died"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "to pardon and sanctify me"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To the old rugged cross I will ever be true,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "its shame and reproach gladly bear;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Then He'll call me someday"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To my home far away"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Where His glory forever I'll share"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus",
+        "verse4",
+        "chorus"
+    ],
+    "link": ""
+}

@@ -1,0 +1,171 @@
+{
+    "title": "The Butterfly Song",
+    "number": 22,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D               D7",
+                    "lyrics": "If I were a butterfly"
+                },
+                {
+                    "chords": "     G",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "                       G7",
+                    "lyrics": "For giving me wings"
+                },
+                {
+                    "chords": "      D                D7",
+                    "lyrics": "And if I were a robin in a tree"
+                },
+                {
+                    "chords": "     A7",
+                    "lyrics": "I'd thank You, Lord that I could sing"
+                },
+                {
+                    "chords": "      D                D7",
+                    "lyrics": "And if I were a fish in the sea"
+                },
+                {
+                    "chords": "     G",
+                    "lyrics": "I'd wiggle my tail"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And I'd giggle with glee"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "    A7",
+                    "lyrics": "But I just thank You, Father"
+                },
+                {
+                    "chords": "                            D  G  D",
+                    "lyrics": "For making me me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Cause you gave me a heart"
+                },
+                {
+                    "chords": "                D7",
+                    "lyrics": "And You gave me a smile"
+                },
+                {
+                    "chords": "       G",
+                    "lyrics": "You gave me Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And You made me Your child"
+                },
+                {
+                    "chords": "        A                          A7",
+                    "lyrics": "And I just thank You, Father ,"
+                },
+                {
+                    "chords": "                             D  G  D",
+                    "lyrics": "For making me, me"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "If I were an elephant"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "By raising my trunk"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And if I were a kangaroo"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd just hop right up to You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And if I were an octopus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For my good looks"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "If I were a wiggly worm"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That I could squirm"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And if I were a crocodile"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For my big smile"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And if I were a fuzzy wuzzy bear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'd thank You, Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For my fuzzy wuzzy hair"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

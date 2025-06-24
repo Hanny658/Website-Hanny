@@ -1,0 +1,131 @@
+{
+    "title": "Come Holy Spirit",
+    "number": 100,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "           D                           G",
+                    "lyrics": "The Holy Spirit came at Pentecost"
+                },
+                {
+                    "chords": "Em               A7                      D",
+                    "lyrics": "He came in mighty fullness then"
+                },
+                {
+                    "chords": "Bm           Bm/A",
+                    "lyrics": "His witness thru' believers"
+                },
+                {
+                    "chords": "Em",
+                    "lyrics": "Won the lost"
+                },
+                {
+                    "chords": "A7                                         D",
+                    "lyrics": "And multitudes were born again"
+                },
+                {
+                    "chords": "           D7",
+                    "lyrics": "The early Christians"
+                },
+                {
+                    "chords": "                  G",
+                    "lyrics": "Scattered o'er the world"
+                },
+                {
+                    "chords": "Em                          A7                  D",
+                    "lyrics": "They preached the gospel fearlessly"
+                },
+                {
+                    "chords": "Bm              Bm/A",
+                    "lyrics": "Tho' some were martyred"
+                },
+                {
+                    "chords": "             Em",
+                    "lyrics": "And to lions hurled"
+                },
+                {
+                    "chords": "A7                                   D",
+                    "lyrics": "They marched along in victory"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "Bm              G Em7 A7             D",
+                    "lyrics": "Come Holy Spirit, dark is the hour"
+                },
+                {
+                    "chords": "Bm                   G  Em",
+                    "lyrics": "We need Your filling"
+                },
+                {
+                    "chords": "         A                     A7          D",
+                    "lyrics": "Your love and Your mighty power"
+                },
+                {
+                    "chords": "Bm             G   Em7  A7              D",
+                    "lyrics": "Move now among us, stir us we pray"
+                },
+                {
+                    "chords": "Bm               G  Em",
+                    "lyrics": "Come Holy Spirit,"
+                },
+                {
+                    "chords": "A          A7              D",
+                    "lyrics": "Revive the church today"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Then in an age when darkness gripped the earth,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "'The just shall live by faith' was learned"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The Holy Spirit gave the church new birth,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As reformation fires burned"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In later years the great revivals came"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When saints would seek the Lord and pray;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O once again we need that Holy flame"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To meet the challenge of today"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

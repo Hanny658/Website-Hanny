@@ -1,0 +1,107 @@
+{
+    "title": "Do You Know My Jesus",
+    "number": 122,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "A                                     D/A",
+                    "lyrics": "Have you a heart that's weary"
+                },
+                {
+                    "chords": "A                F#m      Bm7  E",
+                    "lyrics": "Tending a load of care"
+                },
+                {
+                    "chords": "A                                  D/A",
+                    "lyrics": "Are you a soul that's seeking"
+                },
+                {
+                    "chords": "A                     Esus              A",
+                    "lyrics": "Rest from the burden you bear"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "              E      E7         A",
+                    "lyrics": "Do you know ...    my Jesus"
+                },
+                {
+                    "chords": "              E     E7           A",
+                    "lyrics": "Do you know ...    my friend"
+                },
+                {
+                    "chords": "               A                    D      Bm",
+                    "lyrics": "Have you heard,..  He loves you"
+                },
+                {
+                    "chords": "                A/E        E7",
+                    "lyrics": "And that He will abide"
+                },
+                {
+                    "chords": "             A",
+                    "lyrics": "Till the end"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Where is your heart, O pilgrim"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "What does your light reveal"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who hears your call for comfort"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When naught but sorrow you feel"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Who knows your disappointment"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who hears each time you cry"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who understands your heartaches"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who dries the tears from your eyes"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": "https://www.youtube.com/watch?v=nb2J0UmpCSs"
+}

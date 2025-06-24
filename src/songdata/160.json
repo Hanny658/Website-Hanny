@@ -1,0 +1,173 @@
+{
+    "title": "In Your Hands",
+    "number": 160,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "Em      D        G",
+                    "lyrics": "     I’m so   secure"
+                },
+                {
+                    "chords": "            Em   D     C",
+                    "lyrics": "You’re here with me"
+                },
+                {
+                    "chords": "Em       D          G",
+                    "lyrics": "You stay the same"
+                },
+                {
+                    "chords": "     C     D/C  C",
+                    "lyrics": "Your love remains"
+                },
+                {
+                    "chords": "C/D       D  G",
+                    "lyrics": "Here in my heart"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "      Em         Am7",
+                    "lyrics": "So close, I believe"
+                },
+                {
+                    "chords": "            D                 G",
+                    "lyrics": "You’re holding me now"
+                },
+                {
+                    "chords": "            Em             Am7",
+                    "lyrics": "In Your hands I belong"
+                },
+                {
+                    "chords": "          D                   G",
+                    "lyrics": "You’ll never let me go"
+                },
+                {
+                    "chords": "     Em           Am",
+                    "lyrics": "So close, I believe"
+                },
+                {
+                    "chords": "            D                 G",
+                    "lyrics": "You’re holding me now"
+                },
+                {
+                    "chords": "            Em             Am",
+                    "lyrics": "In Your hands I belong"
+                },
+                {
+                    "chords": "           D               G",
+                    "lyrics": "You’ll never let me go"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "You gave Your life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In Your endless love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You set me free"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And showed the way"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Now I am found"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "C",
+                    "lyrics": "   *All along"
+                },
+                {
+                    "chords": "G/B",
+                    "lyrics": "You were beside me"
+                },
+                {
+                    "chords": "Bsus4         B               Em Em/D",
+                    "lyrics": "Even when I couldn’t tell"
+                },
+                {
+                    "chords": "C",
+                    "lyrics": "    Through the years"
+                },
+                {
+                    "chords": "G                                       Fmaj9",
+                    "lyrics": "You showed me more of You"
+                },
+                {
+                    "chords": "             Dsus D",
+                    "lyrics": "More of You"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "A      F#m          Bm7",
+                    "lyrics": "   So close,  I believe"
+                },
+                {
+                    "chords": "             E                  A",
+                    "lyrics": "You’re holding me now"
+                },
+                {
+                    "chords": "             F#m         Bm7",
+                    "lyrics": "In Your hands. I belong"
+                },
+                {
+                    "chords": "           E                     A",
+                    "lyrics": "You’ll  never let me go"
+                },
+                {
+                    "chords": "      F#m        Bm7",
+                    "lyrics": "So close,  I believe"
+                },
+                {
+                    "chords": "            E                  A",
+                    "lyrics": "You’re holding me now"
+                },
+                {
+                    "chords": "           F#m7",
+                    "lyrics": "In Your hands"
+                },
+                {
+                    "chords": "      Bm7            Esus    E         A",
+                    "lyrics": "I belong, You’ll never let me go"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus1",
+        "verse2",
+        "chorus1",
+        "bridge",
+        "chorus2"
+    ],
+    "link": ""
+}

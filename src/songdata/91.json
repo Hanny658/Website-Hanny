@@ -1,0 +1,146 @@
+{
+    "title": "There's a New World Somewhere",
+    "number": 91,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                 C                F",
+                    "lyrics": "There's a new world somewhere"
+                },
+                {
+                    "chords": "      D7                          G",
+                    "lyrics": "We call the Promised Land"
+                },
+                {
+                    "chords": "        C                  Em",
+                    "lyrics": "And I'll be there someday"
+                },
+                {
+                    "chords": "           F                       G",
+                    "lyrics": "Since Jesus holds my hand"
+                },
+                {
+                    "chords": "         Am               F",
+                    "lyrics": "He is always here beside me"
+                },
+                {
+                    "chords": "    G              F       Em",
+                    "lyrics": "In all things that I do"
+                },
+                {
+                    "chords": "        C                       Dm7",
+                    "lyrics": "For I know I'll never find"
+                },
+                {
+                    "chords": "    G              C",
+                    "lyrics": "A Friend so true"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "        Am             F",
+                    "lyrics": "It's a long, long journey"
+                },
+                {
+                    "chords": "     C",
+                    "lyrics": "So stay by my side"
+                },
+                {
+                    "chords": "            Am                   D",
+                    "lyrics": "When I walk thru' the storm"
+                },
+                {
+                    "chords": "                     G                     G7",
+                    "lyrics": "Lord, be my Guide, be my Guide,"
+                },
+                {
+                    "chords": "           C                F",
+                    "lyrics": "If they gave me a fortune"
+                },
+                {
+                    "chords": "       D7                          G",
+                    "lyrics": "My pleasure would be small"
+                },
+                {
+                    "chords": "             C            Em",
+                    "lyrics": "I could lose it all tomorrow"
+                },
+                {
+                    "chords": "         F                     G",
+                    "lyrics": "And never mind at all"
+                },
+                {
+                    "chords": "        Am                         F",
+                    "lyrics": "But if I should lose my way, Lord"
+                },
+                {
+                    "chords": "             G            F           Em",
+                    "lyrics": "Please show me what to do"
+                },
+                {
+                    "chords": "        C                        Dm7",
+                    "lyrics": "For I know I'll never find"
+                },
+                {
+                    "chords": "     G             C",
+                    "lyrics": "A Friend so true"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "There is always Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To guide us on the way"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And He'll lead us someday"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "where angels sing all day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "If I should search"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The whole world over"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Until my life is thru'"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For I know I'll never find"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "A Friend so true"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

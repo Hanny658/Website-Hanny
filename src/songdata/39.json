@@ -1,0 +1,114 @@
+{
+    "title": "Do You Love Jesus / We Love Him",
+    "number": 39,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Do You Love Jesus",
+            "lines": [
+                {
+                    "chords": "   G",
+                    "lyrics": "O friend do you love Jesus?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O yes I love Jesus"
+                },
+                {
+                    "chords": "         D7",
+                    "lyrics": "Are you sure you love Jesus?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm sure I love Jesus"
+                },
+                {
+                    "chords": "          G",
+                    "lyrics": "Then why do you love Jesus?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Here's why I love Jesus;"
+                },
+                {
+                    "chords": "     D7                             G",
+                    "lyrics": "Because He first loved me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That's the reason"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We all ought to love Him"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "O how I love Jesus"
+                },
+                {
+                    "chords": "D7                  G  D7",
+                    "lyrics": "O how I love Jesus"
+                },
+                {
+                    "chords": "G                    Em",
+                    "lyrics": "O how I love Jesus"
+                },
+                {
+                    "chords": " Am               D              G",
+                    "lyrics": "Because He first loved me"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "We Love Him",
+            "lines": [
+                {
+                    "chords": "C",
+                    "lyrics": "We love Him (we love Him)"
+                },
+                {
+                    "chords": "                    Dm            G",
+                    "lyrics": "Because He first loved us"
+                },
+                {
+                    "chords": "       Dm      G",
+                    "lyrics": "We love Him (we love Him)"
+                },
+                {
+                    "chords": "                    C                C7",
+                    "lyrics": "Because He first loved us"
+                },
+                {
+                    "chords": "         F                                  Dm",
+                    "lyrics": "And this is love, that He loved us"
+                },
+                {
+                    "chords": "        G          C",
+                    "lyrics": "and sent His Son"
+                },
+                {
+                    "chords": "      C",
+                    "lyrics": "We love Him (we love Him)"
+                },
+                {
+                    "chords": "                     Dm  G       C",
+                    "lyrics": "Because He first loved us"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

@@ -1,0 +1,111 @@
+{
+    "title": "Side by Side",
+    "number": 80,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "F                          G7",
+                    "lyrics": "Side by side we stand"
+                },
+                {
+                    "chords": " C                       Am",
+                    "lyrics": "Awaiting God's command"
+                },
+                {
+                    "chords": " F                        G7       C      C7",
+                    "lyrics": "Worshiping the saving King"
+                },
+                {
+                    "chords": "F                      G7",
+                    "lyrics": "Living by His grace"
+                },
+                {
+                    "chords": "        C          Em     Am",
+                    "lyrics": "And moving on in faith"
+                },
+                {
+                    "chords": " F        G7                          C   C7",
+                    "lyrics": "Jesus Himself will see us thru'"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "F                  G7",
+                    "lyrics": "Meet me in heaven"
+                },
+                {
+                    "chords": "          C    Em     Am",
+                    "lyrics": "We'll join hands together"
+                },
+                {
+                    "chords": " F                        G7          C  C7",
+                    "lyrics": "Meet me by the Savior's side"
+                },
+                {
+                    "chords": "      F                  G7",
+                    "lyrics": "I'll meet you in heaven"
+                },
+                {
+                    "chords": "           C   Em      Am",
+                    "lyrics": "We'll sing songs together"
+                },
+                {
+                    "chords": "   F          G7               C   C7",
+                    "lyrics": "Brothers and sisters, I'll be there!"
+                },
+                {
+                    "chords": "              F                G7",
+                    "lyrics": "(last time) Praise the Lord we all"
+                },
+                {
+                    "chords": "          C   F   C",
+                    "lyrics": "will be there!"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Soldiers all are we"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To go where Jesus leads"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We'll fight in faith and we will overcome;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Heaven is our goal,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And saving every soul"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Pray that we all will be there."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

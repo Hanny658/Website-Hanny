@@ -1,0 +1,95 @@
+{
+    "title": "Standing on the Promises",
+    "number": 25,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " G",
+                    "lyrics": "Standing on the promises"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "of Christ my King"
+                },
+                {
+                    "chords": " C",
+                    "lyrics": "Through eternal ages"
+                },
+                {
+                    "chords": "             G",
+                    "lyrics": "Let His praises ring"
+                },
+                {
+                    "chords": " G",
+                    "lyrics": "Glory in the highest"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I will shout and sing"
+                },
+                {
+                    "chords": "                             D7               G",
+                    "lyrics": "Standing on the promises of God"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "  G             C",
+                    "lyrics": "Standing, standing"
+                },
+                {
+                    "chords": " D7",
+                    "lyrics": "Standing on the promises"
+                },
+                {
+                    "chords": "     G",
+                    "lyrics": "of God, my Saviour"
+                },
+                {
+                    "chords": " G              C",
+                    "lyrics": "Standing, standing"
+                },
+                {
+                    "chords": "         G                            D7            G",
+                    "lyrics": "I'm standing on the promises of God"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Standing on the promises that cannot fail"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When the howling storms of doubt and fear assail"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "By the living Word of God I shall prevail"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Standing on the promises of God"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

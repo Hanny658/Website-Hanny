@@ -1,0 +1,110 @@
+{
+    "title": "He Will Carry You",
+    "number": 102,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  G                                  Bm7",
+                    "lyrics": "There is no problem so big"
+                },
+                {
+                    "chords": "                      Am7    D",
+                    "lyrics": "God cannot solve it"
+                },
+                {
+                    "chords": "Am7                                 D",
+                    "lyrics": "There is no mountain so tall"
+                },
+                {
+                    "chords": "                  G             C D",
+                    "lyrics": "He cannot move it"
+                },
+                {
+                    "chords": " G                                Bm7",
+                    "lyrics": "There is no storm so dark"
+                },
+                {
+                    "chords": "                     Am7      D",
+                    "lyrics": "God cannot calm it"
+                },
+                {
+                    "chords": "Am7                             D",
+                    "lyrics": "There is no sorrow so deep"
+                },
+                {
+                    "chords": "                      C         G  C",
+                    "lyrics": " God cannot soothe it"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "D     G                                       Em",
+                    "lyrics": "If He carried the weight of the world"
+                },
+                {
+                    "chords": "                Am7          D",
+                    "lyrics": "Upon His shoulders"
+                },
+                {
+                    "chords": "Am7",
+                    "lyrics": "I know my brother"
+                },
+                {
+                    "chords": "D/F#                      G    C",
+                    "lyrics": "That He will carry you"
+                },
+                {
+                    "chords": "D     G                                      Em",
+                    "lyrics": "If He carried the weight of the world"
+                },
+                {
+                    "chords": "                 Am7        D",
+                    "lyrics": "Upon His shoulders"
+                },
+                {
+                    "chords": "Am7",
+                    "lyrics": "I know my sister"
+                },
+                {
+                    "chords": "         D/F#            G    C  G",
+                    "lyrics": "That He will carry you"
+                },
+                {
+                    "chords": "              Em                Bm",
+                    "lyrics": "He said, Come unto me"
+                },
+                {
+                    "chords": "A                 C             Am7",
+                    "lyrics": "All who are weary and I"
+                },
+                {
+                    "chords": "        D            G",
+                    "lyrics": "Will give you rest"
+                }
+            ]
+        },
+        {
+            "id": "repeat",
+            "label": "Repeat",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "(repeat *if He carried the weight)"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "repeat"
+    ],
+    "link": ""
+}

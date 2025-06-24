@@ -1,0 +1,74 @@
+{
+    "title": "Ha La La",
+    "number": 34,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                          Em",
+                    "lyrics": "Shake a friend's hand,"
+                },
+                {
+                    "chords": "               F               C",
+                    "lyrics": "Shake a hand next to ya"
+                },
+                {
+                    "chords": "F                           C             G",
+                    "lyrics": "Shake a friend's hand and sing la la"
+                },
+                {
+                    "chords": "C                         Em",
+                    "lyrics": "Shake a friend's hand,"
+                },
+                {
+                    "chords": "                F              C",
+                    "lyrics": "Shake a hand next to ya"
+                },
+                {
+                    "chords": "F                         C               G",
+                    "lyrics": "Shake a friend's hand and sing,"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "            C        Em   F   C",
+                    "lyrics": "Sing a la la la la la laleluia"
+                },
+                {
+                    "chords": "F              C  G",
+                    "lyrics": "La la la la laleluia"
+                },
+                {
+                    "chords": "C         Em    F   C",
+                    "lyrics": "La la la, la la laleluia"
+                },
+                {
+                    "chords": "F        C        G  C",
+                    "lyrics": "La la la la laleleluia"
+                }
+            ]
+        },
+        {
+            "id": "extras",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "- Hug a friend's neck - Squeeze a friend's knee - Scratch a friend's back - Jesus is a friend"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "extras"
+    ],
+    "link": ""
+}

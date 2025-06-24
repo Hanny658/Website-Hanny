@@ -1,0 +1,64 @@
+{
+    "title": "Bind Us Together",
+    "number": 115,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "F               Gm7",
+                    "lyrics": "Bind us together Lord"
+                },
+                {
+                    "chords": "Am7       Dm7",
+                    "lyrics": "bind us together"
+                },
+                {
+                    "chords": "          Gm7          C7            F   Gm7",
+                    "lyrics": "With cords that cannot be broken"
+                },
+                {
+                    "chords": "F               Gm7",
+                    "lyrics": "Bind us together Lord"
+                },
+                {
+                    "chords": "Am7       Dm7",
+                    "lyrics": "bind us together"
+                },
+                {
+                    "chords": "Gm7       C7                  F",
+                    "lyrics": "Bind us together with love (*end)"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "             Gm7        Am7 Gm7",
+                    "lyrics": "There is only one God"
+                },
+                {
+                    "chords": "   F        Gm7        F    C7",
+                    "lyrics": "There is only one king"
+                },
+                {
+                    "chords": "F           Gm7      Am7 Gm7",
+                    "lyrics": "There is only one body"
+                },
+                {
+                    "chords": "  F      Gm7   F   C7",
+                    "lyrics": "That is why I sing"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse1"
+    ],
+    "link": ""
+}

@@ -1,0 +1,126 @@
+{
+    "title": "What a Friend We Have in Jesus",
+    "number": 45,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  D         D7                         G",
+                    "lyrics": "What a friend we have in Jesus"
+                },
+                {
+                    "chords": " D                                       A",
+                    "lyrics": "All our sins and griefs to bear"
+                },
+                {
+                    "chords": " D              D7            G",
+                    "lyrics": "What a privilege to carry"
+                },
+                {
+                    "chords": " D       A7                     D",
+                    "lyrics": "Everything to God in prayer"
+                },
+                {
+                    "chords": "A7                                    D",
+                    "lyrics": "O what peace we often forfeit"
+                },
+                {
+                    "chords": "G            D                          Em   A7",
+                    "lyrics": "O what needless pain we bear"
+                },
+                {
+                    "chords": "D   D7                             G",
+                    "lyrics": "All because we do not carry"
+                },
+                {
+                    "chords": " D        A7                    D",
+                    "lyrics": "Everything to God in prayer"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Have we trials and temptations"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Is there trouble anywhere"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We should never be discouraged"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take it to the Lord in prayer"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Can we find a friend so faithful"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who will all our sorrows share"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Jesus knows our every weakness"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take it to the Lord in prayer"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Are we weak and heavy laden"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Cumbered with a load of care"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Precious Savior, still our refuge"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take it to the Lord in prayer"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Do thy friends despise, forsake thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take it to the Lord in prayer"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In His arms He'll take and shield thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Thou wilt find a solace there"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

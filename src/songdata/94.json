@@ -1,0 +1,130 @@
+{
+    "title": "Pass It On",
+    "number": 94,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    D                F#m",
+                    "lyrics": "It only takes a spark"
+                },
+                {
+                    "chords": "      G             A",
+                    "lyrics": "To get a fire going"
+                },
+                {
+                    "chords": "        D                      F#m",
+                    "lyrics": "And soon all those around"
+                },
+                {
+                    "chords": "         G                     A",
+                    "lyrics": "Can warm up in its glowing"
+                },
+                {
+                    "chords": "            G                    D/F#          Em",
+                    "lyrics": "That's how it is with God's love"
+                },
+                {
+                    "chords": "           A7           F#m         Bm",
+                    "lyrics": "Once you've experienced it"
+                },
+                {
+                    "chords": "          Em              D/F#     G    D",
+                    "lyrics": "You'd spread His love to everyone"
+                },
+                {
+                    "chords": "           Em        A          D",
+                    "lyrics": "You'd want to pass it on"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "What a wondrous time is spring"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When all the trees are budding"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The birds begin to sing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The flowers start their blooming"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That's how it is with God's love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Once you've experienced it"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You'd want to sing;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "It's fresh like spring"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You'd want to pass it on"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I wish for you, my friend"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This happiness that I've found"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You can depend on Him"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "It matters not where you're bound"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'll shout it from the mountaintop"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I want my world to know"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The Lord of love has come to me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I want to pass it on"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

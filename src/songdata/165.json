@@ -1,0 +1,110 @@
+{
+    "title": "Here I Am to Worship",
+    "number": 165,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D                     A",
+                    "lyrics": "Light of the world,"
+                },
+                {
+                    "chords": "                      Em              G",
+                    "lyrics": "you stepped down into darkness,"
+                },
+                {
+                    "chords": "D              A                 G",
+                    "lyrics": "open my eyes, let me see"
+                },
+                {
+                    "chords": "D                  A",
+                    "lyrics": "Beauty that made"
+                },
+                {
+                    "chords": "      Em         G",
+                    "lyrics": "this heart adore you,"
+                },
+                {
+                    "chords": "D               A                     Em  G",
+                    "lyrics": "hope of a life spent with you"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                              D",
+                    "lyrics": "And here I am to worship"
+                },
+                {
+                    "chords": "                       A",
+                    "lyrics": "Here I am to bow down"
+                },
+                {
+                    "chords": "                    D/F#                        G",
+                    "lyrics": "Here I am to say that you're my God"
+                },
+                {
+                    "chords": "                                D",
+                    "lyrics": "You're altogether lovely"
+                },
+                {
+                    "chords": "                   A",
+                    "lyrics": "Altogether worthy"
+                },
+                {
+                    "chords": "                  D/F#                G",
+                    "lyrics": "Altogether wonderful to me"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "King of all days O so highly exalted"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "glorious in Heaven above"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Humbly you came to the earth you created,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "all for love's sake became poor"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "       A      D/F#          G",
+                    "lyrics": "I'll never know how much it cost"
+                },
+                {
+                    "chords": "    A          D/F#  G",
+                    "lyrics": "to see my sin upon that cross x2"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "bridge"
+    ],
+    "link": ""
+}

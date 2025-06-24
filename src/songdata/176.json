@@ -1,0 +1,111 @@
+{
+    "title": "God of the Mountain",
+    "number": 176,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "         D         G",
+                    "lyrics": "Life is easy, when you're"
+                },
+                {
+                    "chords": "                 D",
+                    "lyrics": "up on the mountain"
+                },
+                {
+                    "chords": "                           Em                 A7",
+                    "lyrics": "And you've got peace of mind,"
+                },
+                {
+                    "chords": "                              D       A",
+                    "lyrics": "like you've never known"
+                },
+                {
+                    "chords": "                  D                    G",
+                    "lyrics": "But things change when"
+                },
+                {
+                    "chords": "                                D      Bm",
+                    "lyrics": "You're down in the valley"
+                },
+                {
+                    "chords": "                   Em    A7",
+                    "lyrics": "Don't lose faith,"
+                },
+                {
+                    "chords": "                             D      D7",
+                    "lyrics": "for you're never alone"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                                  G",
+                    "lyrics": "For the God on the mountain"
+                },
+                {
+                    "chords": "A                           D      Bm",
+                    "lyrics": "is still God in the valley"
+                },
+                {
+                    "chords": "                            Em     A",
+                    "lyrics": "When things go wrong"
+                },
+                {
+                    "chords": "                              D    Em D/F#",
+                    "lyrics": "He'll make them right"
+                },
+                {
+                    "chords": "                                   G",
+                    "lyrics": "And the God of the good times"
+                },
+                {
+                    "chords": "A                            D             Bm",
+                    "lyrics": "Is still God in the bad times"
+                },
+                {
+                    "chords": "                            Em   A7",
+                    "lyrics": "The God of the day"
+                },
+                {
+                    "chords": "                             D",
+                    "lyrics": "is still God in the night"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "You talk of faith when you’re up on the mountain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Oh, but the talk comes easy when life's at its best"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Now it’s down in the valleys, of trials and temptations"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That's where your faith, is really put to the test"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

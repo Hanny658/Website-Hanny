@@ -1,0 +1,123 @@
+{
+    "title": "Does Jesus Care?",
+    "number": 161,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "          C",
+                    "lyrics": "Does Jesus care"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When my heart is pained"
+                },
+                {
+                    "chords": "     G                   G7            C",
+                    "lyrics": "Too deeply for mirth and song"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As the burdens press"
+                },
+                {
+                    "chords": "                 F",
+                    "lyrics": "And the cares distress"
+                },
+                {
+                    "chords": "              C/G              G              C",
+                    "lyrics": "And the way grows weary and long"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "    G7                       C",
+                    "lyrics": "O yes, He cares, I know He cares"
+                },
+                {
+                    "chords": "      D         D/F#                       G",
+                    "lyrics": "His heart is touched with my grief"
+                },
+                {
+                    "chords": "G/F          C/E         C",
+                    "lyrics": "When the days are weary,"
+                },
+                {
+                    "chords": "           F              Dm",
+                    "lyrics": "The long nights deary"
+                },
+                {
+                    "chords": "   C/G         G7      C",
+                    "lyrics": "I know my Savior cares"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Does Jesus care when my way is dark"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "With a nameless dread and fear?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As the daylight fades into deep"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "nights shades,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Does He care enough to be near?"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Does Jesus care when I've said goodbye"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To the dearest on earth to me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And my sad heart aches till it nearly"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "breaks;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Is it aught to Him? Does He see?"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

@@ -1,0 +1,111 @@
+{
+    "title": "Ancient Words",
+    "number": 168,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "          D         A           D",
+                    "lyrics": "Holy words long preserved"
+                },
+                {
+                    "chords": "              G            A",
+                    "lyrics": "For our walk in this world"
+                },
+                {
+                    "chords": "            Bm                A/C#         D",
+                    "lyrics": "They resound with God's own heart"
+                },
+                {
+                    "chords": "       G            A            D",
+                    "lyrics": "let the ancient words impart."
+                },
+                {
+                    "chords": "                 D     A           D",
+                    "lyrics": "Words of life, words of hope"
+                },
+                {
+                    "chords": " D/F#     G                          A",
+                    "lyrics": "Give us strength, help us cope"
+                },
+                {
+                    "chords": "            Bm             A/C#   D",
+                    "lyrics": "In this world where’er we roam"
+                },
+                {
+                    "chords": " D/F#      G                A             D",
+                    "lyrics": "Ancient words will guide us home"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                   D            A",
+                    "lyrics": "Ancient words ever true"
+                },
+                {
+                    "chords": "                  Em         D/F#        G",
+                    "lyrics": "Changing me and changing you"
+                },
+                {
+                    "chords": "A             Bm             A/C#  D",
+                    "lyrics": "We have come with open hearts"
+                },
+                {
+                    "chords": "        D/F# G          A            D",
+                    "lyrics": "O let the ancient words impart."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Holy words of our faith"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Handed down to this age"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Came to us through sacrifice"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O heed the faithful words of Christ"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Holy words long preserved"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For our walk in this world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "They resound with God's own heart"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O let the ancient words impart."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

@@ -1,0 +1,126 @@
+{
+    "title": "Say I Do",
+    "number": 109,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "F                                      Gm7 C7",
+                    "lyrics": "Many years have come and gone"
+                },
+                {
+                    "chords": "                                              F     Dm",
+                    "lyrics": "Since He walked upon our ground"
+                },
+                {
+                    "chords": "                                           Gm7",
+                    "lyrics": "They say lies don't last so long"
+                },
+                {
+                    "chords": "C                   C7                      F  Bb F",
+                    "lyrics": "So why's His story hanging around"
+                },
+                {
+                    "chords": "                                              Gm7 C7",
+                    "lyrics": "And why do people stop and pray"
+                },
+                {
+                    "chords": "                                            F  Dm",
+                    "lyrics": "To a man that's dead and gone"
+                },
+                {
+                    "chords": "                                           Gm7",
+                    "lyrics": "When I ask them they just say"
+                },
+                {
+                    "chords": "C                    C7                     F Eb Bb",
+                    "lyrics": "He's coming back to take me home"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": " F                                                   Gm7",
+                    "lyrics": "Anybody here wants to live forever"
+                },
+                {
+                    "chords": "                  C",
+                    "lyrics": "Say I do.  Anybody here"
+                },
+                {
+                    "chords": "                C7                       F",
+                    "lyrics": "Wants to walk on golden streets"
+                },
+                {
+                    "chords": "                              Gm7",
+                    "lyrics": "Say I do.  Anybody here"
+                },
+                {
+                    "chords": "F                                   Dm7",
+                    "lyrics": "Sick and tired of living like you do"
+                },
+                {
+                    "chords": "Anybody here wants a home",
+                    "lyrics": ""
+                },
+                {
+                    "chords": "                  Gm7 C7         F  Bb  F",
+                    "lyrics": "With love forever, say I do"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "And they say you will never know"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Till you walk up to that Man"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And you look into His eyes of love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And you touch the nails scars in His"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "hands.  And then if you can walk"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "away"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Knowing all He died to do"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That's when I'll just have to say"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I guess He didn't die for you"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

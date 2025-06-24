@@ -1,0 +1,142 @@
+{
+    "title": "Surely Goodness and Mercy",
+    "number": 95,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    D                D7              G   Em7",
+                    "lyrics": "A pilgrim was I and awand'ring"
+                },
+                {
+                    "chords": "           Asus7            A7          D",
+                    "lyrics": "In the cold night of sin I did roam"
+                },
+                {
+                    "chords": "                            D7",
+                    "lyrics": "When Jesus the kind Shepherd"
+                },
+                {
+                    "chords": "G             Em",
+                    "lyrics": "found me"
+                },
+                {
+                    "chords": "        D             A7                D",
+                    "lyrics": "And now I am on my way home"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Surely goodness and mercy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Shall follow me"
+                },
+                {
+                    "chords": "         A7                                       D",
+                    "lyrics": "All the days, all the days of my life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Surely goodness and mercy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Shall follow me"
+                },
+                {
+                    "chords": "           A7                                      D",
+                    "lyrics": "All the days, all the days of my life"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "                    G",
+                    "lyrics": "And I shall dwell in the house"
+                },
+                {
+                    "chords": "           D",
+                    "lyrics": "of the Lord forever"
+                },
+                {
+                    "chords": "                  Bm               E7",
+                    "lyrics": "And I shall feast at the table"
+                },
+                {
+                    "chords": "                  Asus7    A7",
+                    "lyrics": "Spread for me"
+                },
+                {
+                    "chords": "            D",
+                    "lyrics": "Surely goodness and mercy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Shall follow me"
+                },
+                {
+                    "chords": "             Em                 A7            D",
+                    "lyrics": "All the days, all the days of my life"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He restores my soul when I'm weary"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He giveth me strength day by day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He leads beside the still waters"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He guards me each step of the way"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When I walk thru' the dark lonesome valley"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My Savior will walk with me there"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And safely His great Hand will lead me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To the mansions He's gone to prepare"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3"
+    ],
+    "link": ""
+}

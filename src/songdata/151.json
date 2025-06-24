@@ -1,0 +1,128 @@
+{
+    "title": "All Things Bright & Beautiful",
+    "number": 151,
+    "lyrics": [
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G              C                D       G",
+                    "lyrics": "All things bright and beautiful"
+                },
+                {
+                    "chords": "       Am           D             G",
+                    "lyrics": "All creatures great and small"
+                },
+                {
+                    "chords": "G              C             D          Bm",
+                    "lyrics": "All things wise and wonderful"
+                },
+                {
+                    "chords": "       Am             D                 G",
+                    "lyrics": "The Lord God made them all"
+                }
+            ]
+        },
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "          G    G7               C       Am",
+                    "lyrics": "Each little flower that opens"
+                },
+                {
+                    "chords": "         D       D/C        G",
+                    "lyrics": "Each little bird that sings"
+                },
+                {
+                    "chords": "                                           C  Am",
+                    "lyrics": "God made their glowing colours"
+                },
+                {
+                    "chords": "    G/B                D     G",
+                    "lyrics": "He spread their tiny wings"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The purple headed mountain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The river running by"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The sunset and the morning"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That brightens up the sky"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The cold wind in the winter"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The pleasant summer rain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The ripe fruits in the garden"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He made them every one"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He gave us eyes to see them"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And lips that we might tell"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "How great is God Almighty"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who has made all things well"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "chorus",
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus",
+        "verse4",
+        "chorus"
+    ],
+    "link": ""
+}

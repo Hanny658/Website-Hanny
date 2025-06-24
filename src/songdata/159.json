@@ -1,0 +1,48 @@
+{
+    "title": "Change My Heart O God",
+    "number": 159,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " C                               Dm7",
+                    "lyrics": "Change my heart, O God"
+                },
+                {
+                    "chords": "G                       C",
+                    "lyrics": "    Make it ever true"
+                },
+                {
+                    "chords": "Am7                           Dm7",
+                    "lyrics": "Change my heart, O God"
+                },
+                {
+                    "chords": "G7                     C",
+                    "lyrics": "    May I be like You"
+                },
+                {
+                    "chords": "E7sus/B E7                  Am",
+                    "lyrics": "                 You are the potter"
+                },
+                {
+                    "chords": "Dm7  G7        C",
+                    "lyrics": "       I am the clay"
+                },
+                {
+                    "chords": "E7sus/B E7               Am  Am/G",
+                    "lyrics": "       Mould me and make me"
+                },
+                {
+                    "chords": "D/F#    D7sus  D7      G7",
+                    "lyrics": " This is    what  I      pray"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

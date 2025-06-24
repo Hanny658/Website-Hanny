@@ -1,0 +1,48 @@
+{
+    "title": "Open Our Eyes",
+    "number": 78,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "D               G           A7sus",
+                    "lyrics": "Open our eyes, Lord"
+                },
+                {
+                    "chords": "      A7                  D   Bm",
+                    "lyrics": "We want to see Jesus"
+                },
+                {
+                    "chords": "                             Gmaj7 Em A7sus",
+                    "lyrics": "To reach out and touch Him"
+                },
+                {
+                    "chords": "        A7                D",
+                    "lyrics": "And say that we love Him"
+                },
+                {
+                    "chords": "D7             G              Asus7",
+                    "lyrics": "Open our ears, Lord"
+                },
+                {
+                    "chords": "        A7            D       Bm",
+                    "lyrics": "And help us to listen"
+                },
+                {
+                    "chords": "                 Gmaj7 Em A7sus",
+                    "lyrics": "Open our eyes, Lord"
+                },
+                {
+                    "chords": "   A7                    D",
+                    "lyrics": "We want to see Jesus"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

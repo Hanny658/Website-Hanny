@@ -1,0 +1,134 @@
+{
+    "title": "Take My Healing to the Nation",
+    "number": 155,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      D                        A/C#",
+                    "lyrics": "I hear a young child crying"
+                },
+                {
+                    "chords": "         G/B                   A        D",
+                    "lyrics": "And see tears of unending pain"
+                },
+                {
+                    "chords": "      Bm                               G",
+                    "lyrics": "I've watched as war-torn nations"
+                },
+                {
+                    "chords": "              Em                  Asus  A  G",
+                    "lyrics": "Treated life with such disdain"
+                },
+                {
+                    "chords": "                                   A",
+                    "lyrics": "My heart grieves to know that these"
+                },
+                {
+                    "chords": "       D                   Bm",
+                    "lyrics": "Haven't come to understand"
+                },
+                {
+                    "chords": "C                                     Asus  A",
+                    "lyrics": "That I suffered for their suff’rings"
+                },
+                {
+                    "chords": "         G             A                        D",
+                    "lyrics": "And died that they might live again"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "               A",
+                    "lyrics": "Take my healing to the nations"
+                },
+                {
+                    "chords": "                  G       A                    D",
+                    "lyrics": "Bind their broken hearts with love"
+                },
+                {
+                    "chords": "                 A                         Asus   A",
+                    "lyrics": "Stretch my hand throughout creation"
+                },
+                {
+                    "chords": "                G           A        D",
+                    "lyrics": "With this message of my love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That I came to bring light in their"
+                },
+                {
+                    "chords": "                      (D)",
+                    "lyrics": "darkness and bring joy"
+                },
+                {
+                    "chords": "           D7                      G",
+                    "lyrics": "Where there once was pain"
+                },
+                {
+                    "chords": "               Em                      Asus A",
+                    "lyrics": "Take my healing to the nations"
+                },
+                {
+                    "chords": "                  G          A7",
+                    "lyrics": "Bind their bro-ken hearts"
+                },
+                {
+                    "chords": "      D",
+                    "lyrics": "with love"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "For the fields they're ready for harvest"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "and the labourers they're so few,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "countless millions still that I want to fill;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But the task isn't mine to do"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I gave you my commandment"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Go and preach good tidings of love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For I finished the work on Calvary"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And their healing already been done"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,56 @@
+{
+    "title": "Jesus We Enthrone You",
+    "number": 146,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G              Em                   C",
+                    "lyrics": "Jesus we enthrone You"
+                },
+                {
+                    "chords": "                                     D",
+                    "lyrics": "We proclaim You are King"
+                },
+                {
+                    "chords": " Em                             Bm",
+                    "lyrics": "Standing here in the midst of us"
+                },
+                {
+                    "chords": " C              Am                    D         C",
+                    "lyrics": "We raise You up with our praise"
+                },
+                {
+                    "chords": "                         Bm          Em",
+                    "lyrics": "And as we worship build Your"
+                },
+                {
+                    "chords": "C                      D7    G",
+                    "lyrics": "And as we worship build"
+                },
+                {
+                    "chords": "             Em   C",
+                    "lyrics": "Your throne"
+                },
+                {
+                    "chords": "                         D              G",
+                    "lyrics": "And as we worship build"
+                },
+                {
+                    "chords": "         Em",
+                    "lyrics": "Your throne"
+                },
+                {
+                    "chords": "                         C                D          G",
+                    "lyrics": "Come Lord Jesus and take Your place"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

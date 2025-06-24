@@ -1,0 +1,32 @@
+{
+    "title": "Father I Adore You",
+    "number": 48,
+    "lyrics": [
+        {
+            "id": "round",
+            "label": "Round",
+            "lines": [
+                {
+                    "chords": "E   F#m      B   E",
+                    "lyrics": "Father I adore You"
+                },
+                {
+                    "chords": "E       F#m     B7   E",
+                    "lyrics": "Lay my life before You"
+                },
+                {
+                    "chords": "E  F#m7 B7  E",
+                    "lyrics": "How I love You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- Jesus/Spirit"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "round"
+    ],
+    "link": ""
+}

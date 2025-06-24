@@ -1,0 +1,103 @@
+{
+    "title": "Jesus Loves Me",
+    "number": 32,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C           G7  C",
+                    "lyrics": "Jesus loves me this I know"
+                },
+                {
+                    "chords": "F                    C",
+                    "lyrics": "For the Bible tells me so"
+                },
+                {
+                    "chords": "C           G7  C     C7",
+                    "lyrics": "Little ones to Him belong"
+                },
+                {
+                    "chords": " F        C                  G7      C",
+                    "lyrics": "They are weak but He is strong"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "C     C7     F",
+                    "lyrics": "Yes, Jesus loves me"
+                },
+                {
+                    "chords": "C                G7",
+                    "lyrics": "Yes, Jesus loves me"
+                },
+                {
+                    "chords": "C     C7     F      Fm7",
+                    "lyrics": "Yes, Jesus loves me"
+                },
+                {
+                    "chords": "       C       G7         C",
+                    "lyrics": "The Bible tells me so"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Jesus loves me, He who died"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Heaven's gates to open wide"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He will wash away my sin"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Let His little child come in"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Jesus, take this heart of mine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Make it pure and wholly thine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "On the cross You died for me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I will love and live for Thee"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

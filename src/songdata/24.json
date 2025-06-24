@@ -1,0 +1,52 @@
+{
+    "title": "In Moments Like This",
+    "number": 24,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "C                         Am7",
+                    "lyrics": "In moments like these"
+                },
+                {
+                    "chords": "   F               G7",
+                    "lyrics": "I sing out a song"
+                },
+                {
+                    "chords": "   F               G7                 C   G7",
+                    "lyrics": "I sing out a love song to Jesus"
+                },
+                {
+                    "chords": "C                           Am7",
+                    "lyrics": "In moments like these"
+                },
+                {
+                    "chords": "   F               G7",
+                    "lyrics": "I lift up my voice"
+                },
+                {
+                    "chords": "   Dm              G7                C  C7",
+                    "lyrics": "I lift up my voice to the Lord"
+                },
+                {
+                    "chords": "               F  G7        C",
+                    "lyrics": "Singing, I love You, Lord"
+                },
+                {
+                    "chords": "              F  G7           C",
+                    "lyrics": "Singing, I love You, Lord"
+                },
+                {
+                    "chords": "               F  G7 Am   F       C  G7   C",
+                    "lyrics": "Singing, I love You, Lord, I love You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

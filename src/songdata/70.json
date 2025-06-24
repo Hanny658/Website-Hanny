@@ -1,0 +1,99 @@
+{
+    "title": "Illusive Dream",
+    "number": 70,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                                  Am",
+                    "lyrics": "Where might you be going"
+                },
+                {
+                    "chords": "               Dm7     G",
+                    "lyrics": "This fine day, my friend"
+                },
+                {
+                    "chords": "Dm                 G",
+                    "lyrics": "Off along an aimless road"
+                },
+                {
+                    "chords": "         C                C7",
+                    "lyrics": "That soon must end"
+                },
+                {
+                    "chords": "F                 G",
+                    "lyrics": "Chasing an illusive dream"
+                },
+                {
+                    "chords": "         Em        Am",
+                    "lyrics": "That shines so fair"
+                },
+                {
+                    "chords": " F              Dm      D7   G",
+                    "lyrics": "But when found, isn't there"
+                },
+                {
+                    "chords": "C                 Am                       Dm",
+                    "lyrics": "I can understand your weary sigh,"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "my friend"
+                },
+                {
+                    "chords": "Dm                        G",
+                    "lyrics": "There but for the grace of God"
+                },
+                {
+                    "chords": "   C          C7",
+                    "lyrics": "I go, my friend"
+                },
+                {
+                    "chords": "F                               G",
+                    "lyrics": "Come and let Him lead you to your"
+                },
+                {
+                    "chords": "Em           Am",
+                    "lyrics": "journey's end"
+                },
+                {
+                    "chords": "       Dm                      G             C",
+                    "lyrics": "Oh come along and walk with Him"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "If without the grace of God your life should end"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And before the face of God"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You stand, my friend"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "What would your illusive dream avail you then?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "So come along and walk with Him"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

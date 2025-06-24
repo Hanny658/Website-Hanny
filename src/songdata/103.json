@@ -1,0 +1,43 @@
+{
+    "title": "The Joy of the Lord",
+    "number": 103,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "     D                         A7",
+                    "lyrics": "The joy of the Lord is my strength"
+                },
+                {
+                    "chords": "     Em             A7               D",
+                    "lyrics": "The joy of the Lord is my strength"
+                },
+                {
+                    "chords": "        D7                     G     Em7",
+                    "lyrics": "The joy of the Lord is my strength"
+                },
+                {
+                    "chords": "    D                A7                D   A   D",
+                    "lyrics": "The joy of the Lord is my strength"
+                }
+            ]
+        },
+        {
+            "id": "extras",
+            "label": "Extra",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "-He gives me living water and I thirst no more..."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "extras"
+    ],
+    "link": ""
+}

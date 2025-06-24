@@ -1,0 +1,48 @@
+{
+    "title": "Behold What Manner of Love",
+    "number": 50,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "C                                      F",
+                    "lyrics": "Behold what manner of love"
+                },
+                {
+                    "chords": "                           C                G",
+                    "lyrics": "The Father has given unto us"
+                },
+                {
+                    "chords": "C                                       F",
+                    "lyrics": "Behold what manner of love"
+                },
+                {
+                    "chords": "                          C       G     C",
+                    "lyrics": "The Father has given unto us"
+                },
+                {
+                    "chords": "          F                    C",
+                    "lyrics": "That we should be called"
+                },
+                {
+                    "chords": "                     G",
+                    "lyrics": "The sons of God"
+                },
+                {
+                    "chords": " C     F                     G",
+                    "lyrics": "That we should be called"
+                },
+                {
+                    "chords": "                     C",
+                    "lyrics": "The sons of God"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

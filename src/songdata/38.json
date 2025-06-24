@@ -1,0 +1,52 @@
+{
+    "title": "Joy in My Heart",
+    "number": 38,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D                     A7",
+                    "lyrics": "I've got joy down in my heart"
+                },
+                {
+                    "chords": " G                    A                 D",
+                    "lyrics": "Deep, deep down in my heart"
+                },
+                {
+                    "chords": " D        A",
+                    "lyrics": "J O Y down in my heart"
+                },
+                {
+                    "chords": " G                   A                  D",
+                    "lyrics": "Deep, deep down in my heart"
+                },
+                {
+                    "chords": " G                          D",
+                    "lyrics": "Jesus gave it to me I know,"
+                },
+                {
+                    "chords": "     Em",
+                    "lyrics": "so no one can"
+                },
+                {
+                    "chords": "D                                              A",
+                    "lyrics": "Destroy,destroy,destroy,destroy,po oh!"
+                },
+                {
+                    "chords": " D                 A",
+                    "lyrics": "I've got joy down in my heart"
+                },
+                {
+                    "chords": " Em                A                 D",
+                    "lyrics": "Deep, deep down in my heart"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

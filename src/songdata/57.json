@@ -1,0 +1,49 @@
+{
+    "title": "He Is Our Peace",
+    "number": 57,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "He is our peace"
+                },
+                {
+                    "chords": "               G                               D    Bm",
+                    "lyrics": "Who has broken down every wall"
+                },
+                {
+                    "chords": "                Em  A                   D       A",
+                    "lyrics": "He is our peace, He is our peace"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "                     G                    Em",
+                    "lyrics": "Cast all your cares on Him"
+                },
+                {
+                    "chords": "           Asus7        F#m Bm",
+                    "lyrics": "For He cares for you"
+                },
+                {
+                    "chords": "               Em       Asus7 A7 D Em D/F#",
+                    "lyrics": "He is our peace, He is our peace"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse1",
+        "verse2",
+        "verse2"
+    ],
+    "link": ""
+}

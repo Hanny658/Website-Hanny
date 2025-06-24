@@ -1,0 +1,87 @@
+{
+    "title": "My Jesus I Love Thee",
+    "number": 121,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      C  F/C    C    Am",
+                    "lyrics": "My Jesus I love Thee"
+                },
+                {
+                    "chords": "   Dm    G           C",
+                    "lyrics": "I know Thou art mine"
+                },
+                {
+                    "chords": "         C    F/C    C    Am",
+                    "lyrics": "For Thee all the follies"
+                },
+                {
+                    "chords": "     Dm G  C",
+                    "lyrics": "Of sin I resign"
+                },
+                {
+                    "chords": "       C/E F      C/E Dm  G",
+                    "lyrics": "My gracious Redeemer,"
+                },
+                {
+                    "chords": "      C   F          Gsus G",
+                    "lyrics": "My Savior art Thou"
+                },
+                {
+                    "chords": "  C   F    E        Am7",
+                    "lyrics": "If ever I loved Thee"
+                },
+                {
+                    "chords": "      Dm      G   C",
+                    "lyrics": "My Jesus, 'tis now"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I love Thee because"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Thou hast first loved me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And purchased my pardon"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "On Calvary's tree;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I love Thee for wearing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The thorns on Thy brow"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "If ever I loved Thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My Jesus, 'tis now"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

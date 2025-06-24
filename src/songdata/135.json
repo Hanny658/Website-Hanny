@@ -1,0 +1,48 @@
+{
+    "title": "Thy Loving Kindness",
+    "number": 135,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                  D",
+                    "lyrics": "Thy loving kindness"
+                },
+                {
+                    "chords": "                       Em   A7",
+                    "lyrics": "Is better than life"
+                },
+                {
+                    "chords": "                  Em           A",
+                    "lyrics": "Thy loving kindness"
+                },
+                {
+                    "chords": "                       D    A7",
+                    "lyrics": "Is better than life"
+                },
+                {
+                    "chords": "                      D7",
+                    "lyrics": "My lips shall praise Thee,"
+                },
+                {
+                    "chords": "                   G              Em7",
+                    "lyrics": "Thus will I bless Thee"
+                },
+                {
+                    "chords": "                  D/F#       Em",
+                    "lyrics": "Thy loving kindness"
+                },
+                {
+                    "chords": "    A7           D",
+                    "lyrics": "Is better than life"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

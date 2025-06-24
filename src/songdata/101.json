@@ -1,5 +1,5 @@
 {
-    "title": "As the Deer",
+    "title": "My Peace",
     "number": 101,
     "lyrics": [
         {
@@ -7,123 +7,49 @@
             "label": "Verse 1",
             "lines": [
                 {
-                    "chords": "C         Em                Am",
-                    "lyrics": "As the deer panteth for the water"
+                    "chords": "    C             Em           Dm7   G",
+                    "lyrics": "My peace I give unto you"
                 },
                 {
-                    "chords": "         F                    G     C     G ",
-                    "lyrics": "So my soul longeth after You"
+                    "chords": "         C",
+                    "lyrics": "It's a peace"
                 },
                 {
-                    "chords": "C      Em                Am",
-                    "lyrics": "You alone are my heart's desire"
+                    "chords": "               Em                 Dm7   G",
+                    "lyrics": "That the world cannot give"
                 },
                 {
-                    "chords": "          F          G7         C ",
-                    "lyrics": "And I long to worship You"
+                    "chords": "         F",
+                    "lyrics": "It's a peace"
+                },
+                {
+                    "chords": "               G/F               Em Am Am/G",
+                    "lyrics": "That the world cannot understand"
+                },
+                {
+                    "chords": "F              G/F   C/E          Am",
+                    "lyrics": "Peace to know, peace to live"
+                },
+                {
+                    "chords": "       Dm7      G             C",
+                    "lyrics": "My peace I give unto you"
                 }
             ]
         },
         {
-            "id": "verse2",
-            "label": "Verse 2",
+            "id": "extras",
+            "label": "Extra",
             "lines": [
                 {
-                    "chords": "C         Em                Am",
-                    "lyrics": "I want You, more than gold or silver"
-                },
-                {
-                    "chords": "         F                    G     C     G ",
-                    "lyrics": "Only You can satisfy"
-                },
-                {
-                    "chords": "C      Em                Am",
-                    "lyrics": "You alone are the great joy giver"
-                },
-                {
-                    "chords": "          F          G7         C ",
-                    "lyrics": "And the apple of my eye"
-                }
-            ]
-        },
-        {
-            "id": "verse3",
-            "label": "Verse 3",
-            "lines": [
-                {
-                    "chords": "C         Em                Am",
-                    "lyrics": "You're my friend and You are my brother"
-                },
-                {
-                    "chords": "         F                    G     C     G ",
-                    "lyrics": "Even though You are a King"
-                },
-                {
-                    "chords": "C      Em                Am",
-                    "lyrics": "I love You more than any other"
-                },
-                {
-                    "chords": "          F          G7         C ",
-                    "lyrics": "So much more than anything"
-                }
-            ]
-        },
-        {
-            "id": "chorus",
-            "label": "Chorus",
-            "lines": [
-                {
-                    "chords": "Am                           F                    C",
-                    "lyrics": "You alone are my strength, my shield"
-                },
-                {
-                    "chords": "      F                             Dm    E",
-                    "lyrics": "To You alone may my spirit yield "
-                },
-                {
-                    "chords": " C    Em                 Am",
-                    "lyrics": "You alone are my heart's desire"
-                },
-                {
-                    "chords": "           F          G7          C",
-                    "lyrics": "And I long to worship You"
-                }
-            ]
-        },
-        {
-            "id": "ending",
-            "label": "Chorus",
-            "lines": [
-                {
-                    "chords": "Am                           F                    C",
-                    "lyrics": "You alone are my strength, my shield"
-                },
-                {
-                    "chords": "      F                             Dm    E",
-                    "lyrics": "To You alone may my spirit yield "
-                },
-                {
-                    "chords": " C    Em                 Am",
-                    "lyrics": "You alone are my heart's desire"
-                },
-                {
-                    "chords": "           F          G7          C",
-                    "lyrics": "And I long to worship You"
-                },
-                {
-                    "chords": "           F          G7          C",
-                    "lyrics": "And I long to worship You"
+                    "chords": "",
+                    "lyrics": "-love... -joy..."
                 }
             ]
         }
     ],
     "song": [
         "verse1",
-        "chorus",
-        "verse2",
-        "chorus",
-        "verse3",
-        "ending"
+        "extras"
     ],
-    "link": "https://www.youtube.com/watch?v=zrCT90eSjVY"
+    "link": ""
 }

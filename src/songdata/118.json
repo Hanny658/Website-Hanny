@@ -1,0 +1,80 @@
+{
+    "title": "Go Tell It on the Mountain",
+    "number": 118,
+    "lyrics": [
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "F  Bb                    F",
+                    "lyrics": "Go tell it on the mountain"
+                },
+                {
+                    "chords": "C7                           F      Bb",
+                    "lyrics": "Over the hills and everywhere"
+                },
+                {
+                    "chords": " F   Bb                  F     Dm",
+                    "lyrics": "Go tell it on the mountain"
+                },
+                {
+                    "chords": "         C        C7        F",
+                    "lyrics": "That Jesus Christ is born"
+                }
+            ]
+        },
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "F",
+                    "lyrics": "When I was a seeker"
+                },
+                {
+                    "chords": "   C7                                  F",
+                    "lyrics": "I sought both night and day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I asked the Lord to help me"
+                },
+                {
+                    "chords": "       Gm                           C  C7",
+                    "lyrics": "And He showed me the way"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He made me a watchman"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Upon the  city wall"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And tho I am a Christian"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I am the least of all"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "chorus",
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

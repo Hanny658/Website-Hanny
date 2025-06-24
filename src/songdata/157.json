@@ -1,0 +1,103 @@
+{
+    "title": "Shout to the Lord",
+    "number": 157,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "G              D",
+                    "lyrics": "My Jesus, My Savior,"
+                },
+                {
+                    "chords": "Em                D               C",
+                    "lyrics": "Lord there is none like you"
+                },
+                {
+                    "chords": "               G    C               G",
+                    "lyrics": "All of my days, I want to praise,"
+                },
+                {
+                    "chords": "        Em                      F   C/E  D",
+                    "lyrics": "The wonders of your mighty love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My comfort, My shelter, tower of"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "refuge and strength"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Let every breath, all that I am, never"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "cease to worship you"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G                 Em               C                D",
+                    "lyrics": "Shout to the Lord all the earth let us sing"
+                },
+                {
+                    "chords": "G                 Em        C                       D",
+                    "lyrics": "Power and majesty praise to the king"
+                },
+                {
+                    "chords": "Em                                                 C",
+                    "lyrics": "Mountains bow down and the seas"
+                },
+                {
+                    "chords": "                          D",
+                    "lyrics": "will roar at the sound of your name"
+                },
+                {
+                    "chords": "G           Em        C             D",
+                    "lyrics": "I sing for joy at the work of your hands"
+                },
+                {
+                    "chords": "G             Em         C           D",
+                    "lyrics": "Forever I'll love you forever I'll stand"
+                },
+                {
+                    "chords": "Em                       C         D       G",
+                    "lyrics": "Nothing compares to the"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "promise I have in You"
+                },
+                {
+                    "chords": "A           F#m       D                   E",
+                    "lyrics": "I sing for joy at the work of your hands"
+                },
+                {
+                    "chords": "A                F#m            D         E",
+                    "lyrics": "Forever I'll love you forever I'll stand"
+                },
+                {
+                    "chords": "F#m                                     D",
+                    "lyrics": "Nothing compares to the promise"
+                },
+                {
+                    "chords": "  E           A",
+                    "lyrics": "I have in You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse",
+        "chorus"
+    ],
+    "link": ""
+}

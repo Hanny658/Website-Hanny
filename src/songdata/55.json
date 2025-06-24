@@ -1,0 +1,60 @@
+{
+    "title": "A New Commandment",
+    "number": 55,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   C                Am                 F             G",
+                    "lyrics": "A new commandment I give unto you"
+                },
+                {
+                    "chords": "                C              Am",
+                    "lyrics": "That you love one another"
+                },
+                {
+                    "chords": "     F                   G",
+                    "lyrics": "As I have loved you"
+                },
+                {
+                    "chords": "                C               Am",
+                    "lyrics": "That you love one another"
+                },
+                {
+                    "chords": "     F  G              C",
+                    "lyrics": "As I have loved you"
+                },
+                {
+                    "chords": "     F             G",
+                    "lyrics": "By this shall all men"
+                },
+                {
+                    "chords": "           C                Am",
+                    "lyrics": "Know you are my disciples"
+                },
+                {
+                    "chords": "    F             C                   G   C",
+                    "lyrics": "If you have love one for another"
+                },
+                {
+                    "chords": "      F             G",
+                    "lyrics": "By this shall all men"
+                },
+                {
+                    "chords": "            C         Em Am",
+                    "lyrics": "Know you are my disciples"
+                },
+                {
+                    "chords": "        F         C                      G   C",
+                    "lyrics": "If you have love one for another"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

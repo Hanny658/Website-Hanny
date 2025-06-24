@@ -1,0 +1,79 @@
+{
+    "title": "In His Time",
+    "number": 23,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C        Dm7 G7       C",
+                    "lyrics": "In His time, in His time"
+                },
+                {
+                    "chords": "                  Dm7                  G7",
+                    "lyrics": "He makes all things beautiful"
+                },
+                {
+                    "chords": "          C     C7",
+                    "lyrics": "In His time"
+                },
+                {
+                    "chords": "                      F                       G7",
+                    "lyrics": "Lord please show me everyday"
+                },
+                {
+                    "chords": "                  Em                         Am",
+                    "lyrics": "As You're teaching me Your way"
+                },
+                {
+                    "chords": "                Dm7                     G7",
+                    "lyrics": "That You do just what You say"
+                },
+                {
+                    "chords": "              C",
+                    "lyrics": "In  Your time"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "In Your time, in Your time"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You make all things beautiful"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In Your time"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lord, my life to You I bring"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "May each song I have to sing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Be to You a lovely thing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In Your time"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

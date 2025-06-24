@@ -1,0 +1,128 @@
+{
+    "title": "Waymaker",
+    "number": 171,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "              D                                A",
+                    "lyrics": "You are here, moving in our midst"
+                },
+                {
+                    "chords": "                  E                     F#m",
+                    "lyrics": "I worship You, I worship You"
+                },
+                {
+                    "chords": "              D                                  A",
+                    "lyrics": "You are here, working in this place"
+                },
+                {
+                    "chords": "                 E                      F#m",
+                    "lyrics": "I worship You, I worship You"
+                },
+                {
+                    "chords": "               D                               A",
+                    "lyrics": "You are here, moving in our midst"
+                },
+                {
+                    "chords": "                E                      F#m",
+                    "lyrics": "I worship You, I worship You"
+                },
+                {
+                    "chords": "                D                                A",
+                    "lyrics": "You are here, working in this place"
+                },
+                {
+                    "chords": "                E                       F#m",
+                    "lyrics": "I worship You, I worship You"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "   D",
+                    "lyrics": "Waymaker, Miracle Worker"
+                },
+                {
+                    "chords": " A",
+                    "lyrics": "Promise Keeper, Light in the darkness"
+                },
+                {
+                    "chords": " E                      F#m",
+                    "lyrics": "My God, that is who You are"
+                },
+                {
+                    "chords": "D",
+                    "lyrics": "Waymaker, Miracle Worker"
+                },
+                {
+                    "chords": "A",
+                    "lyrics": "Promise Keeper, Light in the darkness"
+                },
+                {
+                    "chords": "E                       F#m",
+                    "lyrics": "My God, that is who You are"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                  D",
+                    "lyrics": "That is who You are"
+                },
+                {
+                    "chords": "                  A",
+                    "lyrics": "That is who You are"
+                },
+                {
+                    "chords": "                  E",
+                    "lyrics": "That is who You are"
+                },
+                {
+                    "chords": "                  F#m",
+                    "lyrics": "That is who You are"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "Even when I don't see it, You're working"
+                },
+                {
+                    "chords": "A",
+                    "lyrics": "Even when I can't feel it, You're working"
+                },
+                {
+                    "chords": "E",
+                    "lyrics": "You never stop, You never stop working"
+                },
+                {
+                    "chords": "F#m",
+                    "lyrics": "You never stop, You never stop working"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus1",
+        "chorus2",
+        "verse1",
+        "bridge",
+        "bridge",
+        "chorus1"
+    ],
+    "link": ""
+}

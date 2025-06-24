@@ -1,0 +1,140 @@
+{
+    "title": "Did You Ever Talk to God Above",
+    "number": 62,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " G                               Am7  D",
+                    "lyrics": "Did you ever talk to God above"
+                },
+                {
+                    "chords": "                                           Bm",
+                    "lyrics": "Tell Him that you need a friend"
+                },
+                {
+                    "chords": "    Em7",
+                    "lyrics": "to love; Pray in Jesus' name,"
+                },
+                {
+                    "chords": "    Am              D                    G       G7",
+                    "lyrics": "Believing that God answers prayers"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Have you told Him"
+                },
+                {
+                    "chords": "              Am          D/F#",
+                    "lyrics": "All your cares and woes"
+                },
+                {
+                    "chords": "                          Bm       Em7",
+                    "lyrics": "Every tiny little fear He knows"
+                },
+                {
+                    "chords": "                                             Am",
+                    "lyrics": "You can know He'll always hear"
+                },
+                {
+                    "chords": "        D                       G   Cadd9  G",
+                    "lyrics": "And He, will answer prayers"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "                                   Am7         D",
+                    "lyrics": "You can whisper in a crowd to Him"
+                },
+                {
+                    "chords": "                                             Bm",
+                    "lyrics": "You can cry when you're alone"
+                },
+                {
+                    "chords": "    Em",
+                    "lyrics": "to Him"
+                },
+                {
+                    "chords": "                                               Am7",
+                    "lyrics": "You don't have to pray out loud"
+                },
+                {
+                    "chords": "D",
+                    "lyrics": "to Him"
+                },
+                {
+                    "chords": "                      G            G7",
+                    "lyrics": "He knows your thoughts"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "                                          Am        D",
+                    "lyrics": "On a lofty mountain peak, He's there"
+                },
+                {
+                    "chords": "                                Bm7                Em",
+                    "lyrics": "In a meadow by a stream, He's there"
+                },
+                {
+                    "chords": "                                          Am",
+                    "lyrics": "Anywhere on earth you go"
+                },
+                {
+                    "chords": "        D                                   G Cadd9 G",
+                    "lyrics": "He's been there from the start"
+                }
+            ]
+        },
+        {
+            "id": "verse5",
+            "label": "Verse 5",
+            "lines": [
+                {
+                    "chords": "                                       Am            D",
+                    "lyrics": "Find the answer in His word, it's true"
+                },
+                {
+                    "chords": "                                                   Bm",
+                    "lyrics": "You'll be strong because He walks with"
+                },
+                {
+                    "chords": "Em",
+                    "lyrics": "you"
+                },
+                {
+                    "chords": "                                    Am               D",
+                    "lyrics": "By faithfulness He'll change you too"
+                },
+                {
+                    "chords": "                        G",
+                    "lyrics": "God answers prayers"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3",
+        "verse4",
+        "verse5"
+    ],
+    "link": ""
+}

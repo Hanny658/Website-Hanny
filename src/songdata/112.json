@@ -1,0 +1,110 @@
+{
+    "title": "The Law of the Lord",
+    "number": 112,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    C                   Dm7                G",
+                    "lyrics": "The Law of the Lord is perfect"
+                },
+                {
+                    "chords": "                           C",
+                    "lyrics": "Converting the soul"
+                },
+                {
+                    "chords": "                                   Dm7             G",
+                    "lyrics": "The testimony of the Lord is sure"
+                },
+                {
+                    "chords": "                                  C   C7",
+                    "lyrics": "Making wise the simple"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                    F",
+                    "lyrics": "More to be desired are they than"
+                },
+                {
+                    "chords": "G                                Em  E  Am",
+                    "lyrics": "Gold, yea much fine gold"
+                },
+                {
+                    "chords": "                                Dm",
+                    "lyrics": "Sweeter also than honey"
+                },
+                {
+                    "chords": " G                     C",
+                    "lyrics": "And the honeycomb."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The statutes of the Lord are right"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Rejoicing the heart;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The commandments of the Lord is pure,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Enlightening the eyes"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The fear of the Lord is clean"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Enduring forever;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The judgements of the Lord are true"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And righteous altogether"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "May the words that I speak aloud"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And my mind's secret whispering"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Be according to Your will, O Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My Lord and Redeemer"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,123 @@
+{
+    "title": "Mansion Over the Hilltop",
+    "number": 86,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "          C",
+                    "lyrics": "I'm satisfied with"
+                },
+                {
+                    "chords": " F                         C",
+                    "lyrics": "Just a cottage below;"
+                },
+                {
+                    "chords": "            G                          C     G",
+                    "lyrics": "A little silver and a little gold"
+                },
+                {
+                    "chords": "                   C",
+                    "lyrics": "But in that city"
+                },
+                {
+                    "chords": " F                                        C",
+                    "lyrics": "Where the ransomed will shine"
+                },
+                {
+                    "chords": "              G                                  C F C",
+                    "lyrics": "I want a gold one that's silver lined"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                 F                               C",
+                    "lyrics": "I've got a mansion just over the hilltop"
+                },
+                {
+                    "chords": "                G7",
+                    "lyrics": "In that bright land"
+                },
+                {
+                    "chords": "                                        C     C7",
+                    "lyrics": "Where we'll never grow old"
+                },
+                {
+                    "chords": "                        F",
+                    "lyrics": "And someday yonder"
+                },
+                {
+                    "chords": "                                 C         Am7",
+                    "lyrics": "We will never more wander"
+                },
+                {
+                    "chords": "                     Dm7",
+                    "lyrics": "But walk the streets"
+                },
+                {
+                    "chords": "       G                 C  F  C",
+                    "lyrics": "That are purest gold"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Tho often tempted, tormented and tested"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "and like the prophet, My pillow a stone"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "and Tho I find here no permanent dwelling"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I know He'll give me a mansion my own"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Don't think me poor or deserted or lonely -"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm not discouraged; I'm heaven bound;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm just a pilgrim In search of a city"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I want a mansion, a harp and a crown"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

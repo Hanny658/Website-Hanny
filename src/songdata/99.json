@@ -1,0 +1,99 @@
+{
+    "title": "Be Exalted, O God",
+    "number": 99,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "           C      F              C",
+                    "lyrics": "*I will give thanks to Thee"
+                },
+                {
+                    "chords": "              F                 C",
+                    "lyrics": "O God among the people"
+                },
+                {
+                    "chords": "         Am                   G",
+                    "lyrics": "I will sing praises to Thee"
+                },
+                {
+                    "chords": "   F               C    Dm7  C",
+                    "lyrics": "Among the nations"
+                },
+                {
+                    "chords": "                                F         C",
+                    "lyrics": "For Thy steadfast love is great"
+                },
+                {
+                    "chords": "              F          C",
+                    "lyrics": "Is great to the heavens"
+                },
+                {
+                    "chords": "              Am",
+                    "lyrics": "And Thy faithfulness,"
+                },
+                {
+                    "chords": "        D                            G",
+                    "lyrics": "Thy faithfulness, to the clouds"
+                },
+                {
+                    "chords": "        C",
+                    "lyrics": "Be exalted, O God,"
+                },
+                {
+                    "chords": "                   G D  G",
+                    "lyrics": "above the heavens"
+                },
+                {
+                    "chords": "             Dm7",
+                    "lyrics": "Let Thy glory be"
+                },
+                {
+                    "chords": "G                  C       Dm7",
+                    "lyrics": "Over all the earth *"
+                },
+                {
+                    "chords": "G  C",
+                    "lyrics": "Be exalted, O God"
+                },
+                {
+                    "chords": "                   G  D  G",
+                    "lyrics": "Above the heavens"
+                },
+                {
+                    "chords": "              Dm7",
+                    "lyrics": "Let Thy glory be"
+                },
+                {
+                    "chords": "G                  C     F   C",
+                    "lyrics": "Over all the earth"
+                }
+            ]
+        },
+        {
+            "id": "repeat",
+            "label": "Repeat",
+            "lines": [
+                {
+                    "chords": "        F        G",
+                    "lyrics": "Let Thy glory"
+                },
+                {
+                    "chords": "             Em E7  Am         Dm7",
+                    "lyrics": "Let Thy glory, let Thy glory"
+                },
+                {
+                    "chords": "      G                 C   F  C",
+                    "lyrics": "Be over all the earth"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse",
+        "repeat"
+    ],
+    "link": ""
+}

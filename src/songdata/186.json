@@ -1,0 +1,153 @@
+{
+    "title": "Good Good Father",
+    "number": 186,
+    "lyrics": [
+        {
+            "id": "intro",
+            "label": "Intro",
+            "lines": [
+                {
+                    "chords": "G  Gsus4  G",
+                    "lyrics": "(x2)"
+                }
+            ]
+        },
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "     G                   Gsus4        G",
+                    "lyrics": "Oh, I've heard a thousand stories"
+                },
+                {
+                    "chords": "G                   Gsus4           G",
+                    "lyrics": "Of what they think You're like"
+                },
+                {
+                    "chords": "G                           Gsus4     G",
+                    "lyrics": "But, I've heard the tender whisper"
+                },
+                {
+                    "chords": "G                     Gsus4   G",
+                    "lyrics": "Of love in the dead of night"
+                },
+                {
+                    "chords": "              C         G/B",
+                    "lyrics": "And You tell me that You're pleased"
+                },
+                {
+                    "chords": "               Am7          Dsus4   D",
+                    "lyrics": "And that I'm never alone"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                    Cadd9",
+                    "lyrics": "You're a Good, Good Father"
+                },
+                {
+                    "chords": "                          G/B",
+                    "lyrics": "It's who You are"
+                },
+                {
+                    "chords": "                          Am7",
+                    "lyrics": "It's who You are"
+                },
+                {
+                    "chords": "                          D",
+                    "lyrics": "It's who you are"
+                },
+                {
+                    "chords": "                            Cadd9",
+                    "lyrics": "And I'm loved by You"
+                },
+                {
+                    "chords": "                     G/B",
+                    "lyrics": "It's who I am"
+                },
+                {
+                    "chords": "                    Am7",
+                    "lyrics": "It's who I am"
+                },
+                {
+                    "chords": "                 D    Dsus4   D",
+                    "lyrics": "It's who I am"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "                        Cadd2                  Em7",
+                    "lyrics": "Cause You are perfect in all of your ways"
+                },
+                {
+                    "chords": "Am7                            G",
+                    "lyrics": "Perfect in all of your ways"
+                },
+                {
+                    "chords": "             Cadd9                           Em7",
+                    "lyrics": "You are perfect in all of Your ways"
+                },
+                {
+                    "chords": "     D",
+                    "lyrics": "to us (repeat bridge)"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Oh, it’s a love so un-deniable"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I, I can hardly speak"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Peace so un-explainable"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I, I can hardly think"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As You call me deeper still"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As You call me deeper still"
+                },
+                {
+                    "chords": "           C            G/B",
+                    "lyrics": "As You call me deeper still"
+                },
+                {
+                    "chords": "        Am7         D",
+                    "lyrics": "Into love, love, love"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "intro",
+        "verse1",
+        "chorus",
+        "verse2",
+        "bridge",
+        "chorus"
+    ],
+    "link": ""
+}

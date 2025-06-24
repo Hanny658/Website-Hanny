@@ -1,0 +1,123 @@
+{
+    "title": "The Battle Belongs to the Lord",
+    "number": 148,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "Em                                       D/E             Em",
+                    "lyrics": "In heavenly armour we'll enter the land"
+                },
+                {
+                    "chords": "       C         D/E                  Em",
+                    "lyrics": "the battle belongs to the Lord"
+                },
+                {
+                    "chords": "Em                                         D/E",
+                    "lyrics": "No weapon that's fashioned against"
+                },
+                {
+                    "chords": "           Em",
+                    "lyrics": "us will stand,"
+                },
+                {
+                    "chords": "                   C  D/E              Em",
+                    "lyrics": "The battle belongs to the Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "              D    G  D  C  D  G",
+                    "lyrics": "And we sing glory, honour,"
+                },
+                {
+                    "chords": "                    D                      Em",
+                    "lyrics": "Power and strength to the Lord"
+                },
+                {
+                    "chords": "        D    G  D  C  D  G",
+                    "lyrics": "We sing glory, honour,"
+                },
+                {
+                    "chords": "                    D                      Em",
+                    "lyrics": "Power and strength to the Lord"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "When the power of darkness"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Comes in like a flood"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The battle belongs to the Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He'll raise up a standard,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The power of His blood"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The battle belongs to the Lord"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "When your enemy presses in hard,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Do not fear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The battle belongs to the Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take courage my friend,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Your redemption is near"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The battle belongs to the Lord"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

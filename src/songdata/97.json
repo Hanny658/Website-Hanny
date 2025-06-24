@@ -1,0 +1,52 @@
+{
+    "title": "Make Me a Servant",
+    "number": 97,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "G                 Em",
+                    "lyrics": "Make me a servant,"
+                },
+                {
+                    "chords": "Am7             Dsus D",
+                    "lyrics": "humble and meek"
+                },
+                {
+                    "chords": "Am7               D /F#",
+                    "lyrics": "Lord, let me lift up,"
+                },
+                {
+                    "chords": "C/E                      G",
+                    "lyrics": "those who are weak"
+                },
+                {
+                    "chords": "Em                Em/D",
+                    "lyrics": "And may the prayer of"
+                },
+                {
+                    "chords": "      Em/C#             Cm",
+                    "lyrics": "my heart always be"
+                },
+                {
+                    "chords": "G/B                D",
+                    "lyrics": "Make me a servant,"
+                },
+                {
+                    "chords": "G/B             D",
+                    "lyrics": "make me a servant"
+                },
+                {
+                    "chords": "G/B             Am      D7  G",
+                    "lyrics": "Make me a servant today."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

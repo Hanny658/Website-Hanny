@@ -1,0 +1,99 @@
+{
+    "title": "Joy in the Lord",
+    "number": 163,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "     F              Gm         Am       Gm",
+                    "lyrics": "A long time ago, I was walking alone"
+                },
+                {
+                    "chords": "  F                Dm     G7           C",
+                    "lyrics": "Waiting for joy to come my way"
+                },
+                {
+                    "chords": "  F                      Gm",
+                    "lyrics": "I was weary and lost"
+                },
+                {
+                    "chords": "    A7              Dm",
+                    "lyrics": "all hope in me gone"
+                },
+                {
+                    "chords": "         Bb                         G7",
+                    "lyrics": "Then Jesus came and showed me"
+                },
+                {
+                    "chords": "      C",
+                    "lyrics": "the way"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "   F                Bb          F",
+                    "lyrics": "He said come follow me for I know"
+                },
+                {
+                    "chords": "Bb",
+                    "lyrics": "the way,"
+                },
+                {
+                    "chords": "      Gm       F/A            Eb   C",
+                    "lyrics": "The way to peace and joy,"
+                },
+                {
+                    "chords": "            F                   Bb",
+                    "lyrics": "Which path will you choose,"
+                },
+                {
+                    "chords": "    F                     Bb",
+                    "lyrics": "He’s waiting for you,"
+                },
+                {
+                    "chords": "      Gm                              C",
+                    "lyrics": "My friend you’ll find true joy in the"
+                },
+                {
+                    "chords": "  F",
+                    "lyrics": "Lord."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "As I cast my cares away, I begin to understand,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "What it means to live by God’s great divine plan,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My dark world became light, no longer wondering lost,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Praise God I’m now free because."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

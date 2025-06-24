@@ -1,0 +1,47 @@
+{
+    "title": "Glorify Thy Name",
+    "number": 59,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  C           F",
+                    "lyrics": "Father, we love you"
+                },
+                {
+                    "chords": "      G7                      C",
+                    "lyrics": "We praise You, we adore You"
+                },
+                {
+                    "chords": "  Em         F                G         G7",
+                    "lyrics": "Glorify Thy name, in all the earth"
+                },
+                {
+                    "chords": "  C              F          E                 Am",
+                    "lyrics": "Glorify Thy name, glorify Thy name"
+                },
+                {
+                    "chords": " Dm7        G7                        C",
+                    "lyrics": "Glorify Thy name, in all the earth"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Jesus...Spirit…."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

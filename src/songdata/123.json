@@ -1,0 +1,123 @@
+{
+    "title": "Love Lifted Me",
+    "number": 123,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " G",
+                    "lyrics": "I was sinking deep in sin"
+                },
+                {
+                    "chords": "                                       D",
+                    "lyrics": "Far from the peaceful shore"
+                },
+                {
+                    "chords": "Am",
+                    "lyrics": "Very deeply stained within, sinking"
+                },
+                {
+                    "chords": "     D         G",
+                    "lyrics": "To rise no more, but the Master of"
+                },
+                {
+                    "chords": "                                                 C",
+                    "lyrics": "the sea heard my despairing cry"
+                },
+                {
+                    "chords": "                            G",
+                    "lyrics": "From the waters lifted me"
+                },
+                {
+                    "chords": "        D7         G",
+                    "lyrics": "Now safe am I"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "Love lifted me,"
+                },
+                {
+                    "chords": "C",
+                    "lyrics": "Love lifted me"
+                },
+                {
+                    "chords": "                          G              Em",
+                    "lyrics": "When nothing else could help"
+                },
+                {
+                    "chords": "A7              D",
+                    "lyrics": "Love lifted me"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "Love lifted me,"
+                },
+                {
+                    "chords": "C",
+                    "lyrics": "Love lifted me"
+                },
+                {
+                    "chords": "                          G              Em",
+                    "lyrics": "When nothing else could help"
+                },
+                {
+                    "chords": "A7    D        G",
+                    "lyrics": "Love lifted me"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "All my heart to Him I give"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Ever to Him I'll cling"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In His blessed presence live"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Ever His praises sing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Love so mighty and so true"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Merits my soul's best songs"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Faithful loving service too,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To Him belong"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

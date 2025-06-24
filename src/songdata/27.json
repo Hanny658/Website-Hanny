@@ -1,0 +1,96 @@
+{
+    "title": "Thy Word",
+    "number": 27,
+    "lyrics": [
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "  D                    A                      D",
+                    "lyrics": "Thy Word is a lamp unto my feet"
+                },
+                {
+                    "chords": "             G      A          D",
+                    "lyrics": "And a light unto my path"
+                },
+                {
+                    "chords": " D                     A                     D",
+                    "lyrics": "Thy Word is a lamp unto my feet"
+                },
+                {
+                    "chords": "           G      A            D",
+                    "lyrics": "And a light unto my path"
+                }
+            ]
+        },
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "A                  Em",
+                    "lyrics": "When I feel afraid"
+                },
+                {
+                    "chords": "Bm                            F#m",
+                    "lyrics": "Think I have lost my way"
+                },
+                {
+                    "chords": "  G          A                     G         D",
+                    "lyrics": "Still You're right there beside me"
+                },
+                {
+                    "chords": "        A                    Em",
+                    "lyrics": "And nothing will I fear"
+                },
+                {
+                    "chords": "    Bm                     F#m",
+                    "lyrics": "As long as You are near"
+                },
+                {
+                    "chords": "      G         A               B      A",
+                    "lyrics": "Please be near me to the end"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I will not forget Your love for me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And yet, my heart forever is"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "wandering"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Jesus, be my guide"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And hold me to Your side"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And I will love You to the end"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "chorus",
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

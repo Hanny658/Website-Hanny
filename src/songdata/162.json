@@ -1,0 +1,135 @@
+{
+    "title": "The Power of Your Love",
+    "number": 162,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G            D/F#       Em7",
+                    "lyrics": "     Lord I come to You"
+                },
+                {
+                    "chords": "                            Bm7          Em7",
+                    "lyrics": "Let my heart be changed, renewed"
+                },
+                {
+                    "chords": "              C",
+                    "lyrics": "Flowing from the grace that I’ve"
+                },
+                {
+                    "chords": "D             Em   D",
+                    "lyrics": "Found in You"
+                },
+                {
+                    "chords": "G                           D/F#          Em7",
+                    "lyrics": "     And Lord I’ve  come to know"
+                },
+                {
+                    "chords": "                               Bm7  Em7",
+                    "lyrics": "The weaknesses I see in me"
+                },
+                {
+                    "chords": "     C      D",
+                    "lyrics": "Will be stripped away"
+                },
+                {
+                    "chords": "            C/D       D",
+                    "lyrics": "By the power of"
+                },
+                {
+                    "chords": "         G      D/F#  C/E  D",
+                    "lyrics": "Your love"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "C       Am  D",
+                    "lyrics": "Hold me close"
+                },
+                {
+                    "chords": "                       C/G         G",
+                    "lyrics": "Let Your love surround me"
+                },
+                {
+                    "chords": "C     Am    D",
+                    "lyrics": "Bring  me near"
+                },
+                {
+                    "chords": "                            G  Am G/B",
+                    "lyrics": "Draw me to Your side"
+                },
+                {
+                    "chords": "Dm G/B  C  Am     D",
+                    "lyrics": "             And   as  I wait"
+                },
+                {
+                    "chords": "                              C/G  G",
+                    "lyrics": "I’ll rise up like the ea - gle"
+                },
+                {
+                    "chords": "        D/F#                Em",
+                    "lyrics": "And I will soar with you"
+                },
+                {
+                    "chords": "                             C",
+                    "lyrics": "Your Spirit leads me on"
+                },
+                {
+                    "chords": "         C/D       D          G",
+                    "lyrics": "In the power of Your love"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Lord unveil my eyes"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Let me see you face to face"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The knowledge of Your love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As you live in me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lord renew my mind"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As Your will unfolds in my life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In living every day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In the power of Your love"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

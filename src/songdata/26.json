@@ -1,0 +1,94 @@
+{
+    "title": "Seek Ye First",
+    "number": 26,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D            F#m        G         D",
+                    "lyrics": "Seek ye first the kingdom of God"
+                },
+                {
+                    "chords": "G             D         A7",
+                    "lyrics": "And His righteousness"
+                },
+                {
+                    "chords": "D                    F#m",
+                    "lyrics": "And all these things"
+                },
+                {
+                    "chords": "              G                  D/F#",
+                    "lyrics": "Shall be added unto you"
+                },
+                {
+                    "chords": "G   D        A7 D",
+                    "lyrics": "Allelu, alleluia"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Alleluia, Alle lu--- ia"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Allelulia, Allelu, Alleluia"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Ask and it shall be added unto you"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Seek and ye shall find"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Knock and the door shall be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "opened unto you, Allelu, alleluia"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Man shall not live by bread alone"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But by every word"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That proceeds from the mouth of"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "God"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Allelu, alleluia"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

@@ -1,0 +1,52 @@
+{
+    "title": "In the Name of Jesus",
+    "number": 41,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    D",
+                    "lyrics": "In the name of Jesus X2"
+                },
+                {
+                    "chords": "                       B     Em  A",
+                    "lyrics": "We have the victory"
+                },
+                {
+                    "chords": "Em7",
+                    "lyrics": "In the name of Jesus"
+                },
+                {
+                    "chords": "A7",
+                    "lyrics": "In the name of Jesus"
+                },
+                {
+                    "chords": "Em7       A7                D",
+                    "lyrics": "Demons will have to flee"
+                },
+                {
+                    "chords": "G                                            D",
+                    "lyrics": "When we stand on the name of Jesus"
+                },
+                {
+                    "chords": "Em7       A7          D            D7",
+                    "lyrics": "Tell me who can stand before"
+                },
+                {
+                    "chords": "G                     D            Bm",
+                    "lyrics": "In the mighty name of Jesus,"
+                },
+                {
+                    "chords": "Em7               A7   D",
+                    "lyrics": "We have the victory"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

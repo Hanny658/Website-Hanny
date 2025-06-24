@@ -1,0 +1,44 @@
+{
+    "title": "Something Beautiful",
+    "number": 66,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "D                Dmaj7                 Em7",
+                    "lyrics": "Something beautiful,"
+                },
+                {
+                    "chords": "                    A7      Em",
+                    "lyrics": "Something good"
+                },
+                {
+                    "chords": "           A7               D              D7",
+                    "lyrics": "All my confusion, He understood"
+                },
+                {
+                    "chords": " G",
+                    "lyrics": "All I had to offer Him"
+                },
+                {
+                    "chords": "        D            F#           Bm",
+                    "lyrics": "Was brokenness and strife"
+                },
+                {
+                    "chords": "       Gm           D",
+                    "lyrics": "But He made something"
+                },
+                {
+                    "chords": "Em7        A7      D",
+                    "lyrics": "beautiful of my life"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

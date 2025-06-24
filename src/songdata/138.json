@@ -1,0 +1,115 @@
+{
+    "title": "Empower Me",
+    "number": 138,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  G                      C",
+                    "lyrics": "Nobody knows how weak I am"
+                },
+                {
+                    "chords": " G                        D",
+                    "lyrics": "Better than You"
+                },
+                {
+                    "chords": "  G                   C",
+                    "lyrics": "Nobody sees all of my needs"
+                },
+                {
+                    "chords": " G                        D",
+                    "lyrics": "Better than You"
+                },
+                {
+                    "chords": "            C                             G",
+                    "lyrics": "And nobody has the power to change me"
+                },
+                {
+                    "chords": "      C                             B7",
+                    "lyrics": "To what I was born to be"
+                },
+                {
+                    "chords": "  C                                  G      Em",
+                    "lyrics": "Jesus be strong in my weakness"
+                },
+                {
+                    "chords": "     Am      D",
+                    "lyrics": "Empower me!"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "    G         Em             C",
+                    "lyrics": "Empower me, like a rushing river"
+                },
+                {
+                    "chords": "  D                     G     C",
+                    "lyrics": "Flowing to the sea"
+                },
+                {
+                    "chords": "                           D",
+                    "lyrics": "Lord send Your Holy Spirit"
+                },
+                {
+                    "chords": "  B7                             Em",
+                    "lyrics": "Flowing now through me"
+                },
+                {
+                    "chords": "             C                   D",
+                    "lyrics": "Till I'm living as Your child"
+                },
+                {
+                    "chords": "Bm                  Em",
+                    "lyrics": "Victorious and free - send the"
+                },
+                {
+                    "chords": "Am                    D                       G",
+                    "lyrics": "power of Your love -Empower me!"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Nobody's eyes see through my soul"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Better than You and nobody's love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "can make me whole; No love but Yours"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And nobody has the power to lift me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To reach for eternity - Jesus break"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "thru all my defenses; Empower me!"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

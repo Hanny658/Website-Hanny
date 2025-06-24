@@ -1,0 +1,150 @@
+{
+    "title": "The Blessing",
+    "number": 169,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "The Lord Bless You"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "And Keep You"
+                },
+                {
+                    "chords": "D                                   A",
+                    "lyrics": "Make His Face Shine Upon You"
+                },
+                {
+                    "chords": "                                  Bm",
+                    "lyrics": "And Be Gracious To You"
+                },
+                {
+                    "chords": "                              G                     D/F#",
+                    "lyrics": "The Lord Turn His Face Toward You"
+                },
+                {
+                    "chords": "         A              D",
+                    "lyrics": "And Give You Peace (repeat)"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "Bm  G           D             A",
+                    "lyrics": "A – men, A – men, A - men"
+                },
+                {
+                    "chords": "Bm                G       D     A",
+                    "lyrics": "A – men, A – men, A - men"
+                }
+            ]
+        },
+        {
+            "id": "bridge1",
+            "label": "Bridge 1",
+            "lines": [
+                {
+                    "chords": "          Bm",
+                    "lyrics": "May His Favor Be Upon You"
+                },
+                {
+                    "chords": "           G",
+                    "lyrics": "And A Thousand Generations"
+                },
+                {
+                    "chords": "                D",
+                    "lyrics": "And Your Family And Your Children"
+                },
+                {
+                    "chords": "                      A",
+                    "lyrics": "And Their Children And Their Children  x2"
+                }
+            ]
+        },
+        {
+            "id": "bridge2",
+            "label": "Bridge 2",
+            "lines": [
+                {
+                    "chords": "           Bm",
+                    "lyrics": "May His Presence Go Before You"
+                },
+                {
+                    "chords": "      G",
+                    "lyrics": "And Behind You And Beside You"
+                },
+                {
+                    "chords": "      D",
+                    "lyrics": "All Around You And Within You"
+                },
+                {
+                    "chords": "A",
+                    "lyrics": "He Is With You, He Is With You"
+                }
+            ]
+        },
+        {
+            "id": "bridge3",
+            "label": "Bridge 3",
+            "lines": [
+                {
+                    "chords": "        Bm",
+                    "lyrics": "In The Morning, In The Evening"
+                },
+                {
+                    "chords": "           G",
+                    "lyrics": "In Your Coming And Your Going"
+                },
+                {
+                    "chords": "           D",
+                    "lyrics": "In Your Weeping And Rejoicing"
+                },
+                {
+                    "chords": "       A",
+                    "lyrics": "He Is For You, He is For You"
+                }
+            ]
+        },
+        {
+            "id": "bridge4",
+            "label": "Bridge 4",
+            "lines": [
+                {
+                    "chords": "        Bm",
+                    "lyrics": "He Is For You, He Is For You"
+                },
+                {
+                    "chords": "        G",
+                    "lyrics": "He Is For You, He Is For You"
+                },
+                {
+                    "chords": "      D",
+                    "lyrics": "He Is For You, He Is For you"
+                },
+                {
+                    "chords": "         A",
+                    "lyrics": "He Is for You, He Is For You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse",
+        "chorus",
+        "verse",
+        "chorus",
+        "bridge1",
+        "bridge2",
+        "bridge3",
+        "bridge4",
+        "chorus"
+    ],
+    "link": ""
+}

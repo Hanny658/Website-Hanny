@@ -1,0 +1,95 @@
+{
+    "title": "You Are My All in All",
+    "number": 167,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D                 Asus/C#                G/B",
+                    "lyrics": "You are my strength when I am weak"
+                },
+                {
+                    "chords": "                    D/A        D/F#   G",
+                    "lyrics": "You are the treasure that I seek"
+                },
+                {
+                    "chords": "                     A       D   A",
+                    "lyrics": "You are my all in all"
+                },
+                {
+                    "chords": "D                 Asus/C#                Bm",
+                    "lyrics": "Seeking you as a precious jewel"
+                },
+                {
+                    "chords": "                      D/F#              G",
+                    "lyrics": "Lord, to give up, I'd be a fool"
+                },
+                {
+                    "chords": "                     A      D   A",
+                    "lyrics": "You are my all in all"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "D     A  Bm         D/F#",
+                    "lyrics": "Jesus, Lamb of God,"
+                },
+                {
+                    "chords": "  G       D           Em   A",
+                    "lyrics": "Worthy is your name"
+                },
+                {
+                    "chords": "D     A    Bm        D/F#",
+                    "lyrics": "Jesus, Lamb of God"
+                },
+                {
+                    "chords": "G           Asus A  D",
+                    "lyrics": "Worthy is your name"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Taking my sin, my cross, my shame"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Rising again, I bless your name"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You are my all in all"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When I fall down, you pick me up"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When I am dry, you fill my cup You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "are my all in all."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

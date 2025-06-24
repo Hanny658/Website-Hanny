@@ -1,0 +1,56 @@
+{
+    "title": "It Was a Grand Day",
+    "number": 136,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "          D",
+                    "lyrics": "It was a grand day"
+                },
+                {
+                    "chords": "          G                  D",
+                    "lyrics": "When I was born again"
+                },
+                {
+                    "chords": "          D",
+                    "lyrics": "It was a grand day"
+                },
+                {
+                    "chords": "                              A7",
+                    "lyrics": "When I was born again"
+                },
+                {
+                    "chords": "               D",
+                    "lyrics": "It was a grand day"
+                },
+                {
+                    "chords": "          G                 D",
+                    "lyrics": "When I was born again"
+                },
+                {
+                    "chords": "               D",
+                    "lyrics": "It was a grand day"
+                },
+                {
+                    "chords": "          A7                  D",
+                    "lyrics": "When I was born again"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- The things I used to do"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "  I do them no more"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

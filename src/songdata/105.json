@@ -1,0 +1,59 @@
+{
+    "title": "We Are One in the Bond of Love",
+    "number": 105,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "        G                    C             G",
+                    "lyrics": "We are one in the bond of love"
+                },
+                {
+                    "chords": "             Em            A7           D    D7",
+                    "lyrics": "We are one in the bond of love"
+                },
+                {
+                    "chords": "                G               G7",
+                    "lyrics": "We have joined our spirits"
+                },
+                {
+                    "chords": "                C          Am7",
+                    "lyrics": "With the Spirit of God"
+                },
+                {
+                    "chords": "             G              D7           G",
+                    "lyrics": "We are one in the bond of love"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Let us praise Jesus Christ the Son"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Praise Him now for the work begun"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Let us join our hands that the world may know"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We are one in the bond of love"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

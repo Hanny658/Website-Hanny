@@ -1,0 +1,63 @@
+{
+    "title": "Standing in the Need of Prayer",
+    "number": 132,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    E",
+                    "lyrics": "It's me, it's me, it's me, O Lord"
+                },
+                {
+                    "chords": "A                         B7         E",
+                    "lyrics": "Standing in the need of prayer"
+                },
+                {
+                    "chords": "    E",
+                    "lyrics": "It's me, it's me, it's me O Lord"
+                },
+                {
+                    "chords": "A                         B7         E",
+                    "lyrics": "Standing in the need of prayer"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Not by mother nor my father"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But it's me O Lord"
+                },
+                {
+                    "chords": "A                        B7         E",
+                    "lyrics": "Standing in the need of prayer"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Not by brother nor my sister"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But it's me O Lord"
+                },
+                {
+                    "chords": "A                        B7          E",
+                    "lyrics": "Standing in the need of prayer"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,133 @@
+{
+    "title": "This is My Father's World",
+    "number": 128,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D              A7          Bm",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "       G                        Em    A7",
+                    "lyrics": "And to my listening ears"
+                },
+                {
+                    "chords": "       D       F#             Bm            G",
+                    "lyrics": "All nature sings and round me rings"
+                },
+                {
+                    "chords": "       Em       A7      D",
+                    "lyrics": "The music of the spheres"
+                },
+                {
+                    "chords": "        D      G           Bm",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "   G      A7          D",
+                    "lyrics": "I rest me in the thought"
+                },
+                {
+                    "chords": "                     F#       Bm Bm/A Bm/Ab",
+                    "lyrics": "Of rocks and trees, of skies and seas"
+                },
+                {
+                    "chords": "     Em           A               D",
+                    "lyrics": "His hand the wonders wrought"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The birds their carols raise"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The morning light, the lily white"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Declare their Maker's praise"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He shines in all that's fair"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In the rustling grass I hear Him pass"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He speaks to me everywhere"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O let me never forget that"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Tho the wrong seems oft so strong"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "God is the ruler yet"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This is my Father's world"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The battle is not done"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Jesus, who died shall be satisfied"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And earth and heaven be one"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3",
+        "verse4"
+    ],
+    "link": ""
+}

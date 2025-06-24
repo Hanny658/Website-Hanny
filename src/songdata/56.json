@@ -1,0 +1,72 @@
+{
+    "title": "Majesty",
+    "number": 56,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G      C G                     C         Am",
+                    "lyrics": "Majesty, worship His Majesty"
+                },
+                {
+                    "chords": "          G                 Em",
+                    "lyrics": "Unto Jesus, be all glory,"
+                },
+                {
+                    "chords": "                    F         D",
+                    "lyrics": "power and praise"
+                },
+                {
+                    "chords": " G   C G                   C           Am",
+                    "lyrics": "Majesty, kingdom authority"
+                },
+                {
+                    "chords": "                        G",
+                    "lyrics": "Flow from His throne"
+                },
+                {
+                    "chords": "               Dsus    D",
+                    "lyrics": "Unto His own"
+                },
+                {
+                    "chords": "                     G",
+                    "lyrics": "His anthem raise!"
+                },
+                {
+                    "chords": "      Am                    D7",
+                    "lyrics": "So exalt, lift up on high"
+                },
+                {
+                    "chords": "                      G",
+                    "lyrics": "The name of Jesus"
+                },
+                {
+                    "chords": "         Am                D",
+                    "lyrics": "Magnify, come glorify"
+                },
+                {
+                    "chords": "                            B   C    D",
+                    "lyrics": "Christ Jesus the King"
+                },
+                {
+                    "chords": "G       C G                    C        Am",
+                    "lyrics": "Majesty, worship His Majesty"
+                },
+                {
+                    "chords": "                   G                      D7",
+                    "lyrics": "Jesus who died, now glorified"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "King of all kings"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

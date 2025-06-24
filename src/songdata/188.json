@@ -1,0 +1,119 @@
+{
+    "title": "How Great Is Our God",
+    "number": 188,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "The  splendor of the King,"
+                },
+                {
+                    "chords": "Em7",
+                    "lyrics": "clothed in majesty,"
+                },
+                {
+                    "chords": "                              C2",
+                    "lyrics": "Let all the earth rejoice,"
+                },
+                {
+                    "chords": "                       Dsus",
+                    "lyrics": "all the earth rejoice."
+                },
+                {
+                    "chords": "       G",
+                    "lyrics": "He wraps Himself in light"
+                },
+                {
+                    "chords": "       Em7",
+                    "lyrics": "and darkness tries to hide,"
+                },
+                {
+                    "chords": "                                 C2",
+                    "lyrics": "And trembles at his voice,"
+                },
+                {
+                    "chords": "                          Dsus D",
+                    "lyrics": "trembles at his voice."
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "       G                           D/F#",
+                    "lyrics": "How great is our God, sing with me,"
+                },
+                {
+                    "chords": "        Em7",
+                    "lyrics": "How great is our God and all will see"
+                },
+                {
+                    "chords": "        C                D                 G",
+                    "lyrics": "How great, how great is our God."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Age to age He stands, and time is in His hands,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Beginning and the end, beginning and the end."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The Godhead, three in one:"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Father, Spirit, Son,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The Lion and the Lamb, the Lion and the Lamb"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "G                                     D/F#",
+                    "lyrics": "Name above all names,"
+                },
+                {
+                    "chords": "Em7",
+                    "lyrics": "Worthy of all praise,"
+                },
+                {
+                    "chords": "C",
+                    "lyrics": "My heart will sing"
+                },
+                {
+                    "chords": "        D                  G",
+                    "lyrics": "How great is our God."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "bridge",
+        "chorus"
+    ],
+    "link": ""
+}

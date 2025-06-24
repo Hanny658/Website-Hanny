@@ -1,0 +1,87 @@
+{
+    "title": "The Lord Has a Will",
+    "number": 44,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   G                               D",
+                    "lyrics": "I need You Lord, in all I do"
+                },
+                {
+                    "chords": "               Em                    Bm",
+                    "lyrics": "You're always there to see me through"
+                },
+                {
+                    "chords": "   C",
+                    "lyrics": "I can't get by unless"
+                },
+                {
+                    "chords": "  D7                 G",
+                    "lyrics": "I lean on You Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "        G                   D           Em       Bm",
+                    "lyrics": "The Lord has a will and I have a need"
+                },
+                {
+                    "chords": "      C                G",
+                    "lyrics": "To follow that will"
+                },
+                {
+                    "chords": "        C                G",
+                    "lyrics": "And humbly be still"
+                },
+                {
+                    "chords": "    C              G",
+                    "lyrics": "To rest in it, nest in it"
+                },
+                {
+                    "chords": "  C         G",
+                    "lyrics": "Fully be blessed in it"
+                },
+                {
+                    "chords": "     C         D7                G",
+                    "lyrics": "Following my Father's will"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Your law of love is in my heart"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You wrote it there, it won't depart"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "It lights my way and"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Keeps me out of the dark"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

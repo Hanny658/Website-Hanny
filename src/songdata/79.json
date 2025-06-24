@@ -1,0 +1,83 @@
+{
+    "title": "Let's Talk About Jesus",
+    "number": 79,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " E                                  E7",
+                    "lyrics": "Let's talk about Jesus"
+                },
+                {
+                    "chords": "                     A                F#m",
+                    "lyrics": "The King of kings is He"
+                },
+                {
+                    "chords": "                     B7",
+                    "lyrics": "The Lord of lords supreme"
+                },
+                {
+                    "chords": "               E          B7",
+                    "lyrics": "Thru' all eternity"
+                },
+                {
+                    "chords": "                     E                 E7",
+                    "lyrics": "The great I AM, the Way,"
+                },
+                {
+                    "chords": "                        A           F#m",
+                    "lyrics": "the Truth, the Life, the Door"
+                },
+                {
+                    "chords": "                           B7",
+                    "lyrics": "Let's talk about Jesus"
+                },
+                {
+                    "chords": "                 E  A   E",
+                    "lyrics": "More and more"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "                        A",
+                    "lyrics": "Oh my loving brother"
+                },
+                {
+                    "chords": "                     E                    C#m",
+                    "lyrics": "When the world's on fire"
+                },
+                {
+                    "chords": "                                 F#m   B7",
+                    "lyrics": "Don't you want my Jesus"
+                },
+                {
+                    "chords": "                    E           E7",
+                    "lyrics": "To be your Saviour"
+                },
+                {
+                    "chords": "                          A",
+                    "lyrics": "Hide me now over"
+                },
+                {
+                    "chords": "                        E        C#m",
+                    "lyrics": "in the Rock of Ages"
+                },
+                {
+                    "chords": "                    F#m B7                    E",
+                    "lyrics": "The Rock of Ages, just cleft for me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

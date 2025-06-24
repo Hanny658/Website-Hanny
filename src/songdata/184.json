@@ -1,0 +1,107 @@
+{
+    "title": "How Can I Say Thanks (My Tribute)",
+    "number": 184,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "A                      Amaj7             A7",
+                    "lyrics": "How can I say thanks for the things"
+                },
+                {
+                    "chords": "                 F#",
+                    "lyrics": "You have done for me"
+                },
+                {
+                    "chords": "Bm                     BmM7",
+                    "lyrics": "Things so undeserved,"
+                },
+                {
+                    "chords": "              Bm7",
+                    "lyrics": "yet You gave"
+                },
+                {
+                    "chords": "                          Bm7(b5) (Bø7)",
+                    "lyrics": "To prove Your love for me"
+                },
+                {
+                    "chords": "         A                            F#m",
+                    "lyrics": "The voices of a million angels"
+                },
+                {
+                    "chords": "                       Dmaj7          Dm6",
+                    "lyrics": "Could not express my gratitude"
+                },
+                {
+                    "chords": "               A            F#                  Bm",
+                    "lyrics": "All that I am and ever hope to be"
+                },
+                {
+                    "chords": "          E           A",
+                    "lyrics": "I owe it all to You"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "   A                    C#   F#m",
+                    "lyrics": "To God be the glory"
+                },
+                {
+                    "chords": "     Bm               F  E",
+                    "lyrics": "To God be the glory"
+                },
+                {
+                    "chords": "     C#                F#m",
+                    "lyrics": "To God be the glory"
+                },
+                {
+                    "chords": "             Ebm7(b5)(Ebø7) Esus E",
+                    "lyrics": "For the things He hath done"
+                },
+                {
+                    "chords": "                 A                      C#     F#m",
+                    "lyrics": "With His blood He has saved me"
+                },
+                {
+                    "chords": "               Bm                   F      E",
+                    "lyrics": "With His power He has raised me"
+                },
+                {
+                    "chords": "      C#                 F#m",
+                    "lyrics": "To God be the glory"
+                },
+                {
+                    "chords": "               Bm     D/E      A",
+                    "lyrics": "For the things He has done"
+                },
+                {
+                    "chords": "                    C#",
+                    "lyrics": "Just let me live my life"
+                },
+                {
+                    "chords": "              F#m",
+                    "lyrics": "Let it be pleasing, Lord to Thee"
+                },
+                {
+                    "chords": "                        D           Bm",
+                    "lyrics": "And should I gain any praise"
+                },
+                {
+                    "chords": "                    Esus7   E",
+                    "lyrics": "Let it go to Calvary"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus"
+    ],
+    "link": ""
+}

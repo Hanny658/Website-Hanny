@@ -1,0 +1,129 @@
+{
+    "title": "As the Deer",
+    "number": 52,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C         Em                Am",
+                    "lyrics": "As the deer panteth for the water"
+                },
+                {
+                    "chords": "         F                    G     C     G ",
+                    "lyrics": "So my soul longeth after You"
+                },
+                {
+                    "chords": "C      Em                Am",
+                    "lyrics": "You alone are my heart's desire"
+                },
+                {
+                    "chords": "          F          G7         C ",
+                    "lyrics": "And I long to worship You"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "C         Em                Am",
+                    "lyrics": "I want You, more than gold or silver"
+                },
+                {
+                    "chords": "         F                    G     C     G ",
+                    "lyrics": "Only You can satisfy"
+                },
+                {
+                    "chords": "C      Em                Am",
+                    "lyrics": "You alone are the great joy giver"
+                },
+                {
+                    "chords": "          F          G7         C ",
+                    "lyrics": "And the apple of my eye"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "C         Em                Am",
+                    "lyrics": "You're my friend and You are my brother"
+                },
+                {
+                    "chords": "         F                    G     C     G ",
+                    "lyrics": "Even though You are a King"
+                },
+                {
+                    "chords": "C      Em                Am",
+                    "lyrics": "I love You more than any other"
+                },
+                {
+                    "chords": "          F          G7         C ",
+                    "lyrics": "So much more than anything"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "Am                           F                    C",
+                    "lyrics": "You alone are my strength, my shield"
+                },
+                {
+                    "chords": "      F                             Dm    E",
+                    "lyrics": "To You alone may my spirit yield "
+                },
+                {
+                    "chords": " C    Em                 Am",
+                    "lyrics": "You alone are my heart's desire"
+                },
+                {
+                    "chords": "           F          G7          C",
+                    "lyrics": "And I long to worship You"
+                }
+            ]
+        },
+        {
+            "id": "ending",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "Am                           F                    C",
+                    "lyrics": "You alone are my strength, my shield"
+                },
+                {
+                    "chords": "      F                             Dm    E",
+                    "lyrics": "To You alone may my spirit yield "
+                },
+                {
+                    "chords": " C    Em                 Am",
+                    "lyrics": "You alone are my heart's desire"
+                },
+                {
+                    "chords": "           F          G7          C",
+                    "lyrics": "And I long to worship You"
+                },
+                {
+                    "chords": "           F          G7          C",
+                    "lyrics": "And I long to worship You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "ending"
+    ],
+    "link": "https://www.youtube.com/watch?v=zrCT90eSjVY"
+}

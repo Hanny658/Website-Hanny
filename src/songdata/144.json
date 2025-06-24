@@ -1,0 +1,44 @@
+{
+    "title": "I Cast My Cares Upon You",
+    "number": 144,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   D               A                  Bm  D7",
+                    "lyrics": "I cast all my cares upon You"
+                },
+                {
+                    "chords": "   G                F#m",
+                    "lyrics": "I lay all of my burdens"
+                },
+                {
+                    "chords": " Em7                A",
+                    "lyrics": "Down at Your feet"
+                },
+                {
+                    "chords": "          D                          A         A7",
+                    "lyrics": "And many times when I don't know"
+                },
+                {
+                    "chords": " D         Gm7",
+                    "lyrics": "What to do"
+                },
+                {
+                    "chords": "          D                 A     D Bm D7 Gm7",
+                    "lyrics": "I just cast all my cares upon You"
+                },
+                {
+                    "chords": "        D                      A                D",
+                    "lyrics": "I will cast all of my cares upon You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

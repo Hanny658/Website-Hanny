@@ -1,0 +1,103 @@
+{
+    "title": "The Wonder of It All",
+    "number": 191,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                    G",
+                    "lyrics": "There's the wonder of"
+                },
+                {
+                    "chords": "D7            G",
+                    "lyrics": "Sunset at evening"
+                },
+                {
+                    "chords": "        C               D/C         G",
+                    "lyrics": "The wonder as sunrise I see"
+                },
+                {
+                    "chords": "        D7                  B",
+                    "lyrics": "But the wonder of wonders"
+                },
+                {
+                    "chords": "         Em       C#min7(b5)",
+                    "lyrics": "That thrills my soul"
+                },
+                {
+                    "chords": "          G/D              D               G",
+                    "lyrics": "Is the wonder that God loves me!"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "            G                   G7",
+                    "lyrics": "Oh the wonder of it all"
+                },
+                {
+                    "chords": "       C                   Am",
+                    "lyrics": "The wonder of it all"
+                },
+                {
+                    "chords": "            G/D          D              G C/D D",
+                    "lyrics": "Just to think that God loves me"
+                },
+                {
+                    "chords": "           G                   G7",
+                    "lyrics": "O the wonder of it all"
+                },
+                {
+                    "chords": "       C                   Am",
+                    "lyrics": "The wonder of it all"
+                },
+                {
+                    "chords": "           G/D           D7              G",
+                    "lyrics": "Just to think that God loves me"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "There's the wonder"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "of springtime and harvest;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The sky, the stars and the sun"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But the wonder of wonders"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That thrills my soul"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Is a wonder that's only begun"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

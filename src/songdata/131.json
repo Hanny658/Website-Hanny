@@ -1,0 +1,141 @@
+{
+    "title": "Destiny",
+    "number": 131,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   D                               F#m",
+                    "lyrics": "Before the world was made"
+                },
+                {
+                    "chords": "       G                          D",
+                    "lyrics": "The stars above displayed"
+                },
+                {
+                    "chords": "      Em                        D",
+                    "lyrics": "A loving God has made"
+                },
+                {
+                    "chords": "                 Em    A",
+                    "lyrics": "a great design"
+                },
+                {
+                    "chords": "      D                       F#m",
+                    "lyrics": "Before the planets flew"
+                },
+                {
+                    "chords": "      G                        D",
+                    "lyrics": "Or earth came into view"
+                },
+                {
+                    "chords": "          Em",
+                    "lyrics": "Their forms were fashioned"
+                },
+                {
+                    "chords": "A                       D",
+                    "lyrics": "In the Master's mind"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": " F            C                 Dm            Am",
+                    "lyrics": "Now we can see that from eternity"
+                },
+                {
+                    "chords": "        Dm                 Gm               A",
+                    "lyrics": "His perfect wisdom carried out a plan"
+                },
+                {
+                    "chords": "        D                F#m",
+                    "lyrics": "And we are all a part"
+                },
+                {
+                    "chords": "      G                        D",
+                    "lyrics": "Of what was in His heart"
+                },
+                {
+                    "chords": "        Em                         A          D",
+                    "lyrics": "The moment when He first created man"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The mountains and the leas"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The deserts and the seas"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Were laid in utmost care"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "From Pole to Pole"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And in my heart,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I know it surely must be so"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He has a plan and pattern for my soul"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "'Why am I here' the reason is so clear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He made me and"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He claimed this life of mine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We're more than just a slave"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who's heading for the grave"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My destiny is in His will divine"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3",
+        "verse4"
+    ],
+    "link": ""
+}

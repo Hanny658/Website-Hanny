@@ -1,0 +1,167 @@
+{
+    "title": "I Know Where I'm Going",
+    "number": 90,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D                      F#m",
+                    "lyrics": "One day I was wondering"
+                },
+                {
+                    "chords": " G                   A7",
+                    "lyrics": "What's it all about"
+                },
+                {
+                    "chords": "Em               A7",
+                    "lyrics": "Life is full of heartache"
+                },
+                {
+                    "chords": " D",
+                    "lyrics": "Restlessness and doubt"
+                },
+                {
+                    "chords": "                         F#m",
+                    "lyrics": "Then a gentle Stranger"
+                },
+                {
+                    "chords": "  G                               A",
+                    "lyrics": "Whispered words of love"
+                },
+                {
+                    "chords": " Em                  A7",
+                    "lyrics": "Pointed me to heaven"
+                },
+                {
+                    "chords": " D                         D7",
+                    "lyrics": "Wrote my name above"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G          A7          F#m Bm",
+                    "lyrics": "I know where I'm going"
+                },
+                {
+                    "chords": "        Em         A7       D",
+                    "lyrics": "And who I'm gonna see"
+                },
+                {
+                    "chords": "    Em     A7                 F#m Bm",
+                    "lyrics": "I have a friend named Jesus,"
+                },
+                {
+                    "chords": "       Em    A7         D   D7",
+                    "lyrics": "Waiting there for me"
+                },
+                {
+                    "chords": "Em        A7    F#m   Bm",
+                    "lyrics": "He has given something"
+                },
+                {
+                    "chords": "        Em   A7            D",
+                    "lyrics": "That only He could give"
+                },
+                {
+                    "chords": "     Em            A7    F#m  Bm",
+                    "lyrics": "He gave His life in payment"
+                },
+                {
+                    "chords": " Em      A7          D",
+                    "lyrics": "So that I could live"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "There are many mansions"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He's preparing there"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That could not be purchased"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "By a millionaire"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Streets of gold that glitter"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Gates of pearly white"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In a day eternal,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Where there is no night"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Friend, if you are searching"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For a better way"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm recommending Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Trust in Him today"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He will give life meaning"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Like no other can"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Come and travel with me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To the Promised Land"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

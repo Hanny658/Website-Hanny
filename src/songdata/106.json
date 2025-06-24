@@ -1,0 +1,103 @@
+{
+    "title": "Sweet By and By",
+    "number": 106,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "           G                      C                 G",
+                    "lyrics": "There's a land that is fairer than day"
+                },
+                {
+                    "chords": "                                                D   D7",
+                    "lyrics": "And by faith we shall see it afar"
+                },
+                {
+                    "chords": "             G                   C            G",
+                    "lyrics": "For the Father waits over the way"
+                },
+                {
+                    "chords": "                                  D                   G",
+                    "lyrics": "To prepare us a dwelling place there"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                                  D",
+                    "lyrics": "In the sweet, by and by,"
+                },
+                {
+                    "chords": "                  Am7                   D          G",
+                    "lyrics": "We shall meet on that beautiful shore"
+                },
+                {
+                    "chords": "                                  C    Am7",
+                    "lyrics": "In the sweet, by and by,"
+                },
+                {
+                    "chords": "                   G                      D7        G",
+                    "lyrics": "We shall meet on that beautiful shore"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "We shall sing on that beautiful shore"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The melodious songs of the blest"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And our spirits shall sorrow no more"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Not a sigh for the blessing of rest"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To our bountiful Father above"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "We will offer a tribute of praise"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For the glorious gift of His love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And the blessing that hallow our days"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

@@ -1,0 +1,48 @@
+{
+    "title": "Beautiful",
+    "number": 51,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "E               B7",
+                    "lyrics": "Beautiful, beautiful,"
+                },
+                {
+                    "chords": "E   E7     A            Am",
+                    "lyrics": "Jesus is beautiful"
+                },
+                {
+                    "chords": "        E                    C#m",
+                    "lyrics": "And Jesus makes beautiful"
+                },
+                {
+                    "chords": "F#m               B7",
+                    "lyrics": "Things of my life"
+                },
+                {
+                    "chords": "E          B7",
+                    "lyrics": "Carefully touching me"
+                },
+                {
+                    "chords": "E            E7   A                Am",
+                    "lyrics": "Causing my eyes to see"
+                },
+                {
+                    "chords": "E                    C#m",
+                    "lyrics": "Jesus makes beautiful"
+                },
+                {
+                    "chords": "F#m          B7  E",
+                    "lyrics": "Things of my life"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

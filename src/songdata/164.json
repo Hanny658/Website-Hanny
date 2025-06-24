@@ -1,0 +1,106 @@
+{
+    "title": "God Loves You and I",
+    "number": 164,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G                       D/F#",
+                    "lyrics": "Have you ever felt that you were all alone,"
+                },
+                {
+                    "chords": "                 C                    C/D",
+                    "lyrics": "Were you wondering lost not knowing"
+                },
+                {
+                    "chords": "D               G",
+                    "lyrics": "where to turn"
+                },
+                {
+                    "chords": "              C           D/C",
+                    "lyrics": "Did you cry out loud in darkness,"
+                },
+                {
+                    "chords": "Bm            Em",
+                    "lyrics": "searching for a friend,"
+                },
+                {
+                    "chords": "Am     C",
+                    "lyrics": "Hoping some will hear your"
+                },
+                {
+                    "chords": "                 Dsus  D",
+                    "lyrics": "trembling voice."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Have you ever had a friend called Jesus Christ."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The one who came to earth as holy Sacrifice."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Carrying burdens for all sinners for souls like you and me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "If you were the only sinner, He would still have come for you"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                   G",
+                    "lyrics": "For all your tears"
+                },
+                {
+                    "chords": "            Bm7",
+                    "lyrics": "And all despair"
+                },
+                {
+                    "chords": "                 C                 Dsus  D    G D",
+                    "lyrics": "Pray unto Him and He will carry you"
+                },
+                {
+                    "chords": "                            G                     Bm7",
+                    "lyrics": "Throughout this time until this day"
+                },
+                {
+                    "chords": "                        Am",
+                    "lyrics": "His eyes were on"
+                },
+                {
+                    "chords": "D                           G",
+                    "lyrics": "the one and only you"
+                },
+                {
+                    "chords": "                 Am7         D",
+                    "lyrics": "For this I know my God loves"
+                },
+                {
+                    "chords": "             G",
+                    "lyrics": "you and I"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

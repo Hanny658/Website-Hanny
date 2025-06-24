@@ -1,0 +1,55 @@
+{
+    "title": "Alive, Alive",
+    "number": 147,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " D                   G                 D",
+                    "lyrics": "Alive, alive, alive forevermore"
+                },
+                {
+                    "chords": "       A           A7         D              A",
+                    "lyrics": "My Jesus is alive, alive forevermore"
+                },
+                {
+                    "chords": "   D      D7      G                D",
+                    "lyrics": "Alive, alive, alive forevermore"
+                },
+                {
+                    "chords": "       A              D  D7",
+                    "lyrics": "My Jesus is alive"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                 G                       D",
+                    "lyrics": "Sing hallelujah, sing hallelujah"
+                },
+                {
+                    "chords": "      Em     Asus7      D               D7",
+                    "lyrics": "My Jesus is alive, alive forevermore"
+                },
+                {
+                    "chords": "                G                        D/F#  Bm",
+                    "lyrics": "Sing hallelujah, sing hallelujah"
+                },
+                {
+                    "chords": "       Em    Asus4 D",
+                    "lyrics": "My Jesus is alive"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus"
+    ],
+    "link": ""
+}

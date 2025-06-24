@@ -1,0 +1,86 @@
+{
+    "title": "Conversation",
+    "number": 140,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      E                A                   E",
+                    "lyrics": "I'll walk in the rain by your side"
+                },
+                {
+                    "chords": "        A                B7                 E    E7",
+                    "lyrics": "I'll offer you the warmth of My hands"
+                },
+                {
+                    "chords": "      A       B7                           E      A",
+                    "lyrics": "I'll do anything to keep you satisfied"
+                },
+                {
+                    "chords": "      E                               B7         E E7",
+                    "lyrics": "I'll love you more than anybody can"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "               A                B7",
+                    "lyrics": "And the winds will whisper"
+                },
+                {
+                    "chords": "          E",
+                    "lyrics": "your name to Me"
+                },
+                {
+                    "chords": "  A                     B7                   E",
+                    "lyrics": "Little birds will sing out all in time"
+                },
+                {
+                    "chords": "  A                B7",
+                    "lyrics": "Leaves will bow down"
+                },
+                {
+                    "chords": "         E              A",
+                    "lyrics": "when you walk by"
+                },
+                {
+                    "chords": "                E            B7             E",
+                    "lyrics": "And the morning bells will chime"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I'm the Way, the Truth and the Life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "No way to the Father but by Me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I died for you so listen for a while"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'll take you in your dirty sinful state"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

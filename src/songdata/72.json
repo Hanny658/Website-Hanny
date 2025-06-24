@@ -1,0 +1,111 @@
+{
+    "title": "Just a Closer Walk",
+    "number": 72,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G                                     Am",
+                    "lyrics": "I am weak but Thou art strong"
+                },
+                {
+                    "chords": "D                                      G",
+                    "lyrics": "Jesus keep me from all wrong"
+                },
+                {
+                    "chords": "G                           C    Am7",
+                    "lyrics": "I'll be satisfied as long"
+                },
+                {
+                    "chords": "       G/D                     D            G",
+                    "lyrics": "As I walk, dear Lord, close to Thee"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G                                    Am7",
+                    "lyrics": "Just a closer walk with Thee"
+                },
+                {
+                    "chords": "D                                 G     C  D",
+                    "lyrics": "Grant it Jesus it's my plea"
+                },
+                {
+                    "chords": "G                                   C     Am",
+                    "lyrics": "Daily walking close to Thee"
+                },
+                {
+                    "chords": "          G/D       D                G",
+                    "lyrics": "Let it be, dear Lord, let it be"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Thru' this world of toil and snares"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "If I falter Lord, who cares"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Who with me my burden shares?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "None but Thee, dear Lord,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "None but Thee"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "When my feeble life is o'er"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Time for me shall be no more"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "On that bright eternal shore"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I will walk, dear Lord,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Close to Thee"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

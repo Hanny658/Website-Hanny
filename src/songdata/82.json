@@ -1,0 +1,133 @@
+{
+    "title": "Amazing Grace (My Chains Are Gone)",
+    "number": 82,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D                                  Gadd9       D",
+                    "lyrics": "Amazing grace, how sweet the sound"
+                },
+                {
+                    "chords": "     D                                    A",
+                    "lyrics": "That saved a wretch like me"
+                },
+                {
+                    "chords": "  D            D/F#  Gadd9           D",
+                    "lyrics": "I once was lost, but now I'm found"
+                },
+                {
+                    "chords": "    D                    A       D",
+                    "lyrics": "Was blind but now I see"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "’Twas grace that taught my heart to fear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And grace my fears relieved"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "How precious did that grace appear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The hour I first believed"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                         Gadd9                      D/F#",
+                    "lyrics": "My chains are gone, I've been set free"
+                },
+                {
+                    "chords": "                      Gadd9                          D",
+                    "lyrics": "My God, my Saviour has ransomed me"
+                },
+                {
+                    "chords": "    D/F#      Gadd9               D/F#",
+                    "lyrics": "And like a flood his mercy reigns"
+                },
+                {
+                    "chords": "                  Em7 A               D",
+                    "lyrics": "Unending love, amazing grace"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The Lord has promised good to me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "His word my hope secures"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He will my shield and portion be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As long as life endures"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The earth shall soon dissolve like snow"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The sun forbear to shine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But God, who called me here below"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Will be forever mine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "(Will be forever mine)"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "(You are forever mine)"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus",
+        "verse4"
+    ],
+    "link": ""
+}

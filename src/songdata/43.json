@@ -1,0 +1,63 @@
+{
+    "title": "Clap Your Hands",
+    "number": 43,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " C                           F         C",
+                    "lyrics": "Clap your hands, all ye people"
+                },
+                {
+                    "chords": "                   F",
+                    "lyrics": "Shout unto God"
+                },
+                {
+                    "chords": "          G              C",
+                    "lyrics": "with a voice of triumph"
+                },
+                {
+                    "chords": "C                           F         C",
+                    "lyrics": "Clap your hands, all ye people"
+                },
+                {
+                    "chords": "                        F                   G         C",
+                    "lyrics": "Shout unto God with a voice of praise"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Hosanna, Hosanna,"
+                },
+                {
+                    "chords": "                    F",
+                    "lyrics": "Shout unto God"
+                },
+                {
+                    "chords": "          G         C",
+                    "lyrics": "with a voice of triumph"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Praise Him, praise Him"
+                },
+                {
+                    "chords": "                        F                   G         C",
+                    "lyrics": "Shout unto God with a voice of praise"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

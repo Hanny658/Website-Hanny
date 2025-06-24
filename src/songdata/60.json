@@ -1,0 +1,52 @@
+{
+    "title": "Jehovah Jireh",
+    "number": 60,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " Em           Am",
+                    "lyrics": "Jehovah Jireh, my provider"
+                },
+                {
+                    "chords": "       C            D                  Em",
+                    "lyrics": "His grace is sufficient for me"
+                },
+                {
+                    "chords": "D    Em  D   Em",
+                    "lyrics": "For me, for me (repeat)"
+                },
+                {
+                    "chords": "      G                               Am",
+                    "lyrics": "My God shall supply all my needs"
+                },
+                {
+                    "chords": "      D                                    G  B7",
+                    "lyrics": "According to His riches in glory"
+                },
+                {
+                    "chords": "Em                             Am",
+                    "lyrics": "He gives His angels charge over me"
+                },
+                {
+                    "chords": "    C                  D            Em",
+                    "lyrics": "Jehovah Jireh cares for me"
+                },
+                {
+                    "chords": "D    Em  D   Em",
+                    "lyrics": "For me, for me"
+                },
+                {
+                    "chords": "  C                     D            Em",
+                    "lyrics": "Jehovah Jireh cares for me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

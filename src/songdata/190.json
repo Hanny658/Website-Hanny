@@ -1,0 +1,111 @@
+{
+    "title": "One Voice",
+    "number": 190,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C              G        Em         Am",
+                    "lyrics": "Father we ask of You this day"
+                },
+                {
+                    "chords": "F               C/E        Gsus    G",
+                    "lyrics": "Come and heal our land"
+                },
+                {
+                    "chords": "              F              C/E",
+                    "lyrics": "Knit our hearts together"
+                },
+                {
+                    "chords": "                 E                    Am",
+                    "lyrics": "That Your glory may be seen in u"
+                },
+                {
+                    "chords": "                F               C/E",
+                    "lyrics": "Then the world may know"
+                },
+                {
+                    "chords": "          F                     G",
+                    "lyrics": "That Jesus Christ is Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "               C       G",
+                    "lyrics": "Let us be one voice"
+                },
+                {
+                    "chords": "        F                       G",
+                    "lyrics": "That glorifies Your name"
+                },
+                {
+                    "chords": "                C   G",
+                    "lyrics": "Let us be one voice"
+                },
+                {
+                    "chords": "     F                          G",
+                    "lyrics": "Declaring that You reign"
+                },
+                {
+                    "chords": "                E",
+                    "lyrics": "Let us be one voice"
+                },
+                {
+                    "chords": "   Am    Am/G    F#m7(b5)",
+                    "lyrics": "In love and harmony"
+                },
+                {
+                    "chords": "              Dm",
+                    "lyrics": "And we pray O God;"
+                },
+                {
+                    "chords": "G7               C",
+                    "lyrics": "Grant us unity"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Now is the time for you and I"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To join our hearts in praise"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That the name of Jesus will be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lifted high above the earth"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Then the world will know"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That Jesus Christ is Lord"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

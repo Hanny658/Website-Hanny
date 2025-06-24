@@ -1,0 +1,52 @@
+{
+    "title": "You Are My Hiding Place",
+    "number": 189,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "Am                 Dm7          G",
+                    "lyrics": "You are my hiding place"
+                },
+                {
+                    "chords": "           Csus     C",
+                    "lyrics": "You always fill my heart"
+                },
+                {
+                    "chords": "         F              Bm7(b5)",
+                    "lyrics": "With songs of deliverance"
+                },
+                {
+                    "chords": "    Esus                  E",
+                    "lyrics": "Whenever I am afraid"
+                },
+                {
+                    "chords": "                     Am  Dm7",
+                    "lyrics": "I will trust in You"
+                },
+                {
+                    "chords": "                    G",
+                    "lyrics": "I will trust in You"
+                },
+                {
+                    "chords": "C                           F       Bm7(b5)",
+                    "lyrics": "Let the weak say `I am strong'"
+                },
+                {
+                    "chords": "         Esus           E",
+                    "lyrics": "In the strength of the Lord"
+                },
+                {
+                    "chords": "                     Am",
+                    "lyrics": "I will trust in You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

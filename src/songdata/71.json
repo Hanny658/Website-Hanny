@@ -1,0 +1,143 @@
+{
+    "title": "He",
+    "number": 71,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "A                          C#m",
+                    "lyrics": "He can turn the tide"
+                },
+                {
+                    "chords": "                       D        A",
+                    "lyrics": "and calm the angry seas"
+                },
+                {
+                    "chords": "Bm           F#m",
+                    "lyrics": "He alone decides"
+                },
+                {
+                    "chords": "                      Bm7         C#7",
+                    "lyrics": "Who writes a symphony"
+                },
+                {
+                    "chords": "D                        Dm",
+                    "lyrics": "He lights every star"
+                },
+                {
+                    "chords": "                            A            F#m",
+                    "lyrics": "And makes the darkness bright"
+                },
+                {
+                    "chords": "Ab7                         C#m",
+                    "lyrics": "He keeps watch all through"
+                },
+                {
+                    "chords": "                        Bm7    E",
+                    "lyrics": "The long and lonely night"
+                },
+                {
+                    "chords": "A                          F#m",
+                    "lyrics": "He still finds the time"
+                },
+                {
+                    "chords": "                  Bm7           E",
+                    "lyrics": "To hear a child’s first prayer"
+                },
+                {
+                    "chords": "Bm                       E",
+                    "lyrics": "Saints or sinners call"
+                },
+                {
+                    "chords": "                    A",
+                    "lyrics": "And always find Him there"
+                },
+                {
+                    "chords": "F",
+                    "lyrics": "Tho it makes Him sad to see"
+                },
+                {
+                    "chords": "        A          F#m",
+                    "lyrics": "The way we live"
+                },
+                {
+                    "chords": "             Bm7   E7  A",
+                    "lyrics": "He’ll always say, `I forgive!’"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He can grant a wish and"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Make a dream come true"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He can touch a cloud and"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Turn the grey to blue"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He also knows where to find"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The rainbow’s end"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He alone can see what lies"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Beyond the bend"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He can touch a tree and"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Turn the leaves to gold"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He knows every lie"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "that you and I have told"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Tho it makes him sad"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To see the way we live"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He’ll always say, `I forgive!’"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,107 @@
+{
+    "title": "Try a Little Kindness",
+    "number": 125,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "        C",
+                    "lyrics": "If you see your brother"
+                },
+                {
+                    "chords": " F                          C",
+                    "lyrics": "Standing by the road"
+                },
+                {
+                    "chords": "                       G",
+                    "lyrics": "With a heavy load"
+                },
+                {
+                    "chords": "F            G                  C        F G",
+                    "lyrics": "From the seeds he's sowed"
+                },
+                {
+                    "chords": "                   C",
+                    "lyrics": "And if you see your sister"
+                },
+                {
+                    "chords": " F                  C",
+                    "lyrics": "Fallen by the way,"
+                },
+                {
+                    "chords": "                         G",
+                    "lyrics": "Just stop and say"
+                },
+                {
+                    "chords": "F                            C",
+                    "lyrics": "\"You're going the wrong way\""
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                 G",
+                    "lyrics": "You gotta try a little kindness"
+                },
+                {
+                    "chords": "         F                    C",
+                    "lyrics": "Yes, show a little kindness"
+                },
+                {
+                    "chords": "F                               C                  G",
+                    "lyrics": "Shine your light for everyone to see"
+                },
+                {
+                    "chords": "                   F",
+                    "lyrics": "And if you try a little kindness"
+                },
+                {
+                    "chords": "                     C                  Am",
+                    "lyrics": "Then you'll overlook the blindness"
+                },
+                {
+                    "chords": "            Dm7                   G",
+                    "lyrics": "Of the narrow-minded people"
+                },
+                {
+                    "chords": "          F               G            C",
+                    "lyrics": "On their narrow-minded streets"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Don't walk around the down and out"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lend a helping hand instead of doubt"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And the kindness that you show"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "every day will help someone along their way"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

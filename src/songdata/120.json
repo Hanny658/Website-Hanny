@@ -1,0 +1,105 @@
+{
+    "title": "Take My Life & Let It Be",
+    "number": 120,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  D                        A     D",
+                    "lyrics": "Take my life and let it be"
+                },
+                {
+                    "chords": "             Em    Asus4 A  D",
+                    "lyrics": "Consecrated Lord to Thee"
+                },
+                {
+                    "chords": "               A                 G  A       D",
+                    "lyrics": "Take my hands and let them move"
+                },
+                {
+                    "chords": "D/F#   G D/F#  Em      A7",
+                    "lyrics": "At the impulse of Thy love"
+                },
+                {
+                    "chords": "G        Em        Asus4 A7  D",
+                    "lyrics": "At the impulse of Thy love"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Take my feet and let them be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Swift and beautiful for Thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take my voice and let me sing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Always only for my King"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Take my lips and let them be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Filled with messages for Thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take my silver and my gold"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Not a mite will I withhold"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Take my love, my God I pour"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "At Thy feet its treasure store"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Take myself and I will be"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Ever only all for Thee"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3",
+        "verse4"
+    ],
+    "link": ""
+}

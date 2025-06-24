@@ -1,0 +1,94 @@
+{
+    "title": "Happiness Is",
+    "number": 47,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " D",
+                    "lyrics": "Happiness is to know the Savior"
+                },
+                {
+                    "chords": " A7",
+                    "lyrics": "Living a life within His favour"
+                },
+                {
+                    "chords": " D                              D7      G",
+                    "lyrics": "Having a change in my behavior"
+                },
+                {
+                    "chords": " D              A7       D",
+                    "lyrics": "Happiness is the Lord"
+                },
+                {
+                    "chords": " D",
+                    "lyrics": "Happiness is a new creation"
+                },
+                {
+                    "chords": "A7",
+                    "lyrics": "Jesus and me in close relation"
+                },
+                {
+                    "chords": "D                          D7     G",
+                    "lyrics": "Having a part in His salvation"
+                },
+                {
+                    "chords": "D                 A7     D",
+                    "lyrics": "Happiness is the Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "      G         F#m",
+                    "lyrics": "Real joy is mine,"
+                },
+                {
+                    "chords": "       Em          A7           D",
+                    "lyrics": "No matter if teardrops start"
+                },
+                {
+                    "chords": "       F#             Bm",
+                    "lyrics": "I've found the secret;"
+                },
+                {
+                    "chords": "      E7                A",
+                    "lyrics": "It's Jesus in my heart"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Happiness is to be forgiven"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Living a life that worth the living"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Taking a trip that leads to heavens"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Happiness is the Lord"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

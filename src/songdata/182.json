@@ -1,0 +1,102 @@
+{
+    "title": "He's Everything to Me",
+    "number": 182,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G         Em                   Am       D",
+                    "lyrics": "In the stars His handiworks I see"
+                },
+                {
+                    "chords": "G         Em                              Am    D",
+                    "lyrics": "On the wind He speaks with majesty"
+                },
+                {
+                    "chords": "G                 G7              C             Cm",
+                    "lyrics": "Though He ruleth over land and sea"
+                },
+                {
+                    "chords": "Bm       Bb       Am7 D",
+                    "lyrics": "What is that to me?"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I will celebrate Nativity"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For it has a place in history"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Sure He came to set His people free"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "What is that to me?"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "C",
+                    "lyrics": "Till by faith I met Him face to face"
+                },
+                {
+                    "chords": "Bm",
+                    "lyrics": "And I felt the wonder of His grace"
+                },
+                {
+                    "chords": "Am                                      C",
+                    "lyrics": "Then I knew that He was more than"
+                },
+                {
+                    "chords": "            D",
+                    "lyrics": "Just a God who didn't care,"
+                },
+                {
+                    "chords": "         C                        D",
+                    "lyrics": "That lived a way out there"
+                },
+                {
+                    "chords": "G                    Em",
+                    "lyrics": "And now He walks beside me"
+                },
+                {
+                    "chords": "Am       D",
+                    "lyrics": "day by day"
+                },
+                {
+                    "chords": "G     Em                         Am     D",
+                    "lyrics": "Ever watching over me lest I stray"
+                },
+                {
+                    "chords": "G           G7                          C        Am7",
+                    "lyrics": "Helping me to find that narrow way"
+                },
+                {
+                    "chords": "D                              G",
+                    "lyrics": "He's everything to me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

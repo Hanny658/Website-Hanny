@@ -1,0 +1,32 @@
+{
+    "title": "The B-I-B-L-E",
+    "number": 33,
+    "lyrics": [
+        {
+            "id": "verse",
+            "label": "Verse",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "The B-I-B-L-E,"
+                },
+                {
+                    "chords": "              C",
+                    "lyrics": "Yes, that's the book for me!"
+                },
+                {
+                    "chords": "        D                        D7",
+                    "lyrics": "I stand alone on the Word of God,"
+                },
+                {
+                    "chords": "                    G",
+                    "lyrics": "The B-I-B-L-E!"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse"
+    ],
+    "link": ""
+}

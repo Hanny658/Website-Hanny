@@ -1,0 +1,213 @@
+{
+    "title": "Yet Not I But Through Christ in Me",
+    "number": 175,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                     C",
+                    "lyrics": "What gift of grace"
+                },
+                {
+                    "chords": "                     F",
+                    "lyrics": "is Jesus my redeemer,"
+                },
+                {
+                    "chords": "                    C",
+                    "lyrics": "There is no more"
+                },
+                {
+                    "chords": "Am                         Gsus  G",
+                    "lyrics": "for heaven now to give"
+                },
+                {
+                    "chords": "                C",
+                    "lyrics": "He is my joy, my righteousness,"
+                },
+                {
+                    "chords": "       F",
+                    "lyrics": "and freedom"
+                },
+                {
+                    "chords": "                      C",
+                    "lyrics": "My steadfast love,"
+                },
+                {
+                    "chords": "       G                                Csus   C",
+                    "lyrics": "my deep and boundless peace"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "              F                                C",
+                    "lyrics": "To this I hold, my hope is only Jesus"
+                },
+                {
+                    "chords": "              F       C                    Gsus  G",
+                    "lyrics": "For my life is wholly bound to his"
+                },
+                {
+                    "chords": "              C                   Dm",
+                    "lyrics": "Oh how strange and divine,"
+                },
+                {
+                    "chords": "        C/E              F",
+                    "lyrics": "I can sing: all is mine!"
+                },
+                {
+                    "chords": "           C/G                     G           C",
+                    "lyrics": "Yet not I, but through Christ in me"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "The night is dark, but I am not forsaken"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For by my side, the Saviour He will stay"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I labour on in weakness and rejoicing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For in my need, His power is displayed"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To this I hold, my Shepherd will defend me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Through the deepest valley He will lead"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Oh the night has been won, and I shall overcome!"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet not I, but through Christ in me"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "No fate I dread, I know I am forgiven"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The future sure, the price it has been paid"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For Jesus bled and suffered for my pardon"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And He was raised to overthrow the grave"
+                }
+            ]
+        },
+        {
+            "id": "chorus3",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To this I hold, my sin has been defeated"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Jesus now and ever is my plea"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Oh the chains are released, I can sing: I am free!"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet not I, but through Christ in me"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "With every breath, I long to follow Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For He has said that He will bring me home"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And day by day I know He will renew me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Until I stand with joy before the throne"
+                }
+            ]
+        },
+        {
+            "id": "chorus4",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To this I hold, my hope is only Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "All the glory evermore to Him"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When the race is complete, still my lips shall repeat:"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet not I, but through Christ in me!"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus1",
+        "verse2",
+        "chorus2",
+        "verse3",
+        "chorus3",
+        "verse4",
+        "chorus4"
+    ],
+    "link": ""
+}

@@ -1,0 +1,102 @@
+{
+    "title": "Father I Thank You",
+    "number": 145,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": " D           A",
+                    "lyrics": "Father I thank You"
+                },
+                {
+                    "chords": "      Bm                   F#m",
+                    "lyrics": "For all that You've done"
+                },
+                {
+                    "chords": "       G                       D              A",
+                    "lyrics": "You gave Your Son freely for me"
+                },
+                {
+                    "chords": "           D                      DMaj7",
+                    "lyrics": "And I praise You for calling me"
+                },
+                {
+                    "chords": " G                 Gm                D",
+                    "lyrics": "Drawing me near; out of blindness"
+                },
+                {
+                    "chords": "        Em       A         D",
+                    "lyrics": "You caused me to see"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Spirit of Life,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You are God's holy fire"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You've kindled my heart with Your"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "blaze; and I know You're"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Refining me, changing my life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And by faith You're revealing Your"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "ways"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Jesus I need You as Lord of my Life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I give all I have unto You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lord I want to come under Your"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "heavenly hand; and to praise You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In all that I do"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

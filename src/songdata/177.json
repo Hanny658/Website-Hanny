@@ -1,0 +1,149 @@
+{
+    "title": "Mary Did You Know",
+    "number": 177,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "                       Am                     G",
+                    "lyrics": "Mary, did you know that your baby boy"
+                },
+                {
+                    "chords": "            F                           Esus",
+                    "lyrics": "Would someday walk on water"
+                },
+                {
+                    "chords": "  E                   Am                     G",
+                    "lyrics": "Mary, did you know that your baby boy"
+                },
+                {
+                    "chords": "            F                           Esus       E",
+                    "lyrics": "Would save our sons and daughters?"
+                },
+                {
+                    "chords": "               F                       G",
+                    "lyrics": "Did you know that your baby boy"
+                },
+                {
+                    "chords": "       C             G/B          Am",
+                    "lyrics": "has come to make you new?"
+                },
+                {
+                    "chords": "         Dm7",
+                    "lyrics": "This child that you've delivered"
+                },
+                {
+                    "chords": "      Esus              E",
+                    "lyrics": "will soon deliver you"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Mary, did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Will give sight to a blind man?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Mary, did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Would calm the storm with his hand"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "has walked where angels trod?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When you've kissed your little baby"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Then you've kissed the face of God"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "       F                             G",
+                    "lyrics": "The blind will see, the deaf will hear"
+                },
+                {
+                    "chords": "        C             G/B   Am",
+                    "lyrics": "The dead will live again"
+                },
+                {
+                    "chords": "        F                           G",
+                    "lyrics": "The lame will leap, the dumb will speak"
+                },
+                {
+                    "chords": "        Am                  Esus      E",
+                    "lyrics": "The praises of the Lamb"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Mary, did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Is Lord of all creation?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Mary did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Will one day rule the nations?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Did you know that your baby boy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "was heaven's perfect Lamb?"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This sleeping child you're holding"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "is the great \"I Am\"?"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "bridge",
+        "verse3"
+    ],
+    "link": ""
+}

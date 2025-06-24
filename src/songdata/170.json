@@ -1,0 +1,127 @@
+{
+    "title": "Lead Me to Calvary",
+    "number": 170,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                         F                   C",
+                    "lyrics": "King of my life I crown Thee now"
+                },
+                {
+                    "chords": "                                   Gsus G",
+                    "lyrics": "Thine shall the glory be"
+                },
+                {
+                    "chords": "C                  F                          C/E",
+                    "lyrics": "Lest I forget Thy thorn crowned brow"
+                },
+                {
+                    "chords": "Dm             C/G G C",
+                    "lyrics": "Lead me to Calvary"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "Dm          G   C",
+                    "lyrics": "Lest I forget Gethsemane"
+                },
+                {
+                    "chords": "Dm         G              C",
+                    "lyrics": "Lest I forget Thine agony"
+                },
+                {
+                    "chords": "Am       Em/G      F          C2/E",
+                    "lyrics": "Lest I forget Thy love for me"
+                },
+                {
+                    "chords": "Dm             C/G G C",
+                    "lyrics": "Lead me to Calvary"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Show me the tomb where Thou wast laid"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Tenderly mourned and wept"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Angels in robes of light arrayed"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Guardeed Thee whilst Thou slept"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Let me like Mary, through the gloom"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Come with a gift for Thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Show to me now the empty tomb"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lead me to Calvary"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "May I be willing, Lord to bear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Daily my cross for Thee"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Even Thy cup of grief to share"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Thou hast bourne all for me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus",
+        "verse4",
+        "chorus"
+    ],
+    "link": ""
+}

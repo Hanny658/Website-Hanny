@@ -1,0 +1,75 @@
+{
+    "title": "Precious Lord, Take My Hand",
+    "number": 117,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "    G                                G7",
+                    "lyrics": "Precious Lord, take my hand"
+                },
+                {
+                    "chords": "               C                Am",
+                    "lyrics": "Lead me on, let me stand"
+                },
+                {
+                    "chords": "         G               Em             A7  D",
+                    "lyrics": "I am tired, I am weak, I am worn"
+                },
+                {
+                    "chords": "               G                         G7",
+                    "lyrics": "Thru the storms, thru the night"
+                },
+                {
+                    "chords": "                 C               Am",
+                    "lyrics": "Lead me on to the light;"
+                },
+                {
+                    "chords": "                G",
+                    "lyrics": "Take my hand"
+                },
+                {
+                    "chords": "               D7                   G",
+                    "lyrics": "Precious Lord, lead me home"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "When my way grows drear,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "precious Lord, linger near"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When my life is almost gone"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Hear my cry, hear my call"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Hold my hand, lest I fall, take my"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "hand, precious Lord, lead me home"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

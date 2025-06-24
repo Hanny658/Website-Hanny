@@ -1,0 +1,40 @@
+{
+    "title": "And As for Me",
+    "number": 134,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "       C",
+                    "lyrics": "And as for me, I will behold"
+                },
+                {
+                    "chords": "     Dm                        G",
+                    "lyrics": "Thy face in righteousness"
+                },
+                {
+                    "chords": "             Dm   G",
+                    "lyrics": "I will be satisfied"
+                },
+                {
+                    "chords": "               C                           C7",
+                    "lyrics": "When I awake in Your likeness"
+                },
+                {
+                    "chords": "                F   G           Em   Am",
+                    "lyrics": "I want to be just like You Lord"
+                },
+                {
+                    "chords": "              Dm                G             C",
+                    "lyrics": "So as for me, I will behold Thy face"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

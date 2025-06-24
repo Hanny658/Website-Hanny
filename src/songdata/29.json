@@ -1,0 +1,87 @@
+{
+    "title": "I Like Bananas",
+    "number": 29,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G      Em",
+                    "lyrics": "I like bananas"
+                },
+                {
+                    "chords": "                   C                    D",
+                    "lyrics": "I think that mangoes are sweet"
+                },
+                {
+                    "chords": "        G             Em",
+                    "lyrics": "I like papayas (papayas?!)"
+                },
+                {
+                    "chords": "        Am              D",
+                    "lyrics": "But nothing can beat"
+                },
+                {
+                    "chords": "                               G",
+                    "lyrics": "The sweet love of God"
+                },
+                {
+                    "chords": "                   Em",
+                    "lyrics": "(doowup-ashooby-doowup"
+                },
+                {
+                    "chords": "C                             D",
+                    "lyrics": "ashooby-doowup-doowup)"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I was walking round in circles"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "5 miles an hour"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Trying to find my way back to my"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "heavenly Father"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The world tasted sweet"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But then it turned sour"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I called on Jesus name"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And I received all His power"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "..I like bananas..."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

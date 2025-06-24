@@ -1,0 +1,84 @@
+{
+    "title": "Welcome to the Family",
+    "number": 114,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  G                          Am",
+                    "lyrics": "Welcome to the family"
+                },
+                {
+                    "chords": "            D                             G",
+                    "lyrics": "We're glad that you have come"
+                },
+                {
+                    "chords": "                       Am",
+                    "lyrics": "To share your life with us"
+                },
+                {
+                    "chords": "          C/D    D  C/D  D",
+                    "lyrics": "As we grow in love and"
+                },
+                {
+                    "chords": " G                     Am7",
+                    "lyrics": "May we always be to you"
+                },
+                {
+                    "chords": "         D                               G",
+                    "lyrics": "What God would have us be"
+                },
+                {
+                    "chords": "               Am",
+                    "lyrics": "A family always there"
+                },
+                {
+                    "chords": "           C/D    D    C/D  D  G",
+                    "lyrics": "To be strong and to lean on"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "Am7                   D/F#",
+                    "lyrics": "May we learn to love each other"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "More with each new day"
+                },
+                {
+                    "chords": "       Am7                      D",
+                    "lyrics": "May words of love be on our lips"
+                },
+                {
+                    "chords": "    G",
+                    "lyrics": "In everything we say"
+                },
+                {
+                    "chords": "Am7             D",
+                    "lyrics": "May the Spirit melt our hearts"
+                },
+                {
+                    "chords": "     G               D/F#      Em",
+                    "lyrics": "And teach us how to pray"
+                },
+                {
+                    "chords": "Am7                                 Cmaj7   D",
+                    "lyrics": "That we might be a true family"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse1"
+    ],
+    "link": ""
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Deep and Wide",
+    "number": 36,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G                           C",
+                    "lyrics": "Deep and wide, deep and wide"
+                },
+                {
+                    "chords": "                 G                                    D7",
+                    "lyrics": "There's a fountain flowing deep & wide"
+                },
+                {
+                    "chords": "G                            C",
+                    "lyrics": "Deep and wide, deep and wide"
+                },
+                {
+                    "chords": "                    G         D7                    G",
+                    "lyrics": "There's a fountain flowing deep & wide"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

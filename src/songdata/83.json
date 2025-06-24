@@ -1,0 +1,82 @@
+{
+    "title": "God Can Do Anything",
+    "number": 83,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  C                       G7",
+                    "lyrics": "God can do anything,"
+                },
+                {
+                    "chords": "       C               F",
+                    "lyrics": "Anything, anything,"
+                },
+                {
+                    "chords": "                C          Dm G7        C",
+                    "lyrics": "God can do anything but fail (repeat)"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                F",
+                    "lyrics": "He's the Alpha and Omega"
+                },
+                {
+                    "chords": "        C",
+                    "lyrics": "The beginning and the end"
+                },
+                {
+                    "chords": "                D7",
+                    "lyrics": "He's the fairest of ten thousand"
+                },
+                {
+                    "chords": "           G     G7",
+                    "lyrics": "To my soul"
+                },
+                {
+                    "chords": "               C      G7",
+                    "lyrics": "God can do anything,"
+                },
+                {
+                    "chords": "        C             F",
+                    "lyrics": "Anything, anything,"
+                },
+                {
+                    "chords": "                C         Dm   G7   C",
+                    "lyrics": "God can do anything but fail"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He can save, He can keep"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He can cleanse and He will"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "God can do anything but fail"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

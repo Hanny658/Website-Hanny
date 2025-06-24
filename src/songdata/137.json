@@ -1,0 +1,122 @@
+{
+    "title": "Can It Be True",
+    "number": 137,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G              Em",
+                    "lyrics": "Can it be true"
+                },
+                {
+                    "chords": "C                         D7",
+                    "lyrics": "The things they say of You"
+                },
+                {
+                    "chords": "G                        Em",
+                    "lyrics": "You walked this earth"
+                },
+                {
+                    "chords": "C                    D7",
+                    "lyrics": "Sharing with friends you knew"
+                },
+                {
+                    "chords": "G                  Em",
+                    "lyrics": "All that they had"
+                },
+                {
+                    "chords": "        C                           D",
+                    "lyrics": "The work, the joy, the pain"
+                },
+                {
+                    "chords": "G                      Em",
+                    "lyrics": "That we might find"
+                },
+                {
+                    "chords": "C                 D           G   Em C D",
+                    "lyrics": "The way to heaven again"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "And day by day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You still return this way"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "But we recall there was a debt to pay"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Out of Your love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "For Your own world above"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You left that holy thing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Your endless love to prove"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Can it be true"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The things they did to You"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The death, the shame"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And were Your friends so few"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet You returned"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Again alive and free"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Can it be true"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My Lord, it had to be"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

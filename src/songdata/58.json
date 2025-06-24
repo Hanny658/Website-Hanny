@@ -1,0 +1,107 @@
+{
+    "title": "Spirit Song",
+    "number": 58,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                 F                 G",
+                    "lyrics": "Oh, let the Son of God enfold you"
+                },
+                {
+                    "chords": "               Em7                Am7",
+                    "lyrics": "With His Spirit and His love"
+                },
+                {
+                    "chords": "               Dm7",
+                    "lyrics": "Let Him fill your heart"
+                },
+                {
+                    "chords": "        G7               C",
+                    "lyrics": "And satisfy your soul"
+                },
+                {
+                    "chords": "                   F",
+                    "lyrics": "Oh let Him have the things"
+                },
+                {
+                    "chords": "          G",
+                    "lyrics": "That hold you"
+                },
+                {
+                    "chords": "              Em7           Am7",
+                    "lyrics": "And His Spirit like a dove"
+                },
+                {
+                    "chords": "        Dm7                         G7",
+                    "lyrics": "Will descend upon your life"
+                },
+                {
+                    "chords": "                          C      C7",
+                    "lyrics": "And make you whole"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": " F   G       Em    Am7",
+                    "lyrics": "Jesus, O Jesus"
+                },
+                {
+                    "chords": "  Dm7      G7           C       C7",
+                    "lyrics": "Come and fill your lambs"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "O come and sing this song with gladness"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "As your hearts are filled with joy"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lift your hands in sweet"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Surrender to His Name"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O give Him all your tears and sadness"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Give Him all your years of pain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And you'll enter into life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "In Jesus name"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

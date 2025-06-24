@@ -1,0 +1,121 @@
+{
+    "title": "I Believe",
+    "number": 139,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "     D               Bm                Em",
+                    "lyrics": "I believe for every drop of rain that"
+                },
+                {
+                    "chords": "      A              D",
+                    "lyrics": "falls, a flower grows"
+                },
+                {
+                    "chords": "                      Bm",
+                    "lyrics": "I believe that somewhere in the"
+                },
+                {
+                    "chords": " Em              A7               D",
+                    "lyrics": "darkest night, a candle glows"
+                },
+                {
+                    "chords": "                        F#m                    G",
+                    "lyrics": "I believe for everyone who goes astray"
+                },
+                {
+                    "chords": "                           F#                    Bm",
+                    "lyrics": "Someone will come to show the way"
+                },
+                {
+                    "chords": "     G          A7",
+                    "lyrics": "I believe, I believe"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I believe above the storm, the smallest prayer will still be heard"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I believe that Someone in the great somewhere hears every word"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Everytime I hear a newborn baby cry"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Or touch a leaf, or see the sky"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Then I know why, I believe"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I believe that Jesus died upon the cross of Calvary"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I believe He suffered all the shame and loss for you and me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I believe that we like sheep have gone astray and Christ has come"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To show the way, I believe, I believe"
+                }
+            ]
+        },
+        {
+            "id": "verse4",
+            "label": "Verse 4",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I believe the humble prayer the sinner prays will still be heard"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I believe a soul is saved by faith in Him; this is His word"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Every time He sees His children cry in prayer, and seek His will, and look"
+                },
+                {
+                    "chords": "                                            Em",
+                    "lyrics": "to Him, He answers prayers"
+                },
+                {
+                    "chords": "Asus7   A7     D",
+                    "lyrics": "I………… believe"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3",
+        "verse4"
+    ],
+    "link": ""
+}

@@ -1,0 +1,135 @@
+{
+    "title": "His Love Is",
+    "number": 28,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                                F",
+                    "lyrics": "Once I thought that love was"
+                },
+                {
+                    "chords": "                 G7                        C",
+                    "lyrics": "Meant for anyone else but me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Once I thought that"
+                },
+                {
+                    "chords": "F                           G7",
+                    "lyrics": "No one knew the Way"
+                },
+                {
+                    "chords": "C                       F",
+                    "lyrics": "Now that only goes to show"
+                },
+                {
+                    "chords": "         G7                         C",
+                    "lyrics": "How wrong we all can be"
+                },
+                {
+                    "chords": "            F",
+                    "lyrics": "Cause now it seems"
+                },
+                {
+                    "chords": "      G7                             C   C7",
+                    "lyrics": "He loves me more each day"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "C               F",
+                    "lyrics": "His love is warmer than"
+                },
+                {
+                    "chords": "       G7",
+                    "lyrics": "The warmest sunshine"
+                },
+                {
+                    "chords": "C                    Am",
+                    "lyrics": "Softer than a sigh"
+                },
+                {
+                    "chords": "                  F",
+                    "lyrics": "His love is deeper"
+                },
+                {
+                    "chords": "                 G7",
+                    "lyrics": "Than the deepest ocean"
+                },
+                {
+                    "chords": " C                       C7",
+                    "lyrics": "Wider than the sky"
+                },
+                {
+                    "chords": "                   F",
+                    "lyrics": "His love is brighter"
+                },
+                {
+                    "chords": "                G7",
+                    "lyrics": "Than the brightest star"
+                },
+                {
+                    "chords": "          Em                        Am",
+                    "lyrics": "That shines every night above"
+                },
+                {
+                    "chords": "                      F                        G",
+                    "lyrics": "And there is nothing in this world"
+                },
+                {
+                    "chords": "               F        G7              C",
+                    "lyrics": "That can ever change His love"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Something happened to my heart"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The day that I met Him"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Something that I never felt before"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And that something is that"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He had buried all my sins"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And everyday I know"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He loves me more"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

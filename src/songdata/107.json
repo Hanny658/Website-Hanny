@@ -1,0 +1,103 @@
+{
+    "title": "Give Them All to Jesus",
+    "number": 107,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  D",
+                    "lyrics": "Are you tired"
+                },
+                {
+                    "chords": "                                Em7",
+                    "lyrics": "Of chasing pretty rainbows"
+                },
+                {
+                    "chords": "A7",
+                    "lyrics": "Are you tired"
+                },
+                {
+                    "chords": "                                       D",
+                    "lyrics": "Of spinning round and round"
+                },
+                {
+                    "chords": "Bm7",
+                    "lyrics": "Wrap up all the shattered dreams"
+                },
+                {
+                    "chords": "     Em          Em7",
+                    "lyrics": "Of your life"
+                },
+                {
+                    "chords": "A7                               D",
+                    "lyrics": "And at the feet of Jesus lay 'em down           A"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                   D                    F#m",
+                    "lyrics": "Give them all, give them all"
+                },
+                {
+                    "chords": "G                         A7",
+                    "lyrics": "Give them all to Jesus"
+                },
+                {
+                    "chords": "                 Em                        A7",
+                    "lyrics": "Shattered dreams, wounded hearts"
+                },
+                {
+                    "chords": "                      D   A",
+                    "lyrics": "And broken toys"
+                },
+                {
+                    "chords": "                   D                    F#m",
+                    "lyrics": "Give them all, give them all"
+                },
+                {
+                    "chords": "G                         A7",
+                    "lyrics": "Give them all to Jesus"
+                },
+                {
+                    "chords": "        Em                     A7               D",
+                    "lyrics": "And He'll turn your sorrow into joy!"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He never said you'd only see sunshine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He never said there'll be no rain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He only promised a heart full of singing"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "about the very things That once brought pain"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}

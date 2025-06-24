@@ -1,0 +1,95 @@
+{
+    "title": "Blessed Be the Lord",
+    "number": 61,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  C                                       Dm",
+                    "lyrics": "Father in heaven, how we love You"
+                },
+                {
+                    "chords": "    G                             G7     C      G",
+                    "lyrics": "We lift Your name in all the earth"
+                },
+                {
+                    "chords": "            C                         Em",
+                    "lyrics": "May Your kingdom be established"
+                },
+                {
+                    "chords": "            Dm",
+                    "lyrics": "in our praises"
+                },
+                {
+                    "chords": "              F           G",
+                    "lyrics": "As your people declare"
+                },
+                {
+                    "chords": "                     C      G",
+                    "lyrics": "Your mighty works"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                          C      Em         F",
+                    "lyrics": "Blessed be the Lord God Almighty"
+                },
+                {
+                    "chords": "      G                                  C",
+                    "lyrics": "Who was and is and is to come"
+                },
+                {
+                    "chords": "G7                      C    Em         F",
+                    "lyrics": "Blessed be the Lord God Almighty"
+                },
+                {
+                    "chords": "         G                      C",
+                    "lyrics": "Who reigns forever more"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "F              G                           C    C7",
+                    "lyrics": "And I will lift your name on high"
+                },
+                {
+                    "chords": "F                  G                          C  C7",
+                    "lyrics": "I choose to lift your name on high"
+                },
+                {
+                    "chords": "F              G                 Em",
+                    "lyrics": "I lift your Name like a banner"
+                },
+                {
+                    "chords": "           Am",
+                    "lyrics": "In the sky"
+                },
+                {
+                    "chords": "F      G                          C        G",
+                    "lyrics": "I will lift your name on high"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "(Repeat “Blessed be the Lord”)"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus1",
+        "bridge",
+        "chorus1"
+    ],
+    "link": ""
+}

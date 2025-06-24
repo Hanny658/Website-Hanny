@@ -1,0 +1,138 @@
+{
+    "title": "Day by Day",
+    "number": 104,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "Day by day and with each passing"
+                },
+                {
+                    "chords": "G                               A7",
+                    "lyrics": "Moment, strength I find"
+                },
+                {
+                    "chords": "                              D",
+                    "lyrics": "To meet my trials here"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Trusting in my Father's wise"
+                },
+                {
+                    "chords": "    G        Em               A7",
+                    "lyrics": "Bestowment; I've no cause"
+                },
+                {
+                    "chords": "                           D",
+                    "lyrics": "For worry or for fear"
+                },
+                {
+                    "chords": "                 D/F#",
+                    "lyrics": "He whose heart is kind"
+                },
+                {
+                    "chords": "                   G",
+                    "lyrics": "Beyond all measure"
+                },
+                {
+                    "chords": "              Em         A7",
+                    "lyrics": "Gives unto each day"
+                },
+                {
+                    "chords": "                       D       Bm",
+                    "lyrics": "As He deems best; lovingly,"
+                },
+                {
+                    "chords": "     Bm/A                    G          Em",
+                    "lyrics": "As part of pain and pleasure"
+                },
+                {
+                    "chords": "               A7                              D",
+                    "lyrics": "Mingling toil with peace and rest"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Everyday the Lord Himself is near me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "With a special mercy for each hour"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "All my cares He fain would bear"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And cheer me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He whose name is Counsellor and power"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The protection of His child and treasure is a charge"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That on Himself He laid as your days, Your strength shall be in measure"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "This the pledge to me He made"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Help me then in every tribulation"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "So to trust Thy promises O Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That I lose not faith's sweet"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "consolation offered me within Thy Holy Word; Help me, Lord,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When toil and trouble meeting,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "E'er to take as from a Father's hand,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "One by one, the days, the moments fleeting till I reach the Promised Land"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

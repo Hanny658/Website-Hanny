@@ -1,0 +1,83 @@
+{
+    "title": "He Looked Beyond My Fault",
+    "number": 153,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G7           C",
+                    "lyrics": "Amazing grace shall always"
+                },
+                {
+                    "chords": "            F           Dm",
+                    "lyrics": "Be my song of praise"
+                },
+                {
+                    "chords": "                  C       Am",
+                    "lyrics": "For it was grace"
+                },
+                {
+                    "chords": "         D7                      G7",
+                    "lyrics": "That bought my liberty"
+                },
+                {
+                    "chords": "               C              C7",
+                    "lyrics": "I do not know just why"
+                },
+                {
+                    "chords": "                     F                 Dm",
+                    "lyrics": "He came to love me so"
+                },
+                {
+                    "chords": "                    C                G7",
+                    "lyrics": "He looked beyond my fault"
+                },
+                {
+                    "chords": "                      C",
+                    "lyrics": "And saw my need"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "             Am                 F",
+                    "lyrics": "I  shall forever lift my eyes to"
+                },
+                {
+                    "chords": " C                               Am",
+                    "lyrics": "Calvary, to view the cross"
+                },
+                {
+                    "chords": "             D7                    G",
+                    "lyrics": "Where Jesus died for me"
+                },
+                {
+                    "chords": "                     C C+     F",
+                    "lyrics": "How marvelous the grace"
+                },
+                {
+                    "chords": "                            C               Am",
+                    "lyrics": "That caught my falling soul"
+                },
+                {
+                    "chords": "                  Dm",
+                    "lyrics": "He looked beyond my fault"
+                },
+                {
+                    "chords": "        G7              C",
+                    "lyrics": "And saw all my needs"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

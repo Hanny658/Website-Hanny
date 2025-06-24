@@ -1,0 +1,195 @@
+{
+    "title": "Graves Into Gardens",
+    "number": 174,
+    "lyrics": [
+        {
+            "id": "intro",
+            "label": "Intro",
+            "lines": [
+                {
+                    "chords": "[Intro] G     C/G    G",
+                    "lyrics": ""
+                },
+                {
+                    "chords": "C/G                   G",
+                    "lyrics": "I searched the world"
+                },
+                {
+                    "chords": "      C/G            G",
+                    "lyrics": "But it couldn’t fill me"
+                },
+                {
+                    "chords": "                       Em",
+                    "lyrics": "Man’s empty praise"
+                },
+                {
+                    "chords": "                                D",
+                    "lyrics": "and treasures that fade"
+                },
+                {
+                    "chords": "                   C",
+                    "lyrics": "(are) never enough"
+                },
+                {
+                    "chords": "                           G",
+                    "lyrics": "Then You came along"
+                },
+                {
+                    "chords": "      C/G                      G",
+                    "lyrics": "And put me back together"
+                },
+                {
+                    "chords": "                  Em                         D",
+                    "lyrics": "And every desire is now satisfied"
+                },
+                {
+                    "chords": "                      C",
+                    "lyrics": "Here in Your love"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                   G",
+                    "lyrics": "Oh there’s nothing better than You"
+                },
+                {
+                    "chords": "              Em",
+                    "lyrics": "There’s nothing better than You"
+                },
+                {
+                    "chords": "                     C",
+                    "lyrics": "Lord there’s nothing"
+                },
+                {
+                    "chords": "                                        G",
+                    "lyrics": "Nothing is better than You"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "[Interlude] G     C/G   G",
+                    "lyrics": ""
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I’m not afraid"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To show You my weakness"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "My failures and flaws"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Lord You’ve seen them all"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And You still call me friend"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "‘Cause the God of the mountain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Is the God of the valley"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "There’s not a place"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Your mercy and grace"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Won’t find me again"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "[Chorus] x2"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "G                                                 C  G",
+                    "lyrics": "You turn mourning to dancing"
+                },
+                {
+                    "chords": "                                          C  G",
+                    "lyrics": "You give beauty for ashes"
+                },
+                {
+                    "chords": "                                           G",
+                    "lyrics": "You turn shame into glory"
+                },
+                {
+                    "chords": "                    Em   C             G",
+                    "lyrics": "You’re the only one who can"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You turn graves into gardens"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You turn bones into armies"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You turn seas into highways"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You’re the only one who can"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You’re the only one who can"
+                }
+            ]
+        },
+        {
+            "id": "chorus3",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "[Chorus]"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "intro",
+        "chorus1",
+        "verse2",
+        "chorus2",
+        "bridge",
+        "chorus3"
+    ],
+    "link": ""
+}

@@ -1,0 +1,164 @@
+{
+    "title": "We Are the Reason",
+    "number": 183,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "           G",
+                    "lyrics": "As little children we would"
+                },
+                {
+                    "chords": "Am/F#     B              Em",
+                    "lyrics": "dream of Christmas morn"
+                },
+                {
+                    "chords": "      Dm7     G              C",
+                    "lyrics": "and all the gifts and toys"
+                },
+                {
+                    "chords": "      G/B           Am7",
+                    "lyrics": "we knew we'd find"
+                },
+                {
+                    "chords": "             B        Em",
+                    "lyrics": "but we never realised"
+                },
+                {
+                    "chords": "         Em/D                       Em/C#",
+                    "lyrics": "a baby born one blessed night"
+                },
+                {
+                    "chords": "                  Cmaj7            Am7    D",
+                    "lyrics": "gave us the greatest gift of our lives"
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "G",
+                    "lyrics": "We are the reason that"
+                },
+                {
+                    "chords": "Am/G",
+                    "lyrics": "He gave His life"
+                },
+                {
+                    "chords": "Dsus          D              G",
+                    "lyrics": "we are the reason that"
+                },
+                {
+                    "chords": "     C/G                 G    D/F#",
+                    "lyrics": "He suffered and died"
+                },
+                {
+                    "chords": "      Em",
+                    "lyrics": "to a world that was lost,"
+                },
+                {
+                    "chords": "               Am7",
+                    "lyrics": "He gave all He could"
+                },
+                {
+                    "chords": "              D7                                 G",
+                    "lyrics": "give to show us the reason to live"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "As the years go by we learned more about gifts"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "giving of ourselves and what that means"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "On a dark and cloudy day a man hung crying"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "in the rain because of love, because of love"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "       Eb                                     Bb/D",
+                    "lyrics": "I've finally found a reason for living,"
+                },
+                {
+                    "chords": "        Bbm/Db                          Ab/C",
+                    "lyrics": "it's in giving every part of my heart to Him"
+                },
+                {
+                    "chords": "   Abm/B                    Eb/Ab        Cm7",
+                    "lyrics": "In all that I do, every word that I say"
+                },
+                {
+                    "chords": "            F                               Bb",
+                    "lyrics": "I'll be giving my all just for Him,"
+                },
+                {
+                    "chords": "     E",
+                    "lyrics": "for Him"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "        A                                    Bm7",
+                    "lyrics": "And we are the reason that He gave His life"
+                },
+                {
+                    "chords": "Esus             E                      A",
+                    "lyrics": "we are the reason that He suffered and died"
+                },
+                {
+                    "chords": "               E/G#",
+                    "lyrics": ""
+                },
+                {
+                    "chords": "       F#m",
+                    "lyrics": "to a world that was lost"
+                },
+                {
+                    "chords": "               Bm",
+                    "lyrics": "He gave all He could give"
+                },
+                {
+                    "chords": "     E                                  F#m",
+                    "lyrics": "to show us the reason to live"
+                },
+                {
+                    "chords": "D            E                A",
+                    "lyrics": "He is my reason to live"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus1",
+        "verse2",
+        "bridge",
+        "chorus2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,82 @@
+{
+    "title": "The Saviour Is Waiting",
+    "number": 84,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "     D               D#             Em",
+                    "lyrics": "The Savior is waiting to enter your heart"
+                },
+                {
+                    "chords": " A7                                           D",
+                    "lyrics": "Why don't you let Him come in"
+                },
+                {
+                    "chords": "              D                      D#",
+                    "lyrics": "There's nothing in this world"
+                },
+                {
+                    "chords": "    Em",
+                    "lyrics": "To keep you apart"
+                },
+                {
+                    "chords": " A7                                 D",
+                    "lyrics": "What is your answer to Him?"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": " G              Em         F#m           Bm",
+                    "lyrics": "Time after time He has waited before"
+                },
+                {
+                    "chords": "     Em                A         D  D7",
+                    "lyrics": "And now He is waiting again"
+                },
+                {
+                    "chords": "    G                   Em",
+                    "lyrics": "To see if you're willing"
+                },
+                {
+                    "chords": "    F#m       Bm",
+                    "lyrics": "To open the door"
+                },
+                {
+                    "chords": "Em            A7                      D",
+                    "lyrics": "O how He wants to come in"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "If you'll take one step to the Savior my friend, you'll find His arms open wide;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Receive Him and all of your darkness will end,"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Within your heart He'll abide"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2"
+    ],
+    "link": ""
+}

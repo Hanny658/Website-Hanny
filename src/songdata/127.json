@@ -1,0 +1,47 @@
+{
+    "title": "I Have Decided",
+    "number": 127,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                                               C7",
+                    "lyrics": "I have decided to follow Jesus"
+                },
+                {
+                    "chords": "             F                            C",
+                    "lyrics": "I have decided to follow Jesus"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I have decided to follow Jesus"
+                },
+                {
+                    "chords": "                  G    G7                  C",
+                    "lyrics": "No turning back, no turning back"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "- The world behind me, the cross before me..."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- Tho none go with me, I still will follow..."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,55 @@
+{
+    "title": "I Am the God That Healeth Thee",
+    "number": 67,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C                     G",
+                    "lyrics": "I am the God that healeth thee"
+                },
+                {
+                    "chords": "F              G             C",
+                    "lyrics": "I am the Lord your healer"
+                },
+                {
+                    "chords": "Am                                  Dm",
+                    "lyrics": "I sent my word and healed your disease"
+                },
+                {
+                    "chords": "G                             C",
+                    "lyrics": "I am the Lord your healer"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "You are the God that healeth me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You are the Lord, my healer"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You sent your word and healed my disease"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You are the Lord my healer"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

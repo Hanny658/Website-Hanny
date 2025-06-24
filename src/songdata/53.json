@@ -1,0 +1,39 @@
+{
+    "title": "Be Glorified",
+    "number": 53,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "C C/B Am Em",
+                    "lyrics": "In my life, Lord"
+                },
+                {
+                    "chords": "Dm7 (F)   G   Dm7     G7",
+                    "lyrics": "Be glorified, be glorified,"
+                },
+                {
+                    "chords": "C C/B Am Em   Dm7      G        C",
+                    "lyrics": "In my life, Lord, be glorified today"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "In your church..."
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2"
+    ],
+    "link": ""
+}

@@ -1,0 +1,106 @@
+{
+    "title": "Praise to the Lord",
+    "number": 73,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "         D                          F#m",
+                    "lyrics": "From the rising of the sun"
+                },
+                {
+                    "chords": "    Bm             Bm7",
+                    "lyrics": "Until its going down"
+                },
+                {
+                    "chords": "                      Em7 A7              D      A",
+                    "lyrics": "Praise to the Lord, praise His name"
+                },
+                {
+                    "chords": "            D                            F#m",
+                    "lyrics": "Fill the morning with your joy"
+                },
+                {
+                    "chords": "             Bm                          Bm7",
+                    "lyrics": "Fill the evening with your song"
+                },
+                {
+                    "chords": "                     Em7 A7                 D",
+                    "lyrics": "Praise to the Lord, praise His name"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": " D7                 G                  Asus",
+                    "lyrics": "Praise to the One who is high"
+                },
+                {
+                    "chords": "  F#m             Bm7",
+                    "lyrics": "Above every nation;"
+                },
+                {
+                    "chords": "               Em7                        A7",
+                    "lyrics": "Who has raised us from the dust"
+                },
+                {
+                    "chords": "                        D    D7",
+                    "lyrics": "To reign with Him"
+                },
+                {
+                    "chords": "                       G               G/A",
+                    "lyrics": "Praise to the One who is Lord"
+                },
+                {
+                    "chords": "  F#m                Bm",
+                    "lyrics": "Above all creation;"
+                },
+                {
+                    "chords": "                      Em7 A7               D",
+                    "lyrics": "Praise to the Lord, praise His name"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "To the barren house He comes"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To make of it a home"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Praise to the Lord, praise His name"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To the empty heart He calls"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Saying, `come and be My own'"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Praise to the Lord, praise His name"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

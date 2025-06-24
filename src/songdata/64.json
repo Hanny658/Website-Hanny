@@ -1,0 +1,36 @@
+{
+    "title": "I Love You, Lord",
+    "number": 64,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "  E                               B7        E",
+                    "lyrics": "I love You Lord and I lift my voice"
+                },
+                {
+                    "chords": "       A          F#m           Bsus   B",
+                    "lyrics": "To worship You, O my soul, rejoice"
+                },
+                {
+                    "chords": "          E                        B              E",
+                    "lyrics": "Take joy, my King, in what You hear"
+                },
+                {
+                    "chords": "                     A                    Badd11",
+                    "lyrics": "May it be a sweet, sweet sound"
+                },
+                {
+                    "chords": "             E",
+                    "lyrics": "In Your ear"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1"
+    ],
+    "link": ""
+}

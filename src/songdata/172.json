@@ -1,0 +1,164 @@
+{
+    "title": "Reckless Love",
+    "number": 172,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "Am                        G",
+                    "lyrics": "Before I spoke a word"
+                },
+                {
+                    "chords": "                                F",
+                    "lyrics": "You were singing over me"
+                },
+                {
+                    "chords": "Am                     G",
+                    "lyrics": "You have been so so"
+                },
+                {
+                    "chords": "                F",
+                    "lyrics": "good to me"
+                },
+                {
+                    "chords": "Am                     G",
+                    "lyrics": "Before I took a breath you"
+                },
+                {
+                    "chords": "                           F",
+                    "lyrics": "breathed your life into me"
+                },
+                {
+                    "chords": "Am                    G",
+                    "lyrics": "You have been so so"
+                },
+                {
+                    "chords": "               F",
+                    "lyrics": "kind to me"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "              Am",
+                    "lyrics": "Oh, the overwhelming"
+                },
+                {
+                    "chords": "G                      F                         C",
+                    "lyrics": "never-ending, reckless love of God"
+                },
+                {
+                    "chords": "          Am",
+                    "lyrics": "Oh it chases me down"
+                },
+                {
+                    "chords": "G",
+                    "lyrics": "Fights till I'm found"
+                },
+                {
+                    "chords": "F                            C",
+                    "lyrics": "leaves the ninety-nine"
+                },
+                {
+                    "chords": "                      Am                   G",
+                    "lyrics": "Oh I couldn't earn it, I don't deserve it"
+                },
+                {
+                    "chords": "               F                     C",
+                    "lyrics": "Still you give yourself away"
+                },
+                {
+                    "chords": "             Am",
+                    "lyrics": "Oh, the overwhelming"
+                },
+                {
+                    "chords": "G                      F                         C",
+                    "lyrics": "never-ending, reckless love of God"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "When I was your foe, still"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Your love fought for me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You have been so so"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Good to me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "When I felt no worth"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You paid it all for me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "You have been so so"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Kind to me"
+                }
+            ]
+        },
+        {
+            "id": "bridge",
+            "label": "Bridge",
+            "lines": [
+                {
+                    "chords": "Am                                         G",
+                    "lyrics": "There's no shadow you won't light up"
+                },
+                {
+                    "chords": "                                  F",
+                    "lyrics": "Mountain you won't climb up"
+                },
+                {
+                    "chords": "                      C",
+                    "lyrics": "coming after me"
+                },
+                {
+                    "chords": "Am                                    G",
+                    "lyrics": "There's no wall you won't kick down"
+                },
+                {
+                    "chords": "                          F",
+                    "lyrics": "Lie you won't tear down"
+                },
+                {
+                    "chords": "                       C",
+                    "lyrics": "coming after me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "bridge",
+        "bridge",
+        "chorus"
+    ],
+    "link": ""
+}

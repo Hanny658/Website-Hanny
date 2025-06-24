@@ -1,0 +1,63 @@
+{
+    "title": "Unto Thee O Lord",
+    "number": 46,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "D",
+                    "lyrics": "Unto Thee, O Lord"
+                },
+                {
+                    "chords": "         A",
+                    "lyrics": "Do I lift up my soul"
+                },
+                {
+                    "chords": "         Em                 A",
+                    "lyrics": "Unto Thee, O Lord"
+                },
+                {
+                    "chords": "         D                     A",
+                    "lyrics": "Do I lift up my soul"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "          D    D7             G      Em",
+                    "lyrics": "O my God, I trust in Thee"
+                },
+                {
+                    "chords": "                         D/F#",
+                    "lyrics": "Let me not be ashamed"
+                },
+                {
+                    "chords": "                                      Em        A     D",
+                    "lyrics": "Let not my enemies triumph over me"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- Yea, let none that wait on Thee be ashamed"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- Show me Thy ways, Thy ways, O Lord"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "- Remember not the sins of my youth"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus"
+    ],
+    "link": ""
+}

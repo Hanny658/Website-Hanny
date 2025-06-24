@@ -1,0 +1,174 @@
+{
+    "title": "I Know a Place",
+    "number": 68,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "   C         Am",
+                    "lyrics": "I know a place"
+                },
+                {
+                    "chords": "             F                  G",
+                    "lyrics": "Where no one ever goes"
+                },
+                {
+                    "chords": "C                           Am",
+                    "lyrics": "There's peace and quiet"
+                },
+                {
+                    "chords": "F                   G7",
+                    "lyrics": "Beauty and repose"
+                },
+                {
+                    "chords": "       C                   Am",
+                    "lyrics": "It's hidden in the valley"
+                },
+                {
+                    "chords": "      F                            G",
+                    "lyrics": "Beside the mountain stream"
+                },
+                {
+                    "chords": "       C                  Am",
+                    "lyrics": "And lying there beside the stream"
+                },
+                {
+                    "chords": "   F                       G",
+                    "lyrics": "I know that I can dream"
+                },
+                {
+                    "chords": "  C          Am         F                     G",
+                    "lyrics": "Only of things of beauty to the eye"
+                },
+                {
+                    "chords": "  C                    Am",
+                    "lyrics": "Snow peaked mountains"
+                },
+                {
+                    "chords": " F                        G",
+                    "lyrics": "Tow'ring to the sky"
+                },
+                {
+                    "chords": " C        Am             F",
+                    "lyrics": "Now I know that God"
+                },
+                {
+                    "chords": "                   G              C  Am  F G",
+                    "lyrics": "Made this world for me, for me."
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I can imagine the wonder of the scene"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Climbing up the mountain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And down the small ravine"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The beauty of this place"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And quiet e'er shall stay"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To make this place a heaven"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Each and every day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "O how I wish, I never had to leave"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And all my life"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Such beauty to receive"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Now I know that God"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Made this world for me, for me."
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "I know a fountain"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Where sins are washed away"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I know a place"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Where night is turned to day"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "The Lord invites you now"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Why linger and delay"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He hears your pleading cry"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And every word you say"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Only believe He took the place for you"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He will save and guide you safely through; Now I know that God"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Sent His Son for me, for me"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "verse2",
+        "verse3"
+    ],
+    "link": ""
+}

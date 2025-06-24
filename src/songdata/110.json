@@ -1,0 +1,83 @@
+{
+    "title": "When I Look Into Your Holiness",
+    "number": 110,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "             C                             F",
+                    "lyrics": "When I look into your holiness"
+                },
+                {
+                    "chords": "             C              Cmaj7        F",
+                    "lyrics": "When I gaze into Your loveliness"
+                },
+                {
+                    "chords": "                C                 Em7",
+                    "lyrics": "When all things that surround"
+                },
+                {
+                    "chords": "                F                                   G G7",
+                    "lyrics": "Become shadows in the light of You"
+                },
+                {
+                    "chords": "                 C",
+                    "lyrics": "When I've found the joy"
+                },
+                {
+                    "chords": "      C7                    F",
+                    "lyrics": "Of reaching Your heart"
+                },
+                {
+                    "chords": "                C",
+                    "lyrics": "When my will becomes"
+                },
+                {
+                    "chords": "   Cmaj7               F",
+                    "lyrics": "Entralled in Your love"
+                },
+                {
+                    "chords": "                     C                         Em",
+                    "lyrics": "When all things that surround become"
+                },
+                {
+                    "chords": "F                                     G",
+                    "lyrics": "Shadows in the light of You"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                 Fmaj7 G          Em7  Am7",
+                    "lyrics": "I worship You,   I worship You"
+                },
+                {
+                    "chords": "       Dm7              G",
+                    "lyrics": "The reason I live"
+                },
+                {
+                    "chords": "                     Cmaj7  Dm7  Em7",
+                    "lyrics": "Is to worship You"
+                },
+                {
+                    "chords": "C Dm7 Em7 Fmaj7 G           Em7  Am",
+                    "lyrics": "I worship You,    I worship You"
+                },
+                {
+                    "chords": "     Dm7               G                    C",
+                    "lyrics": "The reason I live is to worship You"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus"
+    ],
+    "link": ""
+}

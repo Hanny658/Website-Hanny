@@ -1,0 +1,123 @@
+{
+    "title": "Our God Reigns",
+    "number": 74,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "G                   C        D",
+                    "lyrics": "How lovely on the mountains"
+                },
+                {
+                    "chords": "             G",
+                    "lyrics": "are the feet of Him"
+                },
+                {
+                    "chords": "                               Am    D         G",
+                    "lyrics": "Who brings good news, good news"
+                },
+                {
+                    "chords": "                       C",
+                    "lyrics": "Announcing peace,"
+                },
+                {
+                    "chords": "         D                       G              Em",
+                    "lyrics": "proclaiming news of happiness"
+                },
+                {
+                    "chords": "                Am       D             G",
+                    "lyrics": "Our God reigns, our God reigns"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "                C       D               G     Em",
+                    "lyrics": "Our God reigns, our God reigns"
+                },
+                {
+                    "chords": "                C    D                   G",
+                    "lyrics": "Our God reigns, our God reigns"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "He had no stately form He had no"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "majesty"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "That we should be drawn to Him"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He was despised and we took no"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "account of Him"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet now he reigns with the Most"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "High"
+                }
+            ]
+        },
+        {
+            "id": "verse3",
+            "label": "Verse 3",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Out of the tomb He came with"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "grace and majesty"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "He is alive, He is alive"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "God love us so, see His hands, His"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "feet, His side."
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yes we know, He is alive!"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus",
+        "verse3",
+        "chorus"
+    ],
+    "link": ""
+}

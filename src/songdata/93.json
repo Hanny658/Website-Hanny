@@ -1,0 +1,107 @@
+{
+    "title": "Remind Me",
+    "number": 93,
+    "lyrics": [
+        {
+            "id": "verse1",
+            "label": "Verse 1",
+            "lines": [
+                {
+                    "chords": "      C",
+                    "lyrics": "The things that I love"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "And hold dear to my heart"
+                },
+                {
+                    "chords": "             G",
+                    "lyrics": "Are just borrowed,"
+                },
+                {
+                    "chords": "                                 C    C7",
+                    "lyrics": "They're not mine at all"
+                },
+                {
+                    "chords": "F",
+                    "lyrics": "Jesus only let me use them"
+                },
+                {
+                    "chords": "      C                 Am7",
+                    "lyrics": "To brighten my life"
+                },
+                {
+                    "chords": "       Dm7               G7                 C  C7",
+                    "lyrics": "So remind me, remind me dear Lord"
+                }
+            ]
+        },
+        {
+            "id": "chorus",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "F",
+                    "lyrics": "Roll back the curtain"
+                },
+                {
+                    "chords": "     Em                          E",
+                    "lyrics": "Of memory now and then"
+                },
+                {
+                    "chords": " F",
+                    "lyrics": "Show me where You've brought me from"
+                },
+                {
+                    "chords": "     C                                 G",
+                    "lyrics": "And where I could have been"
+                },
+                {
+                    "chords": "     C                   Em                F",
+                    "lyrics": "Remember, I'm human and humans"
+                },
+                {
+                    "chords": "C",
+                    "lyrics": "forget"
+                },
+                {
+                    "chords": "       Dm                 G                   C",
+                    "lyrics": "So remind me, remind me, dear Lord"
+                }
+            ]
+        },
+        {
+            "id": "verse2",
+            "label": "Verse 2",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyrics": "Nothing good have I done"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "To deserve God's own Son"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "I'm not worthy of the scars in His hands;"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Yet He chose the road to Calvary to die in my stead"
+                },
+                {
+                    "chords": "",
+                    "lyrics": "Why He loves me, I can't understand"
+                }
+            ]
+        }
+    ],
+    "song": [
+        "verse1",
+        "chorus",
+        "verse2",
+        "chorus"
+    ],
+    "link": ""
+}
