@@ -47,7 +47,7 @@ const Navbar: FC = () => {
                                 Snack Map
                             </div>
                         </Link>
-                        <Link href="/songbook" passHref>
+                        <Link href="https://www.cgsongbook.org/" target='_blank'>
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-music-note-list me-1" aria-hidden="true" />
                                 Songbook
