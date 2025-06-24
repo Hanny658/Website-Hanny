@@ -75,7 +75,7 @@ const SongbookPage = () => {
             value={searchQuery}
             onChange={handleSearch}
             placeholder="Search title or number..."
-            className="text-black bg-white/90 rounded px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            className="text-black bg-white/90 rounded w:1/2 md:w-1/3 px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
           />
         </header>
 

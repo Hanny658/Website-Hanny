@@ -3,42 +3,98 @@
     "number": 144,
     "lyrics": [
         {
-            "id": "verse1",
-            "label": "Verse 1",
+            "id": "intro",
+            "label": "Intro",
             "lines": [
                 {
-                    "chords": "   D               A                  Bm  D7",
-                    "lyrics": "I cast all my cares upon You"
+                    "chords": "C    G   F   C      F   C   Am   F      G",
+                    "lyrics": ""
+                }
+            ]
+        },
+        {
+            "id": "chorus1",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "   C           G          F    C",
+                    "lyrics": "I cast all my cares upon you"
                 },
                 {
-                    "chords": "   G                F#m",
-                    "lyrics": "I lay all of my burdens"
+                    "chords": "   F              C          Dm  Am  Dm    F",
+                    "lyrics": "I lay all of my burdens down at Your feet"
                 },
                 {
-                    "chords": " Em7                A",
-                    "lyrics": "Down at Your feet"
+                    "chords": "      C     G                C        F",
+                    "lyrics": "and anytime I dont know just what to do"
                 },
                 {
-                    "chords": "          D                          A         A7",
-                    "lyrics": "And many times when I don't know"
+                    "chords": "       C        Dm    F        Am   F",
+                    "lyrics": "I will cast all my cares upon you"
+                }
+            ]
+        },
+        {
+            "id": "chorus2",
+            "label": "Chorus",
+            "lines": [
+                {
+                    "chords": "   C           G          F    C",
+                    "lyrics": "I cast all my cares upon you"
                 },
                 {
-                    "chords": " D         Gm7",
-                    "lyrics": "What to do"
+                    "chords": "   F              C          Dm  Am  Dm    F",
+                    "lyrics": "I lay all of my burdens down at Your feet"
                 },
                 {
-                    "chords": "          D                 A     D Bm D7 Gm7",
-                    "lyrics": "I just cast all my cares upon You"
+                    "chords": "      C     G                C        F",
+                    "lyrics": "and anytime I dont know just what to do"
                 },
                 {
-                    "chords": "        D                      A                D",
-                    "lyrics": "I will cast all of my cares upon You"
+                    "chords": "       C        Dm    F        Am   F",
+                    "lyrics": "I will cast all my cares upon you"
+                },
+                {
+                    "chords": "       C        Dm    F        Am   F",
+                    "lyrics": "I will cast all my cares upon you"
+                }
+            ]
+        },
+        {
+            "id": "instrumental",
+            "label": "Instrumental",
+            "lines": [
+                {
+                    "chords": "C   G   F  C      F  C      F      G C   G   C   F C      G   Am   Em      Am   C",
+                    "lyrics": ""
+                }
+            ]
+        },
+        {
+            "id": "outro",
+            "label": "Outro",
+            "lines": [
+                {
+                    "chords": "      C     G                C        F",
+                    "lyrics": "and anytime I dont know just what to do"
+                },
+                {
+                    "chords": "       C        Dm    F        Am   F",
+                    "lyrics": "I will cast all my cares upon you"
+                },
+                {
+                    "chords": "       C        Dm    F        Am   F   Dm   C",
+                    "lyrics": "I will cast all my cares upon you"
                 }
             ]
         }
     ],
     "song": [
-        "verse1"
+        "intro",
+        "chorus1",
+        "chorus2",
+        "instrumental",
+        "outro"
     ],
-    "link": ""
+    "link": "https://www.youtube.com/watch?v=KKM4NoTKLzo"
 }

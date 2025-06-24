@@ -135,7 +135,7 @@ export default function SongLyrics({ song }: Props) {
 
         {/* Top Bar */}
         <header className="w-full bg-black/70 text-white py-4 px-6 flex justify-between items-center">
-          <h1 className="text-xl font-semibold">CG Songbook - {song.title}</h1>
+          <h1 className="text-xl font-semibold">{song.number}. {song.title}</h1>
           <div className="flex items-center space-x-4">
             <button
               onClick={toggleTracking}
@@ -152,23 +152,23 @@ export default function SongLyrics({ song }: Props) {
           </div>
         </header>
 
-        {/* YouTube Player */}
-        {videoId && (
-          <div className="w-full md:w-1/2 p-4 mx-auto">
-            <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                src={`https://www.youtube.com/embed/${videoId}`}
-                title="YouTube Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-64 md:h-80 rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-        )}
-
         {/* Song Content */}
         <div className="pl-4 space-y-8 w-full bg-black/55">
+          {/* YouTube Player */}
+          {videoId && (
+            <div className="w-full md:w-1/2 p-4 mx-auto">
+              <div className="aspect-w-16 aspect-h-9">
+                <iframe
+                  src={`https://www.youtube.com/embed/${videoId}`}
+                  title="YouTube Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-64 md:h-80 rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          )}
+
           <h2 className="text-3xl md:text-4xl text-center text-white font-bold my-4">{song.title}</h2>
 
           {song.song.map((sectionId, sectionIndex) => {
