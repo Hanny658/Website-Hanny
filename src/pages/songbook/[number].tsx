@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import fs from 'fs'
 import path from 'path'
 import Link from "next/link"
@@ -33,6 +33,8 @@ interface Props {
   song: SongData
 }
 
+const bgImages = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg']
+
 export const metadata = {
   title: 'Songbook',
   description: 'This contains the lyrics and videos for songs loved by Hanny',
@@ -45,6 +47,13 @@ export default function SongLyrics({ song }: Props) {
 
   const [tracking, setTracking] = useState(false)
   const [activeLine, setActiveLine] = useState<string | null>(null)
+
+  const [bgUrl, setBgUrl] = useState('')
+
+  useEffect(() => {
+    const random = Math.floor(Math.random() * bgImages.length)
+    setBgUrl(`/sbg/${bgImages[random]}`)
+  }, [])
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const recognitionRef = useRef<any | null>(null)
@@ -115,84 +124,88 @@ export default function SongLyrics({ song }: Props) {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      
-      <Head>
-        <title>Songbook - {song.title}</title>
-        <meta name="description" content="This contains the lyrics and videos for the song" />
-      </Head>
+    <div className="relative w-full overflow-hidden">
+      <div className="fixed top-0 left-0 w-full h-full bg-cover bg-center -z-10" style={{ backgroundImage: `url(${bgUrl})` }} />
+      <div className="flex flex-col min-h-screen text-gray-900">
 
-      {/* Top Bar */}
-      <header className="w-full !bg-black bg-opacity-70 !text-white py-4 px-6 flex justify-between items-center">
-        <h1 className="text-xl font-semibold">My Favorite Songs</h1>
-        <div className="flex items-center space-x-4">
-          <button
-            onClick={toggleTracking}
-            className={`text-sm px-3 py-1 rounded-md border ${tracking
+        <Head>
+          <title>Songbook - {song.title}</title>
+          <meta name="description" content="This contains the lyrics and videos for the song" />
+        </Head>
+
+        {/* Top Bar */}
+        <header className="w-full bg-black/70 text-white py-4 px-6 flex justify-between items-center">
+          <h1 className="text-xl font-semibold">CG Songbook - {song.title}</h1>
+          <div className="flex items-center space-x-4">
+            <button
+              onClick={toggleTracking}
+              className={`text-sm px-3 py-1 rounded-md border ${tracking
                 ? 'bg-orange-500 text-white border-orange-600'
                 : 'bg-gray-100 text-black border-gray-300'
-              }`}
-          >
-            [Beta] Lyric-Trace
-          </button>
-          <Link href="/songbook">
-            <i className="bi bi-house-door-fill text-3xl text-white hover:text-amber-100 cursor-pointer" />
-          </Link>
-        </div>
-      </header>
-
-      {/* YouTube Player */}
-      {videoId && (
-        <div className="w-full md:w-1/2 p-4 mx-auto">
-          <div className="aspect-w-16 aspect-h-9">
-            <iframe
-              src={`https://www.youtube.com/embed/${videoId}`}
-              title="YouTube Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-64 md:h-80 rounded-lg shadow-md"
-            />
-          </div>
-        </div>
-      )}
-
-      {/* Song Content */}
-      <div className="p-4 space-y-8">
-        <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">{song.title}</h2>
-
-        {song.song.map((sectionId, sectionIndex) => {
-          const section = sectionMap[sectionId]
-          if (!section) return null
-
-          return (
-            <div
-              key={sectionIndex}
-              className="flex flex-col md:flex-row md:space-x-8 border-l-4 border-blue-400 pl-4 md:pl-6"
+                }`}
             >
-              <div className="w-full md:w-48 font-semibold text-lg md:text-xl text-blue-700 mb-2 md:mb-0">
-                {section.label}
-              </div>
+              [Beta] Lyric-Trace
+            </button>
+            <Link href="/songbook">
+              <i className="bi bi-house-door-fill text-3xl text-white hover:text-amber-100 cursor-pointer" />
+            </Link>
+          </div>
+        </header>
 
-              <div className="flex-grow space-y-2">
-                {section.lines.map((line, lineIndex) => {
-                  const lineId = `${sectionId}-${lineIndex}`
-                  const isHighlighted = lineId === activeLine
-                  if (activeLine!=null) console.log("Highlighted", activeLine)
-                  return (
-                    <div key={lineIndex} className={isHighlighted ? 'bg-yellow-100 p-2 rounded-md' : ''}>
-                      <p className="text-sm md:text-lg text-blue-500 whitespace-pre">{line.chords}</p>
-                      <p className="text-base md:text-xl text-black">{line.lyrics}</p>
-                    </div>
-                  )
-                })}
-              </div>
+        {/* YouTube Player */}
+        {videoId && (
+          <div className="w-full md:w-1/2 p-4 mx-auto">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                src={`https://www.youtube.com/embed/${videoId}`}
+                title="YouTube Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-64 md:h-80 rounded-lg shadow-md"
+              />
             </div>
-          )
-        })}
+          </div>
+        )}
+
+        {/* Song Content */}
+        <div className="pl-4 space-y-8 w-full bg-black/55">
+          <h2 className="text-3xl md:text-4xl text-center text-white font-bold my-4">{song.title}</h2>
+
+          {song.song.map((sectionId, sectionIndex) => {
+            const section = sectionMap[sectionId]
+            if (!section) return null
+
+            return (
+              <div
+                key={sectionIndex}
+                className="flex flex-col md:flex-row md:space-x-8 border-l-4 border-blue-600 pl-4 md:pl-6"
+              >
+                <div className="w-full md:w-48 font-semibold text-lg md:text-xl text-blue-400 mb-2 md:mb-0">
+                  {section.label}
+                </div>
+
+                <div className="flex-grow space-y-2">
+                  {section.lines.map((line, lineIndex) => {
+                    const lineId = `${sectionId}-${lineIndex}`
+                    const isHighlighted = lineId === activeLine
+                    if (activeLine != null) console.log("Highlighted", activeLine)
+                    return (
+                      <div key={lineIndex} className={isHighlighted ? 'bg-yellow-100 p-2 rounded-md' : ''}>
+                        <p className="text-sm md:text-lg lg:text-xl text-blue-400 whitespace-pre text-shadow-blue-100/40 text-shadow-2xs">{line.chords}</p>
+                        <p className="text-base md:text-xl lg:text-2xl text-white">{line.lyrics}</p>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            )
+          })}
+          <br />
+        </div>
       </div>
 
       {/* Footer */}
-      <footer className="w-full text-center text-sm text-gray-600 py-4 border-t">
+      <footer className="w-full text-center text-sm bg-white/50 text-gray-600 py-2 px-0 m-0 border-t">
         Website by Hanny <i className="bi bi-c-circle"></i> 2025
       </footer>
     </div>
