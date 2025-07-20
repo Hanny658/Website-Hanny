@@ -12,17 +12,17 @@
         {
           "title": "Next.js",
           "level": "intermediate",
-          "description": "Learned for a few months and this website is built with it."
+          "description": "Learned for a few months and this website, my songbook site, and snack map are built with it."
         },
         {
           "title": "Bootstrap",
           "level": "proficient",
-          "description": "Favorite styling framework with its pre-defined objects."
+          "description": "Favorite styling framework with its pre-defined components."
         },
         {
           "title": "Tailwind CSS",
           "level": "proficient",
-          "description": "Newly learned, got hands on quick with its basic classes and animations. THis site is using this Style framework, too."
+          "description": "Newly learned this year, got hands on quick with its basic classes and animations. This site is using this style framework, too."
         },
         {
           "title": "Sass CSS",
@@ -215,11 +215,6 @@
           "description": "Able to quickly edit audios."
         },
         {
-          "title": "Adobe Illustrator",
-          "level": "beginner",
-          "description": "Able to quickly edit some .ai pics / posters on need..."
-        },
-        {
           "title": "Team Work",
           "level": "expert",
           "description": "Willing to communicate and work closely with people from different areas to cooperate with a big project."
@@ -228,6 +223,16 @@
           "title": "Workflow Management Tools",
           "level": "proficient",
           "description": "Familiar with various tools like Trello, Jira, Github Project, etc."
+        },
+        {
+          "title": "Coffee Making",
+          "level": "intermediate",
+          "description": "As a trained barista, currently a home barista for myself XD"
+        },
+        {
+          "title": "Cooking My Favs",
+          "level": "proficient",
+          "description": "Love cooking dishes from my home city, and love new recipies."
         }
       ]
     }
