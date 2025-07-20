@@ -87,7 +87,7 @@ const Navbar: FC = () => {
                             <i className="bi bi-star me-1" aria-hidden="true" /> Highlights
                         </div>
                     </Link>
-                    <Link href="/map-of-snacks" passHref>
+                    <Link href="https://snackmap.org" target='_blank'>
                         <div
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
                             onClick={() => setMenuOpen(false)}
@@ -95,7 +95,7 @@ const Navbar: FC = () => {
                             <i className="bi bi-map me-1" aria-hidden="true" /> Snack Map
                         </div>
                     </Link>
-                    <Link href="/songbook" passHref>
+                    <Link href="https://www.cgsongbook.org/" target='_blank'>
                         <div
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
                             onClick={() => setMenuOpen(false)}
