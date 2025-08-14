@@ -41,6 +41,12 @@ const Navbar: FC = () => {
                                 Highlights
                             </div>
                         </Link>
+                        <Link href="https://minigame.hanny.vip" target='_blank'>
+                            <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
+                                <i className="bi bi-joystick me-1" aria-hidden="true" />
+                                Minigame
+                            </div>
+                        </Link>
                         <Link href="https://snackmap.org" target='_blank'>
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-map me-1" aria-hidden="true" />
@@ -85,6 +91,14 @@ const Navbar: FC = () => {
                             onClick={() => setMenuOpen(false)}
                         >
                             <i className="bi bi-star me-1" aria-hidden="true" /> Highlights
+                        </div>
+                    </Link>
+                    <Link href="https://minigame.hanny.vip" target='_blank'>
+                        <div
+                            className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
+                            onClick={() => setMenuOpen(false)}
+                        >
+                            <i className="bi bi-joystick me-1" aria-hidden="true" /> Minigame
                         </div>
                     </Link>
                     <Link href="https://snackmap.org" target='_blank'>
