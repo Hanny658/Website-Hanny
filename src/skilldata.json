@@ -92,6 +92,11 @@
           "description": "Learned and loved its terminology, but notadvised to do it with my work. I'll need more experience for it."
         },
         {
+          "title": "GitHub Actions",
+          "level": "intermediate",
+          "description": "Automated deployment for all active services (Including React.js and Node.js Apps) for my first work, combined with my shell command sets."
+        },
+        {
           "title": "Testing & Deebugging",
           "level": "proficient",
           "description": "Familiar with software testing terms, scopes and processes. (Just like finding bugs everytime when I'm playing games)"
