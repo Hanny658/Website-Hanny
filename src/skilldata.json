@@ -7,27 +7,27 @@
         {
           "title": "React.js",
           "level": "proficient",
-          "description": "Learned from 3rd Year of uni, and been used heavily during my working as a full-stack software engineer."
+          "description": "Extensive hands-on experience since university, applying React.js in multiple full-stack engineering roles."
         },
         {
           "title": "Next.js",
           "level": "intermediate",
-          "description": "Learned for a few months and this website, my songbook site, and snack map are built with it."
+          "description": "Practical experience building production websites, including my personal site, songbook platform, and snack map application."
         },
         {
           "title": "Bootstrap",
           "level": "proficient",
-          "description": "Favorite styling framework with its pre-defined components."
+          "description": "Highly experienced in leveraging Bootstrap’s responsive grid system and pre-built components to accelerate development."
         },
         {
           "title": "Tailwind CSS",
           "level": "proficient",
-          "description": "Newly learned this year, got hands on quick with its basic classes and animations. This site is using this style framework, too."
+          "description": "Skilled in building modern and responsive UIs using utility-first classes and animations; implemented extensively in current projects."
         },
         {
           "title": "Sass CSS",
           "level": "intermediate",
-          "description": "Using with bootstrap to identify a unified website theme."
+          "description": "Applied Sass in combination with Bootstrap to develop and maintain consistent design systems and themes."
         }
       ]
     },
@@ -36,34 +36,34 @@
       "icon": "backend.svg",
       "items": [
         {
-          "title": "Server administration",
+          "title": "Server Administration",
           "level": "intermediate",
-          "description": "Learned while using it, deployed and hosted bunch of services on a Linux-based cloud server."
+          "description": "Deployed, configured, and maintained a range of applications and services on Linux-based cloud servers."
         },
         {
           "title": "Express Server",
           "level": "proficient",
-          "description": "Learned based on existing knowledge of JS, and been used heavily during my working as a full-stack software engineer."
+          "description": "Strong command of Express.js for building scalable backend services and REST APIs in production environments."
         },
         {
           "title": "REST API",
           "level": "proficient",
-          "description": "Started and kept learning from 3rd yr of uni, and been used heavily during my working as a full-stack software engineer."
+          "description": "Designed, developed, and maintained RESTful APIs extensively across academic and professional projects."
         },
         {
           "title": "Database",
           "level": "intermediate",
-          "description": "Great at schema and relation designing, familiar with both SQL and non-SQL databases."
+          "description": "Experienced in schema design, data modeling, and optimization with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases."
         },
         {
           "title": "Python FastAPI/Flask",
           "level": "proficient",
-          "description": "Normally used with AI-related programs."
+          "description": "Developed APIs and microservices, with a focus on AI-related applications and integrations."
         },
         {
           "title": "Nginx",
           "level": "proficient",
-          "description": "Hosted various types of services with it and configured reverse proxies, deployed with SSL certificates."
+          "description": "Configured Nginx for hosting diverse services, implementing reverse proxies, and managing SSL/TLS certificates."
         }
       ]
     },
@@ -74,32 +74,32 @@
         {
           "title": "Git",
           "level": "expert",
-          "description": "Version control for all of my projects with either GitHub or GitLab. Detailed commit messages with meaningful instructions of new features."
+          "description": "Expertise in Git for version control with GitHub/GitLab, adhering to best practices for commit messaging and branching workflows."
         },
         {
-          "title": "Hosting services",
+          "title": "Hosting Services",
           "level": "proficient",
-          "description": "With a cloud server, I deployed many services including database, API services, websites..."
+          "description": "Successfully deployed and managed databases, APIs, and full-stack applications on cloud hosting environments."
         },
         {
           "title": "Shell / Terminal Commands",
           "level": "proficient",
-          "description": "Very familiar with frequently used commands in windows shell / linux commands."
+          "description": "Strong proficiency with Windows shell and Linux terminal commands for administration and automation tasks."
         },
         {
           "title": "Docker",
           "level": "beginner",
-          "description": "Learned and loved its terminology, but notadvised to do it with my work. I'll need more experience for it."
+          "description": "Fundamental understanding of Docker concepts and workflows, with growing experience in containerization."
         },
         {
           "title": "GitHub Actions",
           "level": "intermediate",
-          "description": "Automated deployment for all active services (Including React.js and Node.js Apps) for my first work, combined with my shell command sets."
+          "description": "Implemented automated CI/CD pipelines to deploy React.js and Node.js services, integrated with shell scripting for customization."
         },
         {
-          "title": "Testing & Deebugging",
+          "title": "Testing & Debugging",
           "level": "proficient",
-          "description": "Familiar with software testing terms, scopes and processes. (Just like finding bugs everytime when I'm playing games)"
+          "description": "Proficient in applying structured testing methodologies and debugging practices to ensure software reliability."
         }
       ]
     },
@@ -110,32 +110,32 @@
         {
           "title": "AI Tools",
           "level": "proficient",
-          "description": "Effectively using LLMs like ChatGPT, to boost my work/study speed."
+          "description": "Effectively leverage LLMs, including ChatGPT, to accelerate research, development, and productivity."
         },
         {
-          "title": "Prompting",
+          "title": "Prompt Engineering",
           "level": "intermediate",
-          "description": "Familiar with prompting patterns."
+          "description": "Skilled in designing effective prompt structures and strategies for LLM-based applications."
         },
         {
           "title": "Python",
           "level": "proficient",
-          "description": "Familiar with ML / AI libraries, applying models."
+          "description": "Hands-on experience with Python ML/AI libraries and applying machine learning models in practical projects."
         },
         {
           "title": "Data Processing",
           "level": "intermediate",
-          "description": "Familiar with Data cleaning, clustering, storing, and other processing skills aligned with any business goal."
+          "description": "Competent in cleaning, clustering, embedding, and transforming data to support analytics and business objectives."
         },
         {
           "title": "Data Visualisation",
           "level": "intermediate",
-          "description": "Visualising and present data with python/matlab/minitab/etc."
+          "description": "Created visualizations and reports using Python, MATLAB, and other analytical tools."
         },
         {
           "title": "Retrieval-Augmented Generation",
           "level": "proficient",
-          "description": "Familiar with its terminologies, did a project that empowers a chatbot with RAG and a management frontend."
+          "description": "Implemented a chatbot system enhanced by RAG with a dedicated management frontend, familiar with related workflows and terminology. My RAG app increased the respond time by 141% while saving tokens, compare to the solution before."
         }
       ]
     },
@@ -146,52 +146,52 @@
         {
           "title": "JavaScript & TypeScript",
           "level": "proficient",
-          "description": "Syntax, used heavily during my working as a full-stack software engineer."
+          "description": "Extensive experience writing and maintaining modern applications using both JavaScript and TypeScript. Especially loves TS for its security and OOP combatibility."
         },
         {
           "title": "Python",
           "level": "proficient",
-          "description": "Syntax, great for a quick script to boost repetitive works."
+          "description": "Utilized for automation, data processing, and quick scripting to improve efficiency."
         },
         {
-          "title": "Java",
+          "title": "Java / C#",
           "level": "intermediate",
-          "description": "Syntax, mindset of OOP, use of Spingboot.. Did small projects with Java."
+          "description": "Applied OOP principles and built small-scale projects using Java and Spring Boot."
         },
         {
           "title": "C",
           "level": "intermediate",
-          "description": "Familiar with data structures, basic algorithms, anof course, syntax."
+          "description": "Solid understanding of core syntax, algorithms, and data structures in C programming."
         },
         {
           "title": "Rust",
           "level": "beginner",
-          "description": "Start learning recently. I love the way it's fast while memory-safe."
+          "description": "Recently learning Rust, with interest in its performance and memory safety features."
         },
         {
           "title": "Haskell / Prolog",
           "level": "beginner",
-          "description": "Theoretical knowledge, learned at 2nd year of uni."
+          "description": "Studied theoretical foundations and functional/logic programming concepts at university."
         },
         {
           "title": "Design Patterns",
           "level": "intermediate",
-          "description": "Familiar with basic design patterns, able to quickly understand new patterns if needed.."
+          "description": "Practical knowledge of common design patterns, with the ability to adapt to new ones as required."
         },
         {
           "title": "Coding Standards",
           "level": "proficient",
-          "description": "Every code written come with nessesary comments, every my project finish with great documentation."
+          "description": "Adhere to best practices with comprehensive documentation and consistent commenting across projects."
         },
         {
           "title": "Agile Terminologies",
           "level": "proficient",
-          "description": "Familiar with AGILE, used to manage my team as a scrum master in uni project."
+          "description": "Experienced in Agile methodologies, including serving as Scrum Master during academic projects."
         },
         {
           "title": "Coding IDEs",
           "level": "proficient",
-          "description": "Familiar IDEs from JetBrains or Microsoft."
+          "description": "Proficient with a wide range of IDEs, including JetBrains and Microsoft Visual Studio products."
         }
       ]
     },
@@ -202,42 +202,42 @@
         {
           "title": "Adobe Photoshop",
           "level": "proficient",
-          "description": "Processing images, design and making prints. With VI will be better."
+          "description": "Skilled in photo editing, graphic design, and preparing print-ready materials."
         },
         {
-          "title": "Adobe Premier Pro",
+          "title": "Adobe Premiere Pro",
           "level": "beginner",
-          "description": "Able to quickly edit clips, fit-in voice-overs/BGM/subtitles."
+          "description": "Capable of editing video clips, adding background music, voiceovers, and subtitles."
         },
         {
           "title": "Adobe Illustrator",
           "level": "beginner",
-          "description": "Able to quickly edit some .ai pics / posters on need."
+          "description": "Able to create and edit vector graphics, posters, and visual assets when needed."
         },
         {
           "title": "Adobe Audition",
           "level": "beginner",
-          "description": "Able to quickly edit audios."
+          "description": "Basic audio editing and enhancement for voiceovers and music tracks."
         },
         {
           "title": "Team Work",
           "level": "expert",
-          "description": "Willing to communicate and work closely with people from different areas to cooperate with a big project."
+          "description": "Collaborative and adaptable, with experience coordinating cross-functional teams on complex projects."
         },
         {
           "title": "Workflow Management Tools",
           "level": "proficient",
-          "description": "Familiar with various tools like Trello, Jira, Github Project, etc."
+          "description": "Experienced with tools such as Trello, Jira, and GitHub Projects to support agile workflows."
         },
         {
           "title": "Coffee Making",
           "level": "intermediate",
-          "description": "As a trained barista, currently a home barista for myself XD"
+          "description": "Trained barista with strong knowledge of coffee preparation, now practiced as a hobby."
         },
         {
-          "title": "Cooking My Favs",
+          "title": "Cooking",
           "level": "proficient",
-          "description": "Love cooking dishes from my home city, and love new recipies."
+          "description": "Passionate about preparing traditional dishes from my hometown and experimenting with new recipes."
         }
       ]
     }
