@@ -5,12 +5,11 @@ import { motion, useInView, useAnimation } from 'framer-motion'
 import Image from 'next/image'
 
 // ─── Data Model ──────────────────────────────────────────────────────────────
-
 export interface Highlight {
     time: string
     title: string
     description: string
-    picture: string
+    picture?: string
 }
 
 interface TimelineProps {
@@ -18,16 +17,12 @@ interface TimelineProps {
 }
 
 // ─── TimelineItem ────────────────────────────────────────────────────────────
-
-// Handles one node: sets up its own ref & inView hook and animation
 const TimelineItem: React.FC<{ item: Highlight; isLeft: boolean }> = ({
     item,
     isLeft,
 }) => {
     const ref = useRef<HTMLLIElement>(null)
-    // this boolean still tells us “in view” or not
     const isInView = useInView(ref, { once: false, amount: 0.4 })
-    // animation controller
     const controls = useAnimation()
 
     useEffect(() => {
@@ -65,13 +60,15 @@ const TimelineItem: React.FC<{ item: Highlight; isLeft: boolean }> = ({
                 <article className="bg-white p-6 rounded-lg shadow-md w-full">
                     <h3 className="text-xl font-semibold">{item.title}</h3>
                     <p className="mt-2 text-gray-600">{item.description}</p>
-                    <Image
-                        width={500}
-                        height={300}
-                        src={item.picture}
-                        alt={item.title}
-                        className="mt-4 w-full h-48 object-cover rounded"
-                    />
+                    {item.picture &&
+                        <Image
+                            width={500}
+                            height={300}
+                            src={item.picture}
+                            alt={item.title}
+                            className="mt-4 w-full h-48 object-cover rounded"
+                        />
+                    }
                 </article>
             </div>
 
@@ -83,15 +80,17 @@ const TimelineItem: React.FC<{ item: Highlight; isLeft: boolean }> = ({
                         <time className="font-bold text-sm text-shadow-amber-100/70 text-shadow-md text-gray-500">{item.time}</time>
                     ) : (
                         <article className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-xl font-semibold">{item.title}</h3>
+                            <h3 className="text-xl font-semibold text-cyan-800">{item.title}</h3>
                             <p className="mt-2 text-gray-600">{item.description}</p>
-                            <Image
-                                width={500}
-                                height={300}
-                                src={item.picture}
-                                alt={item.title}
-                                className="mt-4 w-full h-48 object-cover rounded"
-                            />
+                            {item.picture &&
+                                <Image
+                                    width={500}
+                                    height={300}
+                                    src={item.picture}
+                                    alt={item.title}
+                                    className="mt-4 w-full h-48 object-cover rounded"
+                                />
+                            }
                         </article>
                     )}
                 </div>
@@ -103,15 +102,17 @@ const TimelineItem: React.FC<{ item: Highlight; isLeft: boolean }> = ({
                 <div className={`w-1/2 ${isLeft ? 'pl-8 text-left' : 'pl-8 text-left'}`}>
                     {isLeft ? (
                         <article className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-xl font-semibold">{item.title}</h3>
+                            <h3 className="text-xl font-semibold text-amber-800">{item.title}</h3>
                             <p className="mt-2 text-gray-600">{item.description}</p>
-                            <Image
-                                width={500}
-                                height={300}
-                                src={item.picture}
-                                alt={item.title}
-                                className="mt-4 w-full h-48 object-cover rounded"
-                            />
+                            {item.picture &&
+                                <Image
+                                    width={500}
+                                    height={300}
+                                    src={item.picture}
+                                    alt={item.title}
+                                    className="mt-4 w-full h-48 object-cover rounded"
+                                />
+                            }
                         </article>
                     ) : (
                         <time className="font-bold text-sm text-shadow-amber-100/60 text-shadow-md text-gray-500">{item.time}</time>
@@ -123,12 +124,11 @@ const TimelineItem: React.FC<{ item: Highlight; isLeft: boolean }> = ({
 }
 
 // ─── Timeline ────────────────────────────────────────────────────────────────
-
 // Loops through all highlights and renders a TimelineItem for each
 const Timeline: React.FC<TimelineProps> = ({ items }) => {
     return (
         <div className="relative mx-auto px-4 py-4 max-w-4xl">
-            {/* Vertical center line */}
+            {/* Vertical center line (Whoa, align it with picture is such a torture) */}
             <div className="absolute left-1/2 top-0 w-[2px] bg-gray-300 h-full -translate-x-1/2 
                 mask-b-from-0 mask-b-to-20 mask-b-from-transparent mask-b-to-gray-300" />
 

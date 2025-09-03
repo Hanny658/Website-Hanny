@@ -33,6 +33,8 @@ const HighlightPage: React.FC = () => {
         </header>
 
         <Timeline items={items} />
+
+        <p className='text-white font-bold text-center mb-2 shadow-2xs'>My story still goes on, hopefully with you somedays!</p>
       </div>
     </main>
   )

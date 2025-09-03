@@ -1,40 +1,57 @@
 {
     "highlights": [
         {
-            "time": "2019-08-15",
+            "time": "Aug 15 - 2019",
             "title": "The Journey Starts",
             "description": "Come to Melbourne for high-level education, starting from Trinity Collecge, as a turning point of my life.",
             "picture": "/highlights/start.jpg"
         },
         {
-            "time": "2021-02-15",
+            "time": "Feb 15 - 2021",
             "title": "University of Melbourne",
             "description": "Completed the course works at Trinity Collecge, and enough age, too. If I've been born few months earlier, probably I can get into Uni one sem earlier?",
             "picture": "/highlights/uni.jpg"
         },
         {
-            "time": "2023-12-11",
+            "time": "Aug 28 - 2021",
+            "title": "Gained Views from a Rhythm Game Fanmade",
+            "description": "Designed a April-Fools day like fanmade Arcaea chart and brought fun to over 52k people (quite a lot for such a niche topic hahaha). Wanna have a look? Search BV1YQ4y1h7KK on Bilibili~",
+            "picture": "/highlights/arcaea.png"
+        },
+        {
+            "time": "Dec 11 - 2023",
             "title": "Graduation Ceremony",
             "description": "Completed my study at the University of Melbourne, as a Student from Computing & Software Systems.",
             "picture": "/highlights/grad.jpg"
         },
         {
-            "time": "2025-02-23",
+            "time": "Feb 23 - 2025",
             "title": "Barista",
             "description": "I love coffee for milk flavoring, so I get my barista licence on that day. Now I'm a barista for myself XD.",
             "picture": "/highlights/cafe.jpg"
         },
         {
-            "time": "2025-03-29",
+            "time": "Mar 29 - 2025",
             "title": "Baptism",
-            "description": "Baptism in to Christ as a Seventh-Day Adventist at Gateway City Church. Praise the Lord for His help during my spiritual journey.",
+            "description": "Baptism in to Christ as a Seventh-Day Adventist at Gateway City Church. Praise the Lord for His grace and help across my spiritual journey. This day, becomes my spiritual birthday!",
             "picture": "/highlights/baptism.jpg"
         },
         {
-            "time": "2025-06-11",
+            "time": "Jun 11 - 2025",
             "title": "Completion of this Site",
-            "description": "Accomplishment of my personal website, including a snack map into a closed beta.",
+            "description": "Accomplishment of my personal website, including a snack map into a closed beta readiness.",
             "picture": "/highlights/site.jpg"
+        },
+        {
+            "time": "Jul 29 - 2025",
+            "title": "My RAG App is Live",
+            "description": "Forked and deployed my RAG app for improved solution for the company's Chatbot program. It bootsted the respond speed by 141% while saves token, worked way better than I thought! (No pic since it's company's secret~)"
+        },
+        {
+            "time": "Sep 03 - 2025",
+            "title": "Worked out full-auto deployment",
+            "description": "How amazing is automation! No manual anymore, free from on-calls~ I configured all the main projects with a automated workflow with GitHub Actions.",
+            "picture": "/highlights/ghactions.png"
         }
     ]
 }
