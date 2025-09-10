@@ -53,14 +53,16 @@ export default function FirecrackerCanvas() {
                 p.life++
 
                 // Draw
-                const alpha = 1 - p.life / p.maxLife
-                ctx.fillStyle = `${p.color}${Math.floor(alpha * 255)
-                    .toString(16)
-                    .padStart(2, "0")}`
-                ctx.beginPath()
-                const newSize = Math.max(0, p.size * (1 - p.life / p.maxLife))
-                ctx.arc(p.x, p.y, newSize, 0, Math.PI * 2)
-                ctx.fill()
+                const newSize = Math.max(0, p.size * (1 - p.life / p.maxLife));
+                const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, newSize);
+                gradient.addColorStop(0, p.color);              // bright center
+                gradient.addColorStop(0.4, p.color);            // solid glow near center
+                gradient.addColorStop(1, "rgba(0,0,0,0)");      // fade out
+
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, newSize, 0, Math.PI * 2);
+                ctx.fill();
 
                 // Remove dead particles
                 if (p.life >= p.maxLife) {
