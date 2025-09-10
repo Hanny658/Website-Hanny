@@ -27,33 +27,33 @@ const Navbar: FC = () => {
                         </Link>
                     </div>
 
-                    {/* Navigation links on the right */}
+                    {/* Navigation links on the right (PC) ================= */}
                     <div className="hidden md:flex space-x-8">
-                        <Link href="/my-skills" passHref>
+                        <Link href="/my-skills" title="Interested in what I can do?">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-laptop me-1" aria-hidden="true" />
                                 My Skills
                             </div>
                         </Link>
-                        <Link href="/highlights" passHref>
+                        <Link href="/highlights" title="My markable timespots">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-star me-1" aria-hidden="true" />
                                 Highlights
                             </div>
                         </Link>
-                        <Link href="https://minigame.hanny.vip" target='_blank'>
+                        <Link href="https://minigame.hanny.vip" target='_blank' title="My little game inspired by AiB series.">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-joystick me-1" aria-hidden="true" />
                                 Minigame
                             </div>
                         </Link>
-                        <Link href="https://snackmap.org" target='_blank'>
+                        <Link href="https://snackmap.org" target='_blank' title="In the name of 'King of Snacks'!">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-map me-1" aria-hidden="true" />
                                 Snack Map
                             </div>
                         </Link>
-                        <Link href="https://www.cgsongbook.org/" target='_blank'>
+                        <Link href="https://www.cgsongbook.org/" target='_blank' title="Come join the church family and sing together~">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-music-note-list me-1" aria-hidden="true" />
                                 Songbook
@@ -74,10 +74,10 @@ const Navbar: FC = () => {
                 </div>
             </div>
 
-            {/* Mobile dropdown links */}
+            {/* Mobile dropdown links ====================================== */}
             {menuOpen && (
                 <div className="md:hidden bg-white/50 backdrop-blur-sm px-2 pt-2 pb-3 space-y-1">
-                    <Link href="/my-skills" passHref>
+                    <Link href="/my-skills">
                         <div
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
                             onClick={() => setMenuOpen(false)}
@@ -85,7 +85,7 @@ const Navbar: FC = () => {
                             <i className="bi bi-laptop me-1" aria-hidden="true" /> My Skills
                         </div>
                     </Link>
-                    <Link href="/highlights" passHref>
+                    <Link href="/highlights">
                         <div
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
                             onClick={() => setMenuOpen(false)}
