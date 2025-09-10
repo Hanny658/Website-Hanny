@@ -17,7 +17,7 @@
         {
           "title": "Bootstrap",
           "level": "proficient",
-          "description": "Highly experienced in leveraging Bootstrap’s responsive grid system and pre-built components to accelerate development."
+          "description": "Highly experienced in leveraging Bootstrap's responsive grid system and pre-built components to accelerate development."
         },
         {
           "title": "Tailwind CSS",
@@ -135,7 +135,7 @@
         {
           "title": "Retrieval-Augmented Generation",
           "level": "proficient",
-          "description": "Implemented a chatbot system enhanced by RAG with a dedicated management frontend, familiar with related workflows and terminology. My RAG app increased the respond time by 141% while saving tokens, compare to the solution before."
+          "description": "Implemented a chatbot system enhanced by RAG with a dedicated management frontend, familiar with related workflows and terminology. My RAG app increased the respond speed by 134% while saving tokens, compare to the solution before."
         }
       ]
     },
