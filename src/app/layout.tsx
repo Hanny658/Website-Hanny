@@ -5,6 +5,7 @@ import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Footer from "src/components/footer";
 import { ErrorBoundary } from "./error-bundary";
+import FirecrackerCanvas from "src/components/firecracker-canvas";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <ErrorBoundary>
+              <FirecrackerCanvas />
               <Navbar />
               {children}
               <Footer />
