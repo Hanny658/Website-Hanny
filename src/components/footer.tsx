@@ -38,6 +38,19 @@ const Footer: FC = () => {
               </MailtoLink>
             </span>
           </div>
+          <div className="flex items-center">
+            <i className="bi bi-pin-fill mr-2" aria-hidden="true" />
+            <span>
+              Carlton VIC 3053, Melbourne
+              <Link
+                href={"https://www.google.com/maps/place/Carlton+VIC+3053/@-37.7946724,144.9672394,720m/data=!3m1!1e3!4m6!3m5!1s0x6ad642d153982dd1:0x5045675218ce780!8m2!3d-37.8007555!4d144.9669992!16zL20vMDM0MWxz?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"}
+                className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
+                target='_blank'
+              >
+                <i className="bi bi-pin-map-fill"></i>
+              </Link>
+            </span>
+          </div>
         </div>
 
         {/* Right side: social links */}
@@ -66,7 +79,7 @@ const Footer: FC = () => {
               rel="noopener noreferrer"
             >
               <i className="bi bi-file-text-fill mr-2 text-2xl text-gray-400" aria-hidden="true" />
-              Résumé
+              Resumé
             </div>
           </Link>
         </div>

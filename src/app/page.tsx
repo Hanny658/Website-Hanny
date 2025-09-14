@@ -84,9 +84,10 @@ export default function Home() {
 
         {/* Centered self-introduction */}
         <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-100 drop-shadow-md text-justify">
-          Hello! I&apos;m Hanny Zhang, a Software Engineer based in Naarm (aka. Melbourne) specializing in full-stack
-          development and Gen-AI related applications, and a lots MORE! I love crafting professional IT solutions, 
-          doing funny projects, whipping up new recipes, also exploring the great outdoors. 
+          Hello! I&apos;m Hanny Zhang, a Software Engineer based in Naarm (aka. Melbourne), Carlton VIC 3053, 
+          specializing in full-stack development and Gen-AI related applications, and a lots MORE! 
+          I love crafting professional IT solutions, doing funny projects, whipping up new recipes, 
+          also exploring the great outdoors. 
           <br /><br />
           Welcome to my personal corner of the web — grab a cuppa and have a look around!
         </p>
