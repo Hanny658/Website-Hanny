@@ -20,7 +20,7 @@ const projects: Project[] = [
         image: "/portfolio/hannysite.jpg",
         link: "this",
         description: "Of course, this comes first. Built by myself, for myself — a personal corner in the endless flow of modern data streams. After all, who could resist having their own space in this digital current?",
-        icon: "bi bi-ticket-perforated",
+        icon: "bi bi-postcard",
     },
     {
         title: "1Club Membership",
@@ -34,7 +34,7 @@ const projects: Project[] = [
         image: "/portfolio/snackmap.jpg",
         link: "https://snackmap.org",
         description: "My personal project, initiated as people called me 'the King of Snacks', so I want to share my information about affordable snacks around me, as well as letting people like me to share their favorite deals. Built with Next.js + Prisma + PostgreSQL (Redis in progress).",
-        icon: "bi bi-broadcast",
+        icon: "bi bi-map",
     },
     {
         title: "Coupon & Membership Management System",
@@ -48,14 +48,14 @@ const projects: Project[] = [
         image: "/portfolio/kod.jpg",
         link: "https://minigame.hanny.vip",
         description: "A beauty-contest-like survival game inspired by the King of Diamonds challenge from Alice in Borderland (今際の国のアリス) S2. With small twists and various bot player characteristics. Used original OST as BGM.",
-        icon: "bi bi-broadcast",
+        icon: "bi bi-joystick",
     },
     {
         title: "CG Songbook - Lyrics and Chords",
         image: "/portfolio/cgsb.jpg",
         link: "https://cgsongbook.org",
         description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us, reach out to us at Melbounre uni every week on Sabbath! Built with Next.js + LowDB.",
-        icon: "bi bi-broadcast",
+        icon: "bi bi-music-note-list",
     },
 ];
 
@@ -132,7 +132,7 @@ export default function PersonalPortfolioPage() {
                                 : (
                                     project.link == "private" ?
                                         <p className="mt-4 inline-block !text-sky-600 !text-right font-medium self-end">
-                                            This is an internal/private system
+                                            This is an internal / private system
                                         </p>
                                         :
                                         <Link
@@ -140,7 +140,7 @@ export default function PersonalPortfolioPage() {
                                             target="_blank"
                                             className="mt-4 inline-block !text-sky-500 hover:text-sky-600 !text-right font-medium hover:underline self-end"
                                         >
-                                            Visit Project →
+                                            Visit Page →
                                         </Link>
                                 )}
                         </div>
