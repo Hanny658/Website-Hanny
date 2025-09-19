@@ -39,7 +39,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-gray-800 to-black overflow-hidden">
+    <div className="relative min-h-screen pt-12 bg-gradient-to-b from-gray-800 to-black overflow-hidden">
       {/* Bit rain background */}
       {columns && 
       columns.map((col, idx) => (
@@ -84,7 +84,7 @@ export default function Home() {
 
         {/* Centered self-introduction */}
         <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl md:text-2xl lg:text-3xl text-blue-100 drop-shadow-md text-justify">
-          Hello! I&apos;m Hanny Zhang, a Software Engineer based in Naarm (aka. Melbourne), Carlton VIC 3053, 
+          Hello! I&apos;m Hanny Zhang, a Software Engineer based in Naarm (aka. Melbourne),
           specializing in full-stack development and Gen-AI related applications, and a lots MORE! 
           I love crafting professional IT solutions, doing funny projects, whipping up new recipes, 
           also exploring the great outdoors. 

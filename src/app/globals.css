@@ -36,6 +36,17 @@ body {
   font-family: 'CodeFont', monospace;
 }
 
+@font-face {
+  font-family: 'TitleFont';
+  src: url('/fonts/title.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-title {
+  font-family: 'TitleFont', sans-serif;
+}
+
 .animate-click-bounce {
   animation: clickBounce 256ms ease-out both;
   transform-origin: center bottom;
