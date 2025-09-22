@@ -26,7 +26,7 @@ const projects: Project[] = [
         title: "1Club Membership",
         image: "/portfolio/1club.jpg",
         link: "https://1club.world",
-        description: "Project done by just my self at work, for the company's upcoming event. Exclusive private membership platform with perks and rewards. Build with React + Vite (migrated from CRA) with React Bootstrap empowered.",
+        description: "Project done at work with only myself, for the company's upcoming event. Exclusive private membership platform with perks and rewards. Build with React + Vite (migrated from CRA) with React Bootstrap empowered.",
         icon: "bi bi-people-fill",
     },
     {
@@ -37,11 +37,11 @@ const projects: Project[] = [
         icon: "bi bi-map",
     },
     {
-        title: "Coupon & Membership Management System",
-        image: "/portfolio/dcs.jpg",
-        link: "private",
-        description: "A QR Code based digital coupon redeeming and membership recognising system build by me (no others~) with React + Node.js Express. Providing Restful APIs for coupon creation and usage alone with all history records in client-side portal.",
-        icon: "bi bi-ticket-perforated",
+        title: "Roseneath Park Website",
+        image: "/portfolio/rhp.jpg",
+        link: "https://roseneathholidaypark.au/",
+        description: "Official website for a holiday park developed within a team, using React + Tailwind + vanilla CSS for frontend and I hosted it on the company's cloud server with Nginx.",
+        icon: "bi bi-houses",
     },
     {
         title: "Number Game - The King of Diamonds",
@@ -51,10 +51,38 @@ const projects: Project[] = [
         icon: "bi bi-joystick",
     },
     {
+        title: "Bitrain Matrixx",
+        image: "/portfolio/matrixx.png",
+        link: "https://www.npmjs.com/package/bitrain-matrixx?activeTab=readme",
+        description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us, reach out to us at Melbounre uni every week on Sabbath! Built with Next.js + LowDB.",
+        icon: "bi bi-typescript",
+    },
+    {
+        title: "Coupon & Membership Management System",
+        image: "/portfolio/dcs.jpg",
+        link: "private",
+        description: "A QR Code based digital coupon redeeming and membership recognising system build by me (no others~) with React + Node.js Express. Providing Restful APIs for coupon creation and usage alone with all history records in client-side portal.",
+        icon: "bi bi-ticket-perforated",
+    },
+    {
+        title: "Mailing Service",
+        image: "/portfolio/mail.jpg",
+        link: "private",
+        description: "This is a Node.js Express app using nodemailer to handle email-related requests for the company (developed mostly by myself). Which including sending formatted emails and for quick subscriptions to MailChimp. Well documented.",
+        icon: "bi bi-envelope-check",
+    },
+    {
+        title: "Chatbot Knowledge Management Sys",
+        image: "/portfolio/chatbot.jpg",
+        link: "https://github.com/Hanny658/RAG-with-Chroma",
+        description: "This is a RAG app build from scratch (without LangChain, even tho I know it's so good) with Chroma DB and text-embeddings with OpenAI APIs. The link down here is a PROTOTYPE I built that allows others to add customised function calling or context management on it. Frontend built with React.",
+        icon: "bi bi-inboxes",
+    },
+    {
         title: "CG Songbook - Lyrics and Chords",
         image: "/portfolio/cgsb.jpg",
         link: "https://cgsongbook.org",
-        description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us, reach out to us at Melbounre uni every week on Sabbath! Built with Next.js + LowDB.",
+        description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us or have a bit of curious about who Jesus really is, reach out to us at Melbounrne Uni every week on Sabbath! Built with Next.js + LowDB.",
         icon: "bi bi-music-note-list",
     },
 ];
@@ -107,12 +135,12 @@ export default function PersonalPortfolioPage() {
                         className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex flex-col"
                     >
                         {/* Image */}
-                        <div className="relative h-48 w-full">
+                        <div className="relative h-60 w-full">
                             <Image
                                 src={project.image}
                                 alt={project.title}
                                 fill
-                                className="object-cover"
+                                className="object-cover shadow-xs"
                             />
                         </div>
 
@@ -142,10 +170,20 @@ export default function PersonalPortfolioPage() {
                                         >
                                             Visit Page →
                                         </Link>
-                                )}
+                                    )
+                                }
                         </div>
                     </motion.div>
                 ))}
+                <motion.div
+                        key='more'
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: projects.length * 0.2, duration: 0.6, ease: "easeOut" }}
+                        className="bg-transparent overflow-hidden transition flex flex-col justify-center"
+                    >
+                        <h1 className="text-center text-4xl font-art">More Coming ...</h1>
+                </motion.div>
             </div>
         </div>
     );

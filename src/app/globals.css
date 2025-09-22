@@ -47,6 +47,17 @@ body {
   font-family: 'TitleFont', sans-serif;
 }
 
+@font-face {
+  font-family: 'ArtFont';
+  src: url('/fonts/sign.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-art {
+  font-family: 'ArtFont', sans-serif;
+}
+
 .animate-click-bounce {
   animation: clickBounce 256ms ease-out both;
   transform-origin: center bottom;
