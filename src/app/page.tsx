@@ -3,6 +3,7 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import Image from 'next/image'
 import BitRainColumn from 'src/components/bit-rain-col'
+import Greeting from "../components/greeting"
 
 interface ColumnStyle {
   left: string
@@ -75,11 +76,12 @@ export default function Home() {
 
       <div className="relative flex flex-col justify-center h-screen px-4 text-center">
         {/* Greeting at top-left of this centered block */}
-        <h1 className="self-start text-6xl sm:text-6xl md:text-8xl lg:text-9xl
+        <Greeting />
+        {/* <h1 className="self-start text-6xl sm:text-6xl md:text-8xl lg:text-9xl
                 md:px-20 lg:px-32 font-bold text-white mix-blend-difference
                 relative leading-tight">
           G&apos;day Mate!
-        </h1>
+        </h1> */}
         <br />
 
         {/* Centered self-introduction */}
