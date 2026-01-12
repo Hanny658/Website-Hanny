@@ -11,14 +11,14 @@ const Footer: FC = () => {
         <div className="space-y-2">
           <div className="flex items-center">
             <i className="bi bi-telephone mr-2" aria-hidden="true" />
-            <a href="tel:+61 432269803">
-              +61 432269803
+            <a href="tel:+6583139854">
+              +65 8313 9854
             </a>
             <AddContactButton
               fullName="Hanny Zhang"
-              phone="+61432269803"
+              phone="+6583139854"
               email="hannyanhai@gmail.com"
-              fileName="Hanny"
+              fileName="Hanny Zhang"
               className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
             >
               <i className="bi bi-journal-plus"></i>
@@ -41,7 +41,7 @@ const Footer: FC = () => {
           <div className="flex items-center">
             <i className="bi bi-pin-fill mr-2" aria-hidden="true" />
             <span>
-              Carlton VIC 3053, Melbourne
+              Jurong West, Singapore 640915
               <Link
                 href={"https://www.google.com/maps/place/Carlton+VIC+3053/@-37.7946724,144.9672394,720m/data=!3m1!1e3!4m6!3m5!1s0x6ad642d153982dd1:0x5045675218ce780!8m2!3d-37.8007555!4d144.9669992!16zL20vMDM0MWxz?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"}
                 className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
