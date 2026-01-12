@@ -52,6 +52,18 @@
             "title": "Worked out full-auto deployment",
             "description": "How amazing is automation! No manual anymore, free from on-calls~ I configured all the main projects with a automated workflow with GitHub Actions.",
             "picture": "/highlights/ghactions.png"
+        },
+        {
+            "time": "Sep 28 - 2025",
+            "title": "Got Admission into MSAI at NTU",
+            "description": "Successfully admission into NTU's MSc of Artificial Intelligence programme (fully DIY~), a brand new change to learn things deeper and possibly contribute some novel ideas to the industry!",
+            "picture": "/highlights/ntu.webp"
+        },
+        {
+            "time": "Jan 12 - 2026",
+            "title": "Arriving NTU, Singapore",
+            "description": "Finalement I'm here at the iconic building at NTU! What I have to say... Singapore is sooooooo hot!",
+            "picture": "/highlights/thehive.jpg"
         }
     ]
 }

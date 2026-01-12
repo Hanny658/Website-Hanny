@@ -1,7 +1,6 @@
 // components/greeting.tsx
 import { pickGreeting } from "../lib/holidays";
 
-/** 根据文案长度自动缩放字号（其余样式保持你原来的不变） */
 function sizeClassByLength(text: string) {
     const len = text.trim().length;
 
