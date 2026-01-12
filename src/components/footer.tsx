@@ -64,7 +64,7 @@ const Footer: FC = () => {
               GitHub
             </div>
           </Link>
-          <Link href="https://www.linkedin.com/in/hanny-zhang-02b394270/" target="_blank" passHref>
+          <Link href="https://www.linkedin.com/in/hanny-zhang/" target="_blank" passHref>
             <div
               className="flex items-center hover:text-gray-200 transition"
               rel="noopener noreferrer"
