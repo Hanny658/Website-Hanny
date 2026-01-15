@@ -43,7 +43,7 @@ const Footer: FC = () => {
             <span>
               Jurong West, Singapore 640915
               <Link
-                href={"https://www.google.com/maps/place/Carlton+VIC+3053/@-37.7946724,144.9672394,720m/data=!3m1!1e3!4m6!3m5!1s0x6ad642d153982dd1:0x5045675218ce780!8m2!3d-37.8007555!4d144.9669992!16zL20vMDM0MWxz?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"}
+                href={"https://www.google.com/maps/place/Jurong+West+Street+91/@1.3418091,103.68728,1059m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31da0f9be7c599c3:0xea458228fc36afb0!8m2!3d1.3418091!4d103.6898549!16s%2Fg%2F1w2yrcnt?entry=ttu&g_ep=EgoyMDI2MDExMS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D"}
                 className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
                 target='_blank'
               >
