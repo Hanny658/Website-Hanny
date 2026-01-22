@@ -90,7 +90,7 @@ const projects: Project[] = [
 
 export default function PersonalPortfolioPage() {
     return (
-        <div className="min-h-screen bg-gray-50 py-12 px-6">
+        <div className="min-h-screen bg-gray-50 text-black py-12 px-6">
             <div className="relative flex items-center justify-center my-10">
                 <div className="absolute -z-10 w-64 h-64 rounded-full bg-sky-300/30 blur-3xl" />
                 <svg
