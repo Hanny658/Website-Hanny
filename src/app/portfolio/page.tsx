@@ -55,7 +55,7 @@ const projects: Project[] = [
         title: "Bitrain Matrixx",
         image: "/portfolio/matrixx.png",
         link: "https://www.npmjs.com/package/bitrain-matrixx?activeTab=readme",
-        description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us, reach out to us at Melbounre uni every week on Sabbath! Built with Next.js + LowDB.",
+        description: "Inspired by The Matrix, modulated from my personal website. This is now a separate package that renders this geek-style BG at your website, for more info, visit its npm page.",
         icon: "bi bi-typescript",
     },
     {
