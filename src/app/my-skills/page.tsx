@@ -73,7 +73,7 @@ export default function MySkillsPage() {
   };
 
   return (
-    <div className="w-screen h-screen flex flex-wrap overflow-hidden">
+    <div className="w-screen h-screen flex flex-wrap text-black overflow-hidden">
       {skillCategories.map((skill_cate, i) => {
         const dir = hoverDirection[i];
 
