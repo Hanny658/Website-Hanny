@@ -8,7 +8,7 @@ import Link from "next/link";
 type Project = {
     title: string;
     image: string; // path relative to /public/portfolio/
-    link: string | "this" | "private";
+    link: string | "this" | "private" | "maintainance";
     description: string;
     icon: string; // Bootstrap icon classname
 };
@@ -32,7 +32,8 @@ const projects: Project[] = [
     {
         title: "Snack Map",
         image: "/portfolio/snackmap.jpg",
-        link: "https://snackmap.org",
+        // link: "https://snackmap.org",
+        link: "maintainance",
         description: "My personal project, initiated as people called me 'the King of Snacks', so I want to share my information about affordable snacks around me, as well as letting people like me to share their favorite deals. Built with Next.js + Prisma + PostgreSQL (Redis in progress).",
         icon: "bi bi-map",
     },
@@ -162,14 +163,20 @@ export default function PersonalPortfolioPage() {
                                         <p className="mt-4 inline-block !text-sky-600 !text-right font-medium self-end">
                                             This is an internal / private system
                                         </p>
-                                        :
-                                        <Link
-                                            href={project.link}
-                                            target="_blank"
-                                            className="mt-4 inline-block !text-sky-500 hover:text-sky-600 !text-right font-medium hover:underline self-end"
-                                        >
-                                            Visit Page →
-                                        </Link>
+                                        : (
+                                        project.link == "maintainance" ?
+                                            <p className="mt-4 inline-block !text-sky-600 !text-right font-medium self-end">
+                                                Currently under maintainance~
+                                            </p>
+                                            :
+                                            <Link
+                                                href={project.link}
+                                                target="_blank"
+                                                className="mt-4 inline-block !text-sky-500 hover:text-sky-600 !text-right font-medium hover:underline self-end"
+                                            >
+                                                Visit Page →
+                                            </Link>
+                                        )
                                     )
                                 }
                         </div>
