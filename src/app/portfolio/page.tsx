@@ -86,6 +86,13 @@ const projects: Project[] = [
         description: "Songbook website for the caregroup. If you also wish to join the church family and sing with us or have a bit of curious about who Jesus really is, reach out to us at Melbounrne Uni every week on Sabbath! Built with Next.js + LowDB.",
         icon: "bi bi-music-note-list",
     },
+    {
+        title: "Hackathon Project - Trailify.fit",
+        image: "/portfolio/trailify.jpg",
+        link: "https://trailify.fit",
+        description: "Our team's solution demo for hackathon Techfest 2026, that aims to shorten the gap between recruiter and job seekers with the power of data, AI and RAG embeddings. Built within a 3-person team within 24h and deployed, tech-stack includes Next.js, Python FastAPI, and Google Colab data centralising tecniques.",
+        icon: "bi bi-laptop",
+    },
 ];
 
 export default function PersonalPortfolioPage() {

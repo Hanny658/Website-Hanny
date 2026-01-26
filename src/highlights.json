@@ -64,6 +64,12 @@
             "title": "Arriving NTU, Singapore",
             "description": "Finalement I'm here at the iconic building at NTU! What I have to say... Singapore is sooooooo hot!",
             "picture": "/highlights/thehive.jpg"
+        },
+        {
+            "time": "Jan 25 - 2026",
+            "title": "TechFest 2026 Hackathon",
+            "description": "Taking part in the hackathon - TechFest 2026. Our team built the platform trailify.fit within 24h. Although we didn't being chosen to be finalist, take-aways are still a lot and the experience is fresh and enjoyable!",
+            "picture": "/highlights/techfest26.jpg"
         }
     ]
 }
