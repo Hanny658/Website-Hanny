@@ -118,6 +118,31 @@
           "description": "Skilled in designing effective prompt structures and strategies for LLM-based applications."
         },
         {
+          "title": "Machine Learning",
+          "level": "intermediate",
+          "description": "Applied classical ML models for classification, regression, and clustering in academic and practical projects."
+        },
+        {
+          "title": "Deep Learning",
+          "level": "intermediate",
+          "description": "Built and experimented with neural network models for vision and NLP tasks using common frameworks."
+        },
+        {
+          "title": "Multi-Agent Systems",
+          "level": "intermediate",
+          "description": "Experience designing multi-agent workflows and coordination patterns for complex problem solving."
+        },
+        {
+          "title": "Agent Skills",
+          "level": "beginner",
+          "description": "Conceptual knowledge about agent behaviors, tool use, and task planning for LLM-driven automation."
+        },
+        {
+          "title": "Large Language Models",
+          "level": "intermediate",
+          "description": "Worked with LLM capabilities, limitations, and evaluation for practical applications."
+        },
+        {
           "title": "Python",
           "level": "proficient",
           "description": "Hands-on experience with Python ML/AI libraries and applying machine learning models in practical projects."

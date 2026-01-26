@@ -33,7 +33,6 @@ const projects: Project[] = [
         title: "Snack Map",
         image: "/portfolio/snackmap.jpg",
         link: "https://snackmap.org",
-        // link: "maintainance",
         description: "My personal project, initiated as people called me 'the King of Snacks', so I want to share my information about affordable snacks around me, as well as letting people like me to share their favorite deals. Built with Next.js + Prisma + PostgreSQL (Redis in progress).",
         icon: "bi bi-map",
     },

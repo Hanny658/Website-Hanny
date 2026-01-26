@@ -89,7 +89,7 @@ const Footer: FC = () => {
       <div className="border-t border-white/50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <p className="text-center text-sm text-white/75">
-            Website by Hanny Zhang <i className="bi bi-c-circle text-xs" /> 2025
+            Website by Hanny Zhang 🄯 2025
           </p>
         </div>
       </div>
