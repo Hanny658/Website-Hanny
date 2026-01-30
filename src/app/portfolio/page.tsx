@@ -46,7 +46,7 @@ const projects: Project[] = [
     {
         title: "Number Game - The King of Diamonds",
         image: "/portfolio/kod.jpg",
-        link: "https://minigame.hanny.vip",
+        link: "https://kod.minigame.hanny.vip",
         description: "A beauty-contest-like survival game inspired by the King of Diamonds challenge from Alice in Borderland (今際の国のアリス) S2. With small twists and various bot player characteristics. Used original OST as BGM.",
         icon: "bi bi-joystick",
     },
