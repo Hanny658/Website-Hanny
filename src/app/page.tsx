@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useMemo } from 'react'
 import Image from 'next/image'
 import BitRainColumn from 'src/components/bit-rain-col'
 import Greeting from "../components/greeting"
@@ -14,10 +14,26 @@ interface ColumnStyle {
   blur: number
 }
 
+// Small chips above the intros
+const CHIPS = ['Creative', 'Passionate', 'Always Ready', 'Never Stop Learning']
+const INTRO_LINES = [
+  ['Hi!', "Look what you've found"],
+  ['Think bold,', 'Just do it.'],
+  ['Hello there.'], ['Nice to see you.', 'Have fun exploring!']
+]
+
 export default function Home() {
   const [isBouncing, setIsBouncing] = useState(false)
   const [columns, setColumns] = useState<ColumnStyle[] | null>(null)
-  const chips = ['Creative', 'Passionate', 'Always Ready', 'Never Stop Learning']
+
+  const [isIntroDone, setIsIntroDone] = useState(false)
+  const [introLineIndex, setIntroLineIndex] = useState(0)
+  const [introCharIndex, setIntroCharIndex] = useState(0)
+  const [introIsDeleting, setIntroIsDeleting] = useState(false)
+  const selectedIntro = useMemo(() => {
+    const pick = Math.floor(Math.random() * INTRO_LINES.length)
+    return INTRO_LINES[pick]
+  }, [])
 
   const handleClick = () => {
     if (isBouncing) return
@@ -35,6 +51,40 @@ export default function Home() {
     }))
     setColumns(generated)
   }, [])
+
+  useEffect(() => {
+    if (isIntroDone) return
+
+    const currentLine = selectedIntro[introLineIndex] ?? ''
+    const typingSpeed = introIsDeleting ? 28 : 44
+    const pauseMs = introIsDeleting ? 300 : 520
+
+    const timer = setTimeout(() => {
+      if (!introIsDeleting) {
+        if (introCharIndex < currentLine.length) {
+          setIntroCharIndex((value) => value + 1)
+          return
+        }
+        setIntroIsDeleting(true)
+        return
+      }
+
+      if (introCharIndex > 0) {
+        setIntroCharIndex((value) => value - 1)
+        return
+      }
+
+      if (introLineIndex < selectedIntro.length - 1) {
+        setIntroIsDeleting(false)
+        setIntroLineIndex((value) => value + 1)
+        return
+      }
+
+      setIsIntroDone(true)
+    }, introCharIndex === currentLine.length ? pauseMs : typingSpeed)
+
+    return () => clearTimeout(timer)
+  }, [introCharIndex, introIsDeleting, introLineIndex, isIntroDone, selectedIntro])
 
   // Reset bounce after animation completes
   const handleAnimationEnd = useCallback(() => {
@@ -74,7 +124,7 @@ export default function Home() {
           ${isBouncing ? 'animate-click-bounce' : ''}
         `}
         initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: isIntroDone ? 1 : 0, y: isIntroDone ? 0 : 30 }}
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.4 }}
         whileHover={{ scale: 1.03, rotate: -1 }}
       >
@@ -87,10 +137,24 @@ export default function Home() {
         />
       </motion.div>
 
+      {!isIntroDone && (
+        <motion.div
+          className="relative z-20 flex h-[70vh] items-center justify-center px-4 text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+          <div className="max-w-2xl text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-slate-100 drop-shadow">
+            <span>{selectedIntro[introLineIndex]?.slice(0, introCharIndex) ?? ''}</span>
+            <span className="ml-1 inline-block h-7 w-[2px] animate-pulse bg-slate-200 align-middle sm:h-9 md:h-10" />
+          </div>
+        </motion.div>
+      )}
+
       <motion.div
         className="relative flex flex-col justify-center h-screen px-4 text-center"
         initial="hidden"
-        animate="show"
+        animate={isIntroDone ? 'show' : 'hidden'}
         variants={{
           hidden: { opacity: 0 },
           show: { opacity: 1, transition: { staggerChildren: 0.12, delayChildren: 0.15 } },
@@ -115,7 +179,7 @@ export default function Home() {
             show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
           }}
         >
-          {chips.map((chip) => (
+          {CHIPS.map((chip) => (
             <motion.span
               key={chip}
               className="rounded-full border border-white/10 bg-white/5 px-4 py-1 text-xs uppercase tracking-[0.2em] text-slate-200/80 backdrop-blur"
