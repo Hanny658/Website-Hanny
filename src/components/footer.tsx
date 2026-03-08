@@ -31,7 +31,7 @@ const Footer: FC = () => {
               <MailtoLink
                 email="hannyanhai@gmail.com"
                 subject="G'day, Hanny!"
-                body="I saw your personal website and have a interest to have a chat with you."
+                body="I saw your personal website and have a interest to chat with you."
                 className="inline-block px-2 py-0 bg-transparent text-black hover:text-gray-800"
               >
                 <i className="bi bi-envelope-plus"></i>
