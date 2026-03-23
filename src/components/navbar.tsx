@@ -13,7 +13,7 @@ const Navbar: FC = () => {
                 <div className="flex items-center justify-between h-16">
 
                     {/* Logo on the left */}
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                         <Link href="/" passHref>
                             <div className="flex items-center">
                                 <Image
@@ -35,7 +35,7 @@ const Navbar: FC = () => {
                                 My Skills
                             </div>
                         </Link>
-                        <Link href="/highlights" title="My markable timespots">
+                        <Link href="/journey" title="My markable timespots">
                             <div className="flex items-center text-gray-800 hover:text-gray-600 transition">
                                 <i className="bi bi-star me-1" aria-hidden="true" />
                                 Journey
@@ -73,7 +73,7 @@ const Navbar: FC = () => {
                             <i className="bi bi-laptop me-1" aria-hidden="true" /> My Skills
                         </div>
                     </Link>
-                    <Link href="/highlights">
+                    <Link href="/journey">
                         <div
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100"
                             onClick={() => setMenuOpen(false)}

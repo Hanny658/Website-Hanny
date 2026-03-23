@@ -26,9 +26,9 @@ const HighlightPage: React.FC = () => {
       {/* Page content */}
       <div className="relative z-10">
         <header className="py-12 text-center text-white drop-shadow-lg">
-          <h1 className="text-4xl font-bold">My Highlighted Times</h1>
+          <h1 className="text-4xl font-bold">My Journey Starts</h1>
           <p className="mt-2 text-lg">
-            A journey from 2019 through today.
+            A timeline from 2019 through today.
           </p>
         </header>
 

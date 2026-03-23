@@ -17,8 +17,8 @@ interface ColumnStyle {
 // Small chips above the intros
 const CHIPS = ['Creative', 'Passionate', 'Always Ready', 'Never Stop Learning']
 const INTRO_LINES = [
-  ['Hi!', "Look what you've found"],
-  ['Think bold,', 'Just do it.'],
+  ['Hi!', "Glad to see you here."], ['Welcome to my personal website.'], 
+  ['Think bold,', 'Just do it.'], ['I am Hanny','An AI enthusiast.'],
   ['Hello there.'], ['Nice to see you.', 'Have fun exploring!']
 ]
 
