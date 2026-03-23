@@ -92,6 +92,13 @@ const projects: Project[] = [
         description: "Our team's solution demo for hackathon Techfest 2026, that aims to shorten the gap between recruiter and job seekers with the power of data, AI and RAG embeddings. Built within a 3-person team within 24h and deployed, tech-stack includes Next.js, Python FastAPI, and Google Colab data centralising tecniques.",
         icon: "bi bi-laptop",
     },
+    {
+        title: "Face Segmentation with UNet",
+        image: "/portfolio/acvbench.png",
+        link: "https://github.com/Hanny658/Face-Segmentation-UNet",
+        description: "Having fun with the course project from Advanced Computer Vision, didn't expect my implementation have a potential of hitting the 2nd place! I guess that's worth putting here.",
+        icon: "bi bi-laptop",
+    },
 ];
 
 export default function PersonalPortfolioPage() {
