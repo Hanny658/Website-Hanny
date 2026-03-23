@@ -10,6 +10,16 @@
           "description": "Extensive hands-on experience since university, applying React.js in multiple full-stack engineering roles."
         },
         {
+          "title": "Preact.js",
+          "level": "proficient",
+          "description": "Same development experience as React.js! Used Preact for quick prototyping and lightweight applications."
+        },
+        {
+          "title": "Blazor",
+          "level": "intermediate",
+          "description": "Explored This interesting framework for building interactive web UIs with C#."
+        },
+        {
           "title": "Next.js",
           "level": "intermediate",
           "description": "Practical experience building production websites, including my personal site, songbook platform, and snack map application."
@@ -51,6 +61,11 @@
           "description": "Designed, developed, and maintained RESTful APIs extensively across academic and professional projects."
         },
         {
+          "title": "GraphQL API",
+          "level": "intermediate",
+          "description": "Familiar, but most projects have been RESTful. Interested and willing to apply it more!"
+        },
+        {
           "title": "Database",
           "level": "intermediate",
           "description": "Experienced in schema design, data modeling, and optimization with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases."
@@ -88,7 +103,7 @@
         },
         {
           "title": "Docker",
-          "level": "beginner",
+          "level": "intermediate",
           "description": "Fundamental understanding of Docker concepts and workflows, with growing experience in containerization."
         },
         {
@@ -109,41 +124,46 @@
       "items": [
         {
           "title": "AI Tools",
-          "level": "proficient",
+          "level": "expert",
           "description": "Effectively leverage LLMs, including ChatGPT, to accelerate research, development, and productivity."
         },
         {
           "title": "Prompt Engineering",
-          "level": "intermediate",
+          "level": "proficient",
           "description": "Skilled in designing effective prompt structures and strategies for LLM-based applications."
         },
         {
           "title": "Machine Learning",
-          "level": "intermediate",
+          "level": "proficient",
           "description": "Applied classical ML models for classification, regression, and clustering in academic and practical projects."
         },
         {
           "title": "Deep Learning",
-          "level": "intermediate",
-          "description": "Built and experimented with neural network models for vision and NLP tasks using common frameworks."
+          "level": "proficient",
+          "description": "Built and experimented with neural network models for vision and NLP/CV tasks using suitable frameworks."
         },
         {
           "title": "Multi-Agent Systems",
-          "level": "intermediate",
+          "level": "proficient",
           "description": "Experience designing multi-agent workflows and coordination patterns for complex problem solving."
         },
         {
-          "title": "Agent Skills",
-          "level": "beginner",
-          "description": "Conceptual knowledge about agent behaviors, tool use, and task planning for LLM-driven automation."
+          "title": "AI Agent / Skills",
+          "level": "proficient",
+          "description": "Familiar with agent architectures, control strategies, memory management, and task planning for LLM-driven automation."
         },
         {
           "title": "Large Language Models",
-          "level": "intermediate",
-          "description": "Worked with LLM capabilities, limitations, and evaluation for practical applications."
+          "level": "proficient",
+          "description": "Both conceptually and practically. Explored and applied LLMs in Agent System designs while also familiar with the Transformer Architecture underneath."
         },
         {
-          "title": "Python",
+          "title": "Recommendation Systems",
+          "level": "proficient",
+          "description": "Familiar with POI recommender systems, mainly on query-based and context-aware approaches, and have reimplemented a few SOTA designs for my project."
+        },
+        {
+          "title": "PyTorch / TensorFlow",
           "level": "proficient",
           "description": "Hands-on experience with Python ML/AI libraries and applying machine learning models in practical projects."
         },
@@ -159,8 +179,13 @@
         },
         {
           "title": "Retrieval-Augmented Generation",
-          "level": "proficient",
+          "level": "expert",
           "description": "Implemented a chatbot system enhanced by RAG with a dedicated management frontend, familiar with related workflows and terminology. My RAG app increased the respond speed by 134% while saving tokens, compare to the solution before."
+        },
+        {
+          "title": "Engineer-assisted AI for Coding",
+          "level": "expert",
+          "description": "Utilise my software engineering expertise and prompt engineering skills to enhance the effectiveness of AI coding agents like GitHub Copilot / Codex."
         }
       ]
     },
@@ -171,7 +196,7 @@
         {
           "title": "JavaScript & TypeScript",
           "level": "proficient",
-          "description": "Extensive experience writing and maintaining modern applications using both JavaScript and TypeScript. Especially loves TS for its security and OOP combatibility."
+          "description": "Extensive experience writing and maintaining modern applications using both JavaScript and TypeScript. Especially loves TS for its security and OOP compatibility."
         },
         {
           "title": "Python",
@@ -231,7 +256,7 @@
         },
         {
           "title": "Adobe Premiere Pro",
-          "level": "beginner",
+          "level": "intermediate",
           "description": "Capable of editing video clips, adding background music, voiceovers, and subtitles."
         },
         {
