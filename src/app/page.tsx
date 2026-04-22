@@ -92,11 +92,11 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="relative min-h-screen pt-12 bg-gradient-to-b from-slate-900 via-slate-950 to-black overflow-hidden">
+    <div className="relative min-h-screen pt-12 bg-linear-to-b from-slate-900 via-slate-950 to-black overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.18),transparent_42%),radial-gradient(circle_at_80%_25%,rgba(236,72,153,0.14),transparent_38%),radial-gradient(circle_at_55%_85%,rgba(14,165,233,0.12),transparent_45%)]" />
       <motion.div
         aria-hidden
-        className="pointer-events-none absolute -top-24 left-1/2 h-56 w-[520px] -translate-x-1/2 rounded-full bg-sky-500/10 blur-3xl"
+        className="pointer-events-none absolute -top-24 left-1/2 h-56 w-130 -translate-x-1/2 rounded-full bg-sky-500/10 blur-3xl"
         animate={{ opacity: [0.3, 0.6, 0.3], scale: [0.9, 1.05, 0.9] }}
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
       />
@@ -146,7 +146,7 @@ export default function Home() {
         >
           <div className="max-w-2xl text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-slate-100 drop-shadow">
             <span>{selectedIntro[introLineIndex]?.slice(0, introCharIndex) ?? ''}</span>
-            <span className="ml-1 inline-block h-7 w-[2px] animate-pulse bg-slate-200 align-middle sm:h-9 md:h-10" />
+            <span className="ml-1 inline-block h-7 w-0.5 animate-pulse bg-slate-200 align-middle sm:h-9 md:h-10" />
           </div>
         </motion.div>
       )}
@@ -200,8 +200,8 @@ export default function Home() {
           whileHover={{ scale: 1.01 }}
           transition={{ duration: 0.3, ease: 'easeOut' }}
         >
-          Hello! I&apos;m Hanny Zhang, a Software Engineer, specializing in full-stack development and 
-          Gen-AI related applications, and a lots MORE! Currently pursuing Masters of AI at NTU Singapore.
+          Hello! I&apos;m Hanny Zhang, an AI Engineer, specializing in utilising the power of modern AI 
+          techniques to solve real-world problems! Currently pursuing Masters of AI at NTU Singapore.
           I love crafting professional IT solutions, doing funny projects, whipping up new recipes, 
           also exploring the great outdoors. 
           <br /><br />

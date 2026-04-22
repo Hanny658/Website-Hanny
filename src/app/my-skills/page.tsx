@@ -175,7 +175,7 @@ export default function MySkillsPage() {
             }}
           >
             <motion.div
-              className="relative w-full max-w-6xl max-h-[88vh] overflow-hidden rounded-3xl border border-cyan-100/70 bg-white/95 shadow-[0_24px_100px_-36px_rgba(15,23,42,0.7)]"
+              className="relative w-full max-w-6xl max-h-[80vh] overflow-hidden rounded-3xl border border-cyan-100/70 bg-white/95 shadow-[0_24px_100px_-36px_rgba(15,23,42,0.7)]"
               initial={{ opacity: 0, y: 26, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 16, scale: 0.98 }}
@@ -183,7 +183,7 @@ export default function MySkillsPage() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="h-2 w-full bg-linear-to-r from-cyan-500 via-blue-500 to-indigo-500" />
-              <div className="max-h-[calc(88vh-8px)] overflow-y-auto p-5 md:p-7">
+              <div className="max-h-[calc(80vh-8px)] overflow-y-auto p-5 md:p-7">
                 <div className="mb-6 flex items-center justify-between gap-3">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">Skill Category</p>
@@ -235,7 +235,7 @@ export default function MySkillsPage() {
       <AnimatePresence>
         {selectedSkill && (
           <motion.div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/55 backdrop-blur-sm px-4 py-6"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/55 px-4 py-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
