@@ -13,8 +13,8 @@ Personal website for Hanny: part portfolio, part timeline, part skills matrix, f
 ## Key Routes
 - `/` Home + intro
 - `/my-skills` Skills grid and modals (data: `src/skilldata.json`)
-- `/highlights` Timeline of milestones (data: `src/highlights.json`)
-- `/portfolio` Project gallery (data: `src/app/portfolio/page.tsx`)
+- `/journey` Timeline of milestones (data: `src/highlights.json`)
+- `/portfolio` Project gallery (data: `src/app/portfolio/page.tsx` - will be migrated soon!)
 
 ## Tech Used (No Flex, Just Facts)
 - Next.js App Router + React
@@ -28,11 +28,6 @@ Personal website for Hanny: part portfolio, part timeline, part skills matrix, f
 2. Start dev server: `npm run dev`
 3. Open `http://localhost:3000`
 
-## Customize Content
-- Home page copy and hero: `src/app/page.tsx`
-- Portfolio items: `src/app/portfolio/page.tsx`
-- Timeline entries: `src/highlights.json`
-- Skills matrix: `src/skilldata.json`
 - Global nav/footer: `src/components/navbar.tsx` and `src/components/footer.tsx`
 
 ## Notes
