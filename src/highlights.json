@@ -3,36 +3,36 @@
         {
             "time": "Aug 15 - 2019",
             "title": "The Journey Starts",
-            "description": "Come to Melbourne for high-level education, starting from Trinity Collecge, as a turning point of my life.",
+            "description": "Come to Melbourne for high-level education, starting from Trinity College, as a true turning point of my life.",
             "picture": "/highlights/start.jpg"
         },
         {
             "time": "Feb 15 - 2021",
-            "title": "University of Melbourne",
+            "title": "University of Melbourne Admission",
             "description": "Completed the course works at Trinity Collecge, and enough age, too. If I've been born few months earlier, probably I can get into Uni one sem earlier?",
             "picture": "/highlights/uni.jpg"
         },
         {
             "time": "Aug 28 - 2021",
-            "title": "Gained Views from a Rhythm Game Fanmade",
-            "description": "Designed a April-Fools day like fanmade Arcaea chart and brought fun to over 52k people (quite a lot for such a niche topic hahaha). Wanna have a look? Search BV1YQ4y1h7KK on Bilibili~",
+            "title": "Rhythm Game Fanmade",
+            "description": "Designed a April-Fools-Day like fanmade Arcaea chart and brought fun to over 52k people (quite a lot for such a niche topic hahaha). Wanna have a look? Search BV1YQ4y1h7KK on Bilibili~",
             "picture": "/highlights/arcaea.png"
         },
         {
             "time": "Dec 11 - 2023",
             "title": "Graduation Ceremony",
-            "description": "Completed my study at the University of Melbourne, as a Student from Computing & Software Systems.",
+            "description": "Completed my study at the University of Melbourne, as a Student from Computing & Software Systems, gained valuable experience, knowledge and memories ofc.",
             "picture": "/highlights/grad.jpg"
         },
         {
             "time": "Apr 15 - 2024",
             "title": "Started my first career",
-            "description": "Stared my role as a Software Engineer in DO group, can't wait to turn thoughts to reality with skills I've got and will gain!"
+            "description": "Started my role as a Software Engineer in DO group, can't wait to turn thoughts to reality with skills I've got and will gain!"
         },
         {
             "time": "Feb 23 - 2025",
             "title": "Barista",
-            "description": "I love coffee for milk flavoring, so I get my barista licence on that day. Now I'm a barista for myself XD.",
+            "description": "I love coffee for milk flavoring, so I get my barista licence on that day. Now I'm a certificated barista (for myself XD).",
             "picture": "/highlights/cafe.jpg"
         },
         {
@@ -43,8 +43,8 @@
         },
         {
             "time": "Jun 11 - 2025",
-            "title": "Completion of this Site",
-            "description": "Accomplishment of my personal website, including a snack map into a closed beta readiness.",
+            "title": "Completion of This Site",
+            "description": "Accomplishment of my personal website, now it's time to show it off~ By the way the homepage 'The Matrix'-ish effect was extracted and published as a npm package, check it out if you are interested!",
             "picture": "/highlights/site.jpg"
         },
         {
@@ -75,6 +75,12 @@
             "title": "TechFest 2026 Hackathon",
             "description": "Taking part in the hackathon - TechFest 2026. Our team built the platform trailify.fit within 24h. Although we didn't being chosen to be finalist, take-aways are still a lot and the experience is fresh and enjoyable!",
             "picture": "/highlights/techfest26.jpg"
+        },
+        {
+            "time": "May 17 - 2026",
+            "title": "Top of Project for ML Course",
+            "description": "Wow they even gave us a certificate for that! My team got the top 10% (and I guess it's top-1 from the certificate filename XD) of the project for the Machine Learning course project on gen-video safety evaluation. I'm quite proud of the system I proposed and how wew evaluated it, and it's a great encouragement for me to keep going on this path!",
+            "picture": "/highlights/ai6102proj.png"
         }
     ]
 }
