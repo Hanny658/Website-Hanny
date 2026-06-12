@@ -8,7 +8,7 @@ import Link from "next/link";
 type Project = {
     title: string;
     image: string; // path relative to /public/portfolio/
-    link: string | "this" | "private" | "maintainance";
+    link: string | "this" | "private" | "closed";
     description: string;
     icon: string; // Bootstrap icon classname
 };
@@ -88,7 +88,7 @@ const projects: Project[] = [
     {
         title: "Hackathon Project - Trailify.fit",
         image: "/portfolio/trailify.jpg",
-        link: "https://trailify.fit",
+        link: "closed",
         description: "Our team's solution demo for hackathon Techfest 2026, that aims to shorten the gap between recruiter and job seekers with the power of data, AI and RAG embeddings. Built within a 3-person team within 24h and deployed, tech-stack includes Next.js, Python FastAPI, and Google Colab data centralising tecniques.",
         icon: "bi bi-laptop",
     },
@@ -177,9 +177,9 @@ export default function PersonalPortfolioPage() {
                                             This is an internal / private system
                                         </p>
                                         : (
-                                        project.link == "maintainance" ?
+                                        project.link == "closed" ?
                                             <p className="mt-4 inline-block !text-sky-600 !text-right font-medium self-end">
-                                                Currently under maintainance~
+                                                This project stopped hosting, please check the repo~
                                             </p>
                                             :
                                             <Link
