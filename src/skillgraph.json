@@ -1,0 +1,1580 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-09T08:51:42.174Z",
+    "source": "openai:text-embedding-3-small",
+    "axes": [
+      "PC1",
+      "PC2",
+      "PC3"
+    ],
+    "categories": [
+      {
+        "name": "Frontend",
+        "icon": "frontend.svg",
+        "color": "#0891b2"
+      },
+      {
+        "name": "Backend",
+        "icon": "backend.svg",
+        "color": "#059669"
+      },
+      {
+        "name": "DevOps & CI/CD",
+        "icon": "sync.svg",
+        "color": "#ea580c"
+      },
+      {
+        "name": "AI & Data Science",
+        "icon": "ai.svg",
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "Software Skills",
+        "icon": "software.svg",
+        "color": "#b7791f"
+      },
+      {
+        "name": "Other Skills",
+        "icon": "skills.svg",
+        "color": "#ec4899"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "React.js",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -33.093,
+      "y": 12.084,
+      "z": -4.254,
+      "level": "proficient",
+      "description": "Extensive hands-on experience since university, applying React.js in multiple full-stack engineering roles."
+    },
+    {
+      "id": "Preact.js",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -35.942,
+      "y": -11.486,
+      "z": 1.005,
+      "level": "proficient",
+      "description": "Same development experience as React.js! Used Preact for quick prototyping and lightweight applications."
+    },
+    {
+      "id": "Blazor",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -15.977,
+      "y": -5.108,
+      "z": 0.91,
+      "level": "intermediate",
+      "description": "Explored This interesting framework for building interactive web UIs with C#."
+    },
+    {
+      "id": "Next.js",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -43.628,
+      "y": 7.426,
+      "z": 4.132,
+      "level": "intermediate",
+      "description": "Practical experience building production websites, including my personal site, songbook platform, and snack map application."
+    },
+    {
+      "id": "Bootstrap",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -33.953,
+      "y": -21.469,
+      "z": -2.539,
+      "level": "proficient",
+      "description": "Highly experienced in leveraging Bootstrap's responsive grid system and pre-built components to accelerate development."
+    },
+    {
+      "id": "Tailwind CSS",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -27.916,
+      "y": -18.379,
+      "z": -9.768,
+      "level": "proficient",
+      "description": "Skilled in building modern and responsive UIs using utility-first classes and animations; implemented extensively in current projects."
+    },
+    {
+      "id": "Sass CSS",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": false,
+      "x": -33.186,
+      "y": -23.437,
+      "z": -9.919,
+      "level": "intermediate",
+      "description": "Applied Sass in combination with Bootstrap to develop and maintain consistent design systems and themes."
+    },
+    {
+      "id": "Server Administration",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -6.884,
+      "y": 5.955,
+      "z": 37.683,
+      "level": "intermediate",
+      "description": "Deployed, configured, and maintained a range of applications and services on Linux-based cloud servers."
+    },
+    {
+      "id": "Express Server",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -31.477,
+      "y": 5.072,
+      "z": 28.794,
+      "level": "proficient",
+      "description": "Strong command of Express.js for building scalable backend services and REST APIs in production environments."
+    },
+    {
+      "id": "REST API",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -11.001,
+      "y": 16.348,
+      "z": 33.501,
+      "level": "proficient",
+      "description": "Designed, developed, and maintained RESTful APIs extensively across academic and professional projects."
+    },
+    {
+      "id": "GraphQL API",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -20.293,
+      "y": 22.392,
+      "z": 11.617,
+      "level": "intermediate",
+      "description": "Familiar, but most projects have been RESTful. Interested and willing to apply it more!"
+    },
+    {
+      "id": "Database",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -1.747,
+      "y": 12.276,
+      "z": -2.496,
+      "level": "intermediate",
+      "description": "Experienced in schema design, data modeling, and optimization with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases."
+    },
+    {
+      "id": "Python FastAPI/Flask",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -2.951,
+      "y": 24.861,
+      "z": 45.121,
+      "level": "proficient",
+      "description": "Developed APIs and microservices, with a focus on AI-related applications and integrations."
+    },
+    {
+      "id": "Nginx",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": false,
+      "x": -18.605,
+      "y": 6.42,
+      "z": 46.421,
+      "level": "proficient",
+      "description": "Configured Nginx for hosting diverse services, implementing reverse proxies, and managing SSL/TLS certificates."
+    },
+    {
+      "id": "Git",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -4.359,
+      "y": -2.728,
+      "z": -17.776,
+      "level": "expert",
+      "description": "Expertise in Git for version control with GitHub/GitLab, adhering to best practices for commit messaging and branching workflows."
+    },
+    {
+      "id": "Hosting Services",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -17.364,
+      "y": 8.111,
+      "z": 47.061,
+      "level": "proficient",
+      "description": "Successfully deployed and managed databases, APIs, and full-stack applications on cloud hosting environments."
+    },
+    {
+      "id": "Shell / Terminal Commands",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -2.912,
+      "y": -8.78,
+      "z": -2.507,
+      "level": "proficient",
+      "description": "Strong proficiency with Windows shell and Linux terminal commands for administration and automation tasks."
+    },
+    {
+      "id": "Docker",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -9.03,
+      "y": 4.822,
+      "z": -16.509,
+      "level": "intermediate",
+      "description": "Fundamental understanding of Docker concepts and workflows, with growing experience in containerization."
+    },
+    {
+      "id": "GitHub Actions",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -26.799,
+      "y": 7.84,
+      "z": 28.026,
+      "level": "intermediate",
+      "description": "Implemented automated CI/CD pipelines to deploy React.js and Node.js services, integrated with shell scripting for customization."
+    },
+    {
+      "id": "Testing & Debugging",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": false,
+      "x": -0.024,
+      "y": -10.131,
+      "z": -26.955,
+      "level": "proficient",
+      "description": "Proficient in applying structured testing methodologies and debugging practices to ensure software reliability."
+    },
+    {
+      "id": "AI Tools",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 35.1,
+      "y": 9.947,
+      "z": 11.664,
+      "level": "expert",
+      "description": "Effectively leverage LLMs, including ChatGPT, to accelerate research, development, and productivity."
+    },
+    {
+      "id": "Prompt Engineering",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 23.434,
+      "y": 1.928,
+      "z": -19.094,
+      "level": "proficient",
+      "description": "Skilled in designing effective prompt structures and strategies for LLM-based applications."
+    },
+    {
+      "id": "Machine Learning",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 31.711,
+      "y": 25.892,
+      "z": -4.568,
+      "level": "proficient",
+      "description": "Applied classical ML models for classification, regression, and clustering in academic and practical projects."
+    },
+    {
+      "id": "Deep Learning",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 20.911,
+      "y": 30.027,
+      "z": 9.938,
+      "level": "proficient",
+      "description": "Built and experimented with neural network models for vision and NLP/CV tasks using suitable frameworks."
+    },
+    {
+      "id": "Multi-Agent Systems",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 29.827,
+      "y": 21.49,
+      "z": -10.908,
+      "level": "proficient",
+      "description": "Experience designing multi-agent workflows and coordination patterns for complex problem solving."
+    },
+    {
+      "id": "AI Agent / Skills",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 41.05,
+      "y": 20.253,
+      "z": -7.13,
+      "level": "proficient",
+      "description": "Familiar with agent architectures, control strategies, memory management, and task planning for LLM-driven automation."
+    },
+    {
+      "id": "Large Language Models",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 34.461,
+      "y": 37.608,
+      "z": -6.066,
+      "level": "proficient",
+      "description": "Both conceptually and practically. Explored and applied LLMs in Agent System designs while also familiar with the Transformer Architecture underneath."
+    },
+    {
+      "id": "Recommendation Systems",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 8.145,
+      "y": 21.291,
+      "z": -5.863,
+      "level": "proficient",
+      "description": "Familiar with POI recommender systems, mainly on query-based and context-aware approaches, and have reimplemented a few SOTA designs for my project."
+    },
+    {
+      "id": "PyTorch / TensorFlow",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 22.76,
+      "y": 28.6,
+      "z": 5.317,
+      "level": "proficient",
+      "description": "Hands-on experience with Python ML/AI libraries and applying machine learning models in practical projects."
+    },
+    {
+      "id": "Data Processing",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 26.583,
+      "y": 0.629,
+      "z": 6.193,
+      "level": "intermediate",
+      "description": "Competent in cleaning, clustering, embedding, and transforming data to support analytics and business objectives."
+    },
+    {
+      "id": "Data Visualisation",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 21.518,
+      "y": -0.456,
+      "z": 14.234,
+      "level": "intermediate",
+      "description": "Created visualizations and reports using Python, MATLAB, and other analytical tools."
+    },
+    {
+      "id": "Retrieval-Augmented Generation",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 15.548,
+      "y": 7.199,
+      "z": 17.857,
+      "level": "expert",
+      "description": "Implemented a chatbot system enhanced by RAG with a dedicated management frontend, familiar with related workflows and terminology. My RAG app increased the respond speed by 134% while saving tokens, compare to the solution before."
+    },
+    {
+      "id": "Engineer-assisted AI for Coding",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": false,
+      "x": 22.699,
+      "y": 1.385,
+      "z": -1.941,
+      "level": "expert",
+      "description": "Utilise my software engineering expertise and prompt engineering skills to enhance the effectiveness of AI coding agents like GitHub Copilot / Codex."
+    },
+    {
+      "id": "JavaScript & TypeScript",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -32.627,
+      "y": 7.851,
+      "z": -18.116,
+      "level": "proficient",
+      "description": "Extensive experience writing and maintaining modern applications using both JavaScript and TypeScript. Especially loves TS for its security and OOP compatibility."
+    },
+    {
+      "id": "Python",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": 18.266,
+      "y": -7.075,
+      "z": 23.338,
+      "level": "proficient",
+      "description": "Utilized for automation, data processing, and quick scripting to improve efficiency."
+    },
+    {
+      "id": "Java / C#",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -15.31,
+      "y": 15.273,
+      "z": -16.546,
+      "level": "intermediate",
+      "description": "Applied OOP principles and built small-scale projects using Java and Spring Boot."
+    },
+    {
+      "id": "C",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": 2.625,
+      "y": -4.62,
+      "z": -50.943,
+      "level": "intermediate",
+      "description": "Solid understanding of core syntax, algorithms, and data structures in C programming."
+    },
+    {
+      "id": "Rust",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -14.243,
+      "y": 15.359,
+      "z": -20.016,
+      "level": "beginner",
+      "description": "Recently learning Rust, with interest in its performance and memory safety features."
+    },
+    {
+      "id": "Haskell / Prolog",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": 5.865,
+      "y": 19.966,
+      "z": -31.456,
+      "level": "beginner",
+      "description": "Studied theoretical foundations and functional/logic programming concepts at university."
+    },
+    {
+      "id": "Design Patterns",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -2.962,
+      "y": -8.539,
+      "z": -46.911,
+      "level": "intermediate",
+      "description": "Practical knowledge of common design patterns, with the ability to adapt to new ones as required."
+    },
+    {
+      "id": "Coding Standards",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -13.176,
+      "y": -14.13,
+      "z": -32.337,
+      "level": "proficient",
+      "description": "Adhere to best practices with comprehensive documentation and consistent commenting across projects."
+    },
+    {
+      "id": "Agile Terminologies",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": 3.67,
+      "y": 4.491,
+      "z": -15.234,
+      "level": "proficient",
+      "description": "Experienced in Agile methodologies, including serving as Scrum Master during academic projects."
+    },
+    {
+      "id": "Coding IDEs",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": false,
+      "x": -2.279,
+      "y": -21.658,
+      "z": -27.045,
+      "level": "proficient",
+      "description": "Proficient with a wide range of IDEs, including JetBrains and Microsoft Visual Studio products."
+    },
+    {
+      "id": "Adobe Photoshop",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 17.578,
+      "y": -59.436,
+      "z": 9.043,
+      "level": "proficient",
+      "description": "Skilled in photo editing, graphic design, and preparing print-ready materials."
+    },
+    {
+      "id": "Adobe Premiere Pro",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 24.379,
+      "y": -63.759,
+      "z": 19.983,
+      "level": "intermediate",
+      "description": "Capable of editing video clips, adding background music, voiceovers, and subtitles."
+    },
+    {
+      "id": "Adobe Illustrator",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 22.017,
+      "y": -59.017,
+      "z": 13.345,
+      "level": "beginner",
+      "description": "Able to create and edit vector graphics, posters, and visual assets when needed."
+    },
+    {
+      "id": "Adobe Audition",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 30.204,
+      "y": -52.542,
+      "z": 23.507,
+      "level": "beginner",
+      "description": "Basic audio editing and enhancement for voiceovers and music tracks."
+    },
+    {
+      "id": "Team Work",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 1.856,
+      "y": -7.527,
+      "z": -14.257,
+      "level": "expert",
+      "description": "Collaborative and adaptable, with experience coordinating cross-functional teams on complex projects."
+    },
+    {
+      "id": "Workflow Management Tools",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 1.984,
+      "y": -6.589,
+      "z": 2.218,
+      "level": "proficient",
+      "description": "Experienced with tools such as Trello, Jira, and GitHub Projects to support agile workflows."
+    },
+    {
+      "id": "Coffee Making",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": 6.567,
+      "y": 2.411,
+      "z": -7.457,
+      "level": "intermediate",
+      "description": "Trained barista with strong knowledge of coffee preparation, now practiced as a hobby."
+    },
+    {
+      "id": "Cooking",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": false,
+      "x": -11.017,
+      "y": 1.658,
+      "z": -12.293,
+      "level": "proficient",
+      "description": "Passionate about preparing traditional dishes from my hometown and experimenting with new recipes."
+    },
+    {
+      "id": "hub:Frontend",
+      "category": "Frontend",
+      "color": "#0891b2",
+      "isHub": true,
+      "x": -31.956,
+      "y": -8.624,
+      "z": -2.919,
+      "icon": "frontend.svg"
+    },
+    {
+      "id": "hub:Backend",
+      "category": "Backend",
+      "color": "#059669",
+      "isHub": true,
+      "x": -13.28,
+      "y": 13.332,
+      "z": 28.663,
+      "icon": "backend.svg"
+    },
+    {
+      "id": "hub:DevOps & CI/CD",
+      "category": "DevOps & CI/CD",
+      "color": "#ea580c",
+      "isHub": true,
+      "x": -10.081,
+      "y": -0.144,
+      "z": 1.89,
+      "icon": "sync.svg"
+    },
+    {
+      "id": "hub:AI & Data Science",
+      "category": "AI & Data Science",
+      "color": "#8b5cf6",
+      "isHub": true,
+      "x": 25.673,
+      "y": 15.83,
+      "z": 0.741,
+      "icon": "ai.svg"
+    },
+    {
+      "id": "hub:Software Skills",
+      "category": "Software Skills",
+      "color": "#b7791f",
+      "isHub": true,
+      "x": -5.017,
+      "y": 0.692,
+      "z": -23.527,
+      "icon": "software.svg"
+    },
+    {
+      "id": "hub:Other Skills",
+      "category": "Other Skills",
+      "color": "#ec4899",
+      "isHub": true,
+      "x": 11.696,
+      "y": -30.6,
+      "z": 4.261,
+      "icon": "skills.svg"
+    }
+  ],
+  "links": [
+    {
+      "source": "React.js",
+      "target": "Next.js",
+      "weight": 0.6,
+      "kind": "semantic"
+    },
+    {
+      "source": "React.js",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.563,
+      "kind": "semantic"
+    },
+    {
+      "source": "React.js",
+      "target": "Preact.js",
+      "weight": 0.503,
+      "kind": "semantic"
+    },
+    {
+      "source": "Preact.js",
+      "target": "Next.js",
+      "weight": 0.515,
+      "kind": "semantic"
+    },
+    {
+      "source": "Preact.js",
+      "target": "Bootstrap",
+      "weight": 0.511,
+      "kind": "semantic"
+    },
+    {
+      "source": "Blazor",
+      "target": "Bootstrap",
+      "weight": 0.434,
+      "kind": "semantic"
+    },
+    {
+      "source": "Blazor",
+      "target": "Tailwind CSS",
+      "weight": 0.41,
+      "kind": "semantic"
+    },
+    {
+      "source": "Blazor",
+      "target": "Next.js",
+      "weight": 0.376,
+      "kind": "semantic"
+    },
+    {
+      "source": "Next.js",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.509,
+      "kind": "semantic"
+    },
+    {
+      "source": "Bootstrap",
+      "target": "Tailwind CSS",
+      "weight": 0.581,
+      "kind": "semantic"
+    },
+    {
+      "source": "Bootstrap",
+      "target": "Sass CSS",
+      "weight": 0.578,
+      "kind": "semantic"
+    },
+    {
+      "source": "Tailwind CSS",
+      "target": "Sass CSS",
+      "weight": 0.504,
+      "kind": "semantic"
+    },
+    {
+      "source": "Tailwind CSS",
+      "target": "Next.js",
+      "weight": 0.494,
+      "kind": "semantic"
+    },
+    {
+      "source": "Sass CSS",
+      "target": "Coding Standards",
+      "weight": 0.385,
+      "kind": "semantic"
+    },
+    {
+      "source": "Server Administration",
+      "target": "Hosting Services",
+      "weight": 0.649,
+      "kind": "semantic"
+    },
+    {
+      "source": "Server Administration",
+      "target": "Shell / Terminal Commands",
+      "weight": 0.482,
+      "kind": "semantic"
+    },
+    {
+      "source": "Server Administration",
+      "target": "Nginx",
+      "weight": 0.476,
+      "kind": "semantic"
+    },
+    {
+      "source": "Express Server",
+      "target": "Hosting Services",
+      "weight": 0.483,
+      "kind": "semantic"
+    },
+    {
+      "source": "Express Server",
+      "target": "React.js",
+      "weight": 0.466,
+      "kind": "semantic"
+    },
+    {
+      "source": "Express Server",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.465,
+      "kind": "semantic"
+    },
+    {
+      "source": "REST API",
+      "target": "GraphQL API",
+      "weight": 0.643,
+      "kind": "semantic"
+    },
+    {
+      "source": "REST API",
+      "target": "Python FastAPI/Flask",
+      "weight": 0.494,
+      "kind": "semantic"
+    },
+    {
+      "source": "REST API",
+      "target": "Express Server",
+      "weight": 0.459,
+      "kind": "semantic"
+    },
+    {
+      "source": "GraphQL API",
+      "target": "Express Server",
+      "weight": 0.462,
+      "kind": "semantic"
+    },
+    {
+      "source": "GraphQL API",
+      "target": "Python FastAPI/Flask",
+      "weight": 0.457,
+      "kind": "semantic"
+    },
+    {
+      "source": "Database",
+      "target": "Data Processing",
+      "weight": 0.486,
+      "kind": "semantic"
+    },
+    {
+      "source": "Database",
+      "target": "Hosting Services",
+      "weight": 0.466,
+      "kind": "semantic"
+    },
+    {
+      "source": "Database",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.435,
+      "kind": "semantic"
+    },
+    {
+      "source": "Python FastAPI/Flask",
+      "target": "PyTorch / TensorFlow",
+      "weight": 0.489,
+      "kind": "semantic"
+    },
+    {
+      "source": "Python FastAPI/Flask",
+      "target": "Python",
+      "weight": 0.458,
+      "kind": "semantic"
+    },
+    {
+      "source": "Nginx",
+      "target": "Hosting Services",
+      "weight": 0.492,
+      "kind": "semantic"
+    },
+    {
+      "source": "Nginx",
+      "target": "Express Server",
+      "weight": 0.42,
+      "kind": "semantic"
+    },
+    {
+      "source": "Git",
+      "target": "Workflow Management Tools",
+      "weight": 0.526,
+      "kind": "semantic"
+    },
+    {
+      "source": "Git",
+      "target": "Engineer-assisted AI for Coding",
+      "weight": 0.464,
+      "kind": "semantic"
+    },
+    {
+      "source": "Git",
+      "target": "Docker",
+      "weight": 0.441,
+      "kind": "semantic"
+    },
+    {
+      "source": "Shell / Terminal Commands",
+      "target": "Docker",
+      "weight": 0.476,
+      "kind": "semantic"
+    },
+    {
+      "source": "Shell / Terminal Commands",
+      "target": "Git",
+      "weight": 0.395,
+      "kind": "semantic"
+    },
+    {
+      "source": "Docker",
+      "target": "Design Patterns",
+      "weight": 0.428,
+      "kind": "semantic"
+    },
+    {
+      "source": "GitHub Actions",
+      "target": "React.js",
+      "weight": 0.497,
+      "kind": "semantic"
+    },
+    {
+      "source": "GitHub Actions",
+      "target": "Hosting Services",
+      "weight": 0.438,
+      "kind": "semantic"
+    },
+    {
+      "source": "GitHub Actions",
+      "target": "Workflow Management Tools",
+      "weight": 0.42,
+      "kind": "semantic"
+    },
+    {
+      "source": "Testing & Debugging",
+      "target": "Coding IDEs",
+      "weight": 0.537,
+      "kind": "semantic"
+    },
+    {
+      "source": "Testing & Debugging",
+      "target": "Design Patterns",
+      "weight": 0.476,
+      "kind": "semantic"
+    },
+    {
+      "source": "Testing & Debugging",
+      "target": "Coding Standards",
+      "weight": 0.466,
+      "kind": "semantic"
+    },
+    {
+      "source": "AI Tools",
+      "target": "AI Agent / Skills",
+      "weight": 0.536,
+      "kind": "semantic"
+    },
+    {
+      "source": "AI Tools",
+      "target": "Retrieval-Augmented Generation",
+      "weight": 0.528,
+      "kind": "semantic"
+    },
+    {
+      "source": "AI Tools",
+      "target": "Prompt Engineering",
+      "weight": 0.515,
+      "kind": "semantic"
+    },
+    {
+      "source": "Prompt Engineering",
+      "target": "AI Agent / Skills",
+      "weight": 0.533,
+      "kind": "semantic"
+    },
+    {
+      "source": "Prompt Engineering",
+      "target": "Engineer-assisted AI for Coding",
+      "weight": 0.444,
+      "kind": "semantic"
+    },
+    {
+      "source": "Machine Learning",
+      "target": "PyTorch / TensorFlow",
+      "weight": 0.57,
+      "kind": "semantic"
+    },
+    {
+      "source": "Machine Learning",
+      "target": "Deep Learning",
+      "weight": 0.474,
+      "kind": "semantic"
+    },
+    {
+      "source": "Machine Learning",
+      "target": "Data Processing",
+      "weight": 0.446,
+      "kind": "semantic"
+    },
+    {
+      "source": "Deep Learning",
+      "target": "PyTorch / TensorFlow",
+      "weight": 0.557,
+      "kind": "semantic"
+    },
+    {
+      "source": "Deep Learning",
+      "target": "Large Language Models",
+      "weight": 0.503,
+      "kind": "semantic"
+    },
+    {
+      "source": "Multi-Agent Systems",
+      "target": "AI Agent / Skills",
+      "weight": 0.629,
+      "kind": "semantic"
+    },
+    {
+      "source": "Multi-Agent Systems",
+      "target": "Team Work",
+      "weight": 0.507,
+      "kind": "semantic"
+    },
+    {
+      "source": "Multi-Agent Systems",
+      "target": "Workflow Management Tools",
+      "weight": 0.46,
+      "kind": "semantic"
+    },
+    {
+      "source": "AI Agent / Skills",
+      "target": "Large Language Models",
+      "weight": 0.578,
+      "kind": "semantic"
+    },
+    {
+      "source": "AI Agent / Skills",
+      "target": "Engineer-assisted AI for Coding",
+      "weight": 0.54,
+      "kind": "semantic"
+    },
+    {
+      "source": "Large Language Models",
+      "target": "AI Tools",
+      "weight": 0.475,
+      "kind": "semantic"
+    },
+    {
+      "source": "Recommendation Systems",
+      "target": "GraphQL API",
+      "weight": 0.419,
+      "kind": "semantic"
+    },
+    {
+      "source": "Recommendation Systems",
+      "target": "PyTorch / TensorFlow",
+      "weight": 0.379,
+      "kind": "semantic"
+    },
+    {
+      "source": "Recommendation Systems",
+      "target": "Multi-Agent Systems",
+      "weight": 0.37,
+      "kind": "semantic"
+    },
+    {
+      "source": "Data Processing",
+      "target": "Data Visualisation",
+      "weight": 0.506,
+      "kind": "semantic"
+    },
+    {
+      "source": "Data Visualisation",
+      "target": "Python",
+      "weight": 0.445,
+      "kind": "semantic"
+    },
+    {
+      "source": "Data Visualisation",
+      "target": "Deep Learning",
+      "weight": 0.433,
+      "kind": "semantic"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "target": "Engineer-assisted AI for Coding",
+      "weight": 0.446,
+      "kind": "semantic"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "target": "AI Agent / Skills",
+      "weight": 0.408,
+      "kind": "semantic"
+    },
+    {
+      "source": "Engineer-assisted AI for Coding",
+      "target": "Coding IDEs",
+      "weight": 0.512,
+      "kind": "semantic"
+    },
+    {
+      "source": "Engineer-assisted AI for Coding",
+      "target": "AI Tools",
+      "weight": 0.482,
+      "kind": "semantic"
+    },
+    {
+      "source": "JavaScript & TypeScript",
+      "target": "Tailwind CSS",
+      "weight": 0.492,
+      "kind": "semantic"
+    },
+    {
+      "source": "Python",
+      "target": "Data Processing",
+      "weight": 0.41,
+      "kind": "semantic"
+    },
+    {
+      "source": "Java / C#",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.473,
+      "kind": "semantic"
+    },
+    {
+      "source": "Java / C#",
+      "target": "Agile Terminologies",
+      "weight": 0.419,
+      "kind": "semantic"
+    },
+    {
+      "source": "Java / C#",
+      "target": "Coding Standards",
+      "weight": 0.409,
+      "kind": "semantic"
+    },
+    {
+      "source": "C",
+      "target": "Coding IDEs",
+      "weight": 0.415,
+      "kind": "semantic"
+    },
+    {
+      "source": "C",
+      "target": "Design Patterns",
+      "weight": 0.407,
+      "kind": "semantic"
+    },
+    {
+      "source": "C",
+      "target": "Docker",
+      "weight": 0.405,
+      "kind": "semantic"
+    },
+    {
+      "source": "Rust",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.446,
+      "kind": "semantic"
+    },
+    {
+      "source": "Rust",
+      "target": "Haskell / Prolog",
+      "weight": 0.402,
+      "kind": "semantic"
+    },
+    {
+      "source": "Rust",
+      "target": "GraphQL API",
+      "weight": 0.393,
+      "kind": "semantic"
+    },
+    {
+      "source": "Haskell / Prolog",
+      "target": "Java / C#",
+      "weight": 0.398,
+      "kind": "semantic"
+    },
+    {
+      "source": "Haskell / Prolog",
+      "target": "C",
+      "weight": 0.387,
+      "kind": "semantic"
+    },
+    {
+      "source": "Design Patterns",
+      "target": "Coding Standards",
+      "weight": 0.444,
+      "kind": "semantic"
+    },
+    {
+      "source": "Design Patterns",
+      "target": "Tailwind CSS",
+      "weight": 0.441,
+      "kind": "semantic"
+    },
+    {
+      "source": "Coding Standards",
+      "target": "Coding IDEs",
+      "weight": 0.479,
+      "kind": "semantic"
+    },
+    {
+      "source": "Agile Terminologies",
+      "target": "Workflow Management Tools",
+      "weight": 0.609,
+      "kind": "semantic"
+    },
+    {
+      "source": "Agile Terminologies",
+      "target": "Team Work",
+      "weight": 0.516,
+      "kind": "semantic"
+    },
+    {
+      "source": "Agile Terminologies",
+      "target": "Testing & Debugging",
+      "weight": 0.448,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Photoshop",
+      "target": "Adobe Illustrator",
+      "weight": 0.691,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Photoshop",
+      "target": "Adobe Premiere Pro",
+      "weight": 0.526,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Photoshop",
+      "target": "Adobe Audition",
+      "weight": 0.454,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Premiere Pro",
+      "target": "Adobe Audition",
+      "weight": 0.659,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Premiere Pro",
+      "target": "Adobe Illustrator",
+      "weight": 0.55,
+      "kind": "semantic"
+    },
+    {
+      "source": "Adobe Illustrator",
+      "target": "Adobe Audition",
+      "weight": 0.462,
+      "kind": "semantic"
+    },
+    {
+      "source": "Team Work",
+      "target": "Workflow Management Tools",
+      "weight": 0.574,
+      "kind": "semantic"
+    },
+    {
+      "source": "Coffee Making",
+      "target": "Cooking",
+      "weight": 0.46,
+      "kind": "semantic"
+    },
+    {
+      "source": "Coffee Making",
+      "target": "Docker",
+      "weight": 0.331,
+      "kind": "semantic"
+    },
+    {
+      "source": "Coffee Making",
+      "target": "Java / C#",
+      "weight": 0.318,
+      "kind": "semantic"
+    },
+    {
+      "source": "Cooking",
+      "target": "Next.js",
+      "weight": 0.324,
+      "kind": "semantic"
+    },
+    {
+      "source": "Cooking",
+      "target": "React.js",
+      "weight": 0.313,
+      "kind": "semantic"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "React.js",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Preact.js",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Blazor",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Next.js",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Bootstrap",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Tailwind CSS",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Frontend",
+      "target": "Sass CSS",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "Server Administration",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "Express Server",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "REST API",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "GraphQL API",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "Database",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "Python FastAPI/Flask",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Backend",
+      "target": "Nginx",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "Git",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "Hosting Services",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "Shell / Terminal Commands",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "Docker",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "GitHub Actions",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:DevOps & CI/CD",
+      "target": "Testing & Debugging",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "AI Tools",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Prompt Engineering",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Machine Learning",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Deep Learning",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Multi-Agent Systems",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "AI Agent / Skills",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Large Language Models",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Recommendation Systems",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "PyTorch / TensorFlow",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Data Processing",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Data Visualisation",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Retrieval-Augmented Generation",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:AI & Data Science",
+      "target": "Engineer-assisted AI for Coding",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "JavaScript & TypeScript",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Python",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Java / C#",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "C",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Rust",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Haskell / Prolog",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Design Patterns",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Coding Standards",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Agile Terminologies",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Software Skills",
+      "target": "Coding IDEs",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Adobe Photoshop",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Adobe Premiere Pro",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Adobe Illustrator",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Adobe Audition",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Team Work",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Workflow Management Tools",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Coffee Making",
+      "weight": 0.2,
+      "kind": "member"
+    },
+    {
+      "source": "hub:Other Skills",
+      "target": "Cooking",
+      "weight": 0.2,
+      "kind": "member"
+    }
+  ]
+}

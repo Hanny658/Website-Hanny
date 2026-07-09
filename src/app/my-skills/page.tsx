@@ -1,21 +1,29 @@
-"use client"
+"use client";
 
-import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
-import skillData from "../../skilldata.json";
+import {
+  skillCategories,
+  categoryByName,
+  categoryMeta,
+  graphNodes,
+  type SkillCategory,
+  type SkillItem,
+} from "src/lib/skill-graph-data";
+import SkillGrid from "src/components/skill-grid";
 
-interface SkillItem {
-  title: string;
-  level: string;
-  description: string;
-}
-
-interface SkillCategory {
-  category: string;
-  icon: string;
-  items: SkillItem[];
-}
+const SkillGraph = dynamic(() => import("src/components/skill-graph"), {
+  ssr: false,
+  loading: () => (
+    <div className="flex h-full w-full items-center justify-center">
+      <div className="flex flex-col items-center gap-3 text-slate-300">
+        <span className="h-8 w-8 animate-spin rounded-full border-2 border-cyan-400/40 border-t-cyan-300" />
+        <span className="text-sm tracking-wide">Mapping the constellation…</span>
+      </div>
+    </div>
+  ),
+});
 
 const levelColors: Record<string, string> = {
   beginner: "bg-blue-200 text-blue-800",
@@ -23,144 +31,125 @@ const levelColors: Record<string, string> = {
   proficient: "bg-green-200 text-green-800",
   expert: "bg-purple-200 text-purple-800",
 };
-
-const skillCategories = skillData.skills;
-
-type Direction = "left" | "right" | "top" | "bottom";
-type HoverState = { direction: Direction; isHovering: boolean };
-const modalEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
 const badgeFallback = "bg-gray-200 text-gray-800";
+const modalEase: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
+type View = "graph" | "grid";
 
 export default function MySkillsPage() {
+  const [view, setView] = useState<View>("graph");
+  const [lite, setLite] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<SkillCategory | null>(null);
   const [selectedSkill, setSelectedSkill] = useState<SkillItem | null>(null);
 
-  // Keep direction and hover phase separate for each tile.
-  const [hoverState, setHoverState] = useState<Record<number, HoverState>>(
-    () =>
-      skillCategories.reduce((acc, _, idx) => {
-        acc[idx] = { direction: "top", isHovering: false };
-        return acc;
-      }, {} as Record<number, HoverState>)
-  );
-  const rafIdsRef = useRef<Record<number, number>>({});
+  // Default to the grid on small screens / reduced-motion; keep the graph lite.
+  useEffect(() => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const small = window.matchMedia("(max-width: 768px)").matches;
+    if (reduce || small) {
+      setView("grid");
+      setLite(true);
+    }
+  }, []);
 
-  // 2. Detect which edge the mouse came/leaves from
-  const getDirection = (e: React.MouseEvent<HTMLDivElement>): Direction => {
-    const el = e.currentTarget;                 // always the DIV
-    const { top, left, width, height } = el.getBoundingClientRect();
-    const x = e.clientX - left;
-    const y = e.clientY - top;
-
-    const distances: Record<Direction, number> = {
-      top:    y,
-      bottom: height - y,
-      left:   x,
-      right:  width - x,
-    };
-
-    // find the smallest distance
-    return (["top", "bottom", "left", "right"] as Direction[]).reduce(
-      (closest, dir) =>
-        distances[dir] < distances[closest] ? dir : closest,
-      "top"
-    );
-  };
-
-  const getOffscreenTransform = (dir: Direction): string => {
-    if (dir === "left") return "translate3d(-100%, 0, 0)";
-    if (dir === "right") return "translate3d(100%, 0, 0)";
-    if (dir === "top") return "translate3d(0, -100%, 0)";
-    return "translate3d(0, 100%, 0)";
-  };
-
-  const cancelRaf = (i: number) => {
-    const rafId = rafIdsRef.current[i];
-    if (rafId) {
-      cancelAnimationFrame(rafId);
-      delete rafIdsRef.current[i];
+  const handleSkillId = (id: string) => {
+    const node = graphNodes.find((n) => n.id === id);
+    if (node) {
+      setSelectedSkill({
+        title: node.id,
+        level: node.level ?? "intermediate",
+        description: node.description ?? "",
+      });
     }
   };
 
-  const handleMouseEnter = (i: number, e: React.MouseEvent<HTMLDivElement>) => {
-    const dir = getDirection(e);
-
-    // Step 1: place overlay outside from enter edge.
-    cancelRaf(i);
-    setHoverState(prev => ({
-      ...prev,
-      [i]: { direction: dir, isHovering: false },
-    }));
-
-    // Step 2: in next frame, animate into center.
-    rafIdsRef.current[i] = requestAnimationFrame(() => {
-      setHoverState(prev => ({
-        ...prev,
-        [i]: { direction: dir, isHovering: true },
-      }));
-      delete rafIdsRef.current[i];
-    });
+  const handleCategoryName = (name: string) => {
+    const cat = categoryByName(name);
+    if (cat) setSelectedCategory(cat);
   };
 
-  const handleMouseLeave = (i: number, e: React.MouseEvent<HTMLDivElement>) => {
-    const dir = getDirection(e);
-    cancelRaf(i);
-    setHoverState(prev => ({
-      ...prev,
-      [i]: { direction: dir, isHovering: false },
-    }));
+  const closeAll = () => {
+    setSelectedSkill(null);
+    setSelectedCategory(null);
   };
 
-  useEffect(() => {
-    return () => {
-      Object.values(rafIdsRef.current).forEach((rafId) => cancelAnimationFrame(rafId));
-      rafIdsRef.current = {};
-    };
-  }, []);
+  const accent = selectedCategory
+    ? categoryMeta.find((c) => c.name === selectedCategory.category)?.color ?? "#06b6d4"
+    : "#06b6d4";
 
   return (
-    <div className="w-screen h-screen flex flex-wrap text-black overflow-hidden">
-      {skillCategories.map((skill_cate, i) => {
-        const state = hoverState[i];
-        const transform = state?.isHovering
-          ? "translate3d(0, 0, 0)"
-          : getOffscreenTransform(state?.direction ?? "top");
+    <div className="relative h-screen w-screen overflow-hidden bg-linear-to-b from-slate-900 via-slate-950 to-black">
+      {/* ambient accents to echo the home page */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_25%_20%,rgba(56,189,248,0.14),transparent_42%),radial-gradient(circle_at_78%_30%,rgba(139,92,246,0.12),transparent_40%),radial-gradient(circle_at_55%_88%,rgba(236,72,153,0.10),transparent_45%)]" />
 
-        return (
-          <div
-            key={skill_cate.category}
-            className="w-[50vw] h-[33vh] relative overflow-hidden bg-transparent"
-            onMouseEnter={(e) => handleMouseEnter(i, e)}
-            onMouseLeave={(e) => handleMouseLeave(i, e)}
-            onClick={() => setSelectedCategory(skill_cate)}
+      {/* View toggle (top-right, under the navbar) */}
+      <div className="absolute right-4 top-20 z-40 flex items-center rounded-full border border-white/10 bg-slate-900/70 p-1 backdrop-blur">
+        {(
+          [
+            { key: "graph", label: "Graph", icon: "bi-diagram-3" },
+            { key: "grid", label: "Grid", icon: "bi-grid-3x2-gap" },
+          ] as { key: View; label: string; icon: string }[]
+        ).map((opt) => (
+          <button
+            key={opt.key}
+            type="button"
+            onClick={() => setView(opt.key)}
+            aria-pressed={view === opt.key}
+            className={`flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+              view === opt.key
+                ? "bg-cyan-400/90 text-slate-900 shadow"
+                : "text-slate-300 hover:text-white"
+            }`}
           >
-            {/* Gradient overlay enters/leaves from the detected edge. */}
-            <div
-              className="absolute inset-0 z-0 will-change-transform"
-              style={{
-                background: "linear-gradient(135deg, #4f46e5, #06b6d4)",
-                transform,
-                transition: "transform 700ms cubic-bezier(0.22, 1, 0.36, 1)",
-              }}
-            />
+            <i className={`bi ${opt.icon}`} aria-hidden="true" />
+            {opt.label}
+          </button>
+        ))}
+      </div>
 
-            {/* Icon + title */}
-            <div className="relative flex flex-col items-center justify-center w-full h-full bg-transparent">
-              <Image
-                src={`/icons/${skill_cate.icon}`}
-                alt={skill_cate.category}
-                width={100}
-                height={100}
-                className="w-24 h-24 mb-3"
-              />
-              <div className="text-lg z-10 text-white font-semibold mix-blend-difference">
-                {skill_cate.category}
-              </div>
-            </div>
+      {/* Heading */}
+      <div className="pointer-events-none absolute left-1/2 top-18 z-30 -translate-x-1/2 text-center">
+        <h1 className="font-title text-2xl font-bold text-white drop-shadow-[0_0_12px_rgba(56,189,248,0.5)] md:text-3xl">
+          My Skills
+        </h1>
+      </div>
+
+      {/* Views */}
+      <div className="absolute inset-0">
+        {view === "graph" ? (
+          <SkillGraph
+            onSelectSkillId={handleSkillId}
+            onSelectCategory={handleCategoryName}
+            lite={lite}
+          />
+        ) : (
+          <div className="h-full w-full pt-28">
+            <SkillGrid categories={skillCategories} onSelectCategory={setSelectedCategory} />
           </div>
-        );
-      })}
+        )}
+      </div>
 
+      {/* Legend + caption (graph only) */}
+      {view === "graph" && (
+        <div className="pointer-events-none absolute bottom-6 left-4 z-30 max-w-[70vw]">
+          <div className="flex flex-wrap gap-x-3 gap-y-1.5">
+            {categoryMeta.map((cat) => (
+              <span key={cat.name} className="flex items-center gap-1.5 text-xs text-slate-300">
+                <span
+                  className="inline-block h-2.5 w-2.5 rounded-full"
+                  style={{ backgroundColor: cat.color, boxShadow: `0 0 8px ${cat.color}` }}
+                />
+                {cat.name}
+              </span>
+            ))}
+          </div>
+          <p className="mt-2 text-[11px] text-slate-500">
+            Nodes positioned by semantic similarity · size = proficiency · drag to orbit, scroll to zoom
+          </p>
+        </div>
+      )}
+
+      {/* Category modal */}
       <AnimatePresence>
         {selectedCategory && (
           <motion.div
@@ -169,20 +158,17 @@ export default function MySkillsPage() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.24, ease: modalEase }}
-            onClick={() => {
-              setSelectedSkill(null);
-              setSelectedCategory(null);
-            }}
+            onClick={closeAll}
           >
             <motion.div
-              className="relative w-full max-w-6xl max-h-[80vh] overflow-hidden rounded-3xl border border-cyan-100/70 bg-white/95 shadow-[0_24px_100px_-36px_rgba(15,23,42,0.7)]"
+              className="relative max-h-[80vh] w-full max-w-6xl overflow-hidden rounded-3xl border border-white/10 bg-white/95 shadow-[0_24px_100px_-36px_rgba(15,23,42,0.7)]"
               initial={{ opacity: 0, y: 26, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 16, scale: 0.98 }}
               transition={{ duration: 0.32, ease: modalEase }}
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="h-2 w-full bg-linear-to-r from-cyan-500 via-blue-500 to-indigo-500" />
+              <div className="h-2 w-full" style={{ background: `linear-gradient(90deg, ${accent}, #06b6d4)` }} />
               <div className="max-h-[calc(80vh-8px)] overflow-y-auto p-5 md:p-7">
                 <div className="mb-6 flex items-center justify-between gap-3">
                   <div>
@@ -191,10 +177,7 @@ export default function MySkillsPage() {
                   </div>
                   <button
                     type="button"
-                    onClick={() => {
-                      setSelectedSkill(null);
-                      setSelectedCategory(null);
-                    }}
+                    onClick={closeAll}
                     className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-xl text-slate-600 transition hover:-translate-y-0.5 hover:border-slate-300 hover:text-slate-900"
                     aria-label="Close category modal"
                   >
@@ -215,11 +198,11 @@ export default function MySkillsPage() {
                     >
                       <div className="pointer-events-none absolute -right-14 -top-10 h-28 w-28 rounded-full bg-cyan-200/55 blur-sm transition group-hover:bg-cyan-300/60" />
                       <h3 className="relative pr-4 text-lg font-semibold text-slate-900">{item.title}</h3>
-                      <p className="relative mt-3 line-clamp-3 text-sm leading-6 text-slate-600">
-                        {item.description}
-                      </p>
+                      <p className="relative mt-3 line-clamp-3 text-sm leading-6 text-slate-600">{item.description}</p>
                       <div
-                        className={`absolute bottom-4 right-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${levelColors[item.level.toLowerCase()] || badgeFallback} bg-opacity-80`}
+                        className={`absolute bottom-4 right-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${
+                          levelColors[item.level.toLowerCase()] || badgeFallback
+                        } bg-opacity-80`}
                       >
                         {item.level}
                       </div>
@@ -232,6 +215,7 @@ export default function MySkillsPage() {
         )}
       </AnimatePresence>
 
+      {/* Skill-detail modal */}
       <AnimatePresence>
         {selectedSkill && (
           <motion.div
@@ -262,7 +246,9 @@ export default function MySkillsPage() {
                 </button>
                 <h2 className="pr-10 text-2xl font-bold text-slate-900">{selectedSkill.title}</h2>
                 <div
-                  className={`mt-3 inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${levelColors[selectedSkill.level.toLowerCase()] || badgeFallback} bg-opacity-80`}
+                  className={`mt-3 inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${
+                    levelColors[selectedSkill.level.toLowerCase()] || badgeFallback
+                  } bg-opacity-80`}
                 >
                   {selectedSkill.level}
                 </div>
@@ -274,7 +260,6 @@ export default function MySkillsPage() {
           </motion.div>
         )}
       </AnimatePresence>
-
     </div>
   );
 }

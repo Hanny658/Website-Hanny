@@ -6,15 +6,19 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "embed-skills": "ts-node --project scripts/tsconfig.json scripts/embed-skills.ts"
   },
   "dependencies": {
     "@shuimo-design/lunar": "^0.0.8",
+    "3d-force-graph": "^1.80.0",
     "bootstrap-icons": "^1.13.1",
     "framer-motion": "^12.33.0",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "three": "^0.185.1",
+    "three-spritetext": "^1.10.0",
     "website-hanny": "file:"
   },
   "devDependencies": {
@@ -23,9 +27,11 @@
     "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.185.1",
     "autoprefixer": "^10.4.24",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "openai": "^6.45.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
     "ts-node": "^10.9.2",
