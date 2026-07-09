@@ -76,6 +76,11 @@
           "description": "Developed APIs and microservices, with a focus on AI-related applications and integrations."
         },
         {
+          "title": "Hosting Services",
+          "level": "proficient",
+          "description": "Successfully deployed and managed databases, APIs, and full-stack applications on cloud hosting environments."
+        },
+        {
           "title": "Nginx",
           "level": "proficient",
           "description": "Configured Nginx for hosting diverse services, implementing reverse proxies, and managing SSL/TLS certificates."
@@ -90,11 +95,6 @@
           "title": "Git",
           "level": "expert",
           "description": "Expertise in Git for version control with GitHub/GitLab, adhering to best practices for commit messaging and branching workflows."
-        },
-        {
-          "title": "Hosting Services",
-          "level": "proficient",
-          "description": "Successfully deployed and managed databases, APIs, and full-stack applications on cloud hosting environments."
         },
         {
           "title": "Shell / Terminal Commands",
@@ -185,7 +185,7 @@
         {
           "title": "Engineer-assisted AI for Coding",
           "level": "expert",
-          "description": "Utilise my software engineering expertise and prompt engineering skills to enhance the effectiveness of AI coding agents like GitHub Copilot / Codex."
+          "description": "Not simply coding vibe, but utilising my software expertise and prompt engineering skills to enhance the effectiveness of AI coding agents like GitHub Copilot / Codex / Claude Code."
         }
       ]
     },

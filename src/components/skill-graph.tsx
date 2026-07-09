@@ -129,7 +129,16 @@ export default function SkillGraph({ onSelectSkillId, onSelectCategory, lite = f
 
       graphRef.current = Graph;
 
+      // View-independent lighting: soft ambient + hemisphere, no directional
+      // hotspot — so orbiting to the top no longer "flash-bangs".
+      Graph.lights([
+        new THREE.AmbientLight(0xffffff, 1.5),
+        new THREE.HemisphereLight(0xcfe3ff, 0x0a0e16, 0.9),
+      ]);
+
       // Bloom glow (best-effort — skipped in lite mode or if the pass fails).
+      // Gentler than before (lower strength, higher threshold) so aligned
+      // clusters glow without blowing out.
       if (!lite) {
         try {
           const { UnrealBloomPass } = await import(
@@ -137,9 +146,9 @@ export default function SkillGraph({ onSelectSkillId, onSelectCategory, lite = f
           );
           const bloom = new UnrealBloomPass(
             new THREE.Vector2(el.clientWidth, el.clientHeight),
-            1.1,
-            0.7,
-            0.15
+            0.65,
+            0.5,
+            0.25
           );
           Graph.postProcessingComposer().addPass(bloom);
         } catch {

@@ -73,6 +73,8 @@ const EMBED_MODEL = "text-embedding-3-small";
 const KNN_K = 3; // nearest semantic neighbours per skill
 const SIM_FLOOR = 0.12; // drop links weaker than this
 const COORD_SCALE = 22; // spatial spread of the whitened cloud
+const MIN_NODE_DIST = 18; // enforced minimum spacing between skill nodes
+const DECLUTTER_ITERS = 120; // relaxation passes for the min-distance spread
 
 const ROOT = path.resolve(__dirname, "..");
 const DATA_PATH = path.join(ROOT, "src", "skilldata.json");
@@ -234,6 +236,54 @@ function pca3(vecs: number[][]): [number, number, number][] {
   return Array.from({ length: n }, (_, i) => [scaledAxis[0][i], scaledAxis[1][i], scaledAxis[2][i]]);
 }
 
+/**
+ * Min-distance declutter. PCA can pile near-identical skills on top of each
+ * other; this pushes apart only pairs closer than `minDist` (a short-range,
+ * non-linear repulsion), leaving well-separated nodes untouched, then recenters.
+ * Keeps the semantic layout while making dense clusters legible.
+ */
+function declutter(
+  coords: [number, number, number][],
+  minDist: number,
+  iterations: number
+): [number, number, number][] {
+  const n = coords.length;
+  const pts = coords.map((c) => [c[0], c[1], c[2]] as [number, number, number]);
+  const rng = makeRng(777);
+
+  for (let it = 0; it < iterations; it++) {
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        let dx = pts[i][0] - pts[j][0];
+        let dy = pts[i][1] - pts[j][1];
+        let dz = pts[i][2] - pts[j][2];
+        let d = Math.sqrt(dx * dx + dy * dy + dz * dz);
+        if (d < 1e-4) {
+          // coincident — nudge in a deterministic random direction
+          dx = rng() - 0.5;
+          dy = rng() - 0.5;
+          dz = rng() - 0.5;
+          d = Math.hypot(dx, dy, dz) || 1e-4;
+        }
+        if (d < minDist) {
+          const push = ((minDist - d) / d) * 0.5;
+          pts[i][0] += dx * push;
+          pts[i][1] += dy * push;
+          pts[i][2] += dz * push;
+          pts[j][0] -= dx * push;
+          pts[j][1] -= dy * push;
+          pts[j][2] -= dz * push;
+        }
+      }
+    }
+  }
+
+  // recenter on the origin so the camera stays framed
+  const mean = [0, 0, 0];
+  for (const p of pts) for (let k = 0; k < 3; k++) mean[k] += p[k] / n;
+  return pts.map((p) => [p[0] - mean[0], p[1] - mean[1], p[2] - mean[2]] as [number, number, number]);
+}
+
 // ---------- graph assembly ----------
 
 function cosine(a: number[], b: number[]): number {
@@ -308,7 +358,7 @@ async function main() {
 
   const rawVecs = useOpenAI ? await embedWithOpenAI(flat.map((f) => f.text)) : tfidfVectors(flat.map((f) => f.text));
   const normed = l2normalize(rawVecs);
-  const coords = pca3(normed);
+  const coords = declutter(pca3(normed), MIN_NODE_DIST, DECLUTTER_ITERS);
 
   const titles = flat.map((f) => f.title);
   reportAxes(titles, coords);
